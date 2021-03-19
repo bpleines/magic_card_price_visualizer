@@ -55,9 +55,9 @@ def generate_card_csv(csv_file_path='/Users/bpleines/dataVisualization/finalProj
   if os.path.exists(csv_file_path):
     os.remove(csv_file_path)  
   with open(csv_file_path, 'a') as mycsv:
-    mycsv.write('cmc,price\n')
+    mycsv.write('cmc,price,color\n')
     for card in cards:
-      mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + '\n' )
+      mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + ',' + str(card["colors"]) + '\n' )
   os.system('git add *')
   os.system('git commit -m iterating')
   os.system('git push')
