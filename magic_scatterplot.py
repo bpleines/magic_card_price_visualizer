@@ -3,17 +3,22 @@ import requests
 import os.path
 from os import path
 
-'''
 def encode_color(color):
-   color_map = {
-     "red": "R",
-     "white": "W",
-     "blue": "U",
-     "black": "B",
-     "green": "G"
-   } 
-   return color_map[color]
-'''
+   # Handle colorless case
+   if len(color) == 0:
+     return '#8c8d8b'
+   elif len(color) >= 2:
+     return '#d78f42'
+   else:
+     color_map = {
+       "R": "#ff1a1a",
+       "W": "#ffffff",
+       "U": "#341aff",
+       "B": "#000000",
+       "G": "#087500"
+     }
+     print(color[0]) 
+     return color_map[color[0]]
 
 def get_card_info(set_code):
   url = 'https://api.scryfall.com/cards/search?q=set%3A' + set_code + '+%28rarity%3Ar+OR+rarity%3Am%29'
@@ -57,7 +62,7 @@ def generate_card_csv(csv_file_path='/Users/bpleines/dataVisualization/finalProj
   with open(csv_file_path, 'a') as mycsv:
     mycsv.write('cmc,price,color\n')
     for card in cards:
-      mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + ',' + str(card["colors"]) + '\n' )
+      mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + ',' + str(encode_color(card["colors"])) + '\n' )
   os.system('git add *')
   os.system('git commit -m iterating')
   os.system('git push')
