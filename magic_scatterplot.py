@@ -39,7 +39,7 @@ def get_card_info(set_code):
   return cards
 
 def generate_card_csv(set_code='ZNR'):
-  csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_set' + set_code + '.csv'
+  csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_set/' + set_code + '.csv'
   cards = get_card_info(set_code)
   if os.path.exists(csv_file_path):
     os.remove(csv_file_path)  
