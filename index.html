@@ -54,7 +54,7 @@
   <div class="dropdown-content">
     <element onclick="renderScatterplot('KHM')">Kaldheim</a><br>
     <element onclick="renderScatterplot('ZNR')">Zendikar Rising</a><br>
-    <element onclick="renderScatterplot('IKO')">Kaldheim</a><br>
+    <element onclick="renderScatterplot('IKO')">Ikoria</a><br>
     <element onclick="renderScatterplot('THB')">Theros Beyond Death</a><br>
     <element onclick="renderScatterplot('ELD')">Throne of Eldraine</a><br>
     <element onclick="renderScatterplot('WAR')">War of the Spark</a><br>
@@ -91,7 +91,8 @@ renderScatterplot('KHM', true)
 
 function renderScatterplot(set_code, first_render = false) {
   if (first_render === false) {
-    d3.selectAll('circle').remove();
+    //svg.selectAll("dot").remove();
+    svg.selectAll("dot").remove()
   }
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_set/".concat(set_code).concat(".csv");
   //Read the data
