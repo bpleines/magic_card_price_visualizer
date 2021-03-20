@@ -73,30 +73,26 @@
 
 <script>
 
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+function renderScatterplot(set_code) {
+  d3.select("g").remove();
+  // set the dimensions and margins of the graph
+  var margin = {top: 10, right: 30, bottom: 30, left: 60},
+      width = 460 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+  // append the svg object to the body of the page
+  var svg = d3.select("#my_dataviz")
+    .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform",
+	    "translate(" + margin.left + "," + margin.top + ")");
 
-renderScatterplot('KHM', true)
-
-function renderScatterplot(set_code, first_render = false) {
-  if (first_render === false) {
-    d3.selectAll('circle').remove();
-  }
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_set/".concat(set_code).concat(".csv");
   //Read the data
   d3.csv(csvFilePath, function(data) {
-    
+
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, 12])
