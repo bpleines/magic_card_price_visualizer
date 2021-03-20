@@ -5,102 +5,221 @@
 <!-- Add dropdown styling -->
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
   font-size: 16px;
-  border: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
+  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 </style>
 </head>
 
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn">Choose MTG Color
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <button onclick="renderScatterplot('KHM')">White</button>
+      <button onclick="renderScatterplot('ZNR')">Blue</button>
+      <button onclick="renderScatterplot('ZNR')">Black</button>
+      <button onclick="renderScatterplot('ZNR')">Red</button>
+      <button onclick="renderScatterplot('ZNR')">Green</button>
+      <button onclick="renderScatterplot('ZNR')">Multi</button>
+      <button onclick="renderScatterplot('ZNR')">Colorless</button>
+    </div>
+  </div>
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn">Choose MTG Set 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <button onclick="renderScatterplot('KHM')">Kaldheim</button>
+      <button onclick="renderScatterplot('ZNR')">Zendikar Rising</button>
+      <button onclick="renderScatterplot('IKO')">Ikoria</button>
+      <button onclick="renderScatterplot('THB')">Theros Beyond Death</button>
+      <button onclick="renderScatterplot('ELD')">Throne of Eldraine</button>
+      <button onclick="renderScatterplot('WAR')">War of the Spark</button>
+      <button onclick="renderScatterplot('RNA')">Ravnica Allegiance</button>
+      <button onclick="renderScatterplot('GRN')">Guilds of Ravnica</button>
+      <button onclick="renderScatterplot('DOM')">Domninaria</button>
+      <button onclick="renderScatterplot('RIX')">Return to Ixalan</button>
+      <button onclick="renderScatterplot('XLN')">Ixalan</button>
+      <button onclick="renderScatterplot('HOU')">Hour of Devastation</button>
+      <button onclick="renderScatterplot('AKH')">Amonket</button>
+      <button onclick="renderScatterplot('AER')">Aether Revolt</button>
+      <button onclick="renderScatterplot('KLD')">Kaladesh</button>
+      <button onclick="renderScatterplot('EMN')">Eldritch Moon</button>
+      <button onclick="renderScatterplot('SOI')">Shadows over Innistrad</button>
+      <button onclick="renderScatterplot('OGW')">Oath of Gatewatch</button>
+      <button onclick="renderScatterplot('BFZ')">Battle for Zendikar</button>
+      <button onclick="renderScatterplot('DTK')">Dragons of Tarkir</button>
+      <button onclick="renderScatterplot('FRF')">Fate Reforged</button>
+      <button onclick="renderScatterplot('KTK')">Khans of Tarkir</button>
+      <button onclick="renderScatterplot('JOU')">Journey into Nyx</button>
+      <button onclick="renderScatterplot('BNG')">Born of the Gods</button>
+      <button onclick="renderScatterplot('THS')">Theros</button>
+      <button onclick="renderScatterplot('DGM')">Dragon's Maze</button>
+      <button onclick="renderScatterplot('GTC')">Gatecrash</button>
+      <button onclick="renderScatterplot('RTR')">Return to Ravnica</button>
+      <button onclick="renderScatterplot('AVR')">Avacyn Restored</button>
+      <button onclick="renderScatterplot('DKA')">Dark Ascension</button>
+      <button onclick="renderScatterplot('ISD')">Innistrad</button>
+      <button onclick="renderScatterplot('NPH')">New Phyrexia</button>
+      <button onclick="renderScatterplot('MBS')">Mirrodin Beseiged</button>
+      <button onclick="renderScatterplot('SOM')">Scars of Mirrodin</button>
+      <button onclick="renderScatterplot('ROE')">Rize of Eldrazi</button>
+      <button onclick="renderScatterplot('WWK')">Worldwake</button>
+      <button onclick="renderScatterplot('ZEN')">Zendikar</button>
+      <button onclick="renderScatterplot('ARB')">Alara Reborn</button>
+      <button onclick="renderScatterplot('CON')">Conflux</button>
+      <button onclick="renderScatterplot('ALA')">Shards of Alara</button>
+      <button onclick="renderScatterplot('EVE')">Eventide</button>
+      <button onclick="renderScatterplot('SHM')">Shadowmoor</button>
+      <button onclick="renderScatterplot('MOR')">Morningtide</button>
+      <button onclick="renderScatterplot('LRW')">Lorwyn</button>
+      <button onclick="renderScatterplot('FUT')">Future Site</button>
+      <button onclick="renderScatterplot('PLC')">Planar Chaos</button>
+      <button onclick="renderScatterplot('TSP')">Time Spiral</button>
+      <button onclick="renderScatterplot('CSP')">Coldsnap</button>
+      <button onclick="renderScatterplot('DIS')">Dissension</button>
+      <button onclick="renderScatterplot('GPT')">Guildpact</button>
+      <button onclick="renderScatterplot('RAV')">Ravnica: City of Guilds</button>
+      <button onclick="renderScatterplot('SOK')">Saviors of Kamigawa</button>
+      <button onclick="renderScatterplot('BOK')">Betrayers of Kamigawa</button>
+      <button onclick="renderScatterplot('CHK')">Champions of Kamigawa</button>
+      <button onclick="renderScatterplot('5DN')">Fifth Dawn</button>
+      <button onclick="renderScatterplot('DST')">Darksteel</button>
+      <button onclick="renderScatterplot('MRD')">Mirrodin</button>
+      <button onclick="renderScatterplot('SCG')">Scourge</button>
+      <button onclick="renderScatterplot('LGN')">Legions</button>
+      <button onclick="renderScatterplot('ONS')">Onslaught</button>
+      <button onclick="renderScatterplot('JUD')">Judgement</button>
+      <button onclick="renderScatterplot('TOR')">Torment</button>
+      <button onclick="renderScatterplot('ODY')">Odyssey</button>
+    </div>
+  </div> 
+</div>
+
+<!-- Create a div where the graph will title will be -->
+<p id="title">Magic the Gathering Rares (KHM) : Price by Mana Cost and Color</p>
+
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
-
-<div class="dropdown">
-  <button class="dropbtn">Choose MTG Set</button>
-  <div class="dropdown-content">
-    <element onclick="renderScatterplot('KHM')">Kaldheim</a><br>
-    <element onclick="renderScatterplot('ZNR')">Zendikar Rising</a><br>
-    <element onclick="renderScatterplot('IKO')">Ikoria</a><br>
-    <element onclick="renderScatterplot('THB')">Theros Beyond Death</a><br>
-    <element onclick="renderScatterplot('ELD')">Throne of Eldraine</a><br>
-    <element onclick="renderScatterplot('WAR')">War of the Spark</a><br>
-    <element onclick="renderScatterplot('RNA')">Ravnica Allegiance</a><br>
-    <element onclick="renderScatterplot('GRN')">Guilds of Ravnica</a><br>
-    <element onclick="renderScatterplot('DOM')">Domninaria</a><br>
-    <element onclick="renderScatterplot('RIX')">Return to Ixalan</a><br>
-    <element onclick="renderScatterplot('XLN')">Ixalan</a><br>
-    <element onclick="renderScatterplot('HOU')">Hour of Devastation</a><br>
-    <element onclick="renderScatterplot('AKH')">Amonket</a><br>
-    <element onclick="renderScatterplot('AER')">Aether Revolt</a><br>
-    <element onclick="renderScatterplot('KLD')">Kaladesh</a><br>
-    <element onclick="renderScatterplot('EMN')">Eldritch Moon</a><br>
-  </div>
-</div>
 
 <script>
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 730 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+            .append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
 
 renderScatterplot('KHM', true)
 
 function renderScatterplot(set_code, first_render = false) {
   if (first_render === false) {
-    //svg.selectAll("dot").remove();
-    svg.selectAll("dot").remove()
+    var noData = [''];
+    d3.select("#my_dataviz")
+      .selectAll("circle")
+      .data(noData)
+      .exit()
+      .remove();
+    d3.select("#my_dataviz")
+      .selectAll("g")
+      .data(noData)
+      .exit()
+      .remove();
   }
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(set_code).concat(') : Price by Mana Cost and Color');
+  
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_set/".concat(set_code).concat(".csv");
   //Read the data
   d3.csv(csvFilePath, function(data) {
-    
+    // Convert all str csv values to ints
+    data.forEach(function(d) {
+      d.cmc = +d.cmc;
+      d.price = +d.price;
+    });
+    // Get the max of both cmc and price
+    var max_cmc = d3.max(data, function(d) { return d.cmc; });
+    var max_price = d3.max(data, function(d) { return d.price; });    
+    //var max_cmc = 15
+    //var max_price = 60
     // Add X axis
     var x = d3.scaleLinear()
-      .domain([0, 12])
+      .domain([0, max_cmc])
       .range([ 0, width ]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -108,22 +227,24 @@ function renderScatterplot(set_code, first_render = false) {
 
     // Add Y axis
     var y = d3.scaleLinear()
-      .domain([0, 15])
+      .domain([0, max_price])
       .range([ height, 0]);
     svg.append("g")
       .call(d3.axisLeft(y));
 
     // Add dots
-    svg.append('g')
-      .selectAll("dot")
-      .data(data)
-      .enter()
-      .append("circle")
-	.attr("cx", function (d) { return x(d.cmc); } )
-	.attr("cy", function (d) { return y(d.price); } )
-        .attr("r", 3.0)
-        .style("fill", function (d) { return d.color; })
-        .style("stroke", "black")
+    var markers = svg.append('g')
+                     .selectAll("dot")
+                     .data(data);
+
+    markers.enter()
+           .append("circle")
+	   .attr("cx", function (d) { return x(d.cmc); } )
+	   .attr("cy", function (d) { return y(d.price); } )
+           .attr("r", 3.0)
+           .style("fill", function (d) { return d.color; })
+           .style("stroke", "black");
+
   })
 }
 
