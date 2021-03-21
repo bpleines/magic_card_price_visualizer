@@ -1,7 +1,6 @@
 import requests
 import os
 
-mtg_color_codes = ['W', 'U', 'B', 'R', 'G']
 mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
                  'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
                  'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
@@ -25,8 +24,8 @@ def encode_color(color):
      }
      return color_map[color[0]]
 
-def get_card_info(color_code):
-  url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
+def get_card_info(set_code):
+  url = 'https://api.scryfall.com/cards/search?q=set%3A' + set_code + '+%28rarity%3Ar+OR+rarity%3Am%29'
   response = requests.get(url).json().get("data")
   cards = []
   for card in response:
@@ -42,23 +41,22 @@ def get_card_info(color_code):
       continue
   return cards
 
-def generate_card_csv(color_code='W'):
-  for set_code in mtg_set_codes:
-    csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_color/' + color_code + '.csv'
-    cards = get_card_info(color_code)
-    if os.path.exists(csv_file_path):
-      os.remove(csv_file_path)  
-    with open(csv_file_path, 'a') as mycsv:
-      mycsv.write('cmc,price,color\n')
-      for card in cards:
-        mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + ',' + str(encode_color(card["colors"])) + '\n' )
-  print("Generated csv data for set: " + color_code)
+def generate_card_csv(set_code='ZNR'):
+  csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_set/' + set_code + '.csv'
+  cards = get_card_info(set_code)
+  if os.path.exists(csv_file_path):
+    os.remove(csv_file_path)  
+  with open(csv_file_path, 'a') as mycsv:
+    mycsv.write('cmc,price,color\n')
+    for card in cards:
+      mycsv.write(str(card["cmc"]) + "," + str(card["price"]) + ',' + str(encode_color(card["colors"])) + '\n' )
+  print("Generated csv data for set: " + set_code)
 
 def git_commit_and_push():
   os.system('git add *')
   os.system('git commit -m iterating')
   os.system('git push')
 
-for color_code in mtg_color_codes:
-  generate_card_csv(color_code)
-git_commit_and_push()
+for set_code in mtg_set_codes:
+  generate_card_csv(set_code)
+#git_commit_and_push()
