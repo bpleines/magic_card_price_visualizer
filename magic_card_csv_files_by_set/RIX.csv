@@ -1,64 +1,64 @@
-cmc,price,color
-3,0.31,#341aff
-5,0.23,#d78f42
-5,8.14,#d78f42
-0,1.32,#8c8d8b
-4,0.15,#8c8d8b
-2,5.7,#8c8d8b
-6,3.04,#d78f42
-4,0.23,#ffffff
-3,0.97,#ff1a1a
-7,3.33,#ff1a1a
-3,0.16,#8c8d8b
-5,1.08,#000000
-4,0.34,#341aff
-2,0.33,#000000
-2,0.79,#087500
-2,3.38,#ff1a1a
-2,0.8,#000000
-4,26.05,#d78f42
-6,2.43,#ff1a1a
-6,0.11,#ff1a1a
-12,5.72,#087500
-4,1.28,#8c8d8b
-3,3.92,#d78f42
-4,7.3,#d78f42
-3,0.19,#341aff
-3,0.73,#087500
-3,6.93,#d78f42
-4,0.47,#341aff
-3,7.11,#d78f42
-4,1.85,#000000
-7,1.58,#341aff
-2,0.24,#ffffff
-4,3.0,#087500
-2,0.31,#d78f42
-8,11.52,#087500
-3,1.07,#d78f42
-3,0.49,#d78f42
-3,1.75,#ffffff
-4,1.89,#ff1a1a
-3,0.83,#341aff
-4,0.44,#341aff
-2,0.61,#d78f42
-1,0.29,#8c8d8b
-7,2.24,#ff1a1a
-3,0.79,#ffffff
-2,0.13,#ffffff
-4,5.2,#d78f42
-5,0.88,#ffffff
-5,7.2,#087500
-6,0.44,#000000
-6,33.29,#8c8d8b
-2,0.5,#ff1a1a
-2,8.11,#341aff
-3,0.22,#000000
-5,5.95,#ffffff
-4,32.19,#000000
-3,6.15,#000000
-4,0.23,#000000
-2,1.27,#341aff
-3,13.46,#087500
-4,5.07,#087500
-9,31.37,#d78f42
-8,0.59,#ffffff
+name,cmc,price,color
+Admiral's Order,3,0.31,#341aff
+Angrath's Fury,5,0.23,#d78f42
+Angrath- the Flame-Chained,5,8.36,#d78f42
+Arch of Orazca,0,1.4,#8c8d8b
+Awakened Amalgam,4,0.15,#8c8d8b
+Azor's Gateway // Sanctum of the Sun,2,6.17,#8c8d8b
+Azor- the Lawbringer,6,3.04,#d78f42
+Bishop of Binding,4,0.24,#ffffff
+Blood Sun,3,0.93,#ff1a1a
+Brass's Bounty,7,3.55,#ff1a1a
+Captain's Hook,3,0.16,#8c8d8b
+Champion of Dusk,5,1.06,#000000
+Crafty Cutpurse,4,0.33,#341aff
+Dead Man's Chest,2,0.34,#000000
+Deeproot Elite,2,0.86,#087500
+Dire Fleet Daredevil,2,3.7,#ff1a1a
+Dire Fleet Poisoner,2,0.81,#000000
+Elenda- the Dusk Rose,4,28.04,#d78f42
+Etali- Primal Storm,6,2.49,#ff1a1a
+Form of the Dinosaur,6,0.11,#ff1a1a
+Ghalta- Primal Hunger,12,5.72,#087500
+Golden Guardian // Gold-Forge Garrison,4,1.27,#8c8d8b
+Hadana's Climb // Winged Temple of Orazca,3,4.2,#d78f42
+Huatli- Radiant Champion,4,7.46,#d78f42
+Induced Amnesia,3,0.2,#341aff
+Jadelight Ranger,3,0.73,#087500
+Journey to Eternity // Atzal- Cave of Eternity,3,7.06,#d78f42
+Kumena's Awakening,4,0.47,#341aff
+Kumena- Tyrant of Orazca,3,6.93,#d78f42
+Mastermind's Acquisition,4,1.65,#000000
+Nezahal- Primal Tide,7,1.58,#341aff
+Paladin of Atonement,2,0.24,#ffffff
+Path of Discovery,4,2.87,#087500
+Path of Mettle // Metzali- Tower of Triumph,2,0.31,#d78f42
+Polyraptor,8,11.91,#087500
+Profane Procession // Tomb of the Dusk Rose,3,1.13,#d78f42
+Protean Raider,3,0.5,#d78f42
+Radiant Destiny,3,1.78,#ffffff
+Rekindling Phoenix,4,1.97,#ff1a1a
+Release to the Wind,3,0.86,#341aff
+Seafloor Oracle,4,0.43,#341aff
+Siegehorn Ceratops,2,0.6,#d78f42
+Silent Gravestone,1,0.28,#8c8d8b
+Silverclad Ferocidons,7,2.35,#ff1a1a
+Slaughter the Strong,3,0.7,#ffffff
+Sphinx's Decree,2,0.13,#ffffff
+Storm the Vault // Vault of Catlacan,4,4.97,#d78f42
+Temple Altisaur,5,0.89,#ffffff
+Tendershoot Dryad,5,7.56,#087500
+Tetzimoc- Primal Death,6,0.44,#000000
+The Immortal Sun,6,33.84,#8c8d8b
+Tilonalli's Summoner,2,0.51,#ff1a1a
+Timestream Navigator,2,8.25,#341aff
+Tomb Robber,3,0.22,#000000
+Trapjaw Tyrant,5,5.72,#ffffff
+Twilight Prophet,4,33.14,#000000
+Vona's Hunger,3,6.51,#000000
+Vraska's Scorn,4,0.23,#000000
+Warkite Marauder,2,1.39,#341aff
+Wayward Swordtooth,3,14.22,#087500
+World Shaper,4,4.97,#087500
+Zacama- Primal Calamity,9,31.9,#d78f42
+Zetalpa- Primal Dawn,8,0.63,#ffffff

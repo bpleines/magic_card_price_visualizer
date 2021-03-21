@@ -1,81 +1,81 @@
-cmc,price,color
-4,5.02,#ffffff
-0,0.72,#d78f42
-7,0.28,#ffffff
-2,0.58,#ff1a1a
-2,2.49,#ff1a1a
-0,23.86,#d78f42
-6,5.89,#ffffff
-4,0.83,#000000
-4,0.91,#ffffff
-4,0.69,#d78f42
-5,0.92,#000000
-5,1.93,#ff1a1a
-6,0.49,#087500
-4,0.33,#000000
-3,1.92,#8c8d8b
-4,20.36,#341aff
-4,2.9,#087500
-4,3.98,#8c8d8b
-2,5.4,#8c8d8b
-3,4.89,#d78f42
-6,8.22,#000000
-6,0.35,#087500
-2,0.53,#087500
-5,0.28,#341aff
-2,0.54,#ffffff
-6,16.36,#341aff
-2,5.01,#d78f42
-4,0.41,#ffffff
-4,6.38,#087500
-0,16.65,#d78f42
-6,0.9,#341aff
-7,0.25,#ff1a1a
-3,2.88,#ff1a1a
-2,0.37,#ffffff
-5,0.84,#d78f42
-6,0.33,#ff1a1a
-0,0.45,#000000
-4,1.92,#087500
-3,1.85,#ff1a1a
-5,1.84,#ff1a1a
-3,3.64,#341aff
-1,1.8,#000000
-5,9.86,#000000
-3,0.83,#000000
-4,0.32,#087500
-2,1.54,#ffffff
-3,3.48,#ffffff
-4,10.4,#341aff
-0,1.22,#087500
-5,2.55,#d78f42
-6,0.68,#000000
-4,3.38,#ff1a1a
-2,2.45,#000000
-5,2.09,#087500
-2,0.64,#000000
-6,1.9,#ffffff
-3,16.36,#8c8d8b
-3,9.34,#341aff
-0,5.52,#d78f42
-2,10.54,#341aff
-0,7.17,#341aff
-4,3.96,#341aff
-0,2.24,#ff1a1a
-6,0.43,#ff1a1a
-4,3.1,#341aff
-2,0.83,#d78f42
-2,20.88,#8c8d8b
-1,29.58,#000000
-4,0.49,#ffffff
-3,21.38,#8c8d8b
-5,12.02,#087500
-4,0.25,#8c8d8b
-6,8.4,#087500
-0,3.86,#d78f42
-6,4.0,#341aff
-4,0.73,#ff1a1a
-0,1.63,#ffffff
-4,5.35,#d78f42
-4,0.6,#087500
-4,0.86,#d78f42
+name,cmc,price,color
+Ajani Goldmane,4,5.02,#ffffff
+Ancient Amphitheater,0,0.73,#d78f42
+Arbiter of Knollridge,7,0.28,#ffffff
+Ashling's Prerogative,2,0.58,#ff1a1a
+Ashling the Pilgrim,2,2.58,#ff1a1a
+Auntie's Hovel,0,23.86,#d78f42
+Austere Command,6,5.85,#ffffff
+Boggart Mob,4,0.83,#000000
+Brigid- Hero of Kinsbaile,4,0.91,#ffffff
+Brion Stoutarm,4,0.69,#d78f42
+Cairn Wanderer,5,0.92,#000000
+Chandra Nalaar,5,1.93,#ff1a1a
+Cloudthresher,6,0.47,#087500
+Colfenor's Plans,4,0.33,#000000
+Colfenor's Urn,3,1.92,#8c8d8b
+Cryptic Command,4,20.36,#341aff
+Dauntless Dourbark,4,2.94,#087500
+Deathrender,4,4.08,#8c8d8b
+Dolmen Gate,2,5.5,#8c8d8b
+Doran- the Siege Tower,3,4.98,#d78f42
+Dread,6,8.28,#000000
+Epic Proportions,6,0.35,#087500
+Eyes of the Wisent,2,0.52,#087500
+Fathom Trawl,5,0.28,#341aff
+Favor of the Mighty,2,0.54,#ffffff
+Forced Fruition,6,16.36,#341aff
+Gaddock Teeg,2,4.9,#d78f42
+Galepowder Mage,4,0.4,#ffffff
+Garruk Wildspeaker,4,6.38,#087500
+Gilt-Leaf Palace,0,16.71,#d78f42
+Guile,6,0.9,#341aff
+Hamletback Goliath,7,0.25,#ff1a1a
+Heat Shimmer,3,2.98,#ff1a1a
+Hoofprints of the Stag,2,0.36,#ffffff
+Horde of Notions,5,0.81,#d78f42
+Hostility,6,0.33,#ff1a1a
+Howltooth Hollow,0,0.45,#000000
+Immaculate Magistrate,4,1.92,#087500
+Incandescent Soulstoke,3,1.85,#ff1a1a
+Incendiary Command,5,1.84,#ff1a1a
+Jace Beleren,3,3.64,#341aff
+Knucklebone Witch,1,1.77,#000000
+Liliana Vess,5,9.86,#000000
+Mad Auntie,3,0.84,#000000
+Masked Admirers,4,0.32,#087500
+Militia's Pride,2,1.54,#ffffff
+Mirror Entity,3,3.48,#ffffff
+Mistbind Clique,4,10.4,#341aff
+Mosswort Bridge,0,1.22,#087500
+Nath of the Gilt-Leaf,5,2.85,#d78f42
+Nettlevine Blight,6,0.68,#000000
+Nova Chaser,4,3.38,#ff1a1a
+Oona's Prowler,2,2.45,#000000
+Primal Command,5,2.09,#087500
+Profane Command,2,0.64,#000000
+Purity,6,1.9,#ffffff
+Rings of Brighthearth,3,15.95,#8c8d8b
+Scion of Oona,3,9.3,#341aff
+Secluded Glen,0,5.52,#d78f42
+Shapesharer,2,10.93,#341aff
+Shelldock Isle,0,7.08,#341aff
+Sower of Temptation,4,3.92,#341aff
+Spinerock Knoll,0,2.17,#ff1a1a
+Sunrise Sovereign,6,0.41,#ff1a1a
+Surgespanner,4,3.23,#341aff
+Sygg- River Guide,2,0.83,#d78f42
+Thorn of Amethyst,2,20.96,#8c8d8b
+Thoughtseize,1,29.58,#000000
+Thoughtweft Trio,4,0.49,#ffffff
+Thousand-Year Elixir,3,21.38,#8c8d8b
+Timber Protector,5,12.63,#087500
+Twinning Glass,4,0.25,#8c8d8b
+Vigor,6,8.57,#087500
+Wanderwine Hub,0,3.89,#d78f42
+Wanderwine Prophets,6,3.96,#341aff
+Wild Ricochet,4,0.73,#ff1a1a
+Windbrisk Heights,0,1.63,#ffffff
+Wort- Boggart Auntie,4,5.36,#d78f42
+Wren's Run Packmaster,4,0.62,#087500
+Wydwen- the Biting Gale,4,0.86,#d78f42

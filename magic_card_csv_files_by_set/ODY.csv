@@ -1,111 +1,111 @@
-cmc,price,color
-6,0.69,#341aff
-1,0.92,#ffffff
-7,0.23,#341aff
-7,0.27,#ffffff
-8,0.27,#ff1a1a
-5,0.98,#d78f42
-3,0.3,#ffffff
-4,0.48,#ffffff
-5,0.32,#341aff
-3,3.54,#087500
-2,0.25,#000000
-4,0.94,#ff1a1a
-4,0.67,#000000
-5,2.64,#ff1a1a
-6,0.34,#000000
-3,0.26,#000000
-3,0.64,#087500
-3,0.29,#ffffff
-2,1.16,#8c8d8b
-4,0.26,#341aff
-3,0.25,#341aff
-4,17.9,#ff1a1a
-4,0.5,#8c8d8b
-3,0.59,#087500
-8,0.32,#341aff
-0,6.66,#d78f42
-6,3.71,#341aff
-5,0.21,#000000
-0,2.53,#d78f42
-3,0.36,#000000
-4,3.66,#d78f42
-4,4.71,#ffffff
-0,26.15,#8c8d8b
-1,1.66,#ffffff
-1,0.83,#341aff
-3,1.56,#ffffff
-3,0.25,#ffffff
-3,0.26,#ff1a1a
-2,0.68,#ffffff
-1,27.53,#000000
-5,1.59,#ff1a1a
-1,10.09,#341aff
-4,0.29,#ffffff
-3,1.44,#000000
-2,0.95,#087500
-5,0.43,#000000
-3,0.24,#000000
-3,1.29,#087500
-4,3.35,#ff1a1a
-7,1.25,#d78f42
-1,0.28,#087500
-4,0.23,#8c8d8b
-6,0.4,#ff1a1a
-3,11.97,#ffffff
-6,0.36,#ffffff
-4,5.36,#087500
-3,1.5,#ffffff
-4,0.32,#ff1a1a
-3,0.96,#ffffff
-4,27.86,#000000
-4,5.27,#ff1a1a
-5,1.25,#8c8d8b
-2,1.31,#ff1a1a
-4,1.64,#000000
-0,3.57,#d78f42
-3,0.47,#ff1a1a
-3,0.23,#ffffff
-4,0.48,#d78f42
-3,0.28,#087500
-3,0.97,#087500
-1,0.75,#ff1a1a
-4,0.65,#000000
-1,3.63,#087500
-6,26.64,#087500
-1,0.78,#ff1a1a
-4,0.26,#8c8d8b
-2,0.81,#ff1a1a
-3,10.39,#341aff
-2,0.35,#341aff
-5,0.41,#341aff
-0,6.81,#8c8d8b
-3,0.52,#ffffff
-5,0.29,#000000
-5,0.29,#ff1a1a
-4,5.51,#ff1a1a
-3,1.39,#087500
-0,3.4,#d78f42
-3,1.51,#d78f42
-3,0.49,#341aff
-0,5.05,#d78f42
-3,0.28,#087500
-3,10.48,#087500
-6,0.27,#000000
-7,0.24,#087500
-0,1.91,#d78f42
-2,82.34,#000000
-0,26.82,#8c8d8b
-3,1.81,#087500
-4,0.2,#341aff
-10,20.04,#341aff
-1,0.26,#000000
-5,3.04,#341aff
-5,0.25,#000000
-2,0.35,#341aff
-6,2.19,#341aff
-8,1.31,#d78f42
-5,0.37,#087500
-9,0.24,#ff1a1a
-6,0.47,#ffffff
-4,0.5,#087500
+name,cmc,price,color
+Aboshan- Cephalid Emperor,6,0.69,#341aff
+Aegis of Honor,1,0.92,#ffffff
+Amugaba,7,0.23,#341aff
+Ancestral Tribute,7,0.27,#ffffff
+Ashen Firebeast,8,0.27,#ff1a1a
+Atogatog,5,0.98,#d78f42
+Aven Shrine,3,0.3,#ffffff
+Balancing Act,4,0.48,#ffffff
+Battle of Wits,5,0.32,#341aff
+Bearscape,3,3.55,#087500
+Bloodcurdler,2,0.25,#000000
+Bomb Squad,4,1.11,#ff1a1a
+Braids- Cabal Minion,4,0.69,#000000
+Burning Sands,5,2.63,#ff1a1a
+Cabal Patriarch,6,0.35,#000000
+Cabal Shrine,3,0.26,#000000
+Call of the Herd,3,0.64,#087500
+Cantivore,3,0.29,#ffffff
+Catalyst Stone,2,1.15,#8c8d8b
+Cephalid Retainer,4,0.26,#341aff
+Cephalid Shrine,3,0.25,#341aff
+Chance Encounter,4,17.9,#ff1a1a
+Charmed Pendant,4,0.5,#8c8d8b
+Chlorophant,3,0.61,#087500
+Cognivore,8,0.32,#341aff
+Crystal Quarry,0,6.69,#d78f42
+Cultural Exchange,6,3.71,#341aff
+Cursed Monstrosity,5,0.21,#000000
+Darkwater Catacombs,0,2.55,#d78f42
+Decaying Soil,3,0.36,#000000
+Decimate,4,3.7,#d78f42
+Delaying Shield,4,4.74,#ffffff
+Deserted Temple,0,26.15,#8c8d8b
+Devoted Caretaker,1,1.67,#ffffff
+Divert,1,0.83,#341aff
+Divine Sacrament,3,1.54,#ffffff
+Dogged Hunter,3,0.25,#ffffff
+Dwarven Shrine,3,0.27,#ff1a1a
+Earnest Fellowship,2,0.72,#ffffff
+Entomb,1,27.53,#000000
+Epicenter,5,1.62,#ff1a1a
+Extract,1,10.0,#341aff
+Graceful Antelope,4,0.29,#ffffff
+Gravestorm,3,1.44,#000000
+Ground Seal,2,0.95,#087500
+Haunting Echoes,5,0.43,#000000
+Hint of Insanity,3,0.24,#000000
+Holistic Wisdom,3,1.29,#087500
+Impulsive Maneuvers,4,3.35,#ff1a1a
+Iridescent Angel,7,1.26,#d78f42
+Ivy Elemental,1,0.28,#087500
+Junk Golem,4,0.23,#8c8d8b
+Kamahl- Pit Fighter,6,0.4,#ff1a1a
+Karmic Justice,3,11.96,#ffffff
+Kirtar's Wrath,6,0.38,#ffffff
+Krosan Beast,4,5.36,#087500
+Lieutenant Kirtar,3,1.5,#ffffff
+Magnivore,4,0.32,#ff1a1a
+Master Apothecary,3,0.96,#ffffff
+Mindslicer,4,28.24,#000000
+Mine Layer,4,5.63,#ff1a1a
+Mirari,5,1.25,#8c8d8b
+Molten Influence,2,1.37,#ff1a1a
+Mortivore,4,1.64,#000000
+Mossfire Valley,0,3.57,#d78f42
+Mudhole,3,0.47,#ff1a1a
+Mystic Crusader,3,0.23,#ffffff
+Mystic Enforcer,4,0.49,#d78f42
+Nantuko Mentor,3,0.28,#087500
+Nantuko Shrine,3,0.95,#087500
+Need for Speed,1,0.76,#ff1a1a
+Nefarious Lich,4,0.76,#000000
+New Frontiers,1,3.64,#087500
+Nut Collector,6,26.64,#087500
+Obstinate Familiar,1,0.78,#ff1a1a
+Otarian Juggernaut,4,0.26,#8c8d8b
+Pardic Miner,2,0.95,#ff1a1a
+Patron Wizard,3,10.39,#341aff
+Pedantic Learning,2,0.37,#341aff
+Persuasion,5,0.41,#341aff
+Petrified Field,0,6.79,#8c8d8b
+Pianna- Nomad Captain,3,0.52,#ffffff
+Repentant Vampire,5,0.29,#000000
+Savage Firecat,5,0.29,#ff1a1a
+Seize the Day,4,5.73,#ff1a1a
+Seton- Krosan Protector,3,1.42,#087500
+Shadowblood Ridge,0,3.38,#d78f42
+Shadowmage Infiltrator,3,1.51,#d78f42
+Shifty Doppelganger,3,0.48,#341aff
+Skycloud Expanse,0,4.89,#d78f42
+Spellbane Centaur,3,0.28,#087500
+Squirrel Mob,3,10.48,#087500
+Stalking Bloodsucker,6,0.27,#000000
+Stone-Tongue Basilisk,7,0.24,#087500
+Sungrass Prairie,0,1.91,#d78f42
+Tainted Pact,2,82.88,#000000
+Tarnished Citadel,0,26.82,#8c8d8b
+Terravore,3,1.81,#087500
+Thought Devourer,4,0.2,#341aff
+Time Stretch,10,20.04,#341aff
+Tombfire,1,0.28,#000000
+Traumatize,5,3.04,#341aff
+Traveling Plague,5,0.25,#000000
+Unifying Theory,2,0.35,#341aff
+Upheaval,6,2.19,#341aff
+Vampiric Dragon,8,1.31,#d78f42
+Verdant Succession,5,0.37,#087500
+Volley of Boulders,9,0.24,#ff1a1a
+Wayward Angel,6,0.47,#ffffff
+Zoologist,4,0.53,#087500

@@ -1,69 +1,69 @@
-cmc,price,color
-4,0.21,#341aff
-6,3.48,#8c8d8b
-5,15.07,#087500
-0,14.86,#d78f42
-6,1.05,#000000
-4,0.17,#ff1a1a
-0,0.25,#8c8d8b
-6,15.33,#8c8d8b
-0,4.73,#d78f42
-0,8.11,#d78f42
-5,0.67,#8c8d8b
-4,1.68,#341aff
-5,9.09,#ffffff
-7,0.81,#087500
-3,1.55,#8c8d8b
-3,14.86,#087500
-4,0.18,#087500
-3,7.73,#087500
-6,1.44,#000000
-3,1.05,#341aff
-2,0.31,#8c8d8b
-4,4.72,#000000
-6,0.32,#ff1a1a
-4,1.36,#ffffff
-5,4.93,#341aff
-3,0.4,#ffffff
-4,5.16,#ff1a1a
-5,1.65,#8c8d8b
-5,0.17,#ff1a1a
-2,6.93,#ffffff
-8,2.87,#087500
-2,0.45,#8c8d8b
-4,3.1,#8c8d8b
-4,0.22,#000000
-3,0.68,#8c8d8b
-6,4.56,#8c8d8b
-3,3.23,#ff1a1a
-4,0.5,#8c8d8b
-0,35.63,#8c8d8b
-7,0.43,#8c8d8b
-3,0.47,#8c8d8b
-3,0.71,#8c8d8b
-4,2.67,#000000
-2,9.05,#8c8d8b
-5,21.64,#000000
-8,15.05,#8c8d8b
-5,0.32,#8c8d8b
-4,0.58,#8c8d8b
-5,0.52,#087500
-7,0.78,#341aff
-2,0.72,#8c8d8b
-0,5.01,#d78f42
-0,5.95,#d78f42
-3,6.04,#8c8d8b
-4,0.33,#341aff
-5,14.0,#000000
-1,0.26,#ff1a1a
-6,1.66,#8c8d8b
-3,0.4,#8c8d8b
-6,0.48,#ffffff
-3,11.11,#8c8d8b
-3,0.89,#ffffff
-4,0.19,#8c8d8b
-6,2.62,#ffffff
-2,0.25,#ff1a1a
-5,6.55,#8c8d8b
-5,16.65,#d78f42
-6,17.76,#8c8d8b
+name,cmc,price,color
+Argent Sphinx,4,0.21,#341aff
+Argentum Armor,6,3.49,#8c8d8b
+Asceticism,5,15.43,#087500
+Blackcleave Cliffs,0,16.32,#d78f42
+Carnifex Demon,6,1.07,#000000
+Cerebral Eruption,4,0.17,#ff1a1a
+Chimeric Mass,0,0.25,#8c8d8b
+Contagion Engine,6,15.38,#8c8d8b
+Copperline Gorge,0,4.71,#d78f42
+Darkslick Shores,0,8.11,#d78f42
+Darksteel Juggernaut,5,0.67,#8c8d8b
+Dissipation Field,4,1.69,#341aff
+Elspeth Tirel,5,9.15,#ffffff
+Engulfing Slagwurm,7,0.81,#087500
+Etched Champion,3,1.51,#8c8d8b
+Ezuri- Renegade Leader,3,15.2,#087500
+Ezuri's Brigade,4,0.18,#087500
+Genesis Wave,3,8.0,#087500
+Geth- Lord of the Vault,6,1.44,#000000
+Grand Architect,3,1.07,#341aff
+Grindclock,2,0.31,#8c8d8b
+Hand of the Praetors,4,5.16,#000000
+Hoard-Smelter Dragon,6,0.32,#ff1a1a
+Indomitable Archangel,4,1.36,#ffffff
+Inexorable Tide,5,5.11,#341aff
+Kemba- Kha Regent,3,0.4,#ffffff
+Koth of the Hammer,4,5.07,#ff1a1a
+Kuldotha Forgemaster,5,1.65,#8c8d8b
+Kuldotha Phoenix,5,0.17,#ff1a1a
+Leonin Arbiter,2,6.61,#ffffff
+Liege of the Tangle,8,2.87,#087500
+Livewire Lash,2,0.46,#8c8d8b
+Lux Cannon,4,3.0,#8c8d8b
+Memoricide,4,0.22,#000000
+Mimic Vat,3,0.68,#8c8d8b
+Mindslaver,6,4.67,#8c8d8b
+Molten Psyche,3,3.29,#ff1a1a
+Molten-Tail Masticore,4,0.5,#8c8d8b
+Mox Opal,0,35.96,#8c8d8b
+Myr Battlesphere,7,0.47,#8c8d8b
+Myr Propagator,3,0.47,#8c8d8b
+Myr Reservoir,3,0.71,#8c8d8b
+Necrotic Ooze,4,2.82,#000000
+Nim Deathmantle,2,8.96,#8c8d8b
+Painful Quandary,5,22.21,#000000
+Platinum Emperion,8,15.47,#8c8d8b
+Precursor Golem,5,0.32,#8c8d8b
+Prototype Portal,4,0.58,#8c8d8b
+Putrefax,5,0.52,#087500
+Quicksilver Gargantuan,7,0.78,#341aff
+Ratchet Bomb,2,0.7,#8c8d8b
+Razorverge Thicket,0,4.86,#d78f42
+Seachrome Coast,0,6.01,#d78f42
+Semblance Anvil,3,6.38,#8c8d8b
+Shape Anew,4,0.33,#341aff
+Skithiryx- the Blight Dragon,5,14.02,#000000
+Spikeshot Elder,1,0.26,#ff1a1a
+Steel Hellkite,6,1.65,#8c8d8b
+Strata Scythe,3,0.41,#8c8d8b
+Sunblast Angel,6,0.48,#ffffff
+Sword of Body and Mind,3,11.07,#8c8d8b
+Tempered Steel,3,0.89,#ffffff
+Tower of Calamities,4,0.19,#8c8d8b
+True Conviction,6,2.69,#ffffff
+Tunnel Ignus,2,0.25,#ff1a1a
+Venser's Journal,5,6.97,#8c8d8b
+Venser- the Sojourner,5,17.32,#d78f42
+Wurmcoil Engine,6,17.88,#8c8d8b

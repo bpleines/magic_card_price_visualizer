@@ -1,92 +1,92 @@
-cmc,price,color
-3,0.28,#ffffff
-4,1.83,#d78f42
-3,2.11,#000000
-6,0.19,#d78f42
-2,0.15,#000000
-3,1.72,#ff1a1a
-3,12.79,#341aff
-0,2.44,#ffffff
-0,0.33,#ff1a1a
-0,5.21,#087500
-0,3.27,#000000
-0,0.96,#341aff
-2,2.23,#ffffff
-4,0.41,#000000
-5,2.9,#d78f42
-5,0.36,#000000
-2,0.52,#d78f42
-4,0.4,#d78f42
-6,11.05,#ff1a1a
-4,0.21,#ff1a1a
-3,2.34,#341aff
-5,0.45,#d78f42
-0,9.43,#8c8d8b
-3,2.74,#d78f42
-2,0.24,#341aff
-5,0.43,#341aff
-6,0.24,#087500
-1,0.17,#ff1a1a
-4,0.25,#ff1a1a
-2,0.62,#341aff
-3,0.83,#341aff
-6,2.91,#d78f42
-1,0.3,#ffffff
-1,1.67,#087500
-4,0.23,#d78f42
-3,0.16,#ffffff
-6,0.67,#ffffff
-2,1.39,#ffffff
-4,0.52,#ff1a1a
-3,0.46,#ff1a1a
-5,4.43,#d78f42
-3,0.53,#d78f42
-5,6.46,#d78f42
-3,0.4,#ffffff
-6,0.21,#d78f42
-3,0.24,#087500
-3,0.42,#ffffff
-3,0.85,#341aff
-3,2.25,#341aff
-3,1.26,#000000
-3,0.19,#000000
-5,0.18,#d78f42
-6,1.42,#d78f42
-3,15.66,#d78f42
-2,1.4,#087500
-4,0.24,#ff1a1a
-4,1.77,#d78f42
-2,0.31,#000000
-4,13.46,#087500
-4,17.07,#000000
-7,1.1,#ffffff
-5,3.72,#087500
-2,4.32,#ff1a1a
-5,0.99,#ff1a1a
-5,0.18,#ff1a1a
-6,1.48,#341aff
-6,0.47,#ffffff
-2,0.22,#8c8d8b
-2,7.11,#087500
-2,0.36,#341aff
-0,4.93,#8c8d8b
-2,0.5,#d78f42
-7,0.12,#ff1a1a
-6,0.75,#d78f42
-6,0.26,#000000
-12,0.96,#000000
-6,1.13,#ffffff
-9,46.69,#087500
-9,3.06,#341aff
-3,2.88,#d78f42
-7,0.31,#087500
-2,1.97,#8c8d8b
-4,1.34,#ff1a1a
-2,0.44,#341aff
-4,0.24,#087500
-2,0.23,#087500
-2,1.74,#000000
-3,0.18,#000000
-7,0.18,#341aff
-2,0.44,#ffffff
-3,0.53,#087500
+name,cmc,price,color
+Acclaimed Contender,3,0.3,#ffffff
+Alela- Artful Provocateur,4,1.76,#d78f42
+Ayara- First of Locthwain,3,2.56,#000000
+Banish into Fable,6,0.19,#d78f42
+Blacklance Paragon,2,0.15,#000000
+Bonecrusher Giant // Stomp,3,1.83,#ff1a1a
+Brazen Borrower // Petty Theft,3,12.98,#341aff
+Castle Ardenvale,0,2.51,#ffffff
+Castle Embereth,0,0.32,#ff1a1a
+Castle Garenbrig,0,6.11,#087500
+Castle Locthwain,0,3.3,#000000
+Castle Vantress,0,0.95,#341aff
+Charming Prince,2,2.61,#ffffff
+Chittering Witch,4,0.42,#000000
+Chulane- Teller of Tales,5,2.89,#d78f42
+Clackbridge Troll,5,0.39,#000000
+Dance of the Manse,2,0.52,#d78f42
+Doom Foretold,4,0.4,#d78f42
+Embercleave,6,11.9,#ff1a1a
+Embereth Skyblazer,4,0.21,#ff1a1a
+Emry- Lurker of the Loch,3,2.2,#341aff
+Escape to the Wilds,5,0.46,#d78f42
+Fabled Passage,0,9.39,#8c8d8b
+Faeburrow Elder,3,2.62,#d78f42
+Fae of Wishes // Granted,2,0.24,#341aff
+Faerie Formation,5,0.47,#341aff
+Feasting Troll King,6,0.24,#087500
+Fervent Champion,1,0.17,#ff1a1a
+Fires of Invention,4,0.22,#ff1a1a
+Folio of Fancies,2,0.65,#341aff
+Gadwick- the Wizened,3,0.8,#341aff
+Garruk- Cursed Huntsman,6,3.41,#d78f42
+Giant Killer // Chop Down,1,0.32,#ffffff
+Gilded Goose,1,1.61,#087500
+Gluttonous Troll,4,0.22,#d78f42
+Happily Ever After,3,0.16,#ffffff
+Harmonious Archon,6,0.74,#ffffff
+Hushbringer,2,1.4,#ffffff
+Irencrag Feat,4,0.51,#ff1a1a
+Irencrag Pyromancer,3,0.47,#ff1a1a
+Kenrith- the Returned King,5,4.66,#d78f42
+Knights' Charge,3,0.55,#d78f42
+Korvold- Fae-Cursed King,5,6.55,#d78f42
+Linden- the Steadfast Queen,3,0.41,#ffffff
+Lochmere Serpent,6,0.22,#d78f42
+Lovestruck Beast // Heart's Desire,3,0.25,#087500
+Mace of the Valiant,3,0.41,#ffffff
+Midnight Clock,3,0.88,#341aff
+Mirrormade,3,2.01,#341aff
+Murderous Rider // Swift End,3,1.16,#000000
+Oathsworn Knight,3,0.19,#000000
+Oko's Hospitality,5,0.18,#d78f42
+Oko- the Trickster,6,1.41,#d78f42
+Oko- Thief of Crowns,3,16.46,#d78f42
+Once Upon a Time,2,1.37,#087500
+Opportunistic Dragon,4,0.22,#ff1a1a
+Outlaws' Merriment,4,1.77,#d78f42
+Piper of the Swarm,2,0.32,#000000
+Questing Beast,4,13.66,#087500
+Rankle- Master of Pranks,4,16.96,#000000
+Realm-Cloaked Giant // Cast Off,7,1.09,#ffffff
+Return of the Wildspeaker,5,3.58,#087500
+Robber of the Rich,2,4.48,#ff1a1a
+Rowan- Fearless Sparkmage,5,1.01,#ff1a1a
+Rowan's Stalwarts,5,0.18,#ff1a1a
+Shimmer Dragon,6,1.5,#341aff
+Silverwing Squadron,6,0.46,#ffffff
+Sorcerous Spyglass,2,0.22,#8c8d8b
+Steelbane Hydra,2,6.81,#087500
+Stolen by the Fae,2,0.37,#341aff
+Stonecoil Serpent,0,5.17,#8c8d8b
+Stormfist Crusader,2,0.6,#d78f42
+Sundering Stroke,7,0.11,#ff1a1a
+Syr Gwyn- Hero of Ashvale,6,0.75,#d78f42
+Taste of Death,6,0.25,#000000
+The Cauldron of Eternity,12,0.94,#000000
+The Circle of Loyalty,6,1.12,#ffffff
+The Great Henge,9,45.82,#087500
+The Magic Mirror,9,3.19,#341aff
+The Royal Scions,3,2.75,#d78f42
+Thorn Mammoth,7,0.32,#087500
+Tome of Legends,2,2.32,#8c8d8b
+Torbran- Thane of Red Fell,4,1.4,#ff1a1a
+Vantress Gargoyle,2,0.48,#341aff
+Wicked Wolf,4,0.24,#087500
+Wildborn Preserver,2,0.23,#087500
+Wishclaw Talisman,2,1.9,#000000
+Witch's Vengeance,3,0.18,#000000
+Workshop Elders,7,0.18,#341aff
+Worthy Knight,2,0.44,#ffffff
+Yorvo- Lord of Garenbrig,3,0.52,#087500

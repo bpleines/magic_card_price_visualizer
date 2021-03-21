@@ -1,41 +1,41 @@
-cmc,price,color
-6,1.31,#ffffff
-7,2.49,#087500
-4,6.21,#341aff
-2,14.42,#ff1a1a
-4,0.31,#087500
-7,15.42,#341aff
-3,0.38,#ffffff
-6,6.26,#ffffff
-0,26.17,#8c8d8b
-5,0.45,#d78f42
-3,2.47,#ffffff
-7,1.96,#ff1a1a
-3,0.45,#000000
-7,0.52,#d78f42
-3,3.66,#000000
-5,0.51,#341aff
-7,2.36,#000000
-5,1.6,#087500
-3,0.5,#8c8d8b
-7,0.38,#341aff
-4,5.03,#ff1a1a
-1,1.47,#ff1a1a
-5,6.08,#ff1a1a
-3,1.4,#087500
-7,2.18,#087500
-3,0.48,#000000
-3,2.5,#8c8d8b
-7,0.8,#341aff
-7,3.75,#ff1a1a
-0,28.8,#8c8d8b
-5,0.34,#d78f42
-6,0.36,#087500
-7,0.59,#000000
-7,0.97,#ffffff
-3,0.77,#d78f42
-5,40.19,#8c8d8b
-3,0.62,#341aff
-6,0.24,#000000
-4,0.57,#ffffff
-4,7.29,#d78f42
+name,cmc,price,color
+Adarkar Valkyrie,6,1.31,#ffffff
+Allosaurus Rider,7,2.49,#087500
+Arcum Dagsson,4,6.21,#341aff
+Braid of Fire,2,14.25,#ff1a1a
+Brooding Saurian,4,0.31,#087500
+Commandeer,7,15.42,#341aff
+Cover of Winter,3,0.38,#ffffff
+Darien- King of Kjeldor,6,6.26,#ffffff
+Dark Depths,0,26.17,#8c8d8b
+Diamond Faerie,5,0.45,#d78f42
+Field Marshal,3,2.47,#ffffff
+Fury of the Horde,7,1.96,#ff1a1a
+Garza's Assassin,3,0.45,#000000
+Garza Zol- Plague Queen,7,0.53,#d78f42
+Haakon- Stromgald Scourge,3,3.51,#000000
+Heidar- Rimewind Master,5,0.58,#341aff
+Herald of Leshrac,7,2.41,#000000
+Hibernation's End,5,1.6,#087500
+Jester's Scepter,3,0.5,#8c8d8b
+Jokulmorder,7,0.38,#341aff
+Karplusan Minotaur,4,5.03,#ff1a1a
+Lightning Serpent,1,1.47,#ff1a1a
+Lovisa Coldeyes,5,6.08,#ff1a1a
+Ohran Viper,3,1.4,#087500
+Panglacial Wurm,7,2.18,#087500
+Phyrexian Etchings,3,0.48,#000000
+Phyrexian Soulgorger,3,2.5,#8c8d8b
+Rimefeather Owl,7,1.14,#341aff
+Rimescale Dragon,7,3.88,#ff1a1a
+Scrying Sheets,0,28.97,#8c8d8b
+Sek'Kuar- Deathkeeper,5,0.34,#d78f42
+Shape of the Wiitigo,6,0.36,#087500
+Soul Spike,7,0.59,#000000
+Sunscour,7,0.97,#ffffff
+Tamanoa,3,0.77,#d78f42
+Thrumming Stone,5,40.18,#8c8d8b
+Vexing Sphinx,3,0.62,#341aff
+Void Maw,6,0.24,#000000
+Woolly Razorback,4,0.56,#ffffff
+Zur the Enchanter,4,7.29,#d78f42

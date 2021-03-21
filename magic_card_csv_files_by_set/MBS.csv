@@ -1,46 +1,46 @@
-cmc,price,color
-2,4.89,#000000
-12,32.63,#8c8d8b
-3,3.99,#341aff
-4,0.33,#8c8d8b
-6,33.31,#341aff
-0,0.27,#8c8d8b
-4,0.37,#087500
-3,1.39,#341aff
-3,16.98,#8c8d8b
-4,0.38,#8c8d8b
-4,0.19,#341aff
-5,0.26,#ff1a1a
-3,2.1,#d78f42
-1,18.85,#087500
-7,0.26,#ff1a1a
-4,7.02,#ffffff
-4,0.78,#ff1a1a
-0,21.49,#8c8d8b
-6,0.71,#8c8d8b
-4,0.14,#8c8d8b
-6,3.97,#000000
-3,1.22,#ffffff
-5,0.94,#8c8d8b
-3,0.2,#341aff
-5,2.16,#8c8d8b
-3,0.37,#8c8d8b
-3,10.05,#000000
-5,2.23,#087500
-6,0.39,#ffffff
-2,1.3,#8c8d8b
-4,0.43,#000000
-8,3.63,#087500
-5,0.92,#8c8d8b
-1,0.63,#ff1a1a
-4,1.42,#000000
-3,1.69,#8c8d8b
-3,0.49,#ff1a1a
-7,0.87,#8c8d8b
-3,48.59,#8c8d8b
-4,7.88,#d78f42
-6,0.59,#8c8d8b
-4,2.57,#087500
-3,0.55,#8c8d8b
-6,0.26,#ffffff
-3,0.42,#ffffff
+name,cmc,price,color
+Black Sun's Zenith,2,4.91,#000000
+Blightsteel Colossus,12,32.95,#8c8d8b
+Blue Sun's Zenith,3,3.96,#341aff
+Bonehoard,4,0.33,#8c8d8b
+Consecrated Sphinx,6,34.42,#341aff
+Contested War Zone,0,0.27,#8c8d8b
+Creeping Corrosion,4,0.36,#087500
+Cryptoplasm,3,1.41,#341aff
+Darksteel Plate,3,16.82,#8c8d8b
+Decimator Web,4,0.38,#8c8d8b
+Distant Memories,4,0.19,#341aff
+Galvanoth,5,0.27,#ff1a1a
+Glissa- the Traitor,3,2.21,#d78f42
+Green Sun's Zenith,1,19.96,#087500
+Hellkite Igniter,7,0.25,#ff1a1a
+Hero of Bladehold,4,7.09,#ffffff
+Hero of Oxid Ridge,4,0.78,#ff1a1a
+Inkmoth Nexus,0,21.33,#8c8d8b
+Knowledge Pool,6,0.7,#8c8d8b
+Magnetic Mine,4,0.14,#8c8d8b
+Massacre Wurm,6,3.93,#000000
+Mirran Crusader,3,1.22,#ffffff
+Mirrorworks,5,0.98,#8c8d8b
+Mitotic Manipulation,3,0.2,#341aff
+Myr Turbine,5,2.29,#8c8d8b
+Myr Welder,3,0.37,#8c8d8b
+Phyrexian Crusader,3,9.99,#000000
+Phyrexian Hydra,5,2.09,#087500
+Phyrexian Rebirth,6,0.4,#ffffff
+Phyrexian Revoker,2,1.35,#8c8d8b
+Phyrexian Vatmother,4,0.44,#000000
+Praetor's Counsel,8,3.72,#087500
+Psychosis Crawler,5,0.92,#8c8d8b
+Red Sun's Zenith,1,0.63,#ff1a1a
+Sangromancer,4,1.42,#000000
+Shimmer Myr,3,1.69,#8c8d8b
+Slagstorm,3,0.5,#ff1a1a
+Spine of Ish Sah,7,0.94,#8c8d8b
+Sword of Feast and Famine,3,49.53,#8c8d8b
+Tezzeret- Agent of Bolas,4,7.94,#d78f42
+Thopter Assembly,6,0.57,#8c8d8b
+Thrun- the Last Troll,4,2.56,#087500
+Titan Forge,3,0.55,#8c8d8b
+Victory's Herald,6,0.26,#ffffff
+White Sun's Zenith,3,0.42,#ffffff

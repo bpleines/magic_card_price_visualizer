@@ -1,56 +1,56 @@
-cmc,price,color
-3,0.99,#000000
-7,1.25,#d78f42
-5,0.22,#087500
-7,0.35,#d78f42
-3,0.55,#d78f42
-3,0.47,#d78f42
-5,0.23,#d78f42
-7,2.7,#d78f42
-7,0.25,#d78f42
-4,0.89,#d78f42
-4,0.5,#087500
-4,0.46,#d78f42
-3,14.9,#ffffff
-4,0.25,#d78f42
-4,0.36,#d78f42
-0,14.21,#d78f42
-6,0.22,#ffffff
-4,0.44,#d78f42
-2,0.66,#341aff
-4,1.17,#d78f42
-3,0.45,#d78f42
-6,0.26,#d78f42
-4,2.53,#087500
-4,0.25,#ff1a1a
-4,1.59,#341aff
-4,2.04,#ffffff
-4,11.93,#000000
-8,0.24,#ff1a1a
-4,0.26,#341aff
-3,0.55,#d78f42
-1,0.22,#d78f42
-6,1.73,#d78f42
-3,0.83,#d78f42
-4,0.22,#ff1a1a
-7,0.23,#087500
-1,0.59,#341aff
-4,0.25,#d78f42
-8,0.23,#000000
-4,0.32,#000000
-2,0.18,#ff1a1a
-6,0.21,#ff1a1a
-6,0.23,#000000
-5,0.27,#341aff
-5,1.48,#ffffff
-0,21.11,#d78f42
-3,7.44,#d78f42
-0,19.61,#d78f42
-10,1.34,#ffffff
-4,8.25,#8c8d8b
-3,4.38,#d78f42
-4,0.24,#d78f42
-4,1.58,#d78f42
-4,1.11,#d78f42
-6,0.2,#087500
-4,0.74,#d78f42
+name,cmc,price,color
+Abyssal Nocturnus,3,1.04,#000000
+Angel of Despair,7,1.3,#d78f42
+Bioplasm,5,0.22,#087500
+Borborygmos,7,0.35,#d78f42
+Burning-Tree Shaman,3,0.55,#d78f42
+Cerebral Vortex,3,0.47,#d78f42
+Culling Sun,5,0.23,#d78f42
+Debtors' Knell,7,2.75,#d78f42
+Djinn Illuminatus,7,0.25,#d78f42
+Dune-Brood Nephilim,4,0.89,#d78f42
+Earth Surge,4,0.5,#087500
+Ghost Council of Orzhova,4,0.46,#d78f42
+Ghostway,3,15.01,#ffffff
+Giant Solifuge,4,0.28,#d78f42
+Glint-Eye Nephilim,4,0.35,#d78f42
+Godless Shrine,0,14.21,#d78f42
+Graven Dominator,6,0.22,#ffffff
+Gruul War Plow,4,0.44,#d78f42
+Hatching Plans,2,0.66,#341aff
+Ink-Treader Nephilim,4,1.17,#d78f42
+Invoke the Firemind,3,0.45,#d78f42
+Killer Instinct,6,0.26,#d78f42
+Leyline of Lifeforce,4,2.51,#087500
+Leyline of Lightning,4,0.24,#ff1a1a
+Leyline of Singularity,4,1.56,#341aff
+Leyline of the Meek,4,2.06,#ffffff
+Leyline of the Void,4,11.93,#000000
+Living Inferno,8,0.24,#ff1a1a
+Mimeofacture,4,0.27,#341aff
+Mizzium Transreliquat,3,0.56,#d78f42
+Moratorium Stone,1,0.22,#d78f42
+Niv-Mizzet- the Firemind,6,1.73,#d78f42
+Orzhov Pontiff,3,0.82,#d78f42
+Parallectric Feedback,4,0.22,#ff1a1a
+Petrified Wood-Kin,7,0.24,#087500
+Quicken,1,0.59,#341aff
+Rumbling Slum,4,0.26,#d78f42
+Sanguine Praetor,8,0.23,#000000
+Seize the Soul,4,0.32,#000000
+Siege of Towers,2,0.18,#ff1a1a
+Skarrgan Firebird,6,0.22,#ff1a1a
+Skeletal Vampire,6,0.23,#000000
+Sky Swallower,5,0.27,#341aff
+Spelltithe Enforcer,5,1.48,#ffffff
+Steam Vents,0,21.11,#d78f42
+Stitch in Time,3,7.39,#d78f42
+Stomping Ground,0,19.61,#d78f42
+Storm Herd,10,1.32,#ffffff
+Sword of the Paruns,4,8.43,#8c8d8b
+Teysa- Orzhov Scion,3,4.38,#d78f42
+Tibor and Lumia,4,0.24,#d78f42
+Ulasht- the Hate Seed,4,1.58,#d78f42
+Witch-Maw Nephilim,4,1.11,#d78f42
+Wurmweaver Coil,6,0.2,#087500
+Yore-Tiller Nephilim,4,0.75,#d78f42

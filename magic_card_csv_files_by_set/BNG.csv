@@ -1,46 +1,46 @@
-cmc,price,color
-6,0.21,#341aff
-0,2.2,#8c8d8b
-3,15.37,#ffffff
-6,0.47,#000000
-5,1.11,#d78f42
-3,3.66,#087500
-7,0.13,#000000
-3,0.94,#ffffff
-4,7.01,#d78f42
-4,0.15,#ff1a1a
-3,0.57,#341aff
-5,0.09,#087500
-7,0.29,#ffffff
-7,0.18,#000000
-4,0.67,#000000
-4,0.25,#ff1a1a
-4,0.42,#ff1a1a
-6,0.18,#ff1a1a
-4,0.13,#000000
-3,0.22,#000000
-5,0.46,#8c8d8b
-2,0.35,#ffffff
-1,0.12,#087500
-5,0.21,#087500
-5,1.79,#d78f42
-4,3.06,#d78f42
-2,0.1,#341aff
-4,19.09,#d78f42
-6,0.24,#087500
-4,0.18,#ff1a1a
-2,0.21,#000000
-5,1.06,#341aff
-5,13.23,#d78f42
-6,0.62,#ffffff
-2,0.55,#ff1a1a
-3,0.43,#087500
-7,0.17,#ffffff
-2,2.9,#ffffff
-0,1.09,#d78f42
-0,1.19,#d78f42
-0,1.15,#d78f42
-7,0.39,#341aff
-4,0.4,#341aff
-6,0.15,#ff1a1a
-5,12.51,#d78f42
+name,cmc,price,color
+Arbiter of the Ideal,6,0.21,#341aff
+Astral Cornucopia,0,2.1,#8c8d8b
+Brimaz- King of Oreskos,3,15.21,#ffffff
+Champion of Stray Souls,6,0.47,#000000
+Chromanticore,5,1.11,#d78f42
+Courser of Kruphix,3,3.66,#087500
+Eater of Hope,7,0.13,#000000
+Eidolon of Countless Battles,3,0.94,#ffffff
+Ephara- God of the Polis,4,7.24,#d78f42
+Fated Conflagration,4,0.15,#ff1a1a
+Fated Infatuation,3,0.57,#341aff
+Fated Intervention,5,0.09,#087500
+Fated Retribution,7,0.3,#ffffff
+Fated Return,7,0.18,#000000
+Fate Unraveler,4,0.7,#000000
+Felhide Spiritbinder,4,0.25,#ff1a1a
+Flame-Wreathed Phoenix,4,0.42,#ff1a1a
+Forgestoker Dragon,6,0.18,#ff1a1a
+Gild,4,0.13,#000000
+Herald of Torment,3,0.22,#000000
+Heroes' Podium,5,0.46,#8c8d8b
+Hero of Iroas,2,0.35,#ffffff
+Hero of Leina Tower,1,0.12,#087500
+Hunter's Prowess,5,0.21,#087500
+Karametra- God of Harvests,5,1.7,#d78f42
+Kiora- the Crashing Wave,4,3.07,#d78f42
+Mindreaver,2,0.1,#341aff
+Mogis- God of Slaughter,4,19.32,#d78f42
+Nessian Wilds Ravager,6,0.24,#087500
+Oracle of Bones,4,0.18,#ff1a1a
+Pain Seer,2,0.21,#000000
+Perplexing Chimera,5,1.07,#341aff
+Phenax- God of Deception,5,13.51,#d78f42
+Plea for Guidance,6,0.63,#ffffff
+Satyr Firedancer,2,0.53,#ff1a1a
+Scourge of Skola Vale,3,0.43,#087500
+Silent Sentinel,7,0.17,#ffffff
+Spirit of the Labyrinth,2,3.03,#ffffff
+Temple of Enlightenment,0,1.12,#d78f42
+Temple of Malice,0,1.19,#d78f42
+Temple of Plenty,0,1.21,#d78f42
+Tromokratis,7,0.39,#341aff
+Whelming Wave,4,0.4,#341aff
+Whims of the Fates,6,0.16,#ff1a1a
+Xenagos- God of Revels,5,12.08,#d78f42

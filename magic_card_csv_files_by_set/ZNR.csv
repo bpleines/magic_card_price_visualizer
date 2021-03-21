@@ -1,85 +1,85 @@
-cmc,price,color
-3,13.31,#000000
-3,0.31,#d78f42
-6,11.41,#087500
-5,4.1,#ffffff
-3,0.71,#ffffff
-1,0.12,#ffffff
-5,6.86,#087500
-0,2.87,#d78f42
-0,3.96,#d78f42
-4,0.25,#341aff
-0,5.11,#d78f42
-2,0.26,#341aff
-3,0.1,#341aff
-5,0.22,#000000
-0,2.93,#d78f42
-7,0.12,#087500
-0,0.37,#8c8d8b
-5,1.39,#000000
-7,3.47,#ffffff
-4,1.48,#ffffff
-5,5.06,#8c8d8b
-3,3.89,#341aff
-3,0.19,#d78f42
-4,0.75,#000000
-2,0.29,#087500
-4,0.19,#341aff
-3,0.15,#000000
-3,1.08,#341aff
-2,0.14,#ff1a1a
-3,0.47,#087500
-2,0.22,#d78f42
-4,0.54,#ffffff
-4,3.31,#ff1a1a
-3,0.2,#d78f42
-4,10.92,#8c8d8b
-2,2.86,#087500
-2,0.99,#ffffff
-2,1.52,#341aff
-2,0.9,#ff1a1a
-4,0.1,#341aff
-3,0.9,#ffffff
-6,4.54,#ff1a1a
-4,0.14,#8c8d8b
-4,1.25,#d78f42
-2,0.23,#ff1a1a
-0,3.11,#d78f42
-3,2.3,#000000
-2,0.14,#341aff
-4,2.02,#d78f42
-2,0.47,#000000
-4,5.31,#d78f42
-8,0.32,#ffffff
-4,0.17,#d78f42
-3,0.21,#087500
-6,0.31,#d78f42
-3,0.11,#ff1a1a
-0,5.3,#d78f42
-2,0.31,#ff1a1a
-2,9.24,#000000
-3,3.49,#087500
-7,7.62,#341aff
-2,1.46,#341aff
-5,0.18,#000000
-3,0.12,#ff1a1a
-2,7.79,#ff1a1a
-3,11.33,#ffffff
-3,1.81,#8c8d8b
-2,0.19,#000000
-3,0.49,#000000
-4,0.1,#ffffff
-1,0.13,#087500
-3,0.21,#000000
-2,0.17,#087500
-5,0.48,#d78f42
-2,1.72,#341aff
-0,0.12,#8c8d8b
-7,6.0,#087500
-3,4.34,#ff1a1a
-3,0.56,#ff1a1a
-2,0.13,#d78f42
-1,0.13,#ff1a1a
-4,0.22,#d78f42
-6,0.16,#d78f42
-5,0.25,#d78f42
+name,cmc,price,color
+Agadeem's Awakening // Agadeem- the Undercrypt,3,13.19,#000000
+Akiri- Fearless Voyager,3,0.33,#d78f42
+Ancient Greenwarden,6,12.2,#087500
+Angel of Destiny,5,4.08,#ffffff
+Archon of Emeria,3,0.7,#ffffff
+Archpriest of Iona,1,0.1,#ffffff
+Ashaya- Soul of the Wild,5,6.62,#087500
+Branchloft Pathway // Boulderloft Pathway,0,3.0,#d78f42
+Brightclimb Pathway // Grimclimb Pathway,0,3.97,#d78f42
+Charix- the Raging Isle,4,0.27,#341aff
+Clearwater Pathway // Murkwater Pathway,0,5.69,#d78f42
+Confounding Conundrum,2,0.25,#341aff
+Coralhelm Chronicler,3,0.11,#341aff
+Coveted Prize,5,0.2,#000000
+Cragcrown Pathway // Timbercrown Pathway,0,2.82,#d78f42
+Cragplate Baloth,7,0.11,#087500
+Crawling Barrens,0,0.41,#8c8d8b
+Drana- the Last Bloodchief,5,1.41,#000000
+Emeria's Call // Emeria- Shattered Skyclave,7,3.56,#ffffff
+Felidar Retreat,4,1.55,#ffffff
+Forsaken Monument,5,4.94,#8c8d8b
+Glasspool Mimic // Glasspool Shore,3,4.09,#341aff
+Grakmaw- Skyclave Ravager,3,0.2,#d78f42
+Hagra Mauling // Hagra Broodpit,4,0.76,#000000
+Inscription of Abundance,2,0.29,#087500
+Inscription of Insight,4,0.18,#341aff
+Inscription of Ruin,3,0.16,#000000
+Jace- Mirror Mage,3,1.06,#341aff
+Kargan Intimidator,2,0.15,#ff1a1a
+Kazandu Mammoth // Kazandu Valley,3,0.49,#087500
+Kaza- Roil Chaser,2,0.23,#d78f42
+Legion Angel,4,0.59,#ffffff
+Leyline Tyrant,4,3.41,#ff1a1a
+Linvala- Shield of Sea Gate,3,0.24,#d78f42
+Lithoform Engine,4,10.63,#8c8d8b
+Lotus Cobra,2,2.91,#087500
+Luminarch Aspirant,2,0.95,#ffffff
+Maddening Cacophony,2,1.68,#341aff
+Magmatic Channeler,2,1.01,#ff1a1a
+Master of Winds,4,0.1,#341aff
+Maul of the Skyclaves,3,0.98,#ffffff
+Moraug- Fury of Akoum,6,4.59,#ff1a1a
+Myriad Construct,4,0.13,#8c8d8b
+Nahiri- Heir of the Ancients,4,1.21,#d78f42
+Nahiri's Lithoforming,2,0.23,#ff1a1a
+Needleverge Pathway // Pillarverge Pathway,0,3.31,#d78f42
+Nighthawk Scavenger,3,2.03,#000000
+Nimble Trapfinder,2,0.14,#341aff
+Nissa of Shadowed Boughs,4,2.09,#d78f42
+Nullpriest of Oblivion,2,0.45,#000000
+Omnath- Locus of Creation,4,5.22,#d78f42
+Ondu Inversion // Ondu Skyruins,8,0.37,#ffffff
+Orah- Skyclave Hierophant,4,0.16,#d78f42
+Oran-Rief Ooze,3,0.21,#087500
+Phylath- World Sculptor,6,0.33,#d78f42
+Relic Robber,3,0.11,#ff1a1a
+Riverglide Pathway // Lavaglide Pathway,0,4.93,#d78f42
+Roiling Vortex,2,0.32,#ff1a1a
+Scourge of the Skyclaves,2,9.16,#000000
+Scute Swarm,3,3.53,#087500
+Sea Gate Restoration // Sea Gate- Reborn,7,7.92,#341aff
+Sea Gate Stormcaller,2,1.54,#341aff
+Shadows' Verdict,5,0.2,#000000
+Shatterskull Charger,3,0.13,#ff1a1a
+Shatterskull Smashing // Shatterskull- the Hammer Pass,2,7.71,#ff1a1a
+Skyclave Apparition,3,12.37,#ffffff
+Skyclave Relic,3,1.8,#8c8d8b
+Skyclave Shade,2,0.2,#000000
+Soul Shatter,3,0.48,#000000
+Squad Commander,4,0.11,#ffffff
+Swarm Shambler,1,0.14,#087500
+Taborax- Hope's Demise,3,0.2,#000000
+Tajuru Paragon,2,0.18,#087500
+Tazri- Beacon of Unity,5,0.51,#d78f42
+Thieving Skydiver,2,1.69,#341aff
+Throne of Makindi,0,0.12,#8c8d8b
+Turntimber Symbiosis // Turntimber- Serpentine Wood,7,5.76,#087500
+Valakut Awakening // Valakut Stoneforge,3,4.62,#ff1a1a
+Valakut Exploration,3,0.68,#ff1a1a
+Verazol- the Split Current,2,0.12,#d78f42
+Wayward Guide-Beast,1,0.13,#ff1a1a
+Yasharn- Implacable Earth,4,0.23,#d78f42
+Zagras- Thief of Heartbeats,6,0.17,#d78f42
+Zareth San- the Trickster,5,0.24,#d78f42

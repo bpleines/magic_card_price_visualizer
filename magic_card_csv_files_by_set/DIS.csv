@@ -1,61 +1,61 @@
-cmc,price,color
-4,0.26,#d78f42
-5,0.57,#d78f42
-3,0.69,#d78f42
-7,0.37,#d78f42
-0,25.14,#d78f42
-7,0.56,#d78f42
-0,31.57,#d78f42
-4,2.19,#8c8d8b
-5,0.56,#ffffff
-7,0.73,#d78f42
-4,4.71,#341aff
-4,0.47,#087500
-3,0.36,#d78f42
-1,0.44,#ff1a1a
-6,2.31,#d78f42
-5,0.2,#d78f42
-4,2.1,#087500
-3,0.59,#d78f42
-6,3.03,#d78f42
-6,0.28,#341aff
-4,25.7,#d78f42
-3,0.2,#ffffff
-0,21.42,#d78f42
-4,2.24,#d78f42
-2,7.38,#000000
-5,0.35,#d78f42
-3,0.63,#087500
-3,0.5,#d78f42
-5,2.42,#d78f42
-4,0.3,#8c8d8b
-4,0.25,#000000
-6,0.32,#341aff
-7,0.7,#d78f42
-4,0.4,#d78f42
-0,12.41,#8c8d8b
-2,3.99,#d78f42
-3,1.42,#ffffff
-4,1.47,#ffffff
-7,6.04,#087500
-4,2.83,#341aff
-2,12.18,#d78f42
-3,0.39,#d78f42
-4,0.34,#ff1a1a
-2,0.37,#d78f42
-6,1.9,#d78f42
-6,1.17,#000000
-7,0.7,#d78f42
-7,0.29,#d78f42
-5,3.41,#087500
-7,1.02,#ff1a1a
-4,0.14,#ff1a1a
-5,0.3,#d78f42
-8,4.38,#341aff
-4,0.26,#000000
-3,7.88,#d78f42
-4,0.28,#ffffff
-3,2.96,#d78f42
-4,4.06,#ff1a1a
-5,0.2,#d78f42
-7,0.23,#000000
+name,cmc,price,color
+Aethermage's Touch,4,0.26,#d78f42
+Anthem of Rakdos,5,0.57,#d78f42
+Avatar of Discord,3,0.69,#d78f42
+Biomantic Mastery,7,0.37,#d78f42
+Blood Crypt,0,25.14,#d78f42
+Bound // Determined,7,0.55,#d78f42
+Breeding Pool,0,31.57,#d78f42
+Bronze Bombshell,4,2.19,#8c8d8b
+Celestial Ancient,5,0.56,#ffffff
+Crime // Punishment,7,0.73,#d78f42
+Cytoplast Manipulator,4,4.71,#341aff
+Cytoplast Root-Kin,4,0.47,#087500
+Cytoshape,3,0.35,#d78f42
+Demonfire,1,0.44,#ff1a1a
+Dovescape,6,2.31,#d78f42
+Dread Slag,5,0.2,#d78f42
+Elemental Resonance,4,2.14,#087500
+Evolution Vat,3,0.59,#d78f42
+Experiment Kraj,6,3.03,#d78f42
+Govern the Guildless,6,0.28,#341aff
+Grand Arbiter Augustin IV,4,26.7,#d78f42
+Haazda Shield Mate,3,0.2,#ffffff
+Hallowed Fountain,0,21.42,#d78f42
+Hide // Seek,4,2.31,#d78f42
+Infernal Tutor,2,7.36,#000000
+Isperia the Inscrutable,5,0.35,#d78f42
+Loaming Shaman,3,0.6,#087500
+Lyzolda- the Blood Witch,3,0.5,#d78f42
+Momir Vig- Simic Visionary,5,2.42,#d78f42
+Muse Vessel,4,0.3,#8c8d8b
+Nihilistic Glee,4,0.25,#000000
+Novijen Sages,6,0.31,#341aff
+Odds // Ends,7,0.7,#d78f42
+Omnibian,4,0.39,#d78f42
+Pillar of the Paruns,0,12.38,#8c8d8b
+Pride of the Clouds,2,3.99,#d78f42
+Proclamation of Rebirth,3,1.42,#ffffff
+Proper Burial,4,1.47,#ffffff
+Protean Hulk,7,6.11,#087500
+Psychic Possession,4,2.83,#341aff
+Rain of Gore,2,11.98,#d78f42
+Rakdos Augermage,3,0.39,#d78f42
+Rakdos Pit Dragon,4,0.34,#ff1a1a
+Rakdos Riteknife,2,0.36,#d78f42
+Rakdos the Defiler,6,1.85,#d78f42
+Ratcatcher,6,1.17,#000000
+Research // Development,7,0.7,#d78f42
+Simic Sky Swallower,7,0.29,#d78f42
+Sprouting Phytohydra,5,3.41,#087500
+Stalking Vengeance,7,1.02,#ff1a1a
+Stormscale Anarch,4,0.14,#ff1a1a
+Swift Silence,5,0.3,#d78f42
+Tidespout Tyrant,8,4.38,#341aff
+Unliving Psychopath,4,0.26,#000000
+Voidslime,3,7.88,#d78f42
+Wakestone Gargoyle,4,0.28,#ffffff
+Walking Archive,3,2.96,#d78f42
+War's Toll,4,4.06,#ff1a1a
+Windreaver,5,0.2,#d78f42
+Wit's End,7,0.23,#000000

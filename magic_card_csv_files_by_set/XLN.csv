@@ -1,81 +1,81 @@
-cmc,price,color
-4,3.76,#d78f42
-7,0.93,#ff1a1a
-3,3.34,#341aff
-2,0.31,#000000
-2,0.33,#ffffff
-6,0.68,#ffffff
-5,0.41,#ffffff
-2,0.21,#000000
-7,0.39,#000000
-6,0.24,#ff1a1a
-3,2.67,#ff1a1a
-4,0.33,#ff1a1a
-6,9.32,#087500
-4,0.49,#8c8d8b
-2,0.21,#341aff
-1,0.35,#000000
-3,0.39,#087500
-2,0.2,#087500
-5,2.65,#000000
-2,6.13,#8c8d8b
-0,4.96,#d78f42
-4,0.2,#341aff
-0,6.74,#d78f42
-4,0.12,#087500
-2,0.29,#341aff
-2,0.44,#000000
-3,0.3,#8c8d8b
-7,1.04,#341aff
-8,13.5,#d78f42
-0,5.56,#d78f42
-7,0.37,#ffffff
-5,0.13,#341aff
-3,26.48,#087500
-4,3.83,#341aff
-4,4.01,#d78f42
-5,4.39,#d78f42
-3,1.18,#341aff
-3,1.81,#ffffff
-3,0.46,#341aff
-1,2.86,#ffffff
-3,0.69,#ffffff
-1,0.16,#087500
-7,0.45,#341aff
-1,0.34,#ffffff
-4,10.12,#8c8d8b
-3,3.73,#ff1a1a
-5,0.86,#d78f42
-3,0.09,#ff1a1a
-5,6.06,#000000
-4,2.21,#087500
-6,1.73,#341aff
-0,3.7,#d78f42
-4,0.46,#ff1a1a
-3,0.27,#000000
-4,2.58,#000000
-2,0.27,#ffffff
-2,5.17,#341aff
-4,3.4,#ffffff
-2,0.16,#8c8d8b
-1,1.02,#087500
-2,0.3,#8c8d8b
-5,3.36,#341aff
-7,8.39,#ff1a1a
-6,2.97,#ff1a1a
-5,0.32,#d78f42
-0,4.63,#d78f42
-3,0.19,#000000
-2,3.03,#8c8d8b
-3,0.14,#ff1a1a
-7,4.34,#d78f42
-2,0.25,#ffffff
-2,9.92,#8c8d8b
-4,0.31,#ff1a1a
-5,12.46,#8c8d8b
-7,0.39,#087500
-5,5.6,#d78f42
-6,1.83,#d78f42
-4,1.81,#000000
-8,5.97,#ffffff
-4,0.09,#087500
+name,cmc,price,color
+Admiral Beckett Brass,4,3.8,#d78f42
+Angrath's Marauders,7,0.91,#ff1a1a
+Arcane Adaptation,3,3.7,#341aff
+Arguel's Blood Fast // Temple of Aclazotz,2,0.31,#000000
+Ashes of the Abhorrent,2,0.34,#ffffff
+Axis of Mortality,6,0.7,#ffffff
+Bishop of Rebirth,5,0.41,#ffffff
+Bloodcrazed Paladin,2,0.2,#000000
+Boneyard Parley,7,0.39,#000000
+Burning Sun's Avatar,6,0.25,#ff1a1a
+Captain Lannery Storm,3,2.97,#ff1a1a
+Captivating Crew,4,0.33,#ff1a1a
+Carnage Tyrant,6,9.78,#087500
+Conqueror's Galleon // Conqueror's Foothold,4,0.5,#8c8d8b
+Daring Saboteur,2,0.21,#341aff
+Deadeye Tracker,1,0.35,#000000
+Deathgorge Scavenger,3,0.4,#087500
+Deeproot Champion,2,0.2,#087500
+Dire Fleet Ravager,5,2.7,#000000
+Dowsing Dagger // Lost Vale,2,6.3,#8c8d8b
+Dragonskull Summit,0,5.22,#d78f42
+Dreamcaller Siren,4,0.2,#341aff
+Drowned Catacomb,0,7.06,#d78f42
+Emperor's Vanguard,4,0.12,#087500
+Entrancing Melody,2,0.3,#341aff
+Fathom Fleet Captain,2,0.45,#000000
+Fell Flagship,3,0.31,#8c8d8b
+Fleet Swallower,7,1.03,#341aff
+Gishath- Sun's Avatar,8,13.54,#d78f42
+Glacial Fortress,0,5.96,#d78f42
+Goring Ceratops,7,0.37,#ffffff
+Grasping Current,5,0.13,#341aff
+Growing Rites of Itlimoc // Itlimoc- Cradle of the Sun,3,26.61,#087500
+Herald of Secret Streams,4,3.73,#341aff
+Hostage Taker,4,4.38,#d78f42
+Huatli- Warrior Poet,5,4.45,#d78f42
+Jace- Cunning Castaway,3,1.22,#341aff
+Kinjalli's Sunwing,3,1.84,#ffffff
+Kopala- Warden of Waves,3,0.45,#341aff
+Legion's Landing // Adanto- the First Fort,1,2.84,#ffffff
+Mavren Fein- Dusk Apostle,3,0.75,#ffffff
+Old-Growth Dryads,1,0.16,#087500
+Overflowing Insight,7,0.45,#341aff
+Priest of the Wakening Sun,1,0.34,#ffffff
+Primal Amulet // Primal Wellspring,4,10.4,#8c8d8b
+Rampaging Ferocidon,3,3.65,#ff1a1a
+Regisaur Alpha,5,0.9,#d78f42
+Repeating Barrage,3,0.09,#ff1a1a
+Revel in Riches,5,6.13,#000000
+Ripjaw Raptor,4,2.1,#087500
+River's Rebuke,6,1.79,#341aff
+Rootbound Crag,0,4.15,#d78f42
+Rowdy Crew,4,0.46,#ff1a1a
+Ruin Raider,3,0.28,#000000
+Sanctum Seeker,4,2.67,#000000
+Sanguine Sacrament,2,0.25,#ffffff
+Search for Azcanta // Azcanta- the Sunken Ruin,2,5.13,#341aff
+Settle the Wreckage,4,3.67,#ffffff
+Shadowed Caravel,2,0.16,#8c8d8b
+Shapers' Sanctuary,1,1.01,#087500
+Sorcerous Spyglass,2,0.3,#8c8d8b
+Spell Swindle,5,3.42,#341aff
+Star of Extinction,7,8.29,#ff1a1a
+Sunbird's Invocation,6,2.95,#ff1a1a
+Sun-Blessed Mount,5,0.32,#d78f42
+Sunpetal Grove,0,4.63,#d78f42
+Sword-Point Diplomacy,3,0.19,#000000
+Thaumatic Compass // Spires of Orazca,2,3.28,#8c8d8b
+Tilonalli's Skinshifter,3,0.14,#ff1a1a
+Tishana- Voice of Thunder,7,4.1,#d78f42
+Tocatli Honor Guard,2,0.24,#ffffff
+Treasure Map // Treasure Cove,2,10.49,#8c8d8b
+Vance's Blasting Cannons // Spitfire Bastion,4,0.31,#ff1a1a
+Vanquisher's Banner,5,12.2,#8c8d8b
+Verdant Sun's Avatar,7,0.35,#087500
+Vona- Butcher of Magan,5,5.54,#d78f42
+Vraska- Relic Seeker,6,1.65,#d78f42
+Vraska's Contempt,4,1.65,#000000
+Wakening Sun's Avatar,8,5.89,#ffffff
+Waker of the Wilds,4,0.09,#087500

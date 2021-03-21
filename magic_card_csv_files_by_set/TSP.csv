@@ -1,81 +1,81 @@
-cmc,price,color
-0,9.77,#341aff
-0,5.29,#341aff
-1,19.28,#ffffff
-8,0.57,#ff1a1a
-2,0.28,#8c8d8b
-6,0.2,#ffffff
-10,4.33,#000000
-10,0.94,#341aff
-5,1.95,#000000
-6,3.14,#341aff
-5,1.33,#d78f42
-5,1.92,#000000
-5,0.3,#ffffff
-0,19.18,#ffffff
-5,0.4,#ff1a1a
-4,1.67,#087500
-5,23.28,#8c8d8b
-0,53.98,#8c8d8b
-10,1.94,#ff1a1a
-2,2.0,#8c8d8b
-0,1.86,#087500
-4,1.75,#ff1a1a
-7,0.42,#d78f42
-5,0.76,#341aff
-3,0.95,#ff1a1a
-7,16.78,#d78f42
-0,3.07,#ff1a1a
-8,0.26,#000000
-7,2.09,#000000
-0,5.2,#000000
-0,6.66,#8c8d8b
-1,0.87,#087500
-4,0.94,#ffffff
-5,2.28,#341aff
-6,0.41,#000000
-1,0.29,#ff1a1a
-3,0.55,#ffffff
-4,0.92,#d78f42
-1,0.46,#341aff
-2,14.17,#000000
-1,2.26,#ff1a1a
-3,0.2,#ffffff
-6,0.2,#ff1a1a
-5,0.79,#ffffff
-4,0.69,#000000
-5,2.99,#341aff
-5,9.02,#ffffff
-3,14.11,#ff1a1a
-0,4.18,#ffffff
-2,9.09,#d78f42
-3,0.31,#8c8d8b
-5,3.06,#d78f42
-3,7.87,#d78f42
-5,0.3,#000000
-2,1.79,#ffffff
-5,0.26,#087500
-5,0.21,#087500
-3,0.5,#341aff
-2,1.72,#087500
-5,0.72,#d78f42
-4,1.13,#087500
-6,0.86,#000000
-5,8.04,#8c8d8b
-3,3.76,#000000
-0,20.85,#8c8d8b
-5,6.72,#341aff
-4,0.35,#087500
-2,1.38,#d78f42
-3,0.31,#ffffff
-2,6.22,#341aff
-7,0.25,#8c8d8b
-3,0.4,#087500
-5,2.19,#087500
-0,36.46,#8c8d8b
-5,0.57,#341aff
-6,10.42,#341aff
-6,0.2,#ffffff
-0,3.3,#ff1a1a
-5,0.39,#ff1a1a
-1,1.25,#087500
+name,cmc,price,color
+Academy Ruins,0,9.56,#341aff
+Ancestral Vision,0,5.29,#341aff
+Angel's Grace,1,19.05,#ffffff
+Bogardan Hellkite,8,0.62,#ff1a1a
+Candles of Leng,2,0.28,#8c8d8b
+Chronosavant,6,0.2,#ffffff
+Curse of the Cabal,10,4.54,#000000
+Deep-Sea Kraken,10,0.94,#341aff
+Demonic Collusion,5,1.98,#000000
+Draining Whelk,6,3.1,#341aff
+Dralnu- Lich Lord,5,1.33,#d78f42
+Endrek Sahr- Master Breeder,5,1.92,#000000
+Evangelize,5,0.3,#ffffff
+Flagstones of Trokair,0,19.18,#ffffff
+Fortune Thief,5,0.42,#ff1a1a
+Fungus Sliver,4,1.67,#087500
+Gauntlet of Power,5,23.2,#8c8d8b
+Gemstone Caverns,0,53.98,#8c8d8b
+Greater Gargadon,10,1.94,#ff1a1a
+Hivestone,2,2.0,#8c8d8b
+Hypergenesis,0,1.86,#087500
+Ib Halfheart- Goblin Tactician,4,1.75,#ff1a1a
+Ith- High Arcanist,7,0.43,#d78f42
+Ixidron,5,0.76,#341aff
+Jaya Ballard- Task Mage,3,0.95,#ff1a1a
+Kaervek the Merciless,7,16.78,#d78f42
+Kher Keep,0,3.16,#ff1a1a
+Liege of the Pit,8,0.26,#000000
+Lim-Dûl the Necromancer,7,2.09,#000000
+Living End,0,5.2,#000000
+Lotus Bloom,0,6.66,#8c8d8b
+Magus of the Candelabra,1,0.96,#087500
+Magus of the Disk,4,0.94,#ffffff
+Magus of the Jar,5,2.25,#341aff
+Magus of the Mirror,6,0.41,#000000
+Magus of the Scroll,1,0.3,#ff1a1a
+Mangara of Corondor,3,0.55,#ffffff
+Mishra- Artificer Prodigy,4,0.92,#d78f42
+Moonlace,1,0.46,#341aff
+Nether Traitor,2,14.17,#000000
+Norin the Wary,1,2.23,#ff1a1a
+Opal Guardian,3,0.2,#ffffff
+Pardic Dragon,6,0.18,#ff1a1a
+Pentarch Paladin,5,0.84,#ffffff
+Plague Sliver,4,0.7,#000000
+Psionic Sliver,5,3.01,#341aff
+Pulmonic Sliver,5,9.02,#ffffff
+Reiterate,3,14.33,#ff1a1a
+Restore Balance,0,4.16,#ffffff
+Saffi Eriksdotter,2,9.09,#d78f42
+Sarpadian Empires- Vol. VII,3,0.32,#8c8d8b
+Scion of the Ur-Dragon,5,3.06,#d78f42
+Sedge Sliver,3,7.87,#d78f42
+Sengir Nosferatu,5,0.3,#000000
+Serra Avenger,2,1.74,#ffffff
+Spectral Force,5,0.26,#087500
+Spike Tiller,5,0.21,#087500
+Sprite Noble,3,0.5,#341aff
+Squall Line,2,1.7,#087500
+Stonebrow- Krosan Hero,5,0.71,#d78f42
+Stonewood Invocation,4,1.13,#087500
+Stronghold Overseer,6,0.86,#000000
+Stuffy Doll,5,8.04,#8c8d8b
+Sudden Spoiling,3,3.95,#000000
+Swarmyard,0,20.85,#8c8d8b
+Teferi- Mage of Zhalfir,5,6.72,#341aff
+Thelonite Hermit,4,0.37,#087500
+Thelon of Havenwood,2,1.38,#d78f42
+Tivadar of Thorn,3,0.32,#ffffff
+Trickbind,2,6.21,#341aff
+Triskelavus,7,0.25,#8c8d8b
+Unyaro Bees,3,0.39,#087500
+Verdant Embrace,5,2.19,#087500
+Vesuva,0,36.1,#8c8d8b
+Vesuvan Shapeshifter,5,0.57,#341aff
+Walk the Aeons,6,10.42,#341aff
+Weathered Bodyguards,6,0.2,#ffffff
+Wheel of Fate,0,3.3,#ff1a1a
+Word of Seizing,5,0.39,#ff1a1a
+Wurmcalling,1,1.29,#087500

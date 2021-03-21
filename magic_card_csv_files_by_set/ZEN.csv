@@ -1,69 +1,69 @@
-cmc,price,color
-5,21.64,#341aff
-3,1.85,#341aff
-0,35.59,#8c8d8b
-2,0.27,#ffffff
-4,0.33,#000000
-3,5.9,#087500
-1,2.66,#8c8d8b
-1,29.12,#000000
-2,9.7,#000000
-6,1.18,#000000
-6,1.96,#ffffff
-6,5.0,#ff1a1a
-5,0.35,#ffffff
-1,0.46,#341aff
-0,3.21,#000000
-4,2.6,#ffffff
-3,0.32,#ffffff
-5,7.31,#8c8d8b
-3,0.26,#ff1a1a
-4,0.25,#ff1a1a
-4,1.15,#ffffff
-0,10.01,#ffffff
-6,8.76,#8c8d8b
-6,1.67,#ffffff
-5,0.23,#087500
-1,5.62,#ff1a1a
-4,0.52,#8c8d8b
-4,0.24,#000000
-5,0.3,#000000
-6,1.22,#ff1a1a
-9,4.39,#ffffff
-3,0.64,#ffffff
-7,7.03,#000000
-5,0.38,#ff1a1a
-8,0.16,#ff1a1a
-8,2.67,#341aff
-2,7.58,#087500
-3,1.25,#341aff
-2,10.03,#ffffff
-0,0.53,#341aff
-5,1.16,#000000
-0,39.22,#8c8d8b
-4,18.59,#341aff
-0,65.37,#8c8d8b
-4,9.15,#087500
-5,12.39,#000000
-4,0.99,#ff1a1a
-4,31.85,#087500
-0,1.15,#087500
-4,0.2,#087500
-2,0.31,#ff1a1a
-6,1.31,#087500
-4,9.43,#341aff
-6,12.21,#341aff
-3,1.82,#000000
-0,58.15,#8c8d8b
-1,0.68,#087500
-5,0.46,#341aff
-6,9.36,#000000
-6,0.16,#341aff
-5,0.32,#341aff
-6,0.42,#087500
-6,0.28,#087500
-5,0.98,#087500
-0,16.04,#ff1a1a
-0,50.15,#8c8d8b
-2,6.58,#ff1a1a
-5,0.33,#ffffff
+name,cmc,price,color
+Archive Trap,5,21.11,#341aff
+Archmage Ascension,3,1.88,#341aff
+Arid Mesa,0,35.95,#8c8d8b
+Armament Master,2,0.27,#ffffff
+Bala Ged Thief,4,0.33,#000000
+Beastmaster Ascension,3,6.5,#087500
+Blade of the Bloodchief,1,2.66,#8c8d8b
+Bloodchief Ascension,1,29.13,#000000
+Bloodghast,2,9.82,#000000
+Blood Tribute,6,1.17,#000000
+Celestial Mantle,6,2.1,#ffffff
+Chandra Ablaze,6,5.12,#ff1a1a
+Conqueror's Pledge,5,0.35,#ffffff
+Cosi's Trickster,1,0.46,#341aff
+Crypt of Agadeem,0,3.28,#000000
+Day of Judgment,4,2.81,#ffffff
+Devout Lightcaster,3,0.32,#ffffff
+Eldrazi Monument,5,7.31,#8c8d8b
+Electropotence,3,0.26,#ff1a1a
+Elemental Appeal,4,0.25,#ff1a1a
+Emeria Angel,4,1.16,#ffffff
+Emeria- the Sky Ruin,0,10.11,#ffffff
+Eternity Vessel,6,8.85,#8c8d8b
+Felidar Sovereign,6,1.67,#ffffff
+Gigantiform,5,0.23,#087500
+Goblin Guide,1,5.67,#ff1a1a
+Grappling Hook,4,0.52,#8c8d8b
+Guul Draz Specter,4,0.24,#000000
+Halo Hunter,5,0.3,#000000
+Hellkite Charger,6,1.25,#ff1a1a
+Iona- Shield of Emeria,9,4.45,#ffffff
+Kabira Evangel,3,0.64,#ffffff
+Kalitas- Bloodchief of Ghet,7,7.07,#000000
+Kazuul Warlord,5,0.38,#ff1a1a
+Lavaball Trap,8,0.16,#ff1a1a
+Lorthos- the Tidemaker,8,2.67,#341aff
+Lotus Cobra,2,7.29,#087500
+Lullmage Mentor,3,1.27,#341aff
+Luminarch Ascension,2,10.03,#ffffff
+Magosi- the Waterveil,0,0.52,#341aff
+Malakir Bloodwitch,5,1.17,#000000
+Marsh Flats,0,39.16,#8c8d8b
+Mindbreak Trap,4,18.69,#341aff
+Misty Rainforest,0,65.86,#8c8d8b
+Nissa Revane,4,9.15,#087500
+Ob Nixilis- the Fallen,5,12.41,#000000
+Obsidian Fireheart,4,0.98,#ff1a1a
+Oracle of Mul Daya,4,31.91,#087500
+Oran-Rief- the Vastwood,0,1.17,#087500
+Predatory Urge,4,0.2,#087500
+Pyromancer Ascension,2,0.32,#ff1a1a
+Rampaging Baloths,6,1.31,#087500
+Rite of Replication,4,9.45,#341aff
+Roil Elemental,6,12.33,#341aff
+Sadistic Sacrament,3,1.81,#000000
+Scalding Tarn,0,58.5,#8c8d8b
+Scute Mob,1,0.72,#087500
+Sea Gate Loremaster,5,0.48,#341aff
+Sorin Markov,6,9.4,#000000
+Sphinx of Jwar Isle,6,0.16,#341aff
+Sphinx of Lost Truths,5,0.32,#341aff
+Summoning Trap,6,0.41,#087500
+Terra Stomper,6,0.28,#087500
+Turntimber Ranger,5,0.97,#087500
+Valakut- the Molten Pinnacle,0,16.42,#ff1a1a
+Verdant Catacombs,0,50.35,#8c8d8b
+Warren Instigator,2,6.31,#ff1a1a
+World Queller,5,0.33,#ffffff

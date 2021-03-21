@@ -1,46 +1,46 @@
-cmc,price,color
-2,0.94,#d78f42
-1,0.92,#ff1a1a
-1,0.52,#ff1a1a
-7,0.25,#d78f42
-7,0.23,#d78f42
-5,6.65,#d78f42
-4,0.35,#087500
-8,2.21,#d78f42
-2,0.21,#d78f42
-5,2.7,#d78f42
-0,1.91,#8c8d8b
-6,0.27,#000000
-4,4.46,#8c8d8b
-3,1.08,#d78f42
-4,0.23,#ff1a1a
-3,0.48,#d78f42
-9,0.65,#341aff
-1,8.84,#000000
-3,2.73,#d78f42
-5,3.25,#d78f42
-7,4.05,#d78f42
-6,0.8,#d78f42
-2,1.63,#ffffff
-2,1.2,#ffffff
-4,3.88,#341aff
-6,0.73,#d78f42
-6,2.06,#ffffff
-8,5.28,#d78f42
-1,17.62,#d78f42
-3,0.49,#000000
-6,0.49,#d78f42
-6,0.59,#087500
-10,11.41,#d78f42
-4,1.32,#ff1a1a
-3,0.23,#ffffff
-2,0.58,#000000
-3,0.14,#341aff
-5,0.78,#ffffff
-5,2.73,#087500
-5,0.5,#d78f42
-5,1.53,#341aff
-5,2.46,#087500
-5,1.04,#ff1a1a
-4,1.25,#ffffff
-4,0.14,#d78f42
+name,cmc,price,color
+Apocalypse Hydra,2,0.94,#d78f42
+Banefire,1,0.92,#ff1a1a
+Bloodhall Ooze,1,0.52,#ff1a1a
+Blood Tyrant,7,0.26,#d78f42
+Charnelhoard Wurm,7,0.23,#d78f42
+Child of Alara,5,6.65,#d78f42
+Cliffrunner Behemoth,4,0.35,#087500
+Conflux,8,2.21,#d78f42
+Cylian Sunsinger,2,0.21,#d78f42
+Ethersworn Adjudicator,5,2.7,#d78f42
+Exotic Orchard,0,1.91,#8c8d8b
+Extractor Demon,6,0.27,#000000
+Font of Mythos,4,4.46,#8c8d8b
+Giltspire Avenger,3,1.08,#d78f42
+Goblin Razerunners,4,0.23,#ff1a1a
+Gwafa Hazid- Profiteer,3,0.46,#d78f42
+Inkwell Leviathan,9,0.65,#341aff
+Kederekt Parasite,1,8.59,#000000
+Knight of the Reliquary,3,2.78,#d78f42
+Maelstrom Archangel,5,3.25,#d78f42
+Magister Sphinx,7,4.05,#d78f42
+Malfegor,6,0.82,#d78f42
+Mark of Asylum,2,1.63,#ffffff
+Martial Coup,2,1.2,#ffffff
+Master Transmuter,4,3.84,#341aff
+Meglonoth,6,0.72,#d78f42
+Mirror-Sigil Sergeant,6,2.12,#ffffff
+Nicol Bolas- Planeswalker,8,5.28,#d78f42
+Noble Hierarch,1,17.61,#d78f42
+Nyxathid,3,0.49,#000000
+Obelisk of Alara,6,0.49,#d78f42
+Paleoloth,6,0.59,#087500
+Progenitus,10,11.34,#d78f42
+Rakka Mar,4,1.34,#ff1a1a
+Scepter of Dominance,3,0.23,#ffffff
+Scepter of Fugue,2,0.57,#000000
+Scepter of Insight,3,0.14,#341aff
+Sigil of the Empty Throne,5,0.79,#ffffff
+Soul's Majesty,5,3.05,#087500
+Sphinx Summoner,5,0.5,#d78f42
+Telemin Performance,5,1.59,#341aff
+Thornling,5,2.46,#087500
+Voracious Dragon,5,1.04,#ff1a1a
+Wall of Reverence,4,1.22,#ffffff
+Worldheart Phoenix,4,0.14,#d78f42

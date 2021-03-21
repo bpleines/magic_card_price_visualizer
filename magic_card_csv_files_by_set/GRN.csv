@@ -1,71 +1,71 @@
-cmc,price,color
-4,3.56,#ff1a1a
-2,16.86,#d78f42
-8,0.16,#d78f42
-4,1.86,#d78f42
-4,2.09,#087500
-3,0.12,#000000
-2,0.16,#ffffff
-6,0.12,#087500
-6,0.34,#d78f42
-0,0.15,#d78f42
-3,1.24,#d78f42
-3,0.25,#d78f42
-3,9.02,#8c8d8b
-3,0.22,#ffffff
-9,0.3,#d78f42
-2,2.74,#ffffff
-3,0.15,#d78f42
-5,13.44,#ffffff
-5,5.29,#000000
-6,1.03,#341aff
-2,1.21,#341aff
-2,0.26,#d78f42
-4,0.08,#ff1a1a
-4,0.47,#d78f42
-6,2.01,#d78f42
-4,0.16,#ff1a1a
-8,0.12,#d78f42
-2,0.19,#d78f42
-5,0.14,#000000
-0,0.39,#8c8d8b
-7,0.18,#087500
-3,0.7,#d78f42
-6,0.69,#d78f42
-3,1.92,#d78f42
-2,1.75,#d78f42
-3,2.44,#ff1a1a
-6,0.2,#ffffff
-3,1.97,#d78f42
-2,1.24,#000000
-3,0.33,#000000
-2,0.9,#341aff
-3,2.1,#d78f42
-2,0.38,#341aff
-6,2.32,#d78f42
-4,0.5,#087500
-5,0.16,#341aff
-0,11.31,#d78f42
-1,1.31,#087500
-3,1.89,#341aff
-5,1.15,#d78f42
-5,0.19,#341aff
-7,0.14,#d78f42
-3,1.63,#ff1a1a
-4,0.33,#000000
-2,0.31,#ff1a1a
-0,12.9,#d78f42
-0,11.39,#d78f42
-2,0.38,#d78f42
-3,0.61,#d78f42
-0,11.06,#d78f42
-3,1.56,#d78f42
-6,8.17,#d78f42
-5,1.33,#d78f42
-5,6.77,#d78f42
-3,0.24,#d78f42
-5,0.29,#ffffff
-5,0.14,#087500
-4,2.4,#d78f42
-6,0.22,#d78f42
-0,10.58,#d78f42
+name,cmc,price,color
+Arclight Phoenix,4,3.7,#ff1a1a
+Assassin's Trophy,2,17.24,#d78f42
+Assure // Assemble,8,0.16,#d78f42
+Aurelia- Exemplar of Justice,4,1.98,#d78f42
+Beast Whisperer,4,2.05,#087500
+Blood Operative,3,0.12,#000000
+Bounty Agent,2,0.17,#ffffff
+Bounty of Might,6,0.12,#087500
+Camaraderie,6,0.36,#d78f42
+Chamber Sentry,0,0.15,#d78f42
+Chance for Glory,3,1.38,#d78f42
+Charnel Troll,3,0.24,#d78f42
+Chromatic Lantern,3,9.03,#8c8d8b
+Citywide Bust,3,0.22,#ffffff
+Connive // Concoct,9,0.32,#d78f42
+Dawn of Hope,2,3.08,#ffffff
+Deafening Clarion,3,0.17,#d78f42
+Divine Visitation,5,13.46,#ffffff
+Doom Whisperer,5,5.49,#000000
+Dream Eater,6,1.05,#341aff
+Drowned Secrets,2,1.23,#341aff
+Emmara- Soul of the Accord,2,0.27,#d78f42
+Erratic Cyclops,4,0.08,#ff1a1a
+Etrata- the Silencer,4,0.47,#d78f42
+Expansion // Explosion,6,1.94,#d78f42
+Experimental Frenzy,4,0.14,#ff1a1a
+Find // Finality,8,0.13,#d78f42
+Firemind's Research,2,0.19,#d78f42
+Gruesome Menagerie,5,0.15,#000000
+Guildmages' Forum,0,0.38,#8c8d8b
+Hatchery Spider,7,0.18,#087500
+Ionize,3,0.78,#d78f42
+Izoni- Thousand-Eyed,6,0.72,#d78f42
+Knight of Autumn,3,1.93,#d78f42
+Lazav- the Multifarious,2,1.65,#d78f42
+Legion Warboss,3,2.47,#ff1a1a
+Light of the Legion,6,0.2,#ffffff
+March of the Multitudes,3,1.89,#d78f42
+Mausoleum Secrets,2,1.37,#000000
+Midnight Reaper,3,0.32,#000000
+Mission Briefing,2,0.94,#341aff
+Mnemonic Betrayal,3,2.16,#d78f42
+Narcomoeba,2,0.37,#341aff
+Niv-Mizzet- Parun,6,2.78,#d78f42
+Nullhide Ferox,4,0.51,#087500
+Omnispell Adept,5,0.16,#341aff
+Overgrown Tomb,0,11.48,#d78f42
+Pelt Collector,1,1.44,#087500
+Quasiduplicate,3,1.87,#341aff
+Ral- Izzet Viceroy,5,1.13,#d78f42
+Ral's Dispersal,5,0.18,#341aff
+Response // Resurgence,7,0.13,#d78f42
+Risk Factor,3,1.59,#ff1a1a
+Ritual of Soot,4,0.34,#000000
+Runaway Steam-Kin,2,0.31,#ff1a1a
+Sacred Foundry,0,13.86,#d78f42
+Steam Vents,0,11.29,#d78f42
+Swiftblade Vindicator,2,0.4,#d78f42
+Tajic- Legion's Edge,3,0.61,#d78f42
+Temple Garden,0,11.45,#d78f42
+Thief of Sanity,3,1.6,#d78f42
+Thousand-Year Storm,6,8.3,#d78f42
+Trostani Discordant,5,1.31,#d78f42
+Underrealm Lich,5,6.85,#d78f42
+Unmoored Ego,3,0.24,#d78f42
+Venerated Loxodon,5,0.29,#ffffff
+Vivid Revival,5,0.14,#087500
+Vraska- Golgari Queen,4,2.44,#d78f42
+Vraska's Stoneglare,6,0.22,#d78f42
+Watery Grave,0,10.87,#d78f42

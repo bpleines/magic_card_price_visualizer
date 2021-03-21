@@ -1,55 +1,55 @@
-cmc,price,color
-2,1.56,#d78f42
-2,0.23,#000000
-3,0.35,#ffffff
-2,0.28,#8c8d8b
-6,0.77,#ff1a1a
-0,0.23,#8c8d8b
-6,1.23,#341aff
-7,0.38,#8c8d8b
-6,0.23,#341aff
-2,0.17,#341aff
-4,0.13,#000000
-7,0.14,#000000
-3,4.32,#ffffff
-2,0.89,#8c8d8b
-3,0.22,#ff1a1a
-6,0.65,#8c8d8b
-1,0.27,#ff1a1a
-5,0.51,#d78f42
-7,0.14,#087500
-5,0.19,#ff1a1a
-3,0.14,#341aff
-0,1.21,#d78f42
-4,1.11,#000000
-3,0.32,#d78f42
-4,13.73,#000000
-3,4.49,#ff1a1a
-10,18.71,#8c8d8b
-6,0.98,#ffffff
-3,1.95,#8c8d8b
-4,0.64,#d78f42
-0,4.1,#8c8d8b
-5,0.14,#ffffff
-0,0.27,#d78f42
-3,2.43,#087500
-2,0.26,#ff1a1a
-3,0.36,#ffffff
-3,0.3,#341aff
-1,2.64,#087500
-4,0.28,#341aff
-5,2.93,#8c8d8b
-5,0.14,#000000
-0,0.33,#8c8d8b
-0,0.37,#8c8d8b
-4,1.34,#000000
-7,0.99,#341aff
-1,2.43,#8c8d8b
-2,0.32,#ffffff
-2,0.25,#087500
-4,6.11,#8c8d8b
-7,0.17,#ff1a1a
-3,0.18,#087500
-0,0.91,#d78f42
-7,3.16,#087500
-7,5.22,#087500
+name,cmc,price,color
+Ayli- Eternal Pilgrim,2,1.6,#d78f42
+Bearer of Silence,2,0.24,#000000
+Call the Gatewatch,3,0.37,#ffffff
+Captain's Claws,2,0.29,#8c8d8b
+Chandra- Flamecaller,6,0.79,#ff1a1a
+Corrupted Crossroads,0,0.23,#8c8d8b
+Crush of Tentacles,6,1.29,#341aff
+Deceiver of Form,7,0.39,#8c8d8b
+Deepfathom Skulker,6,0.25,#341aff
+Dimensional Infiltrator,2,0.17,#341aff
+Drana's Chosen,4,0.13,#000000
+Dread Defiler,7,0.14,#000000
+Eldrazi Displacer,3,4.36,#ffffff
+Eldrazi Mimic,2,0.86,#8c8d8b
+Eldrazi Obligator,3,0.22,#ff1a1a
+Endbringer,6,0.65,#8c8d8b
+Fall of the Titans,1,0.28,#ff1a1a
+General Tazri,5,0.51,#d78f42
+Gladehart Cavalry,7,0.15,#087500
+Goblin Dark-Dwellers,5,0.19,#ff1a1a
+Hedron Alignment,3,0.14,#341aff
+Hissing Quagmire,0,1.24,#d78f42
+Inverter of Truth,4,1.13,#000000
+Jori En- Ruin Diver,3,0.35,#d78f42
+Kalitas- Traitor of Ghet,4,14.35,#000000
+Kozilek's Return,3,5.15,#ff1a1a
+Kozilek- the Great Distortion,10,19.07,#8c8d8b
+Linvala- the Preserver,6,1.0,#ffffff
+Matter Reshaper,3,1.94,#8c8d8b
+Mina and Denn- Wildborn,4,0.64,#d78f42
+Mirrorpool,0,4.28,#8c8d8b
+Munda's Vanguard,5,0.15,#ffffff
+Needle Spires,0,0.28,#d78f42
+Nissa- Voice of Zendikar,3,2.52,#087500
+Oath of Chandra,2,0.26,#ff1a1a
+Oath of Gideon,3,0.36,#ffffff
+Oath of Jace,3,0.32,#341aff
+Oath of Nissa,1,3.06,#087500
+Overwhelming Denial,4,0.27,#341aff
+Reality Smasher,5,2.99,#8c8d8b
+Remorseless Punishment,5,0.14,#000000
+Ruins of Oran-Rief,0,0.34,#8c8d8b
+Sea Gate Wreckage,0,0.37,#8c8d8b
+Sifter of Skulls,4,1.45,#000000
+Sphinx of the Final Word,7,1.02,#341aff
+Stoneforge Masterwork,1,2.44,#8c8d8b
+Stone Haven Outfitter,2,0.31,#ffffff
+Sylvan Advocate,2,0.25,#087500
+Thought-Knot Seer,4,6.4,#8c8d8b
+Tyrant of Valakut,7,0.18,#ff1a1a
+Vile Redeemer,3,0.18,#087500
+Wandering Fumarole,0,0.92,#d78f42
+World Breaker,7,2.98,#087500
+Zendikar Resurgent,7,5.2,#087500

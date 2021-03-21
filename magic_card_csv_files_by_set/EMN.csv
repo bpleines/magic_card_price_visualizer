@@ -1,62 +1,62 @@
-cmc,price,color
-6,0.16,#ff1a1a
-8,1.96,#ff1a1a
-4,0.15,#d78f42
-7,3.31,#ffffff
-3,0.12,#341aff
-2,3.27,#000000
-3,0.89,#ff1a1a
-3,0.45,#ffffff
-1,3.3,#000000
-1,0.99,#000000
-10,1.71,#087500
-6,0.98,#ffffff
-8,0.24,#000000
-5,2.42,#341aff
-8,0.49,#341aff
-3,4.27,#087500
-3,0.1,#087500
-13,42.73,#8c8d8b
-3,0.72,#8c8d8b
-0,1.46,#8c8d8b
-4,6.0,#d78f42
-4,27.43,#ffffff
-2,3.87,#d78f42
-0,2.45,#ff1a1a
-3,1.83,#ff1a1a
-3,0.53,#ff1a1a
-4,0.16,#d78f42
-4,0.24,#341aff
-4,0.14,#ff1a1a
-3,4.04,#341aff
-5,1.12,#d78f42
-3,21.77,#000000
-2,0.31,#8c8d8b
-1,2.83,#341aff
-7,9.59,#341aff
-5,2.33,#ff1a1a
-3,0.6,#ff1a1a
-4,0.24,#341aff
-6,0.34,#000000
-3,0.38,#000000
-1,0.22,#087500
-7,0.16,#ffffff
-4,0.09,#ffffff
-2,9.39,#ffffff
-1,4.67,#ffffff
-3,0.11,#8c8d8b
-3,7.79,#d78f42
-3,0.44,#087500
-4,4.9,#087500
-1,0.14,#8c8d8b
-2,0.25,#000000
-3,0.2,#ff1a1a
-4,0.32,#341aff
-4,7.14,#d78f42
-3,3.61,#ffffff
-5,0.46,#ffffff
-4,9.34,#000000
-5,1.2,#d78f42
-6,0.22,#087500
-5,1.42,#000000
-2,0.18,#341aff
+name,cmc,price,color
+Assembled Alphas,6,0.16,#ff1a1a
+Bedlam Reveler,8,1.87,#ff1a1a
+Bloodhall Priest,4,0.15,#d78f42
+Bruna- the Fading Light,7,3.57,#ffffff
+Coax from the Blind Eternities,3,0.12,#341aff
+Collective Brutality,2,3.36,#000000
+Collective Defiance,3,1.05,#ff1a1a
+Collective Effort,3,0.48,#ffffff
+Cryptbreaker,1,4.32,#000000
+Dark Salvation,1,1.04,#000000
+Decimator of the Provinces,10,1.73,#087500
+Deploy the Gatewatch,6,0.97,#ffffff
+Distended Mindbender,8,0.24,#000000
+Docent of Perfection // Final Iteration,5,2.32,#341aff
+Elder Deep-Fiend,8,0.49,#341aff
+Eldritch Evolution,3,4.52,#087500
+Emrakul's Evangel,3,0.11,#087500
+Emrakul- the Promised End,13,43.44,#8c8d8b
+Eternal Scourge,3,0.71,#8c8d8b
+Geier Reach Sanitarium,0,1.54,#8c8d8b
+Gisa and Geralf,4,5.71,#d78f42
+Gisela- the Broken Blade,4,28.36,#ffffff
+Grim Flayer,2,3.9,#d78f42
+Hanweir Battlements,0,2.49,#ff1a1a
+Hanweir Garrison,3,1.94,#ff1a1a
+Harmless Offering,3,0.53,#ff1a1a
+Heron's Grace Champion,4,0.16,#d78f42
+Identity Thief,4,0.24,#341aff
+Impetuous Devils,4,0.14,#ff1a1a
+Imprisoned in the Moon,3,4.71,#341aff
+Ishkanah- Grafwidow,5,1.1,#d78f42
+Liliana- the Last Hope,3,22.14,#000000
+Lupine Prototype,2,0.31,#8c8d8b
+Mausoleum Wanderer,1,2.93,#341aff
+Mind's Dilation,7,9.56,#341aff
+Mirrorwing Dragon,5,2.32,#ff1a1a
+Nahiri's Wrath,3,0.59,#ff1a1a
+Niblis of Frost,4,0.24,#341aff
+Noosegraf Mob,6,0.34,#000000
+Oath of Liliana,3,0.38,#000000
+Permeating Mass,1,0.22,#087500
+Providence,7,0.16,#ffffff
+Sanctifier of Souls,4,0.09,#ffffff
+Selfless Spirit,2,10.27,#ffffff
+Sigarda's Aid,1,4.77,#ffffff
+Soul Separator,3,0.11,#8c8d8b
+Spell Queller,3,8.49,#d78f42
+Spirit of the Hunt,3,0.43,#087500
+Splendid Reclamation,4,4.75,#087500
+Stitcher's Graft,1,0.14,#8c8d8b
+Stromkirk Condemned,2,0.25,#000000
+Stromkirk Occultist,3,0.2,#ff1a1a
+Summary Dismissal,4,0.32,#341aff
+Tamiyo- Field Researcher,4,7.67,#d78f42
+Thalia- Heretic Cathar,3,3.29,#ffffff
+Thalia's Lancers,5,0.46,#ffffff
+Tree of Perdition,4,9.21,#000000
+Ulrich of the Krallenhorde // Ulrich- Uncontested Alpha,5,1.26,#d78f42
+Ulvenwald Observer,6,0.22,#087500
+Voldaren Pariah // Abolisher of Bloodlines,5,1.44,#000000
+Wharf Infiltrator,2,0.2,#341aff

@@ -1,71 +1,71 @@
-cmc,price,color
-4,0.38,#d78f42
-3,0.46,#ffffff
-2,0.92,#8c8d8b
-0,4.23,#000000
-5,0.25,#ff1a1a
-0,6.08,#d78f42
-7,0.86,#d78f42
-4,0.11,#ffffff
-6,1.63,#000000
-3,0.2,#000000
-6,0.18,#ffffff
-6,0.22,#ffffff
-3,0.57,#8c8d8b
-5,5.23,#8c8d8b
-3,0.81,#ff1a1a
-4,0.47,#d78f42
-6,0.1,#ff1a1a
-4,16.58,#8c8d8b
-0,7.61,#d78f42
-3,1.65,#ffffff
-0,5.45,#d78f42
-5,1.63,#ff1a1a
-2,0.31,#ff1a1a
-4,2.52,#d78f42
-4,0.57,#d78f42
-4,0.89,#000000
-2,0.6,#087500
-4,6.81,#8c8d8b
-6,2.44,#341aff
-7,0.12,#d78f42
-6,0.31,#000000
-5,14.06,#ffffff
-3,0.86,#087500
-5,0.21,#8c8d8b
-0,29.98,#8c8d8b
-6,7.42,#d78f42
-6,1.71,#087500
-2,0.46,#341aff
-4,3.45,#341aff
-3,0.17,#d78f42
-5,1.28,#d78f42
-4,2.47,#000000
-4,0.35,#341aff
-7,1.31,#d78f42
-4,0.23,#000000
-4,5.89,#d78f42
-5,0.85,#ff1a1a
-3,0.58,#ff1a1a
-3,1.45,#087500
-0,4.31,#d78f42
-3,0.86,#087500
-5,24.59,#d78f42
-3,0.38,#341aff
-4,0.37,#087500
-4,0.37,#ffffff
-4,0.33,#341aff
-3,0.12,#ff1a1a
-5,0.26,#087500
-5,0.26,#341aff
-4,0.7,#8c8d8b
-8,0.29,#000000
-4,0.48,#8c8d8b
-4,0.15,#ff1a1a
-5,1.4,#ffffff
-8,0.22,#087500
-4,1.0,#ff1a1a
-4,1.0,#8c8d8b
-0,5.66,#d78f42
-5,0.24,#000000
-6,0.11,#341aff
+name,cmc,price,color
+Aryel- Knight of Windgrace,4,0.37,#d78f42
+Benalish Marshal,3,0.48,#ffffff
+Blackblade Reforged,2,0.94,#8c8d8b
+Cabal Stronghold,0,4.69,#000000
+Chandra's Outburst,5,0.25,#ff1a1a
+Clifftop Retreat,0,6.24,#d78f42
+Darigaaz Reincarnated,7,0.9,#d78f42
+Daring Archaeologist,4,0.11,#ffffff
+Demonlord Belzenlok,6,1.65,#000000
+Dread Shade,3,0.21,#000000
+Evra- Halcyon Witness,6,0.19,#ffffff
+Fall of the Thran,6,0.23,#ffffff
+Forebear's Blade,3,0.57,#8c8d8b
+Gilded Lotus,5,5.32,#8c8d8b
+Goblin Chainwhirler,3,0.92,#ff1a1a
+Grand Warlord Radha,4,0.49,#d78f42
+Haphazard Bombardment,6,0.1,#ff1a1a
+Helm of the Host,4,15.86,#8c8d8b
+Hinterland Harbor,0,7.95,#d78f42
+History of Benalia,3,1.61,#ffffff
+Isolated Chapel,0,5.4,#d78f42
+Jaya Ballard,5,1.72,#ff1a1a
+Jaya's Immolating Inferno,2,0.31,#ff1a1a
+Jhoira- Weatherlight Captain,4,2.56,#d78f42
+Jodah- Archmage Eternal,4,0.59,#d78f42
+Josu Vess- Lich Knight,4,0.93,#000000
+Kamahl's Druidic Vow,2,0.61,#087500
+Karn- Scion of Urza,4,6.8,#8c8d8b
+Karn's Temporal Sundering,6,2.59,#341aff
+Kazarov- Sengir Pureblood,7,0.12,#d78f42
+Lich's Mastery,6,0.3,#000000
+Lyra Dawnbringer,5,16.81,#ffffff
+Marwyn- the Nurturer,3,0.87,#087500
+Mishra's Self-Replicator,5,0.21,#8c8d8b
+Mox Amber,0,29.94,#8c8d8b
+Muldrotha- the Gravetide,6,7.43,#d78f42
+Multani- Yavimaya's Avatar,6,1.71,#087500
+Naban- Dean of Iteration,2,0.47,#341aff
+Naru Meha- Master Wizard,4,3.78,#341aff
+Niambi- Faithful Healer,3,0.17,#d78f42
+Oath of Teferi,5,1.25,#d78f42
+Phyrexian Scriptures,4,2.93,#000000
+Precognition Field,4,0.3,#341aff
+Primevals' Glorious Rebirth,7,1.19,#d78f42
+Rite of Belzenlok,4,0.23,#000000
+Shalai- Voice of Plenty,4,6.53,#d78f42
+Siege-Gang Commander,5,0.86,#ff1a1a
+Squee- the Immortal,3,0.66,#ff1a1a
+Steel Leaf Champion,3,1.43,#087500
+Sulfur Falls,0,4.17,#d78f42
+Sylvan Awakening,3,0.82,#087500
+Teferi- Hero of Dominaria,5,25.87,#d78f42
+Tempest Djinn,3,0.39,#341aff
+Territorial Allosaurus,4,0.38,#087500
+Teshar- Ancestor's Apostle,4,0.37,#ffffff
+The Antiquities War,4,0.32,#341aff
+The First Eruption,3,0.13,#ff1a1a
+The Mending of Dominaria,5,0.26,#087500
+The Mirari Conjecture,5,0.25,#341aff
+Thran Temporal Gateway,4,0.68,#8c8d8b
+Torgaar- Famine Incarnate,8,0.29,#000000
+Traxos- Scourge of Kroog,4,0.5,#8c8d8b
+Two-Headed Giant,4,0.14,#ff1a1a
+Urza's Ruinous Blast,5,1.58,#ffffff
+Verdant Force,8,0.23,#087500
+Verix Bladewing,4,1.0,#ff1a1a
+Weatherlight,4,1.03,#8c8d8b
+Woodland Cemetery,0,5.75,#d78f42
+Yawgmoth's Vile Offering,5,0.25,#000000
+Zahid- Djinn of the Lamp,6,0.11,#341aff
