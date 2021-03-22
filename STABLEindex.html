@@ -79,73 +79,87 @@ body {
 <div class="navbar">
   <a href="#home">Home</a>
   <div class="dropdown" style="float:right;">
+    <button class="dropbtn">Choose MTG Color
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <button onclick="renderScatterplot('KHM')">White</button>
+      <button onclick="renderScatterplot('ZNR')">Blue</button>
+      <button onclick="renderScatterplot('ZNR')">Black</button>
+      <button onclick="renderScatterplot('ZNR')">Red</button>
+      <button onclick="renderScatterplot('ZNR')">Green</button>
+      <button onclick="renderScatterplot('ZNR')">Multi</button>
+      <button onclick="renderScatterplot('ZNR')">Colorless</button>
+    </div>
+  </div>
+  <div class="dropdown" style="float:right;">
     <button class="dropbtn">Choose MTG Set 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <element onclick="renderScatterplot('KHM')">Kaldheim</a><br>
-      <element onclick="renderScatterplot('ZNR')">Zendikar Rising</a><br>
-      <element onclick="renderScatterplot('IKO')">Ikoria</a><br>
-      <element onclick="renderScatterplot('THB')">Theros Beyond Death</a><br>
-      <element onclick="renderScatterplot('ELD')">Throne of Eldraine</a><br>
-      <element onclick="renderScatterplot('WAR')">War of the Spark</a><br>
-      <element onclick="renderScatterplot('RNA')">Ravnica Allegiance</a><br>
-      <element onclick="renderScatterplot('GRN')">Guilds of Ravnica</a><br>
-      <element onclick="renderScatterplot('DOM')">Domninaria</a><br>
-      <element onclick="renderScatterplot('RIX')">Return to Ixalan</a><br>
-      <element onclick="renderScatterplot('XLN')">Ixalan</a><br>
-      <element onclick="renderScatterplot('HOU')">Hour of Devastation</a><br>
-      <element onclick="renderScatterplot('AKH')">Amonket</a><br>
-      <element onclick="renderScatterplot('AER')">Aether Revolt</a><br>
-      <element onclick="renderScatterplot('KLD')">Kaladesh</a><br>
-      <element onclick="renderScatterplot('EMN')">Eldritch Moon</a><br>
-      <element onclick="renderScatterplot('SOI')">Shadows over Innistrad</a><br>
-      <element onclick="renderScatterplot('OGW')">Oath of Gatewatch</a><br>
-      <element onclick="renderScatterplot('BFZ')">Battle for Zendikar</a><br>
-      <element onclick="renderScatterplot('DTK')">Dragons of Tarkir</a><br>
-      <element onclick="renderScatterplot('FRF')">Fate Reforged</a><br>
-      <element onclick="renderScatterplot('KTK')">Khans of Tarkir</a><br>
-      <element onclick="renderScatterplot('JOU')">Journey into Nyx</a><br>
-      <element onclick="renderScatterplot('BNG')">Born of the Gods</a><br>
-      <element onclick="renderScatterplot('THS')">Theros</a><br>
-      <element onclick="renderScatterplot('DGM')">Dragon's Maze</a><br>
-      <element onclick="renderScatterplot('GTC')">Gatecrash</a><br>
-      <element onclick="renderScatterplot('RTR')">Return to Ravnica</a><br>
-      <element onclick="renderScatterplot('AVR')">Avacyn Restored</a><br>
-      <element onclick="renderScatterplot('DKA')">Dark Ascension</a><br>
-      <element onclick="renderScatterplot('ISD')">Innistrad</a><br>
-      <element onclick="renderScatterplot('NPH')">New Phyrexia</a><br>
-      <element onclick="renderScatterplot('MBS')">Mirrodin Beseiged</a><br>
-      <element onclick="renderScatterplot('SOM')">Scars of Mirrodin</a><br>
-      <element onclick="renderScatterplot('ROE')">Rize of Eldrazi</a><br>
-      <element onclick="renderScatterplot('WWK')">Worldwake</a><br>
-      <element onclick="renderScatterplot('ZEN')">Zendikar</a><br>
-      <element onclick="renderScatterplot('ARB')">Alara Reborn</a><br>
-      <element onclick="renderScatterplot('CON')">Conflux</a><br>
-      <element onclick="renderScatterplot('ALA')">Shards of Alara</a><br>
-      <element onclick="renderScatterplot('EVE')">Eventide</a><br>
-      <element onclick="renderScatterplot('SHM')">Shadowmoor</a><br>
-      <element onclick="renderScatterplot('MOR')">Morningtide</a><br>
-      <element onclick="renderScatterplot('LRW')">Lorwyn</a><br>
-      <element onclick="renderScatterplot('FUT')">Future Site</a><br>
-      <element onclick="renderScatterplot('PLC')">Planar Chaos</a><br>
-      <element onclick="renderScatterplot('TSP')">Time Spiral</a><br>
-      <element onclick="renderScatterplot('CSP')">Coldsnap</a><br>
-      <element onclick="renderScatterplot('DIS')">Dissension</a><br>
-      <element onclick="renderScatterplot('GPT')">Guildpact</a><br>
-      <element onclick="renderScatterplot('RAV')">Ravnica: City of Guilds</a><br>
-      <element onclick="renderScatterplot('SOK')">Saviors of Kamigawa</a><br>
-      <element onclick="renderScatterplot('BOK')">Betrayers of Kamigawa</a><br>
-      <element onclick="renderScatterplot('CHK')">Champions of Kamigawa</a><br>
-      <element onclick="renderScatterplot('5DN')">Fifth Dawn</a><br>
-      <element onclick="renderScatterplot('DST')">Darksteel</a><br>
-      <element onclick="renderScatterplot('MRD')">Mirrodin</a><br>
-      <element onclick="renderScatterplot('SCG')">Scourge</a><br>
-      <element onclick="renderScatterplot('LGN')">Legions</a><br>
-      <element onclick="renderScatterplot('ONS')">Onslaught</a><br>
-      <element onclick="renderScatterplot('JUD')">Judgement</a><br>
-      <element onclick="renderScatterplot('TOR')">Torment</a><br>
-      <element onclick="renderScatterplot('ODY')">Odyssey</a><br>
+      <button onclick="renderScatterplot('KHM')">Kaldheim</button>
+      <button onclick="renderScatterplot('ZNR')">Zendikar Rising</button>
+      <button onclick="renderScatterplot('IKO')">Ikoria</button>
+      <button onclick="renderScatterplot('THB')">Theros Beyond Death</button>
+      <button onclick="renderScatterplot('ELD')">Throne of Eldraine</button>
+      <button onclick="renderScatterplot('WAR')">War of the Spark</button>
+      <button onclick="renderScatterplot('RNA')">Ravnica Allegiance</button>
+      <button onclick="renderScatterplot('GRN')">Guilds of Ravnica</button>
+      <button onclick="renderScatterplot('DOM')">Domninaria</button>
+      <button onclick="renderScatterplot('RIX')">Return to Ixalan</button>
+      <button onclick="renderScatterplot('XLN')">Ixalan</button>
+      <button onclick="renderScatterplot('HOU')">Hour of Devastation</button>
+      <button onclick="renderScatterplot('AKH')">Amonket</button>
+      <button onclick="renderScatterplot('AER')">Aether Revolt</button>
+      <button onclick="renderScatterplot('KLD')">Kaladesh</button>
+      <button onclick="renderScatterplot('EMN')">Eldritch Moon</button>
+      <button onclick="renderScatterplot('SOI')">Shadows over Innistrad</button>
+      <button onclick="renderScatterplot('OGW')">Oath of Gatewatch</button>
+      <button onclick="renderScatterplot('BFZ')">Battle for Zendikar</button>
+      <button onclick="renderScatterplot('DTK')">Dragons of Tarkir</button>
+      <button onclick="renderScatterplot('FRF')">Fate Reforged</button>
+      <button onclick="renderScatterplot('KTK')">Khans of Tarkir</button>
+      <button onclick="renderScatterplot('JOU')">Journey into Nyx</button>
+      <button onclick="renderScatterplot('BNG')">Born of the Gods</button>
+      <button onclick="renderScatterplot('THS')">Theros</button>
+      <button onclick="renderScatterplot('DGM')">Dragon's Maze</button>
+      <button onclick="renderScatterplot('GTC')">Gatecrash</button>
+      <button onclick="renderScatterplot('RTR')">Return to Ravnica</button>
+      <button onclick="renderScatterplot('AVR')">Avacyn Restored</button>
+      <button onclick="renderScatterplot('DKA')">Dark Ascension</button>
+      <button onclick="renderScatterplot('ISD')">Innistrad</button>
+      <button onclick="renderScatterplot('NPH')">New Phyrexia</button>
+      <button onclick="renderScatterplot('MBS')">Mirrodin Beseiged</button>
+      <button onclick="renderScatterplot('SOM')">Scars of Mirrodin</button>
+      <button onclick="renderScatterplot('ROE')">Rize of Eldrazi</button>
+      <button onclick="renderScatterplot('WWK')">Worldwake</button>
+      <button onclick="renderScatterplot('ZEN')">Zendikar</button>
+      <button onclick="renderScatterplot('ARB')">Alara Reborn</button>
+      <button onclick="renderScatterplot('CON')">Conflux</button>
+      <button onclick="renderScatterplot('ALA')">Shards of Alara</button>
+      <button onclick="renderScatterplot('EVE')">Eventide</button>
+      <button onclick="renderScatterplot('SHM')">Shadowmoor</button>
+      <button onclick="renderScatterplot('MOR')">Morningtide</button>
+      <button onclick="renderScatterplot('LRW')">Lorwyn</button>
+      <button onclick="renderScatterplot('FUT')">Future Site</button>
+      <button onclick="renderScatterplot('PLC')">Planar Chaos</button>
+      <button onclick="renderScatterplot('TSP')">Time Spiral</button>
+      <button onclick="renderScatterplot('CSP')">Coldsnap</button>
+      <button onclick="renderScatterplot('DIS')">Dissension</button>
+      <button onclick="renderScatterplot('GPT')">Guildpact</button>
+      <button onclick="renderScatterplot('RAV')">Ravnica: City of Guilds</button>
+      <button onclick="renderScatterplot('SOK')">Saviors of Kamigawa</button>
+      <button onclick="renderScatterplot('BOK')">Betrayers of Kamigawa</button>
+      <button onclick="renderScatterplot('CHK')">Champions of Kamigawa</button>
+      <button onclick="renderScatterplot('5DN')">Fifth Dawn</button>
+      <button onclick="renderScatterplot('DST')">Darksteel</button>
+      <button onclick="renderScatterplot('MRD')">Mirrodin</button>
+      <button onclick="renderScatterplot('SCG')">Scourge</button>
+      <button onclick="renderScatterplot('LGN')">Legions</button>
+      <button onclick="renderScatterplot('ONS')">Onslaught</button>
+      <button onclick="renderScatterplot('JUD')">Judgement</button>
+      <button onclick="renderScatterplot('TOR')">Torment</button>
+      <button onclick="renderScatterplot('ODY')">Odyssey</button>
     </div>
   </div> 
 </div>
@@ -165,22 +179,31 @@ var margin = {top: 10, right: 30, bottom: 30, left: 60},
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+            .append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
 
 renderScatterplot('KHM', true)
 
 function renderScatterplot(set_code, first_render = false) {
   if (first_render === false) {
-    //svg.selectAll("dot").remove();
-    svg.selectAll("circles").remove();
-    svg.selectAll("dot").remove();
+    var noData = [''];
+    d3.select("#my_dataviz")
+      .selectAll("circle")
+      .data(noData)
+      .exit()
+      .remove();
+    d3.select("#my_dataviz")
+      .selectAll("g")
+      .data(noData)
+      .exit()
+      .remove();
   }
   document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(set_code).concat(') : Price by Mana Cost and Color');
+  
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_set/".concat(set_code).concat(".csv");
   //Read the data
   d3.csv(csvFilePath, function(data) {
@@ -190,8 +213,8 @@ function renderScatterplot(set_code, first_render = false) {
       d.price = +d.price;
     });
     // Get the max of both cmc and price
-    var max_cmc = d3.max(data, function(d) { return d.cmc; });
-    var max_price = d3.max(data, function(d) { return d.price; });    
+    var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
+    var max_price = d3.max(data, function(d) { return d.price; }) + 1;    
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, max_cmc])
@@ -208,16 +231,18 @@ function renderScatterplot(set_code, first_render = false) {
       .call(d3.axisLeft(y));
 
     // Add dots
-    svg.append('g')
-      .selectAll("dot")
-      .data(data)
-      .enter()
-      .append("circle")
-	.attr("cx", function (d) { return x(d.cmc); } )
-	.attr("cy", function (d) { return y(d.price); } )
-        .attr("r", 3.0)
-        .style("fill", function (d) { return d.color; })
-        .style("stroke", "black")
+    var markers = svg.append('g')
+                     .selectAll("dot")
+                     .data(data);
+
+    markers.enter()
+           .append("circle")
+	   .attr("cx", function (d) { return x(d.cmc); } )
+	   .attr("cy", function (d) { return y(d.price); } )
+           .attr("r", 3.0)
+           .style("fill", function (d) { return d.color; })
+           .style("stroke", "black");
+
   })
 }
 
