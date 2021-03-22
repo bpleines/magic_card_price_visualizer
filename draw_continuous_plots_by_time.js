@@ -74,20 +74,6 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
            .style("stroke", "black");
 
     d3.select("#my_dataviz")
-      .data(data)
-      .transition()
-      .duration(1000) 
-      .style("fill", function (d) { return d.color; })
-      .style("opacity", 1);
-
-    d3.select("#my_dataviz")
-      .selectAll("circle")
-      .data(data)
-      .transition()
-      .duration(1000)
-      .attr("fill", "#000000");
-
-    d3.select("#my_dataviz")
       .selectAll("g")
       .data(data)
       .transition()
