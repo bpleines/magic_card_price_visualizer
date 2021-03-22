@@ -6,71 +6,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="dropdown.css">
 </head>
 
 <!-- Load d3.js -->
@@ -83,13 +19,15 @@ body {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <button onclick="renderScatterplot('KHM')">White</button>
-      <button onclick="renderScatterplot('ZNR')">Blue</button>
-      <button onclick="renderScatterplot('ZNR')">Black</button>
-      <button onclick="renderScatterplot('ZNR')">Red</button>
-      <button onclick="renderScatterplot('ZNR')">Green</button>
-      <button onclick="renderScatterplot('ZNR')">Multi</button>
-      <button onclick="renderScatterplot('ZNR')">Colorless</button>
+      <button onclick="renderScatterplot('W', 'color')">White</button>
+      <button onclick="renderScatterplot('U', 'color')">Blue</button>
+      <button onclick="renderScatterplot('B', 'color')">Black</button>
+      <button onclick="renderScatterplot('R', 'color')">Red</button>
+      <button onclick="renderScatterplot('G', 'color')">Green</button>
+      <button onclick="renderScatterplot('W_adjusted', 'color')">White (Adjusted)</button>
+      <button onclick="renderScatterplot('U_adjusted', 'color')">Blue (Adjusted)</button>
+      <button onclick="renderScatterplot('R_adjusted', 'color')">Red (Adjusted)</button>
+      <button onclick="renderScatterplot('G_adjusted', 'color')">Green (Adjusted)</button>
     </div>
   </div>
   <div class="dropdown" style="float:right;">
@@ -170,80 +108,4 @@ body {
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
 
-<script>
-
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 730 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-            .append("svg")
-              .attr("width", width + margin.left + margin.right)
-              .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-              .attr("transform",
-                    "translate(" + margin.left + "," + margin.top + ")");
-
-renderScatterplot('KHM', true)
-
-function renderScatterplot(set_code, first_render = false) {
-  if (first_render === false) {
-    var noData = [''];
-    d3.select("#my_dataviz")
-      .selectAll("circle")
-      .data(noData)
-      .exit()
-      .remove();
-    d3.select("#my_dataviz")
-      .selectAll("g")
-      .data(noData)
-      .exit()
-      .remove();
-  }
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(set_code).concat(') : Price by Mana Cost and Color');
-  
-  var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_set/".concat(set_code).concat(".csv");
-  //Read the data
-  d3.csv(csvFilePath, function(data) {
-    // Convert all str csv values to ints
-    data.forEach(function(d) {
-      d.cmc = +d.cmc;
-      d.price = +d.price;
-    });
-    // Get the max of both cmc and price
-    var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
-    var max_price = d3.max(data, function(d) { return d.price; }) + 1;    
-    // Add X axis
-    var x = d3.scaleLinear()
-      .domain([0, max_cmc])
-      .range([ 0, width ]);
-    svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
-
-    // Add Y axis
-    var y = d3.scaleLinear()
-      .domain([0, max_price])
-      .range([ height, 0]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
-
-    // Add dots
-    var markers = svg.append('g')
-                     .selectAll("dot")
-                     .data(data);
-
-    markers.enter()
-           .append("circle")
-	   .attr("cx", function (d) { return x(d.cmc); } )
-	   .attr("cy", function (d) { return y(d.price); } )
-           .attr("r", 3.0)
-           .style("fill", function (d) { return d.color; })
-           .style("stroke", "black");
-
-  })
-}
-
-</script>
+<script src="drawplots.js"></script>
