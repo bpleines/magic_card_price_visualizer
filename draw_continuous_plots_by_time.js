@@ -1,5 +1,5 @@
 function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Time');
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';
   
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
@@ -28,6 +28,30 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
     svg.append("g")
       .call(d3.axisLeft(y));
 
+    // Labels
+    var xAxisCall = d3.axisBottom(x)
+    var xAxis = svg.append("g")
+                 .attr("class", "x-axis")
+                 .attr("transform", "translate(" + 0 + "," + height + ")")
+                 .call(xAxisCall);
+
+    var yAxisCall = d3.axisLeft(y);
+    var yAxis = svg.append("g")
+                 .attr("class", "y-axis")
+                 .call(yAxisCall);
+
+    xAxis.append("text")
+         .attr("class", "axis-title")
+         .attr("transform", "translate(" + width + ", 0)")
+         .attr("x", -106)
+         .attr("y", -16)
+         .text("Converted Mana Cost");
+    yAxis.append("text")
+         .attr("class", "axis-title")
+         .attr("transform", "rotate(-90)")
+         .attr("y", 24)
+         .text("Price (USD)");
+
     // Add dots
     var markers = svg.append('g')
                      .selectAll("dot")
@@ -41,6 +65,19 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
            .style("fill", function (d) { return d.color; })
            .style("stroke", "black");
 
+    d3.select("#my_dataviz")
+      .selectAll("circle")
+      .data(data)
+      .transition()
+      .duration(1000)
+      .attr("fill", "#000000");
+
+    d3.select("#my_dataviz")
+      .selectAll("g")
+      .data(data)
+      .transition()
+      .duration(1000)
+      .attr("fill", "#000000");
   })
 }
 
