@@ -41,6 +41,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     // Get the max of both cmc and price and pad each dimension by 1
     var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
     var max_price = d3.max(data, function(d) { return d.price; }) + 1;    
+    
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, max_cmc])
@@ -56,6 +57,38 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     svg.append("g")
       .call(d3.axisLeft(y));
 
+    // Labels
+    var xAxisCall = d3.axisBottom(x)
+    var xAxis = svg.append("g")
+                 .attr("class", "x-axis")
+                 .attr("transform", "translate(" + 0 + "," + height + ")")
+                 .call(xAxisCall);
+
+    var yAxisCall = d3.axisLeft(y);
+    var yAxis = svg.append("g")
+                 .attr("class", "y-axis")
+                 .call(yAxisCall);
+
+    // Add Labels
+    d3.select("#my_dataviz")
+      .selectAll("g")
+      .data(data)
+      .transition()
+      .duration(1000)
+      .attr("fill", "#000000");;
+
+    xAxis.append("text")
+         .attr("class", "axis-title")
+         .attr("transform", "translate(" + width + ", 0)")
+         .attr("x", -106)
+         .attr("y", -16)
+         .text("Converted Mana Cost");
+    yAxis.append("text")
+         .attr("class", "axis-title")
+         .attr("transform", "rotate(-90)")
+         .attr("y", 24) 
+         .text("Price (USD)");
+
     // Add dots
     var markers = svg.append('g')
                      .selectAll("dot")
@@ -65,7 +98,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
            .append("circle")
 	   .attr("cx", function (d) { return x(d.cmc); } )
 	   .attr("cy", function (d) { return y(d.price); } )
-           .attr("r", 3.0)
+           .attr("r", 6.0)
            .style("fill", function (d) { return d.color; })
            .style("stroke", "black");
 

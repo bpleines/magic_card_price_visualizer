@@ -1,3 +1,10 @@
+mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
+                 'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
+                 'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
+                 'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
+                 'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
+                 '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY'];
+
 function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
   document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';
   
@@ -12,11 +19,11 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
     });
     // Get the max of both cmc and price and pad each dimension by 1
     var max_cmc = 15;
-    var max_price = 100;    
+    var max_price = 100; 
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, max_cmc])
-      .range([ 0, width ]);
+      .range([0, width]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
@@ -24,7 +31,7 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
     // Add Y axis
     var y = d3.scaleLinear()
       .domain([0, max_price])
-      .range([ height, 0]);
+      .range([height, 0]);
     svg.append("g")
       .call(d3.axisLeft(y));
 
@@ -62,8 +69,16 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
 	   .attr("cx", function (d) { return x(d.cmc); } )
 	   .attr("cy", function (d) { return y(d.price); } )
            .attr("r", 3.0)
-           .style("fill", function (d) { return d.color; })
+           .style("opacity", 1)
+           .style("fill", "#000000")
            .style("stroke", "black");
+
+    d3.select("#my_dataviz")
+      .data(data)
+      .transition()
+      .duration(1000) 
+      .style("fill", function (d) { return d.color; })
+      .style("opacity", 1);
 
     d3.select("#my_dataviz")
       .selectAll("circle")
@@ -94,13 +109,6 @@ function populateTimeseries() {
     .data(noData)
     .exit()
     .remove();
-  mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
-                   'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
-                   'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
-                   'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
-                   'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
-                   '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY'];
-
   for (i = 0; i < mtg_set_codes.length; i++) {
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }

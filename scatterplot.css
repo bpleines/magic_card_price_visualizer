@@ -1,7 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+p {
+  margin: 12px;
+  font-size: 30px;
 }
 
 .axis-title {
-  font-size: 20px
+  font-size: 20px;
 }
+
+.
