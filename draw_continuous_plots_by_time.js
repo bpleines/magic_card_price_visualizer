@@ -1,33 +1,5 @@
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 1030 - margin.left - margin.right,
-    height = 700 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-            .append("svg")
-              .attr("width", width + margin.left + margin.right)
-              .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-              .attr("transform",
-                    "translate(" + margin.left + "," + margin.top + ")");
-
-renderScatterplot('KHM')
-
-function renderScatterplot(attribute_code, attribute_type='set') {
-  // Clean out existing plot and plotted points
-  var noData = [''];
-  d3.select("#my_dataviz")
-    .selectAll("circle")
-    .data(noData)
-    .exit()
-    .remove();
-  d3.select("#my_dataviz")
-    .selectAll("g")
-    .data(noData)
-    .exit()
-    .remove();
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Mana Cost and Color');
+function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Time');
   
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
@@ -39,8 +11,8 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       d.price = +d.price;
     });
     // Get the max of both cmc and price and pad each dimension by 1
-    var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
-    var max_price = d3.max(data, function(d) { return d.price; }) + 1;    
+    var max_cmc = 15;
+    var max_price = 100;    
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, max_cmc])
@@ -70,4 +42,29 @@ function renderScatterplot(attribute_code, attribute_type='set') {
            .style("stroke", "black");
 
   })
+}
+
+function populateTimeseries() {
+  // Clean out existing plot and plotted points
+  var noData = [''];
+  d3.select("#my_dataviz")
+    .selectAll("circle")
+    .data(noData)
+    .exit()
+    .remove();
+  d3.select("#my_dataviz")
+    .selectAll("g")
+    .data(noData)
+    .exit()
+    .remove();
+  mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
+                   'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
+                   'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
+                   'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
+                   'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
+                   '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY'];
+
+  for (i = 0; i < mtg_set_codes.length; i++) {
+    renderTimeseriesScatterplot(mtg_set_codes[i]);
+  }
 }

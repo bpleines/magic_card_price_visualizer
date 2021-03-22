@@ -15,6 +15,14 @@
 <div class="navbar">
   <a href="#home">Home</a>
   <div class="dropdown" style="float:right;">
+    <button class="dropbtn">Initiate Timeseries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <button onclick="populateTimeseries()">Initiate</button>
+    </div>
+  </div>
+  <div class="dropdown" style="float:right;">
     <button class="dropbtn">Choose MTG Color
       <i class="fa fa-caret-down"></i>
     </button>
@@ -109,3 +117,4 @@
 <div id="my_dataviz"></div>
 
 <script src="drawplots.js"></script>
+<script src="draw_continuous_plots_by_time.js"></script>
