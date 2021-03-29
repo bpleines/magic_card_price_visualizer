@@ -1,89 +1,89 @@
-name,cmc,price,color
-Agrus Kos- Wojek Veteran,5,0.52,#d78f42
-Autochthon Wurm,15,2.0,#d78f42
-Birds of Paradise,1,9.14,#087500
-Blazing Archon,9,2.36,#ffffff
-Bloodbond March,4,0.57,#d78f42
-Blood Funnel,2,1.04,#000000
-Bloodletter Quill,3,0.2,#d78f42
-Bottled Cloister,4,0.61,#8c8d8b
-Breath of Fury,4,2.17,#ff1a1a
-Brightflame,4,0.61,#d78f42
-Cerulean Sphinx,6,0.19,#341aff
-Char,3,0.32,#ff1a1a
-Chord of Calling,3,5.41,#087500
-Chorus of the Conclave,8,0.37,#d78f42
-Circu- Dimir Lobotomist,4,1.16,#d78f42
-Cloudstone Curio,3,45.67,#8c8d8b
-Concerted Effort,4,7.25,#ffffff
-Copy Enchantment,3,10.13,#341aff
-Crown of Convergence,2,0.28,#d78f42
-Dark Confidant,2,35.46,#000000
-Dimir Cutpurse,3,0.7,#d78f42
-Dimir Doppelganger,3,0.92,#d78f42
-Doubling Season,5,47.46,#087500
-Dream Leash,5,0.36,#341aff
-Empty the Catacombs,4,0.43,#000000
-Excruciator,8,0.17,#ff1a1a
-Eye of the Storm,7,2.57,#341aff
-Firemane Angel,6,0.44,#d78f42
-Flame Fusillade,4,0.3,#ff1a1a
-Flickerform,2,0.93,#ffffff
-Followed Footsteps,5,1.61,#341aff
-Ghosts of the Innocent,7,0.2,#ffffff
-Glare of Subdual,4,0.51,#d78f42
-Gleancrawler,6,0.38,#d78f42
-Glimpse the Unthinkable,2,11.96,#d78f42
-Golgari Grave-Troll,5,3.08,#087500
-Grave-Shell Scarab,5,0.29,#d78f42
-Grozoth,9,3.55,#341aff
-Hammerfist Giant,6,0.22,#ff1a1a
-Helldozer,6,1.45,#000000
-Hex,6,0.41,#000000
-Hour of Reckoning,7,0.68,#ffffff
-Hunted Dragon,5,0.52,#ff1a1a
-Hunted Horror,2,4.95,#000000
-Hunted Lammasu,4,0.5,#ffffff
-Hunted Phantasm,3,2.5,#341aff
-Hunted Troll,4,1.06,#087500
-Life from the Loam,2,13.0,#087500
-Light of Sanction,3,0.39,#ffffff
-Loxodon Gatekeeper,4,3.47,#ffffff
-Loxodon Hierarch,4,0.59,#d78f42
-Master Warcraft,4,0.8,#d78f42
-Mindleech Mass,8,1.06,#d78f42
-Mindmoil,5,3.39,#ff1a1a
-Molten Sentry,4,0.27,#ff1a1a
-Moonlight Bargain,5,0.65,#000000
-Necroplasm,3,0.36,#000000
-Nullstone Gargoyle,9,1.42,#8c8d8b
-Overgrown Tomb,0,17.7,#d78f42
-Pariah's Shield,5,18.28,#8c8d8b
-Phytohydra,5,2.3,#d78f42
-Plague Boiler,3,0.39,#d78f42
-Primordial Sage,6,1.43,#087500
-Privileged Position,5,14.85,#d78f42
-Razia- Boros Archangel,8,0.98,#d78f42
-Razia's Purification,6,0.86,#d78f42
-Sacred Foundry,0,16.79,#d78f42
-Savra- Queen of the Golgari,4,1.59,#d78f42
-Scion of the Wild,3,0.36,#087500
-Searing Meditation,3,0.26,#d78f42
-Shadow of Doubt,2,3.87,#d78f42
-Sins of the Past,6,0.28,#000000
-Sisters of Stone Death,8,1.15,#d78f42
-Spawnbroker,3,0.27,#341aff
-Sunforger,3,2.91,#d78f42
-Szadek- Lord of Secrets,7,0.57,#d78f42
-Temple Garden,0,16.84,#d78f42
-Three Dreams,5,1.81,#ffffff
-Tolsimir Wolfblood,6,2.4,#d78f42
-Tunnel Vision,6,2.59,#341aff
-Twilight Drover,3,2.74,#ffffff
-Ursapine,5,0.32,#087500
-Vinelasher Kudzu,2,0.4,#087500
-Vulturous Zombie,5,0.38,#d78f42
-Warp World,8,0.93,#ff1a1a
-Watery Grave,0,16.0,#d78f42
-Woebringer Demon,5,0.27,#000000
-Woodwraith Corrupter,6,0.19,#d78f42
+name,cmc,release_year,price,color
+Agrus Kos- Wojek Veteran,5,2005,0.52,#d78f42
+Autochthon Wurm,15,2005,2.01,#d78f42
+Birds of Paradise,1,2005,9.16,#087500
+Blazing Archon,9,2005,2.36,#ffffff
+Bloodbond March,4,2005,0.58,#d78f42
+Blood Funnel,2,2005,1.04,#000000
+Bloodletter Quill,3,2005,0.2,#d78f42
+Bottled Cloister,4,2005,0.6,#8c8d8b
+Breath of Fury,4,2005,2.17,#ff1a1a
+Brightflame,4,2005,0.61,#d78f42
+Cerulean Sphinx,6,2005,0.19,#341aff
+Char,3,2005,0.32,#ff1a1a
+Chord of Calling,3,2005,5.41,#087500
+Chorus of the Conclave,8,2005,0.37,#d78f42
+Circu- Dimir Lobotomist,4,2005,1.16,#d78f42
+Cloudstone Curio,3,2005,46.87,#8c8d8b
+Concerted Effort,4,2005,7.35,#ffffff
+Copy Enchantment,3,2005,10.26,#341aff
+Crown of Convergence,2,2005,0.28,#d78f42
+Dark Confidant,2,2005,35.46,#000000
+Dimir Cutpurse,3,2005,0.7,#d78f42
+Dimir Doppelganger,3,2005,0.92,#d78f42
+Doubling Season,5,2005,48.29,#087500
+Dream Leash,5,2005,0.36,#341aff
+Empty the Catacombs,4,2005,0.44,#000000
+Excruciator,8,2005,0.17,#ff1a1a
+Eye of the Storm,7,2005,2.57,#341aff
+Firemane Angel,6,2005,0.44,#d78f42
+Flame Fusillade,4,2005,0.3,#ff1a1a
+Flickerform,2,2005,0.93,#ffffff
+Followed Footsteps,5,2005,1.61,#341aff
+Ghosts of the Innocent,7,2005,0.2,#ffffff
+Glare of Subdual,4,2005,0.51,#d78f42
+Gleancrawler,6,2005,0.38,#d78f42
+Glimpse the Unthinkable,2,2005,11.81,#d78f42
+Golgari Grave-Troll,5,2005,3.08,#087500
+Grave-Shell Scarab,5,2005,0.29,#d78f42
+Grozoth,9,2005,3.49,#341aff
+Hammerfist Giant,6,2005,0.23,#ff1a1a
+Helldozer,6,2005,1.38,#000000
+Hex,6,2005,0.41,#000000
+Hour of Reckoning,7,2005,0.68,#ffffff
+Hunted Dragon,5,2005,0.52,#ff1a1a
+Hunted Horror,2,2005,5.03,#000000
+Hunted Lammasu,4,2005,0.49,#ffffff
+Hunted Phantasm,3,2005,2.5,#341aff
+Hunted Troll,4,2005,1.06,#087500
+Life from the Loam,2,2005,13.0,#087500
+Light of Sanction,3,2005,0.39,#ffffff
+Loxodon Gatekeeper,4,2005,3.47,#ffffff
+Loxodon Hierarch,4,2005,0.59,#d78f42
+Master Warcraft,4,2005,0.8,#d78f42
+Mindleech Mass,8,2005,1.06,#d78f42
+Mindmoil,5,2005,3.39,#ff1a1a
+Molten Sentry,4,2005,0.27,#ff1a1a
+Moonlight Bargain,5,2005,0.63,#000000
+Necroplasm,3,2005,0.37,#000000
+Nullstone Gargoyle,9,2005,1.42,#8c8d8b
+Overgrown Tomb,0,2005,17.7,#d78f42
+Pariah's Shield,5,2005,18.52,#8c8d8b
+Phytohydra,5,2005,2.3,#d78f42
+Plague Boiler,3,2005,0.39,#d78f42
+Primordial Sage,6,2005,1.44,#087500
+Privileged Position,5,2005,14.95,#d78f42
+Razia- Boros Archangel,8,2005,0.98,#d78f42
+Razia's Purification,6,2005,0.86,#d78f42
+Sacred Foundry,0,2005,16.88,#d78f42
+Savra- Queen of the Golgari,4,2005,1.64,#d78f42
+Scion of the Wild,3,2005,0.36,#087500
+Searing Meditation,3,2005,0.26,#d78f42
+Shadow of Doubt,2,2005,3.98,#d78f42
+Sins of the Past,6,2005,0.28,#000000
+Sisters of Stone Death,8,2005,1.18,#d78f42
+Spawnbroker,3,2005,0.27,#341aff
+Sunforger,3,2005,2.91,#d78f42
+Szadek- Lord of Secrets,7,2005,0.57,#d78f42
+Temple Garden,0,2005,16.84,#d78f42
+Three Dreams,5,2005,1.81,#ffffff
+Tolsimir Wolfblood,6,2005,2.43,#d78f42
+Tunnel Vision,6,2005,2.66,#341aff
+Twilight Drover,3,2005,2.74,#ffffff
+Ursapine,5,2005,0.32,#087500
+Vinelasher Kudzu,2,2005,0.41,#087500
+Vulturous Zombie,5,2005,0.38,#d78f42
+Warp World,8,2005,0.93,#ff1a1a
+Watery Grave,0,2005,15.99,#d78f42
+Woebringer Demon,5,2005,0.28,#000000
+Woodwraith Corrupter,6,2005,0.19,#d78f42

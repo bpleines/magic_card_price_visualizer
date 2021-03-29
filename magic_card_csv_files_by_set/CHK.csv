@@ -1,89 +1,89 @@
-name,cmc,price,color
-Akki Lavarunner // Tok-Tok- Volcano Born,4,0.4,#ff1a1a
-Azami- Lady of Scrolls,5,1.52,#341aff
-Azusa- Lost but Seeking,3,15.74,#087500
-Ben-Ben- Akki Hermit,4,0.57,#ff1a1a
-Boseiju- Who Shelters All,0,26.68,#8c8d8b
-Budoka Gardener // Dokai- Weaver of Life,2,2.67,#087500
-Cranial Extraction,4,1.24,#000000
-Dosan the Falling Leaf,3,13.21,#087500
-Eiganjo Castle,0,12.17,#ffffff
-Eight-and-a-Half-Tails,2,2.37,#ffffff
-Forbidden Orchard,0,20.33,#8c8d8b
-General's Kabuto,4,4.11,#8c8d8b
-Gifts Ungiven,4,3.3,#341aff
-Glimpse of Nature,1,17.62,#087500
-Godo- Bandit Warlord,6,4.46,#ff1a1a
-Hair-Strung Koto,6,0.3,#8c8d8b
-Hall of the Bandit Lord,0,21.43,#8c8d8b
-Heartbeat of Spring,3,3.73,#087500
-He Who Hungers,5,0.53,#000000
-Hikari- Twilight Guardian,5,0.25,#ffffff
-Hisoka- Minamo Sensei,4,0.31,#341aff
-Hold the Line,3,0.33,#ffffff
-Horobi- Death's Wail,4,2.42,#000000
-Imi Statue,3,0.31,#8c8d8b
-Iname- Death Aspect,6,0.41,#000000
-Iname- Life Aspect,6,0.52,#087500
-Isamaru- Hound of Konda,1,3.33,#ffffff
-Journeyer's Kite,2,0.83,#8c8d8b
-Jugan- the Rising Star,6,1.28,#087500
-Junkyo Bell,4,0.24,#8c8d8b
-Jushi Apprentice // Tomoya the Revealer,2,0.81,#341aff
-Keiga- the Tide Star,6,3.66,#341aff
-Kiki-Jiki- Mirror Breaker,5,25.95,#ff1a1a
-Kiku- Night's Flower,2,2.24,#000000
-Kitsune Mystic // Autumn-Tail- Kitsune Sage,4,0.5,#ffffff
-Kodama of the North Tree,5,0.64,#087500
-Kodama of the South Tree,4,0.55,#087500
-Kokusho- the Evening Star,6,19.87,#000000
-Konda- Lord of Eiganjo,7,2.67,#ffffff
-Konda's Banner,2,10.36,#8c8d8b
-Kumano- Master Yamabushi,5,0.33,#ff1a1a
-Kuro- Pitlord,9,0.35,#000000
-Kusari-Gama,3,1.96,#8c8d8b
-Long-Forgotten Gohei,3,0.39,#8c8d8b
-Marrow-Gnawer,5,7.15,#000000
-Masako the Humorless,3,3.02,#ffffff
-Meloku the Clouded Mirror,5,4.0,#341aff
-Minamo- School at Water's Edge,0,17.31,#341aff
-Mindblaze,6,0.22,#ff1a1a
-Moonring Mirror,5,0.27,#8c8d8b
-Myojin of Cleansing Fire,8,3.31,#ffffff
-Myojin of Infinite Rage,10,1.87,#ff1a1a
-Myojin of Life's Web,9,3.85,#087500
-Myojin of Night's Reach,8,8.9,#000000
-Myojin of Seeing Winds,10,4.23,#341aff
-Nature's Will,4,22.44,#087500
-Nezumi Shortfang // Stabwhisker the Odious,2,3.42,#000000
-Night Dealings,4,0.92,#000000
-Night of Souls' Betrayal,4,0.7,#000000
-Oathkeeper- Takeno's Daisho,3,1.71,#8c8d8b
-Okina- Temple to the Grandfathers,0,6.92,#087500
-Orochi Hatchery,0,0.85,#8c8d8b
-Part the Veil,4,0.27,#341aff
-Reverse the Sands,8,0.44,#ffffff
-Reweave,6,0.5,#341aff
-Ryusei- the Falling Star,6,1.06,#ff1a1a
-Seizan- Perverter of Truth,5,6.98,#000000
-Sensei Golden-Tail,2,1.73,#ffffff
-Seshiro the Anointed,6,19.02,#087500
-Shell of the Last Kappa,3,0.47,#8c8d8b
-Shimatsu the Bloodcloaked,4,0.28,#ff1a1a
-Shinka- the Bloodsoaked Keep,0,8.23,#ff1a1a
-Shisato- Whispering Hunter,4,0.49,#087500
-Shizo- Death's Storehouse,0,15.32,#000000
-Soulblast,6,0.37,#ff1a1a
-Swirl the Mists,4,0.27,#341aff
-Takeno- Samurai General,6,0.62,#ffffff
-Tatsumasa- the Dragon's Fang,6,2.63,#8c8d8b
-The Unspeakable,9,0.39,#341aff
-Through the Breach,5,3.29,#ff1a1a
-Tide of War,6,1.27,#ff1a1a
-Time Stop,6,3.42,#341aff
-Uba Mask,4,4.49,#8c8d8b
-Untaidake- the Cloud Keeper,0,2.46,#8c8d8b
-Uyo- Silent Prophet,6,0.47,#341aff
-Vassal's Duty,4,0.22,#ffffff
-Yosei- the Morning Star,6,2.61,#ffffff
-Zo-Zu the Punisher,3,7.0,#ff1a1a
+name,cmc,release_year,price,color
+Akki Lavarunner // Tok-Tok- Volcano Born,4,2004,0.4,#ff1a1a
+Azami- Lady of Scrolls,5,2004,1.46,#341aff
+Azusa- Lost but Seeking,3,2004,15.74,#087500
+Ben-Ben- Akki Hermit,4,2004,0.57,#ff1a1a
+Boseiju- Who Shelters All,0,2004,26.45,#8c8d8b
+Budoka Gardener // Dokai- Weaver of Life,2,2004,2.67,#087500
+Cranial Extraction,4,2004,1.24,#000000
+Dosan the Falling Leaf,3,2004,13.35,#087500
+Eiganjo Castle,0,2004,12.09,#ffffff
+Eight-and-a-Half-Tails,2,2004,2.37,#ffffff
+Forbidden Orchard,0,2004,20.29,#8c8d8b
+General's Kabuto,4,2004,4.11,#8c8d8b
+Gifts Ungiven,4,2004,3.3,#341aff
+Glimpse of Nature,1,2004,17.62,#087500
+Godo- Bandit Warlord,6,2004,4.46,#ff1a1a
+Hair-Strung Koto,6,2004,0.3,#8c8d8b
+Hall of the Bandit Lord,0,2004,21.57,#8c8d8b
+Heartbeat of Spring,3,2004,3.69,#087500
+He Who Hungers,5,2004,0.53,#000000
+Hikari- Twilight Guardian,5,2004,0.25,#ffffff
+Hisoka- Minamo Sensei,4,2004,0.31,#341aff
+Hold the Line,3,2004,0.33,#ffffff
+Horobi- Death's Wail,4,2004,2.45,#000000
+Imi Statue,3,2004,0.31,#8c8d8b
+Iname- Death Aspect,6,2004,0.43,#000000
+Iname- Life Aspect,6,2004,0.52,#087500
+Isamaru- Hound of Konda,1,2004,3.37,#ffffff
+Journeyer's Kite,2,2004,0.83,#8c8d8b
+Jugan- the Rising Star,6,2004,1.28,#087500
+Junkyo Bell,4,2004,0.24,#8c8d8b
+Jushi Apprentice // Tomoya the Revealer,2,2004,0.81,#341aff
+Keiga- the Tide Star,6,2004,3.66,#341aff
+Kiki-Jiki- Mirror Breaker,5,2004,25.92,#ff1a1a
+Kiku- Night's Flower,2,2004,2.25,#000000
+Kitsune Mystic // Autumn-Tail- Kitsune Sage,4,2004,0.5,#ffffff
+Kodama of the North Tree,5,2004,0.64,#087500
+Kodama of the South Tree,4,2004,0.55,#087500
+Kokusho- the Evening Star,6,2004,19.92,#000000
+Konda- Lord of Eiganjo,7,2004,2.67,#ffffff
+Konda's Banner,2,2004,10.36,#8c8d8b
+Kumano- Master Yamabushi,5,2004,0.33,#ff1a1a
+Kuro- Pitlord,9,2004,0.35,#000000
+Kusari-Gama,3,2004,1.95,#8c8d8b
+Long-Forgotten Gohei,3,2004,0.39,#8c8d8b
+Marrow-Gnawer,5,2004,7.51,#000000
+Masako the Humorless,3,2004,3.02,#ffffff
+Meloku the Clouded Mirror,5,2004,4.0,#341aff
+Minamo- School at Water's Edge,0,2004,17.27,#341aff
+Mindblaze,6,2004,0.22,#ff1a1a
+Moonring Mirror,5,2004,0.27,#8c8d8b
+Myojin of Cleansing Fire,8,2004,3.31,#ffffff
+Myojin of Infinite Rage,10,2004,1.87,#ff1a1a
+Myojin of Life's Web,9,2004,3.84,#087500
+Myojin of Night's Reach,8,2004,8.75,#000000
+Myojin of Seeing Winds,10,2004,4.24,#341aff
+Nature's Will,4,2004,22.48,#087500
+Nezumi Shortfang // Stabwhisker the Odious,2,2004,3.42,#000000
+Night Dealings,4,2004,0.97,#000000
+Night of Souls' Betrayal,4,2004,0.71,#000000
+Oathkeeper- Takeno's Daisho,3,2004,1.71,#8c8d8b
+Okina- Temple to the Grandfathers,0,2004,6.8,#087500
+Orochi Hatchery,0,2004,0.84,#8c8d8b
+Part the Veil,4,2004,0.27,#341aff
+Reverse the Sands,8,2004,0.41,#ffffff
+Reweave,6,2004,0.5,#341aff
+Ryusei- the Falling Star,6,2004,1.06,#ff1a1a
+Seizan- Perverter of Truth,5,2004,7.09,#000000
+Sensei Golden-Tail,2,2004,1.73,#ffffff
+Seshiro the Anointed,6,2004,18.36,#087500
+Shell of the Last Kappa,3,2004,0.47,#8c8d8b
+Shimatsu the Bloodcloaked,4,2004,0.28,#ff1a1a
+Shinka- the Bloodsoaked Keep,0,2004,8.12,#ff1a1a
+Shisato- Whispering Hunter,4,2004,0.49,#087500
+Shizo- Death's Storehouse,0,2004,15.53,#000000
+Soulblast,6,2004,0.37,#ff1a1a
+Swirl the Mists,4,2004,0.27,#341aff
+Takeno- Samurai General,6,2004,0.63,#ffffff
+Tatsumasa- the Dragon's Fang,6,2004,2.61,#8c8d8b
+The Unspeakable,9,2004,0.39,#341aff
+Through the Breach,5,2004,3.29,#ff1a1a
+Tide of War,6,2004,1.27,#ff1a1a
+Time Stop,6,2004,3.52,#341aff
+Uba Mask,4,2004,4.49,#8c8d8b
+Untaidake- the Cloud Keeper,0,2004,2.45,#8c8d8b
+Uyo- Silent Prophet,6,2004,0.47,#341aff
+Vassal's Duty,4,2004,0.22,#ffffff
+Yosei- the Morning Star,6,2004,2.61,#ffffff
+Zo-Zu the Punisher,3,2004,6.96,#ff1a1a

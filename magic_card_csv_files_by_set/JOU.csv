@@ -1,46 +1,46 @@
-name,cmc,price,color
-Aegis of the Gods,2,1.59,#ffffff
-Ajani- Mentor of Heroes,5,11.09,#d78f42
-Athreos- God of Passage,3,11.84,#d78f42
-Battlefield Thaumaturge,2,0.2,#341aff
-Bearer of the Heavens,8,0.47,#ff1a1a
-Daring Thief,3,0.23,#341aff
-Dawnbringer Charioteers,4,0.14,#ffffff
-Deicide,2,0.21,#ffffff
-Dictate of Erebos,5,16.5,#000000
-Dictate of Heliod,5,0.5,#ffffff
-Dictate of Karametra,5,1.7,#087500
-Dictate of Kruphix,3,1.16,#341aff
-Dictate of the Twin Gods,5,4.65,#ff1a1a
-Doomwake Giant,5,0.24,#000000
-Eidolon of Blossoms,4,0.61,#087500
-Eidolon of the Great Revel,2,6.82,#ff1a1a
-Extinguish All Hope,6,0.27,#000000
-Godsend,3,16.77,#ffffff
-Hall of Triumph,3,0.37,#8c8d8b
-Harness by Force,3,0.25,#ff1a1a
-Heroes' Bane,5,0.26,#087500
-Hydra Broodmaster,6,2.36,#087500
-Hypnotic Siren,1,0.32,#341aff
-Iroas- God of Victory,4,14.08,#d78f42
-Keranos- God of Storms,5,7.25,#d78f42
-King Macar- the Gold-Cursed,4,0.43,#000000
-Kruphix- God of Horizons,5,9.4,#d78f42
-Launch the Fleet,1,0.36,#ffffff
-Mana Confluence,0,22.9,#8c8d8b
-Master of the Feast,3,0.7,#000000
-Pharika- God of Affliction,3,5.11,#d78f42
-Pheres-Band Warchief,4,0.16,#087500
-Polymorphous Rush,3,0.2,#341aff
-Prophetic Flamespeaker,3,0.61,#ff1a1a
-Revel of the Fallen God,7,0.17,#d78f42
-Sage of Hours,2,3.13,#341aff
-Scourge of Fleets,7,0.23,#341aff
-Setessan Tactics,2,0.41,#087500
-Silence the Believers,4,0.15,#000000
-Skybind,5,0.22,#ffffff
-Spawn of Thraxes,7,0.34,#ff1a1a
-Temple of Epiphany,0,0.67,#d78f42
-Temple of Malady,0,0.43,#d78f42
-Twinflame,2,3.51,#ff1a1a
-Worst Fears,8,1.74,#000000
+name,cmc,release_year,price,color
+Aegis of the Gods,2,2014,1.59,#ffffff
+Ajani- Mentor of Heroes,5,2014,11.11,#d78f42
+Athreos- God of Passage,3,2014,11.84,#d78f42
+Battlefield Thaumaturge,2,2014,0.2,#341aff
+Bearer of the Heavens,8,2014,0.47,#ff1a1a
+Daring Thief,3,2014,0.24,#341aff
+Dawnbringer Charioteers,4,2014,0.14,#ffffff
+Deicide,2,2014,0.21,#ffffff
+Dictate of Erebos,5,2014,17.19,#000000
+Dictate of Heliod,5,2014,0.5,#ffffff
+Dictate of Karametra,5,2014,1.83,#087500
+Dictate of Kruphix,3,2014,1.14,#341aff
+Dictate of the Twin Gods,5,2014,4.25,#ff1a1a
+Doomwake Giant,5,2014,0.25,#000000
+Eidolon of Blossoms,4,2014,0.65,#087500
+Eidolon of the Great Revel,2,2014,6.77,#ff1a1a
+Extinguish All Hope,6,2014,0.27,#000000
+Godsend,3,2014,16.66,#ffffff
+Hall of Triumph,3,2014,0.37,#8c8d8b
+Harness by Force,3,2014,0.25,#ff1a1a
+Heroes' Bane,5,2014,0.26,#087500
+Hydra Broodmaster,6,2014,2.46,#087500
+Hypnotic Siren,1,2014,0.32,#341aff
+Iroas- God of Victory,4,2014,14.41,#d78f42
+Keranos- God of Storms,5,2014,7.51,#d78f42
+King Macar- the Gold-Cursed,4,2014,0.44,#000000
+Kruphix- God of Horizons,5,2014,9.49,#d78f42
+Launch the Fleet,1,2014,0.36,#ffffff
+Mana Confluence,0,2014,22.42,#8c8d8b
+Master of the Feast,3,2014,0.71,#000000
+Pharika- God of Affliction,3,2014,4.89,#d78f42
+Pheres-Band Warchief,4,2014,0.16,#087500
+Polymorphous Rush,3,2014,0.2,#341aff
+Prophetic Flamespeaker,3,2014,0.63,#ff1a1a
+Revel of the Fallen God,7,2014,0.16,#d78f42
+Sage of Hours,2,2014,3.51,#341aff
+Scourge of Fleets,7,2014,0.23,#341aff
+Setessan Tactics,2,2014,0.41,#087500
+Silence the Believers,4,2014,0.15,#000000
+Skybind,5,2014,0.23,#ffffff
+Spawn of Thraxes,7,2014,0.34,#ff1a1a
+Temple of Epiphany,0,2014,0.69,#d78f42
+Temple of Malady,0,2014,0.44,#d78f42
+Twinflame,2,2014,3.32,#ff1a1a
+Worst Fears,8,2014,1.74,#000000

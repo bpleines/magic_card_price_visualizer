@@ -1,46 +1,46 @@
-name,cmc,price,color
-Aven Mimeomancer,3,0.73,#d78f42
-Blitz Hellion,5,0.32,#d78f42
-Cloven Casting,7,0.28,#d78f42
-Dauntless Escort,3,2.86,#d78f42
-Deathbringer Thoctar,6,0.83,#d78f42
-Defiler of Souls,6,2.01,#d78f42
-Dragon Broodmother,6,9.05,#d78f42
-Enigma Sphinx,7,0.38,#d78f42
-Fight to the Death,2,0.6,#d78f42
-Filigree Angel,8,0.34,#d78f42
-Finest Hour,5,0.67,#d78f42
-Glory of Warfare,4,0.91,#d78f42
-Identity Crisis,6,0.43,#d78f42
-Jenara- Asura of War,3,2.76,#d78f42
-Karrthus- Tyrant of Jund,7,7.99,#d78f42
-Knight of New Alara,4,1.08,#d78f42
-Knotvine Paladin,2,0.32,#d78f42
-Lavalanche,3,0.29,#d78f42
-Lich Lord of Unx,3,10.89,#d78f42
-Lightning Reaver,5,0.78,#d78f42
-Lord of Extinction,5,8.72,#d78f42
-Madrush Cyclops,4,0.38,#d78f42
-Maelstrom Nexus,5,3.72,#d78f42
-Maelstrom Pulse,3,3.32,#d78f42
-Mayael's Aria,3,7.91,#d78f42
-Meddling Mage,2,2.26,#d78f42
-Mycoid Shepherd,4,0.27,#d78f42
-Necromancer's Covenant,6,1.22,#d78f42
-Nemesis of Reason,5,3.59,#d78f42
-Predatory Advantage,5,0.3,#d78f42
-Retaliator Griffin,4,0.35,#d78f42
-Sages of the Anima,5,0.27,#d78f42
-Sen Triplets,5,11.11,#d78f42
-Soulquake,7,0.27,#d78f42
-Sovereigns of Lost Alara,6,0.63,#d78f42
-Spellbound Dragon,5,0.43,#d78f42
-Spellbreaker Behemoth,4,1.29,#d78f42
-Sphinx of the Steel Wind,8,1.39,#d78f42
-Thought Hemorrhage,4,0.24,#d78f42
-Thraximundar,7,1.45,#d78f42
-Time Sieve,2,3.31,#d78f42
-Unscythe- Killer of Kings,4,1.22,#d78f42
-Uril- the Miststalker,5,14.35,#d78f42
-Vedalken Heretic,2,0.31,#d78f42
-Wargate,3,2.22,#d78f42
+name,cmc,release_year,price,color
+Aven Mimeomancer,3,2009,0.73,#d78f42
+Blitz Hellion,5,2009,0.3,#d78f42
+Cloven Casting,7,2009,0.28,#d78f42
+Dauntless Escort,3,2009,2.84,#d78f42
+Deathbringer Thoctar,6,2009,0.86,#d78f42
+Defiler of Souls,6,2009,2.01,#d78f42
+Dragon Broodmother,6,2009,9.05,#d78f42
+Enigma Sphinx,7,2009,0.37,#d78f42
+Fight to the Death,2,2009,0.6,#d78f42
+Filigree Angel,8,2009,0.34,#d78f42
+Finest Hour,5,2009,0.69,#d78f42
+Glory of Warfare,4,2009,0.91,#d78f42
+Identity Crisis,6,2009,0.43,#d78f42
+Jenara- Asura of War,3,2009,2.76,#d78f42
+Karrthus- Tyrant of Jund,7,2009,7.99,#d78f42
+Knight of New Alara,4,2009,1.06,#d78f42
+Knotvine Paladin,2,2009,0.28,#d78f42
+Lavalanche,3,2009,0.29,#d78f42
+Lich Lord of Unx,3,2009,10.89,#d78f42
+Lightning Reaver,5,2009,0.78,#d78f42
+Lord of Extinction,5,2009,8.72,#d78f42
+Madrush Cyclops,4,2009,0.38,#d78f42
+Maelstrom Nexus,5,2009,3.66,#d78f42
+Maelstrom Pulse,3,2009,3.31,#d78f42
+Mayael's Aria,3,2009,8.09,#d78f42
+Meddling Mage,2,2009,2.26,#d78f42
+Mycoid Shepherd,4,2009,0.27,#d78f42
+Necromancer's Covenant,6,2009,1.22,#d78f42
+Nemesis of Reason,5,2009,3.56,#d78f42
+Predatory Advantage,5,2009,0.3,#d78f42
+Retaliator Griffin,4,2009,0.35,#d78f42
+Sages of the Anima,5,2009,0.27,#d78f42
+Sen Triplets,5,2009,10.83,#d78f42
+Soulquake,7,2009,0.28,#d78f42
+Sovereigns of Lost Alara,6,2009,0.63,#d78f42
+Spellbound Dragon,5,2009,0.44,#d78f42
+Spellbreaker Behemoth,4,2009,1.27,#d78f42
+Sphinx of the Steel Wind,8,2009,1.39,#d78f42
+Thought Hemorrhage,4,2009,0.24,#d78f42
+Thraximundar,7,2009,1.44,#d78f42
+Time Sieve,2,2009,3.31,#d78f42
+Unscythe- Killer of Kings,4,2009,1.24,#d78f42
+Uril- the Miststalker,5,2009,14.38,#d78f42
+Vedalken Heretic,2,2009,0.3,#d78f42
+Wargate,3,2009,2.22,#d78f42

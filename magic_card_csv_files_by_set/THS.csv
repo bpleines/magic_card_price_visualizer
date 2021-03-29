@@ -1,69 +1,69 @@
-name,cmc,price,color
-Abhorrent Overlord,7,0.42,#000000
-Agent of the Fates,3,0.25,#000000
-Akroan Horse,4,0.3,#8c8d8b
-Anax and Cymede,3,0.24,#d78f42
-Anger of the Gods,3,1.48,#ff1a1a
-Anthousa- Setessan Hero,5,0.11,#087500
-Arbor Colossus,5,0.14,#087500
-Artisan of Forms,2,0.21,#341aff
-Ashen Rider,8,1.51,#d78f42
-Ashiok- Nightmare Weaver,3,4.64,#d78f42
-Bident of Thassa,4,2.46,#341aff
-Boon Satyr,3,0.17,#087500
-Bow of Nylea,3,7.14,#087500
-Celestial Archon,5,0.1,#ffffff
-Chained to the Rocks,1,0.57,#ffffff
-Colossus of Akros,8,1.3,#8c8d8b
-Curse of the Swine,2,0.84,#341aff
-Daxos of Meletis,3,0.25,#d78f42
-Elspeth- Sun's Champion,6,10.65,#ffffff
-Ember Swallower,4,0.12,#ff1a1a
-Erebos- God of the Dead,4,16.16,#000000
-Fabled Hero,3,0.29,#ffffff
-Firedrinker Satyr,1,0.22,#ff1a1a
-Fleecemane Lion,2,1.26,#d78f42
-Gift of Immortality,3,2.02,#ffffff
-Hammer of Purphoros,3,1.66,#ff1a1a
-Heliod- God of the Sun,4,5.73,#ffffff
-Hero's Downfall,3,2.87,#000000
-Hundred-Handed One,4,0.17,#ffffff
-Hythonia the Cruel,6,0.55,#000000
-Labyrinth Champion,4,0.11,#ff1a1a
-Master of Waves,4,5.05,#341aff
-Medomai the Ageless,6,1.48,#d78f42
-Meletis Charlatan,3,0.12,#341aff
-Mistcutter Hydra,1,2.01,#087500
-Nighthowler,3,0.25,#000000
-Nykthos- Shrine to Nyx,0,26.28,#8c8d8b
-Nylea- God of the Hunt,4,9.67,#087500
-Polis Crusher,4,0.11,#d78f42
-Polukranos- World Eater,4,1.43,#087500
-Prognostic Sphinx,5,0.18,#341aff
-Prophet of Kruphix,5,0.84,#d78f42
-Psychic Intrusion,5,0.16,#d78f42
-Purphoros- God of the Forge,4,21.79,#ff1a1a
-Pyxis of Pandemonium,1,0.29,#8c8d8b
-Rageblood Shaman,3,0.35,#ff1a1a
-Reaper of the Wilds,4,0.22,#d78f42
-Reverent Hunter,3,0.25,#087500
-Shipbreaker Kraken,6,0.2,#341aff
-Soldier of the Pantheon,1,0.29,#ffffff
-Spear of Heliod,3,1.14,#ffffff
-Steam Augury,4,0.2,#d78f42
-Stormbreath Dragon,5,2.03,#ff1a1a
-Swan Song,1,11.49,#341aff
-Sylvan Caryatid,2,5.21,#087500
-Temple of Abandon,0,0.96,#d78f42
-Temple of Deceit,0,2.79,#d78f42
-Temple of Mystery,0,0.61,#d78f42
-Temple of Silence,0,0.69,#d78f42
-Temple of Triumph,0,0.54,#d78f42
-Thassa- God of the Sea,3,15.77,#341aff
-Thoughtseize,1,14.52,#000000
-Titan of Eternal Fire,6,0.09,#ff1a1a
-Triad of Fates,4,0.22,#d78f42
-Tymaret- the Murder King,2,0.24,#d78f42
-Underworld Cerberus,5,0.45,#d78f42
-Whip of Erebos,4,6.09,#000000
-Xenagos- the Reveler,4,4.11,#d78f42
+name,cmc,release_year,price,color
+Abhorrent Overlord,7,2013,0.42,#000000
+Agent of the Fates,3,2013,0.25,#000000
+Akroan Horse,4,2013,0.3,#8c8d8b
+Anax and Cymede,3,2013,0.24,#d78f42
+Anger of the Gods,3,2013,1.58,#ff1a1a
+Anthousa- Setessan Hero,5,2013,0.11,#087500
+Arbor Colossus,5,2013,0.14,#087500
+Artisan of Forms,2,2013,0.2,#341aff
+Ashen Rider,8,2013,1.46,#d78f42
+Ashiok- Nightmare Weaver,3,2013,4.91,#d78f42
+Bident of Thassa,4,2013,2.67,#341aff
+Boon Satyr,3,2013,0.17,#087500
+Bow of Nylea,3,2013,6.25,#087500
+Celestial Archon,5,2013,0.1,#ffffff
+Chained to the Rocks,1,2013,0.55,#ffffff
+Colossus of Akros,8,2013,1.31,#8c8d8b
+Curse of the Swine,2,2013,0.83,#341aff
+Daxos of Meletis,3,2013,0.25,#d78f42
+Elspeth- Sun's Champion,6,2013,10.86,#ffffff
+Ember Swallower,4,2013,0.12,#ff1a1a
+Erebos- God of the Dead,4,2013,16.28,#000000
+Fabled Hero,3,2013,0.29,#ffffff
+Firedrinker Satyr,1,2013,0.22,#ff1a1a
+Fleecemane Lion,2,2013,1.3,#d78f42
+Gift of Immortality,3,2013,2.21,#ffffff
+Hammer of Purphoros,3,2013,1.87,#ff1a1a
+Heliod- God of the Sun,4,2013,5.89,#ffffff
+Hero's Downfall,3,2013,2.9,#000000
+Hundred-Handed One,4,2013,0.17,#ffffff
+Hythonia the Cruel,6,2013,0.55,#000000
+Labyrinth Champion,4,2013,0.11,#ff1a1a
+Master of Waves,4,2013,5.03,#341aff
+Medomai the Ageless,6,2013,1.48,#d78f42
+Meletis Charlatan,3,2013,0.12,#341aff
+Mistcutter Hydra,1,2013,2.1,#087500
+Nighthowler,3,2013,0.25,#000000
+Nykthos- Shrine to Nyx,0,2013,26.52,#8c8d8b
+Nylea- God of the Hunt,4,2013,9.47,#087500
+Polis Crusher,4,2013,0.11,#d78f42
+Polukranos- World Eater,4,2013,1.5,#087500
+Prognostic Sphinx,5,2013,0.18,#341aff
+Prophet of Kruphix,5,2013,0.86,#d78f42
+Psychic Intrusion,5,2013,0.16,#d78f42
+Purphoros- God of the Forge,4,2013,21.79,#ff1a1a
+Pyxis of Pandemonium,1,2013,0.29,#8c8d8b
+Rageblood Shaman,3,2013,0.37,#ff1a1a
+Reaper of the Wilds,4,2013,0.22,#d78f42
+Reverent Hunter,3,2013,0.23,#087500
+Shipbreaker Kraken,6,2013,0.2,#341aff
+Soldier of the Pantheon,1,2013,0.29,#ffffff
+Spear of Heliod,3,2013,1.21,#ffffff
+Steam Augury,4,2013,0.2,#d78f42
+Stormbreath Dragon,5,2013,2.04,#ff1a1a
+Swan Song,1,2013,11.88,#341aff
+Sylvan Caryatid,2,2013,5.19,#087500
+Temple of Abandon,0,2013,0.98,#d78f42
+Temple of Deceit,0,2013,2.79,#d78f42
+Temple of Mystery,0,2013,0.6,#d78f42
+Temple of Silence,0,2013,0.7,#d78f42
+Temple of Triumph,0,2013,0.53,#d78f42
+Thassa- God of the Sea,3,2013,16.09,#341aff
+Thoughtseize,1,2013,14.6,#000000
+Titan of Eternal Fire,6,2013,0.09,#ff1a1a
+Triad of Fates,4,2013,0.22,#d78f42
+Tymaret- the Murder King,2,2013,0.25,#d78f42
+Underworld Cerberus,5,2013,0.45,#d78f42
+Whip of Erebos,4,2013,6.92,#000000
+Xenagos- the Reveler,4,2013,4.11,#d78f42

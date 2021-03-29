@@ -1,81 +1,81 @@
-name,cmc,price,color
-Admiral Beckett Brass,4,3.9,#d78f42
-Angrath's Marauders,7,0.9,#ff1a1a
-Arcane Adaptation,3,3.64,#341aff
-Arguel's Blood Fast // Temple of Aclazotz,2,0.31,#000000
-Ashes of the Abhorrent,2,0.34,#ffffff
-Axis of Mortality,6,0.71,#ffffff
-Bishop of Rebirth,5,0.39,#ffffff
-Bloodcrazed Paladin,2,0.2,#000000
-Boneyard Parley,7,0.39,#000000
-Burning Sun's Avatar,6,0.25,#ff1a1a
-Captain Lannery Storm,3,2.73,#ff1a1a
-Captivating Crew,4,0.33,#ff1a1a
-Carnage Tyrant,6,10.21,#087500
-Conqueror's Galleon // Conqueror's Foothold,4,0.48,#8c8d8b
-Daring Saboteur,2,0.21,#341aff
-Deadeye Tracker,1,0.35,#000000
-Deathgorge Scavenger,3,0.4,#087500
-Deeproot Champion,2,0.2,#087500
-Dire Fleet Ravager,5,2.74,#000000
-Dowsing Dagger // Lost Vale,2,6.12,#8c8d8b
-Dragonskull Summit,0,5.16,#d78f42
-Dreamcaller Siren,4,0.2,#341aff
-Drowned Catacomb,0,6.85,#d78f42
-Emperor's Vanguard,4,0.12,#087500
-Entrancing Melody,2,0.31,#341aff
-Fathom Fleet Captain,2,0.45,#000000
-Fell Flagship,3,0.31,#8c8d8b
-Fleet Swallower,7,1.03,#341aff
-Gishath- Sun's Avatar,8,13.61,#d78f42
-Glacial Fortress,0,5.88,#d78f42
-Goring Ceratops,7,0.33,#ffffff
-Grasping Current,5,0.13,#341aff
-Growing Rites of Itlimoc // Itlimoc- Cradle of the Sun,3,26.76,#087500
-Herald of Secret Streams,4,3.6,#341aff
-Hostage Taker,4,4.53,#d78f42
-Huatli- Warrior Poet,5,4.58,#d78f42
-Jace- Cunning Castaway,3,1.25,#341aff
-Kinjalli's Sunwing,3,1.86,#ffffff
-Kopala- Warden of Waves,3,0.45,#341aff
-Legion's Landing // Adanto- the First Fort,1,3.04,#ffffff
-Mavren Fein- Dusk Apostle,3,0.77,#ffffff
-Old-Growth Dryads,1,0.17,#087500
-Overflowing Insight,7,0.44,#341aff
-Priest of the Wakening Sun,1,0.34,#ffffff
-Primal Amulet // Primal Wellspring,4,10.1,#8c8d8b
-Rampaging Ferocidon,3,3.61,#ff1a1a
-Regisaur Alpha,5,0.89,#d78f42
-Repeating Barrage,3,0.09,#ff1a1a
-Revel in Riches,5,6.51,#000000
-Ripjaw Raptor,4,2.19,#087500
-River's Rebuke,6,1.79,#341aff
-Rootbound Crag,0,4.32,#d78f42
-Rowdy Crew,4,0.46,#ff1a1a
-Ruin Raider,3,0.28,#000000
-Sanctum Seeker,4,2.45,#000000
-Sanguine Sacrament,2,0.26,#ffffff
-Search for Azcanta // Azcanta- the Sunken Ruin,2,5.27,#341aff
-Settle the Wreckage,4,4.24,#ffffff
-Shadowed Caravel,2,0.16,#8c8d8b
-Shapers' Sanctuary,1,1.01,#087500
-Sorcerous Spyglass,2,0.3,#8c8d8b
-Spell Swindle,5,3.52,#341aff
-Star of Extinction,7,7.93,#ff1a1a
-Sunbird's Invocation,6,2.97,#ff1a1a
-Sun-Blessed Mount,5,0.32,#d78f42
-Sunpetal Grove,0,4.42,#d78f42
-Sword-Point Diplomacy,3,0.19,#000000
-Thaumatic Compass // Spires of Orazca,2,3.23,#8c8d8b
-Tilonalli's Skinshifter,3,0.13,#ff1a1a
-Tishana- Voice of Thunder,7,4.18,#d78f42
-Tocatli Honor Guard,2,0.24,#ffffff
-Treasure Map // Treasure Cove,2,10.85,#8c8d8b
-Vance's Blasting Cannons // Spitfire Bastion,4,0.3,#ff1a1a
-Vanquisher's Banner,5,12.24,#8c8d8b
-Verdant Sun's Avatar,7,0.36,#087500
-Vona- Butcher of Magan,5,5.54,#d78f42
-Vraska- Relic Seeker,6,1.58,#d78f42
-Vraska's Contempt,4,1.61,#000000
-Wakening Sun's Avatar,8,6.12,#ffffff
-Waker of the Wilds,4,0.09,#087500
+name,cmc,release_year,price,color
+Admiral Beckett Brass,4,2017,3.97,#d78f42
+Angrath's Marauders,7,2017,0.94,#ff1a1a
+Arcane Adaptation,3,2017,4.24,#341aff
+Arguel's Blood Fast // Temple of Aclazotz,2,2017,0.32,#000000
+Ashes of the Abhorrent,2,2017,0.34,#ffffff
+Axis of Mortality,6,2017,0.72,#ffffff
+Bishop of Rebirth,5,2017,0.37,#ffffff
+Bloodcrazed Paladin,2,2017,0.2,#000000
+Boneyard Parley,7,2017,0.39,#000000
+Burning Sun's Avatar,6,2017,0.24,#ff1a1a
+Captain Lannery Storm,3,2017,2.27,#ff1a1a
+Captivating Crew,4,2017,0.33,#ff1a1a
+Carnage Tyrant,6,2017,10.45,#087500
+Conqueror's Galleon // Conqueror's Foothold,4,2017,0.52,#8c8d8b
+Daring Saboteur,2,2017,0.2,#341aff
+Deadeye Tracker,1,2017,0.33,#000000
+Deathgorge Scavenger,3,2017,0.41,#087500
+Deeproot Champion,2,2017,0.2,#087500
+Dire Fleet Ravager,5,2017,2.78,#000000
+Dowsing Dagger // Lost Vale,2,2017,5.87,#8c8d8b
+Dragonskull Summit,0,2017,4.56,#d78f42
+Dreamcaller Siren,4,2017,0.2,#341aff
+Drowned Catacomb,0,2017,6.81,#d78f42
+Emperor's Vanguard,4,2017,0.12,#087500
+Entrancing Melody,2,2017,0.28,#341aff
+Fathom Fleet Captain,2,2017,0.45,#000000
+Fell Flagship,3,2017,0.31,#8c8d8b
+Fleet Swallower,7,2017,1.02,#341aff
+Gishath- Sun's Avatar,8,2017,12.39,#d78f42
+Glacial Fortress,0,2017,5.68,#d78f42
+Goring Ceratops,7,2017,0.35,#ffffff
+Grasping Current,5,2017,0.13,#341aff
+Growing Rites of Itlimoc // Itlimoc- Cradle of the Sun,3,2017,27.02,#087500
+Herald of Secret Streams,4,2017,3.27,#341aff
+Hostage Taker,4,2017,4.43,#d78f42
+Huatli- Warrior Poet,5,2017,4.73,#d78f42
+Jace- Cunning Castaway,3,2017,1.35,#341aff
+Kinjalli's Sunwing,3,2017,2.19,#ffffff
+Kopala- Warden of Waves,3,2017,0.48,#341aff
+Legion's Landing // Adanto- the First Fort,1,2017,3.14,#ffffff
+Mavren Fein- Dusk Apostle,3,2017,0.73,#ffffff
+Old-Growth Dryads,1,2017,0.17,#087500
+Overflowing Insight,7,2017,0.44,#341aff
+Priest of the Wakening Sun,1,2017,0.34,#ffffff
+Primal Amulet // Primal Wellspring,4,2017,9.4,#8c8d8b
+Rampaging Ferocidon,3,2017,3.59,#ff1a1a
+Regisaur Alpha,5,2017,0.94,#d78f42
+Repeating Barrage,3,2017,0.09,#ff1a1a
+Revel in Riches,5,2017,6.42,#000000
+Ripjaw Raptor,4,2017,2.43,#087500
+River's Rebuke,6,2017,1.75,#341aff
+Rootbound Crag,0,2017,4.09,#d78f42
+Rowdy Crew,4,2017,0.45,#ff1a1a
+Ruin Raider,3,2017,0.28,#000000
+Sanctum Seeker,4,2017,2.34,#000000
+Sanguine Sacrament,2,2017,0.26,#ffffff
+Search for Azcanta // Azcanta- the Sunken Ruin,2,2017,5.1,#341aff
+Settle the Wreckage,4,2017,4.27,#ffffff
+Shadowed Caravel,2,2017,0.16,#8c8d8b
+Shapers' Sanctuary,1,2017,0.97,#087500
+Sorcerous Spyglass,2,2017,0.3,#8c8d8b
+Spell Swindle,5,2017,3.32,#341aff
+Star of Extinction,7,2017,7.63,#ff1a1a
+Sunbird's Invocation,6,2017,3.09,#ff1a1a
+Sun-Blessed Mount,5,2017,0.32,#d78f42
+Sunpetal Grove,0,2017,4.45,#d78f42
+Sword-Point Diplomacy,3,2017,0.19,#000000
+Thaumatic Compass // Spires of Orazca,2,2017,3.12,#8c8d8b
+Tilonalli's Skinshifter,3,2017,0.13,#ff1a1a
+Tishana- Voice of Thunder,7,2017,4.82,#d78f42
+Tocatli Honor Guard,2,2017,0.22,#ffffff
+Treasure Map // Treasure Cove,2,2017,9.7,#8c8d8b
+Vance's Blasting Cannons // Spitfire Bastion,4,2017,0.3,#ff1a1a
+Vanquisher's Banner,5,2017,13.15,#8c8d8b
+Verdant Sun's Avatar,7,2017,0.41,#087500
+Vona- Butcher of Magan,5,2017,5.62,#d78f42
+Vraska- Relic Seeker,6,2017,1.64,#d78f42
+Vraska's Contempt,4,2017,1.59,#000000
+Wakening Sun's Avatar,8,2017,6.26,#ffffff
+Waker of the Wilds,4,2017,0.09,#087500

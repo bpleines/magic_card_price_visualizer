@@ -1,69 +1,69 @@
-name,cmc,price,color
-Alms Beast,4,0.12,#d78f42
-Angelic Skirmisher,6,0.95,#ffffff
-Assemble the Legion,5,1.86,#d78f42
-Aurelia's Fury,2,1.12,#d78f42
-Aurelia- the Warleader,6,19.37,#d78f42
-Biomass Mutation,2,0.25,#d78f42
-Biovisionary,3,0.45,#d78f42
-Blind Obedience,2,6.64,#ffffff
-Borborygmos Enraged,8,0.99,#d78f42
-Boros Reckoner,3,0.57,#d78f42
-Breeding Pool,0,21.38,#d78f42
-Clan Defiance,2,0.25,#d78f42
-Consuming Aberration,5,0.82,#d78f42
-Crypt Ghast,4,9.6,#000000
-Deathpact Angel,6,0.77,#d78f42
-Diluvian Primordial,7,2.53,#341aff
-Domri Rade,3,2.44,#d78f42
-Duskmantle Seer,4,0.39,#d78f42
-Enter the Infinite,12,4.15,#341aff
-Fathom Mage,4,0.47,#d78f42
-Firemane Avenger,4,0.31,#d78f42
-Five-Alarm Fire,3,0.15,#ff1a1a
-Foundry Champion,6,0.13,#d78f42
-Frontline Medic,3,0.47,#ffffff
-Giant Adephage,7,0.72,#087500
-Gideon- Champion of Justice,4,1.96,#ffffff
-Glaring Spotlight,1,1.06,#8c8d8b
-Godless Shrine,0,9.93,#d78f42
-Gruul Ragebeast,7,0.29,#d78f42
-Gyre Sage,2,5.45,#087500
-Hellkite Tyrant,6,29.69,#ff1a1a
-High Priest of Penance,2,0.3,#d78f42
-Illusionist's Bracers,2,8.67,#8c8d8b
-Immortal Servitude,3,0.44,#d78f42
-Lazav- Dimir Mastermind,4,1.8,#d78f42
-Legion Loyalist,1,4.31,#ff1a1a
-Lord of the Void,7,11.92,#000000
-Luminate Primordial,7,0.33,#ffffff
-Master Biomancer,4,4.41,#d78f42
-Merciless Eviction,6,2.85,#d78f42
-Mind Grind,2,4.81,#d78f42
-Molten Primordial,7,0.82,#ff1a1a
-Mystic Genesis,5,0.15,#d78f42
-Nightveil Specter,3,0.48,#d78f42
-Obzedat- Ghost Council,5,1.16,#d78f42
-Ogre Slumlord,5,0.76,#000000
-Ooze Flux,4,0.24,#087500
-Prime Speaker Zegana,6,4.65,#d78f42
-Realmwright,1,0.25,#341aff
-Rubblebelt Raiders,4,0.17,#d78f42
-Rubblehulk,6,0.21,#d78f42
-Sacred Foundry,0,13.99,#d78f42
-Sepulchral Primordial,7,0.76,#000000
-Signal the Clans,2,0.35,#d78f42
-Simic Manipulator,3,0.37,#341aff
-Skarrg Goliath,8,0.14,#087500
-Soul Ransom,4,0.15,#d78f42
-Spark Trooper,4,0.22,#d78f42
-Stolen Identity,6,0.48,#341aff
-Stomping Ground,0,9.14,#d78f42
-Sylvan Primordial,7,0.36,#087500
-Thespian's Stage,0,2.16,#8c8d8b
-Treasury Thrull,6,0.23,#d78f42
-Undercity Plague,6,0.19,#000000
-Unexpected Results,4,0.52,#d78f42
-Watery Grave,0,10.49,#d78f42
-Whispering Madness,4,0.59,#d78f42
-Wrecking Ogre,5,0.13,#ff1a1a
+name,cmc,release_year,price,color
+Alms Beast,4,2013,0.12,#d78f42
+Angelic Skirmisher,6,2013,0.94,#ffffff
+Assemble the Legion,5,2013,1.86,#d78f42
+Aurelia's Fury,2,2013,1.13,#d78f42
+Aurelia- the Warleader,6,2013,19.61,#d78f42
+Biomass Mutation,2,2013,0.25,#d78f42
+Biovisionary,3,2013,0.45,#d78f42
+Blind Obedience,2,2013,7.08,#ffffff
+Borborygmos Enraged,8,2013,0.99,#d78f42
+Boros Reckoner,3,2013,0.55,#d78f42
+Breeding Pool,0,2013,21.39,#d78f42
+Clan Defiance,2,2013,0.25,#d78f42
+Consuming Aberration,5,2013,0.85,#d78f42
+Crypt Ghast,4,2013,9.72,#000000
+Deathpact Angel,6,2013,0.77,#d78f42
+Diluvian Primordial,7,2013,2.46,#341aff
+Domri Rade,3,2013,2.44,#d78f42
+Duskmantle Seer,4,2013,0.39,#d78f42
+Enter the Infinite,12,2013,4.26,#341aff
+Fathom Mage,4,2013,0.47,#d78f42
+Firemane Avenger,4,2013,0.32,#d78f42
+Five-Alarm Fire,3,2013,0.15,#ff1a1a
+Foundry Champion,6,2013,0.13,#d78f42
+Frontline Medic,3,2013,0.45,#ffffff
+Giant Adephage,7,2013,0.72,#087500
+Gideon- Champion of Justice,4,2013,1.98,#ffffff
+Glaring Spotlight,1,2013,1.06,#8c8d8b
+Godless Shrine,0,2013,9.72,#d78f42
+Gruul Ragebeast,7,2013,0.29,#d78f42
+Gyre Sage,2,2013,5.52,#087500
+Hellkite Tyrant,6,2013,30.09,#ff1a1a
+High Priest of Penance,2,2013,0.3,#d78f42
+Illusionist's Bracers,2,2013,8.55,#8c8d8b
+Immortal Servitude,3,2013,0.46,#d78f42
+Lazav- Dimir Mastermind,4,2013,1.8,#d78f42
+Legion Loyalist,1,2013,4.36,#ff1a1a
+Lord of the Void,7,2013,12.37,#000000
+Luminate Primordial,7,2013,0.34,#ffffff
+Master Biomancer,4,2013,4.54,#d78f42
+Merciless Eviction,6,2013,2.53,#d78f42
+Mind Grind,2,2013,4.83,#d78f42
+Molten Primordial,7,2013,0.82,#ff1a1a
+Mystic Genesis,5,2013,0.15,#d78f42
+Nightveil Specter,3,2013,0.47,#d78f42
+Obzedat- Ghost Council,5,2013,1.2,#d78f42
+Ogre Slumlord,5,2013,0.76,#000000
+Ooze Flux,4,2013,0.24,#087500
+Prime Speaker Zegana,6,2013,4.66,#d78f42
+Realmwright,1,2013,0.25,#341aff
+Rubblebelt Raiders,4,2013,0.17,#d78f42
+Rubblehulk,6,2013,0.21,#d78f42
+Sacred Foundry,0,2013,13.86,#d78f42
+Sepulchral Primordial,7,2013,0.7,#000000
+Signal the Clans,2,2013,0.35,#d78f42
+Simic Manipulator,3,2013,0.38,#341aff
+Skarrg Goliath,8,2013,0.15,#087500
+Soul Ransom,4,2013,0.15,#d78f42
+Spark Trooper,4,2013,0.21,#d78f42
+Stolen Identity,6,2013,0.48,#341aff
+Stomping Ground,0,2013,9.08,#d78f42
+Sylvan Primordial,7,2013,0.36,#087500
+Thespian's Stage,0,2013,2.13,#8c8d8b
+Treasury Thrull,6,2013,0.23,#d78f42
+Undercity Plague,6,2013,0.19,#000000
+Unexpected Results,4,2013,0.52,#d78f42
+Watery Grave,0,2013,10.59,#d78f42
+Whispering Madness,4,2013,0.58,#d78f42
+Wrecking Ogre,5,2013,0.13,#ff1a1a

@@ -1,47 +1,47 @@
-name,cmc,price,color
-Ashnod's Cylix,2,3.12,#8c8d8b
-Balduvian Horde,4,2.07,#ff1a1a
-Balduvian Trading Post,0,10.75,#ff1a1a
-Chaos Harlequin,4,2.27,#ff1a1a
-Diminishing Returns,4,0.52,#341aff
-Dystopia,3,10.11,#000000
-Exile,3,1.61,#ffffff
-Fatal Lore,4,4.56,#000000
-Floodwater Dam,3,2.9,#8c8d8b
-Gargantuan Gorilla,7,2.0,#087500
-Gustha's Scepter,0,10.29,#8c8d8b
-Heart of Yavimaya,0,16.51,#087500
-Helm of Obedience,4,94.62,#8c8d8b
-Ivory Gargoyle,5,2.08,#ffffff
-Kaysa,5,12.55,#087500
-Keeper of Tresserhorn,6,2.18,#000000
-Kjeldoran Outpost,0,32.17,#ffffff
-Krovikan Horror,4,6.2,#000000
-Lake of the Dead,0,163.35,#000000
-Library of Lat-Nam,5,0.35,#341aff
-Lodestone Bauble,0,10.82,#8c8d8b
-Lord of Tresserhorn,4,9.71,#d78f42
-Misfortune,4,3.69,#d78f42
-Nature's Wrath,6,7.79,#087500
-Omen of Fire,5,6.4,#ff1a1a
-Phantasmal Sphere,2,2.17,#341aff
-Phelddagrif,4,27.39,#d78f42
-Phyrexian Devourer,6,18.8,#8c8d8b
-Phyrexian Portal,3,6.95,#8c8d8b
-Ritual of the Machine,4,15.77,#000000
-Rogue Skycaptain,3,1.81,#ff1a1a
-Royal Decree,4,2.59,#ffffff
-Sheltered Valley,0,10.1,#8c8d8b
-Soldevi Digger,2,6.12,#8c8d8b
-Soldevi Excavations,0,29.29,#341aff
-Splintering Wind,4,1.92,#087500
-Storm Cauldron,5,2.81,#8c8d8b
-Sustaining Spirit,2,6.56,#ffffff
-Sworn Defender,4,2.59,#ffffff
-Thawing Glaciers,0,44.09,#8c8d8b
-Thought Lash,4,24.03,#341aff
-Tidal Control,3,5.93,#341aff
-Tornado,5,2.57,#087500
-Varchild's War-Riders,2,10.61,#ff1a1a
-Wandering Mage,3,3.34,#d78f42
-Winter's Night,3,9.34,#d78f42
+name,cmc,release_year,price,color
+Ashnod's Cylix,2,1996,3.12,#8c8d8b
+Balduvian Horde,4,1996,2.07,#ff1a1a
+Balduvian Trading Post,0,1996,11.89,#ff1a1a
+Chaos Harlequin,4,1996,2.27,#ff1a1a
+Diminishing Returns,4,1996,0.53,#341aff
+Dystopia,3,1996,10.11,#000000
+Exile,3,1996,1.61,#ffffff
+Fatal Lore,4,1996,4.54,#000000
+Floodwater Dam,3,1996,2.94,#8c8d8b
+Gargantuan Gorilla,7,1996,2.0,#087500
+Gustha's Scepter,0,1996,10.29,#8c8d8b
+Heart of Yavimaya,0,1996,15.32,#087500
+Helm of Obedience,4,1996,95.42,#8c8d8b
+Ivory Gargoyle,5,1996,2.08,#ffffff
+Kaysa,5,1996,13.2,#087500
+Keeper of Tresserhorn,6,1996,2.34,#000000
+Kjeldoran Outpost,0,1996,32.85,#ffffff
+Krovikan Horror,4,1996,6.2,#000000
+Lake of the Dead,0,1996,169.91,#000000
+Library of Lat-Nam,5,1996,0.35,#341aff
+Lodestone Bauble,0,1996,10.82,#8c8d8b
+Lord of Tresserhorn,4,1996,9.71,#d78f42
+Misfortune,4,1996,3.82,#d78f42
+Nature's Wrath,6,1996,7.79,#087500
+Omen of Fire,5,1996,6.47,#ff1a1a
+Phantasmal Sphere,2,1996,2.17,#341aff
+Phelddagrif,4,1996,28.82,#d78f42
+Phyrexian Devourer,6,1996,18.52,#8c8d8b
+Phyrexian Portal,3,1996,6.96,#8c8d8b
+Ritual of the Machine,4,1996,15.64,#000000
+Rogue Skycaptain,3,1996,1.81,#ff1a1a
+Royal Decree,4,1996,2.65,#ffffff
+Sheltered Valley,0,1996,10.1,#8c8d8b
+Soldevi Digger,2,1996,6.12,#8c8d8b
+Soldevi Excavations,0,1996,29.74,#341aff
+Splintering Wind,4,1996,1.92,#087500
+Storm Cauldron,5,1996,2.8,#8c8d8b
+Sustaining Spirit,2,1996,6.56,#ffffff
+Sworn Defender,4,1996,2.59,#ffffff
+Thawing Glaciers,0,1996,44.09,#8c8d8b
+Thought Lash,4,1996,23.83,#341aff
+Tidal Control,3,1996,5.93,#341aff
+Tornado,5,1996,2.7,#087500
+Varchild's War-Riders,2,1996,10.61,#ff1a1a
+Wandering Mage,3,1996,3.34,#d78f42
+Winter's Night,3,1996,9.34,#d78f42

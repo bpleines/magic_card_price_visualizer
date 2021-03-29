@@ -1,6 +1,8 @@
-name,cmc,price,color
-Lorehold Command,5,4.07,#d78f42
-Prismari Command,3,8.78,#d78f42
-Quandrix Command,3,4.15,#d78f42
-Silverquill Command,4,4.12,#d78f42
-Witherbloom Command,2,8.2,#d78f42
+name,cmc,release_year,price,color
+Confront the Past,1,2021,3.98,#000000
+Kasmina- Enigma Sage,3,2021,24.0,#d78f42
+Lorehold Command,5,2021,4.07,#d78f42
+Prismari Command,3,2021,8.66,#d78f42
+Quandrix Command,3,2021,4.15,#d78f42
+Silverquill Command,4,2021,4.12,#d78f42
+Witherbloom Command,2,2021,8.29,#d78f42

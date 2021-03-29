@@ -1,69 +1,69 @@
-name,cmc,price,color
-Argent Sphinx,4,0.2,#341aff
-Argentum Armor,6,3.49,#8c8d8b
-Asceticism,5,15.63,#087500
-Blackcleave Cliffs,0,16.25,#d78f42
-Carnifex Demon,6,1.07,#000000
-Cerebral Eruption,4,0.17,#ff1a1a
-Chimeric Mass,0,0.25,#8c8d8b
-Contagion Engine,6,15.47,#8c8d8b
-Copperline Gorge,0,4.67,#d78f42
-Darkslick Shores,0,8.33,#d78f42
-Darksteel Juggernaut,5,0.67,#8c8d8b
-Dissipation Field,4,1.68,#341aff
-Elspeth Tirel,5,9.09,#ffffff
-Engulfing Slagwurm,7,0.81,#087500
-Etched Champion,3,1.42,#8c8d8b
-Ezuri- Renegade Leader,3,15.27,#087500
-Ezuri's Brigade,4,0.18,#087500
-Genesis Wave,3,7.9,#087500
-Geth- Lord of the Vault,6,1.44,#000000
-Grand Architect,3,1.07,#341aff
-Grindclock,2,0.33,#8c8d8b
-Hand of the Praetors,4,5.13,#000000
-Hoard-Smelter Dragon,6,0.32,#ff1a1a
-Indomitable Archangel,4,1.4,#ffffff
-Inexorable Tide,5,5.11,#341aff
-Kemba- Kha Regent,3,0.41,#ffffff
-Koth of the Hammer,4,5.02,#ff1a1a
-Kuldotha Forgemaster,5,1.65,#8c8d8b
-Kuldotha Phoenix,5,0.17,#ff1a1a
-Leonin Arbiter,2,6.61,#ffffff
-Liege of the Tangle,8,2.87,#087500
-Livewire Lash,2,0.46,#8c8d8b
-Lux Cannon,4,2.92,#8c8d8b
-Memoricide,4,0.22,#000000
-Mimic Vat,3,0.68,#8c8d8b
-Mindslaver,6,4.67,#8c8d8b
-Molten Psyche,3,3.29,#ff1a1a
-Molten-Tail Masticore,4,0.5,#8c8d8b
-Mox Opal,0,35.96,#8c8d8b
-Myr Battlesphere,7,0.47,#8c8d8b
-Myr Propagator,3,0.47,#8c8d8b
-Myr Reservoir,3,0.74,#8c8d8b
-Necrotic Ooze,4,2.78,#000000
-Nim Deathmantle,2,9.07,#8c8d8b
-Painful Quandary,5,22.25,#000000
-Platinum Emperion,8,15.58,#8c8d8b
-Precursor Golem,5,0.32,#8c8d8b
-Prototype Portal,4,0.58,#8c8d8b
-Putrefax,5,0.51,#087500
-Quicksilver Gargantuan,7,0.76,#341aff
-Ratchet Bomb,2,0.7,#8c8d8b
-Razorverge Thicket,0,4.86,#d78f42
-Seachrome Coast,0,6.28,#d78f42
-Semblance Anvil,3,6.38,#8c8d8b
-Shape Anew,4,0.28,#341aff
-Skithiryx- the Blight Dragon,5,13.9,#000000
-Spikeshot Elder,1,0.26,#ff1a1a
-Steel Hellkite,6,1.65,#8c8d8b
-Strata Scythe,3,0.41,#8c8d8b
-Sunblast Angel,6,0.48,#ffffff
-Sword of Body and Mind,3,11.23,#8c8d8b
-Tempered Steel,3,0.91,#ffffff
-Tower of Calamities,4,0.19,#8c8d8b
-True Conviction,6,2.72,#ffffff
-Tunnel Ignus,2,0.25,#ff1a1a
-Venser's Journal,5,7.07,#8c8d8b
-Venser- the Sojourner,5,18.68,#d78f42
-Wurmcoil Engine,6,17.91,#8c8d8b
+name,cmc,release_year,price,color
+Argent Sphinx,4,2010,0.2,#341aff
+Argentum Armor,6,2010,3.51,#8c8d8b
+Asceticism,5,2010,15.77,#087500
+Blackcleave Cliffs,0,2010,16.37,#d78f42
+Carnifex Demon,6,2010,1.06,#000000
+Cerebral Eruption,4,2010,0.17,#ff1a1a
+Chimeric Mass,0,2010,0.24,#8c8d8b
+Contagion Engine,6,2010,15.59,#8c8d8b
+Copperline Gorge,0,2010,4.66,#d78f42
+Darkslick Shores,0,2010,8.19,#d78f42
+Darksteel Juggernaut,5,2010,0.69,#8c8d8b
+Dissipation Field,4,2010,1.68,#341aff
+Elspeth Tirel,5,2010,9.16,#ffffff
+Engulfing Slagwurm,7,2010,0.81,#087500
+Etched Champion,3,2010,1.39,#8c8d8b
+Ezuri- Renegade Leader,3,2010,15.64,#087500
+Ezuri's Brigade,4,2010,0.18,#087500
+Genesis Wave,3,2010,7.89,#087500
+Geth- Lord of the Vault,6,2010,1.44,#000000
+Grand Architect,3,2010,1.14,#341aff
+Grindclock,2,2010,0.33,#8c8d8b
+Hand of the Praetors,4,2010,5.7,#000000
+Hoard-Smelter Dragon,6,2010,0.32,#ff1a1a
+Indomitable Archangel,4,2010,1.4,#ffffff
+Inexorable Tide,5,2010,5.02,#341aff
+Kemba- Kha Regent,3,2010,0.41,#ffffff
+Koth of the Hammer,4,2010,4.96,#ff1a1a
+Kuldotha Forgemaster,5,2010,1.67,#8c8d8b
+Kuldotha Phoenix,5,2010,0.17,#ff1a1a
+Leonin Arbiter,2,2010,6.62,#ffffff
+Liege of the Tangle,8,2010,2.76,#087500
+Livewire Lash,2,2010,0.45,#8c8d8b
+Lux Cannon,4,2010,2.84,#8c8d8b
+Memoricide,4,2010,0.21,#000000
+Mimic Vat,3,2010,0.68,#8c8d8b
+Mindslaver,6,2010,4.67,#8c8d8b
+Molten Psyche,3,2010,3.29,#ff1a1a
+Molten-Tail Masticore,4,2010,0.5,#8c8d8b
+Mox Opal,0,2010,36.66,#8c8d8b
+Myr Battlesphere,7,2010,0.47,#8c8d8b
+Myr Propagator,3,2010,0.47,#8c8d8b
+Myr Reservoir,3,2010,0.78,#8c8d8b
+Necrotic Ooze,4,2010,2.86,#000000
+Nim Deathmantle,2,2010,9.12,#8c8d8b
+Painful Quandary,5,2010,22.32,#000000
+Platinum Emperion,8,2010,15.58,#8c8d8b
+Precursor Golem,5,2010,0.32,#8c8d8b
+Prototype Portal,4,2010,0.58,#8c8d8b
+Putrefax,5,2010,0.5,#087500
+Quicksilver Gargantuan,7,2010,0.76,#341aff
+Ratchet Bomb,2,2010,0.7,#8c8d8b
+Razorverge Thicket,0,2010,5.09,#d78f42
+Seachrome Coast,0,2010,6.28,#d78f42
+Semblance Anvil,3,2010,5.95,#8c8d8b
+Shape Anew,4,2010,0.28,#341aff
+Skithiryx- the Blight Dragon,5,2010,14.15,#000000
+Spikeshot Elder,1,2010,0.26,#ff1a1a
+Steel Hellkite,6,2010,1.65,#8c8d8b
+Strata Scythe,3,2010,0.4,#8c8d8b
+Sunblast Angel,6,2010,0.45,#ffffff
+Sword of Body and Mind,3,2010,11.26,#8c8d8b
+Tempered Steel,3,2010,0.91,#ffffff
+Tower of Calamities,4,2010,0.19,#8c8d8b
+True Conviction,6,2010,2.72,#ffffff
+Tunnel Ignus,2,2010,0.25,#ff1a1a
+Venser's Journal,5,2010,7.07,#8c8d8b
+Venser- the Sojourner,5,2010,19.21,#d78f42
+Wurmcoil Engine,6,2010,18.2,#8c8d8b

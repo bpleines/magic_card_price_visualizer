@@ -1,47 +1,47 @@
-name,cmc,price,color
-Advent of the Wurm,4,0.25,#d78f42
-Aetherling,6,0.27,#341aff
-Beck // Call,8,0.24,#d78f42
-Blood Baron of Vizkopa,5,0.61,#d78f42
-Blood Scrivener,2,0.27,#000000
-Boros Battleshaper,7,0.15,#d78f42
-Breaking // Entering,8,0.34,#d78f42
-Catch // Release,9,0.17,#d78f42
-Council of the Absolute,4,0.47,#d78f42
-Deadbridge Chant,6,0.88,#d78f42
-Dragonshift,3,0.18,#d78f42
-Emmara Tandris,7,0.31,#d78f42
-Exava- Rakdos Blood Witch,4,0.29,#d78f42
-Flesh // Blood,7,0.19,#d78f42
-Gaze of Granite,3,0.35,#d78f42
-Lavinia of the Tenth,5,0.37,#d78f42
-Legion's Initiative,2,2.35,#d78f42
-Master of Cruelties,5,13.12,#d78f42
-Maze's End,0,2.24,#8c8d8b
-Melek- Izzet Paragon,6,0.36,#d78f42
-Mirko Vosk- Mind Drinker,5,0.9,#d78f42
-Notion Thief,4,1.33,#d78f42
-Obzedat's Aid,5,0.27,#d78f42
-Plasm Capture,4,0.63,#d78f42
-Pontiff of Blight,6,0.58,#000000
-Possibility Storm,5,0.87,#ff1a1a
-Progenitor Mimic,6,1.81,#d78f42
-Pyrewild Shaman,3,0.09,#ff1a1a
-Ral Zarek,4,1.27,#d78f42
-Ready // Willing,6,0.3,#d78f42
-Reap Intellect,4,0.46,#d78f42
-Render Silent,3,1.78,#d78f42
-Renegade Krasis,3,0.35,#087500
-Renounce the Guilds,2,0.13,#ffffff
-Ruric Thar- the Unbowed,6,0.49,#d78f42
-Savageborn Hydra,2,0.81,#d78f42
-Scion of Vitu-Ghazi,5,0.2,#ffffff
-Sire of Insanity,6,1.34,#d78f42
-Skylasher,2,0.25,#087500
-Tajic- Blade of the Legion,4,0.57,#d78f42
-Teysa- Envoy of Ghosts,7,0.97,#d78f42
-Trait Doctoring,1,0.26,#341aff
-Varolz- the Scar-Striped,3,0.52,#d78f42
-Voice of Resurgence,2,2.8,#d78f42
-Vorel of the Hull Clade,3,1.82,#d78f42
-Zhur-Taa Ancient,5,0.34,#d78f42
+name,cmc,release_year,price,color
+Advent of the Wurm,4,2013,0.25,#d78f42
+Aetherling,6,2013,0.27,#341aff
+Beck // Call,8,2013,0.24,#d78f42
+Blood Baron of Vizkopa,5,2013,0.61,#d78f42
+Blood Scrivener,2,2013,0.27,#000000
+Boros Battleshaper,7,2013,0.16,#d78f42
+Breaking // Entering,8,2013,0.34,#d78f42
+Catch // Release,9,2013,0.17,#d78f42
+Council of the Absolute,4,2013,0.48,#d78f42
+Deadbridge Chant,6,2013,0.88,#d78f42
+Dragonshift,3,2013,0.18,#d78f42
+Emmara Tandris,7,2013,0.31,#d78f42
+Exava- Rakdos Blood Witch,4,2013,0.3,#d78f42
+Flesh // Blood,7,2013,0.19,#d78f42
+Gaze of Granite,3,2013,0.35,#d78f42
+Lavinia of the Tenth,5,2013,0.39,#d78f42
+Legion's Initiative,2,2013,2.35,#d78f42
+Master of Cruelties,5,2013,12.31,#d78f42
+Maze's End,0,2013,2.3,#8c8d8b
+Melek- Izzet Paragon,6,2013,0.35,#d78f42
+Mirko Vosk- Mind Drinker,5,2013,0.89,#d78f42
+Notion Thief,4,2013,1.42,#d78f42
+Obzedat's Aid,5,2013,0.29,#d78f42
+Plasm Capture,4,2013,0.67,#d78f42
+Pontiff of Blight,6,2013,0.6,#000000
+Possibility Storm,5,2013,0.85,#ff1a1a
+Progenitor Mimic,6,2013,1.8,#d78f42
+Pyrewild Shaman,3,2013,0.09,#ff1a1a
+Ral Zarek,4,2013,1.29,#d78f42
+Ready // Willing,6,2013,0.31,#d78f42
+Reap Intellect,4,2013,0.46,#d78f42
+Render Silent,3,2013,1.74,#d78f42
+Renegade Krasis,3,2013,0.35,#087500
+Renounce the Guilds,2,2013,0.13,#ffffff
+Ruric Thar- the Unbowed,6,2013,0.49,#d78f42
+Savageborn Hydra,2,2013,0.81,#d78f42
+Scion of Vitu-Ghazi,5,2013,0.2,#ffffff
+Sire of Insanity,6,2013,1.39,#d78f42
+Skylasher,2,2013,0.26,#087500
+Tajic- Blade of the Legion,4,2013,0.59,#d78f42
+Teysa- Envoy of Ghosts,7,2013,0.98,#d78f42
+Trait Doctoring,1,2013,0.27,#341aff
+Varolz- the Scar-Striped,3,2013,0.53,#d78f42
+Voice of Resurgence,2,2013,2.87,#d78f42
+Vorel of the Hull Clade,3,2013,1.81,#d78f42
+Zhur-Taa Ancient,5,2013,0.36,#d78f42

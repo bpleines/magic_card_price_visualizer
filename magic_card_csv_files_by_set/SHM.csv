@@ -1,81 +1,81 @@
-name,cmc,price,color
-Ashenmoor Liege,4,4.68,#d78f42
-Augury Adept,3,0.56,#d78f42
-Boartusk Liege,4,6.12,#d78f42
-Boon Reflection,5,6.87,#ffffff
-Cauldron of Souls,5,2.48,#8c8d8b
-Cemetery Puca,3,2.28,#d78f42
-Counterbore,5,0.34,#341aff
-Cragganwick Cremator,4,0.61,#ff1a1a
-Deep-Slumber Titan,4,0.31,#ff1a1a
-Demigod of Revenge,5,2.53,#d78f42
-Deus of Calamity,5,1.07,#d78f42
-Din of the Fireherd,8,0.53,#d78f42
-Dire Undercurrents,5,11.7,#d78f42
-Dramatic Entrance,5,1.46,#087500
-Dusk Urchins,3,4.58,#000000
-Elemental Mastery,4,4.62,#ff1a1a
-Enchanted Evening,5,5.06,#d78f42
-Everlasting Torment,3,2.31,#d78f42
-Fire-Lit Thicket,0,8.61,#d78f42
-Fracturing Gust,5,2.13,#d78f42
-Fulminator Mage,3,4.62,#d78f42
-Furystoke Giant,5,2.65,#ff1a1a
-Ghastlord of Fugue,5,5.04,#d78f42
-Glen Elendra Liege,4,5.07,#d78f42
-Godhead of Awe,5,3.91,#d78f42
-Graven Cairns,0,5.63,#d78f42
-Greater Auramancy,2,46.53,#ffffff
-Grim Poppet,7,3.04,#8c8d8b
-Heartmender,4,0.75,#d78f42
-Hollowborn Barghest,7,0.45,#000000
-Impromptu Raid,4,0.5,#d78f42
-Isleback Spawn,7,1.85,#341aff
-Knacksaw Clique,4,3.89,#341aff
-Knollspine Dragon,7,3.8,#ff1a1a
-Knollspine Invocation,3,0.26,#ff1a1a
-Mana Reflection,6,14.53,#087500
-Mass Calcify,7,1.45,#ffffff
-Memory Plunder,4,2.54,#d78f42
-Midnight Banshee,6,2.27,#000000
-Mirrorweave,4,0.66,#d78f42
-Mossbridge Troll,7,2.12,#087500
-Mystic Gate,0,10.48,#d78f42
-Oona- Queen of the Fae,6,5.77,#d78f42
-Oracle of Nectars,3,1.39,#d78f42
-Order of Whiteclay,3,2.35,#ffffff
-Oversoul of Dusk,5,1.57,#d78f42
-Painter's Servant,2,47.88,#8c8d8b
-Plague of Vermin,7,5.33,#000000
-Polluted Bonds,5,39.23,#000000
-Prismatic Omen,2,22.47,#087500
-Puca's Mischief,4,2.34,#341aff
-Puppeteer Clique,5,3.75,#000000
-Rage Reflection,6,1.21,#ff1a1a
-Reaper King,10,3.18,#d78f42
-Reflecting Pool,0,22.11,#8c8d8b
-Rhys the Redeemed,1,6.8,#d78f42
-River Kelpie,5,0.81,#341aff
-Rosheen Meanderer,4,0.48,#d78f42
-Runed Halo,2,1.63,#ffffff
-Savor the Moment,3,9.0,#341aff
-Spawnwrithe,3,0.57,#087500
-Spiteful Visions,4,2.16,#d78f42
-Sunken Ruins,0,11.93,#d78f42
-Swans of Bryn Argoll,4,1.47,#d78f42
-Sygg- River Cutthroat,2,9.11,#d78f42
-Thistledown Liege,4,1.26,#d78f42
-Thought Reflection,7,1.67,#341aff
-Twilight Shepherd,6,0.63,#ffffff
-Tyrannize,5,0.37,#d78f42
-Valleymaker,6,0.23,#d78f42
-Vexing Shusher,2,9.05,#d78f42
-Wheel of Sun and Moon,2,12.56,#d78f42
-Wilt-Leaf Liege,4,2.48,#d78f42
-Windbrisk Raptor,7,1.28,#ffffff
-Witherscale Wurm,6,0.44,#087500
-Wooded Bastion,0,10.8,#d78f42
-Woodfall Primus,8,3.73,#087500
-Worldpurge,8,0.8,#d78f42
-Wort- the Raidmother,6,0.8,#d78f42
-Wound Reflection,6,9.53,#000000
+name,cmc,release_year,price,color
+Ashenmoor Liege,4,2008,4.68,#d78f42
+Augury Adept,3,2008,0.56,#d78f42
+Boartusk Liege,4,2008,6.12,#d78f42
+Boon Reflection,5,2008,6.87,#ffffff
+Cauldron of Souls,5,2008,2.48,#8c8d8b
+Cemetery Puca,3,2008,2.28,#d78f42
+Counterbore,5,2008,0.34,#341aff
+Cragganwick Cremator,4,2008,0.61,#ff1a1a
+Deep-Slumber Titan,4,2008,0.31,#ff1a1a
+Demigod of Revenge,5,2008,2.53,#d78f42
+Deus of Calamity,5,2008,1.07,#d78f42
+Din of the Fireherd,8,2008,0.53,#d78f42
+Dire Undercurrents,5,2008,11.7,#d78f42
+Dramatic Entrance,5,2008,1.46,#087500
+Dusk Urchins,3,2008,4.59,#000000
+Elemental Mastery,4,2008,4.72,#ff1a1a
+Enchanted Evening,5,2008,5.06,#d78f42
+Everlasting Torment,3,2008,2.33,#d78f42
+Fire-Lit Thicket,0,2008,8.61,#d78f42
+Fracturing Gust,5,2008,2.13,#d78f42
+Fulminator Mage,3,2008,4.62,#d78f42
+Furystoke Giant,5,2008,2.71,#ff1a1a
+Ghastlord of Fugue,5,2008,5.04,#d78f42
+Glen Elendra Liege,4,2008,5.07,#d78f42
+Godhead of Awe,5,2008,3.91,#d78f42
+Graven Cairns,0,2008,5.63,#d78f42
+Greater Auramancy,2,2008,47.66,#ffffff
+Grim Poppet,7,2008,3.04,#8c8d8b
+Heartmender,4,2008,0.75,#d78f42
+Hollowborn Barghest,7,2008,0.45,#000000
+Impromptu Raid,4,2008,0.5,#d78f42
+Isleback Spawn,7,2008,1.83,#341aff
+Knacksaw Clique,4,2008,3.96,#341aff
+Knollspine Dragon,7,2008,3.91,#ff1a1a
+Knollspine Invocation,3,2008,0.26,#ff1a1a
+Mana Reflection,6,2008,14.6,#087500
+Mass Calcify,7,2008,1.45,#ffffff
+Memory Plunder,4,2008,2.54,#d78f42
+Midnight Banshee,6,2008,2.26,#000000
+Mirrorweave,4,2008,0.66,#d78f42
+Mossbridge Troll,7,2008,2.12,#087500
+Mystic Gate,0,2008,10.48,#d78f42
+Oona- Queen of the Fae,6,2008,5.58,#d78f42
+Oracle of Nectars,3,2008,1.38,#d78f42
+Order of Whiteclay,3,2008,2.35,#ffffff
+Oversoul of Dusk,5,2008,1.57,#d78f42
+Painter's Servant,2,2008,47.94,#8c8d8b
+Plague of Vermin,7,2008,5.33,#000000
+Polluted Bonds,5,2008,39.99,#000000
+Prismatic Omen,2,2008,22.53,#087500
+Puca's Mischief,4,2008,2.34,#341aff
+Puppeteer Clique,5,2008,3.81,#000000
+Rage Reflection,6,2008,1.21,#ff1a1a
+Reaper King,10,2008,3.18,#d78f42
+Reflecting Pool,0,2008,22.3,#8c8d8b
+Rhys the Redeemed,1,2008,6.8,#d78f42
+River Kelpie,5,2008,0.81,#341aff
+Rosheen Meanderer,4,2008,0.48,#d78f42
+Runed Halo,2,2008,1.63,#ffffff
+Savor the Moment,3,2008,8.81,#341aff
+Spawnwrithe,3,2008,0.57,#087500
+Spiteful Visions,4,2008,2.16,#d78f42
+Sunken Ruins,0,2008,11.95,#d78f42
+Swans of Bryn Argoll,4,2008,1.48,#d78f42
+Sygg- River Cutthroat,2,2008,8.87,#d78f42
+Thistledown Liege,4,2008,1.26,#d78f42
+Thought Reflection,7,2008,1.67,#341aff
+Twilight Shepherd,6,2008,0.63,#ffffff
+Tyrannize,5,2008,0.37,#d78f42
+Valleymaker,6,2008,0.23,#d78f42
+Vexing Shusher,2,2008,9.05,#d78f42
+Wheel of Sun and Moon,2,2008,13.68,#d78f42
+Wilt-Leaf Liege,4,2008,2.48,#d78f42
+Windbrisk Raptor,7,2008,1.28,#ffffff
+Witherscale Wurm,6,2008,0.43,#087500
+Wooded Bastion,0,2008,10.8,#d78f42
+Woodfall Primus,8,2008,3.71,#087500
+Worldpurge,8,2008,0.8,#d78f42
+Wort- the Raidmother,6,2008,0.93,#d78f42
+Wound Reflection,6,2008,9.38,#000000

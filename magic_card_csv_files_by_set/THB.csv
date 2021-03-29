@@ -1,84 +1,84 @@
-name,cmc,price,color
-Allure of the Unknown,5,0.12,#d78f42
-Aphemia- the Cacophony,2,0.2,#000000
-Arasta of the Endless Web,4,0.47,#087500
-Archon of Sun's Grace,4,1.7,#ffffff
-Ashiok- Nightmare Muse,5,4.14,#d78f42
-Ashiok- Sculptor of Fears,6,1.43,#d78f42
-Ashiok's Erasure,4,0.19,#341aff
-Ashiok's Forerunner,5,0.2,#d78f42
-Athreos- Shroud-Veiled,6,3.6,#d78f42
-Atris- Oracle of Half-Truths,4,0.18,#d78f42
-Bronzehide Lion,2,0.44,#d78f42
-Calix- Destiny's Hand,4,2.01,#d78f42
-Dalakos- Crafter of Wonders,3,0.17,#d78f42
-Deathbellow War Cry,8,1.64,#ff1a1a
-Demon of Loathing,7,0.28,#000000
-Dream Trawler,6,0.82,#d78f42
-Dryad of the Ilysian Grove,3,16.33,#087500
-Eat to Extinction,4,0.22,#000000
-Eidolon of Obstruction,2,0.17,#ffffff
-Elspeth Conquers Death,5,1.86,#ffffff
-Elspeth's Devotee,4,0.12,#ffffff
-Elspeth- Sun's Nemesis,4,1.34,#ffffff
-Elspeth- Undaunted Hero,5,0.76,#ffffff
-Enigmatic Incarnation,4,0.17,#d78f42
-Erebos- Bleak-Hearted,4,3.08,#000000
-Erebos's Intervention,1,0.57,#000000
-Gallia of the Endless Dance,2,0.18,#d78f42
-Grasping Giant,6,0.62,#ffffff
-Gravebreaker Lamia,5,0.44,#000000
-Haktos the Unscarred,4,0.21,#d78f42
-Heliod's Intervention,2,2.84,#ffffff
-Heliod- Sun-Crowned,3,21.4,#ffffff
-Idyllic Tutor,3,4.53,#ffffff
-Ironscale Hydra,5,2.91,#087500
-Kiora Bests the Sea God,7,5.71,#341aff
-Klothys- God of Destiny,3,9.83,#d78f42
-Kroxa- Titan of Death's Hunger,2,34.66,#d78f42
-Kunoros- Hound of Athreos,3,0.49,#d78f42
-Labyrinth of Skophos,0,0.33,#8c8d8b
-Mantle of the Wolf,4,0.15,#087500
-Nadir Kraken,3,1.39,#341aff
-Nessian Boar,5,0.15,#087500
-Nightmare Shepherd,4,0.64,#000000
-Nylea- Keen-Eyed,4,5.18,#087500
-Nylea's Intervention,2,0.67,#087500
-Nyxbloom Ancient,7,19.85,#087500
-Nyx Lotus,4,4.27,#8c8d8b
-Ox of Agonas,5,6.89,#ff1a1a
-Phoenix of Ash,3,0.27,#ff1a1a
-Polukranos- Unchained,4,2.52,#d78f42
-Protean Thaumaturge,2,0.16,#341aff
-Purphoros- Bronze-Blooded,5,3.17,#ff1a1a
-Purphoros's Intervention,1,0.16,#ff1a1a
-Serpent of Yawning Depths,6,10.24,#341aff
-Setessan Champion,3,1.34,#087500
-Shadowspear,1,10.62,#8c8d8b
-Shatter the Sky,4,0.86,#ffffff
-Sphinx Mindbreaker,7,2.67,#341aff
-Storm Herald,3,0.18,#ff1a1a
-Storm's Wrath,4,0.47,#ff1a1a
-Taranika- Akroan Veteran,3,0.13,#ffffff
-Tectonic Giant,4,0.59,#ff1a1a
-Temple of Abandon,0,1.04,#d78f42
-Temple of Deceit,0,3.46,#d78f42
-Temple of Enlightenment,0,0.9,#d78f42
-Temple of Malice,0,1.39,#d78f42
-Temple of Plenty,0,1.36,#d78f42
-Terror of Mount Velus,7,3.07,#ff1a1a
-Thassa- Deep-Dwelling,4,16.22,#341aff
-Thassa's Intervention,2,0.25,#341aff
-Thassa's Oracle,2,11.26,#341aff
-The Akroan War,4,0.27,#ff1a1a
-The First Iroan Games,3,0.18,#087500
-Thryx- the Sudden Storm,5,0.46,#341aff
-Treacherous Blessing,3,0.31,#000000
-Treeshaker Chimera,7,0.29,#087500
-Tymaret Calls the Dead,3,0.29,#000000
-Underworld Breach,2,5.5,#ff1a1a
-Underworld Sentinel,5,0.41,#000000
-Uro- Titan of Nature's Wrath,3,21.46,#d78f42
-Victory's Envoy,5,1.11,#ffffff
-Wavebreak Hippocamp,3,0.23,#341aff
-Woe Strider,3,1.68,#000000
+name,cmc,release_year,price,color
+Allure of the Unknown,5,2020,0.12,#d78f42
+Aphemia- the Cacophony,2,2020,0.2,#000000
+Arasta of the Endless Web,4,2020,0.46,#087500
+Archon of Sun's Grace,4,2020,1.68,#ffffff
+Ashiok- Nightmare Muse,5,2020,4.13,#d78f42
+Ashiok- Sculptor of Fears,6,2020,1.35,#d78f42
+Ashiok's Erasure,4,2020,0.18,#341aff
+Ashiok's Forerunner,5,2020,0.2,#d78f42
+Athreos- Shroud-Veiled,6,2020,3.6,#d78f42
+Atris- Oracle of Half-Truths,4,2020,0.18,#d78f42
+Bronzehide Lion,2,2020,0.44,#d78f42
+Calix- Destiny's Hand,4,2020,1.98,#d78f42
+Dalakos- Crafter of Wonders,3,2020,0.17,#d78f42
+Deathbellow War Cry,8,2020,1.57,#ff1a1a
+Demon of Loathing,7,2020,0.27,#000000
+Dream Trawler,6,2020,0.83,#d78f42
+Dryad of the Ilysian Grove,3,2020,16.52,#087500
+Eat to Extinction,4,2020,0.22,#000000
+Eidolon of Obstruction,2,2020,0.17,#ffffff
+Elspeth Conquers Death,5,2020,2.32,#ffffff
+Elspeth's Devotee,4,2020,0.12,#ffffff
+Elspeth- Sun's Nemesis,4,2020,1.34,#ffffff
+Elspeth- Undaunted Hero,5,2020,0.79,#ffffff
+Enigmatic Incarnation,4,2020,0.18,#d78f42
+Erebos- Bleak-Hearted,4,2020,3.12,#000000
+Erebos's Intervention,1,2020,0.58,#000000
+Gallia of the Endless Dance,2,2020,0.18,#d78f42
+Grasping Giant,6,2020,0.64,#ffffff
+Gravebreaker Lamia,5,2020,0.42,#000000
+Haktos the Unscarred,4,2020,0.21,#d78f42
+Heliod's Intervention,2,2020,2.33,#ffffff
+Heliod- Sun-Crowned,3,2020,21.91,#ffffff
+Idyllic Tutor,3,2020,4.37,#ffffff
+Ironscale Hydra,5,2020,2.9,#087500
+Kiora Bests the Sea God,7,2020,6.04,#341aff
+Klothys- God of Destiny,3,2020,9.89,#d78f42
+Kroxa- Titan of Death's Hunger,2,2020,35.72,#d78f42
+Kunoros- Hound of Athreos,3,2020,0.53,#d78f42
+Labyrinth of Skophos,0,2020,0.31,#8c8d8b
+Mantle of the Wolf,4,2020,0.14,#087500
+Nadir Kraken,3,2020,1.59,#341aff
+Nessian Boar,5,2020,0.13,#087500
+Nightmare Shepherd,4,2020,0.66,#000000
+Nylea- Keen-Eyed,4,2020,4.85,#087500
+Nylea's Intervention,2,2020,0.65,#087500
+Nyxbloom Ancient,7,2020,21.1,#087500
+Nyx Lotus,4,2020,4.14,#8c8d8b
+Ox of Agonas,5,2020,6.4,#ff1a1a
+Phoenix of Ash,3,2020,0.26,#ff1a1a
+Polukranos- Unchained,4,2020,2.61,#d78f42
+Protean Thaumaturge,2,2020,0.16,#341aff
+Purphoros- Bronze-Blooded,5,2020,3.42,#ff1a1a
+Purphoros's Intervention,1,2020,0.16,#ff1a1a
+Serpent of Yawning Depths,6,2020,9.4,#341aff
+Setessan Champion,3,2020,1.38,#087500
+Shadowspear,1,2020,10.35,#8c8d8b
+Shatter the Sky,4,2020,0.92,#ffffff
+Sphinx Mindbreaker,7,2020,3.07,#341aff
+Storm Herald,3,2020,0.17,#ff1a1a
+Storm's Wrath,4,2020,0.48,#ff1a1a
+Taranika- Akroan Veteran,3,2020,0.13,#ffffff
+Tectonic Giant,4,2020,0.54,#ff1a1a
+Temple of Abandon,0,2020,0.97,#d78f42
+Temple of Deceit,0,2020,3.28,#d78f42
+Temple of Enlightenment,0,2020,0.92,#d78f42
+Temple of Malice,0,2020,1.41,#d78f42
+Temple of Plenty,0,2020,1.38,#d78f42
+Terror of Mount Velus,7,2020,3.22,#ff1a1a
+Thassa- Deep-Dwelling,4,2020,16.86,#341aff
+Thassa's Intervention,2,2020,0.25,#341aff
+Thassa's Oracle,2,2020,10.79,#341aff
+The Akroan War,4,2020,0.28,#ff1a1a
+The First Iroan Games,3,2020,0.2,#087500
+Thryx- the Sudden Storm,5,2020,0.47,#341aff
+Treacherous Blessing,3,2020,0.28,#000000
+Treeshaker Chimera,7,2020,0.29,#087500
+Tymaret Calls the Dead,3,2020,0.29,#000000
+Underworld Breach,2,2020,5.52,#ff1a1a
+Underworld Sentinel,5,2020,0.42,#000000
+Uro- Titan of Nature's Wrath,3,2020,20.85,#d78f42
+Victory's Envoy,5,2020,1.1,#ffffff
+Wavebreak Hippocamp,3,2020,0.24,#341aff
+Woe Strider,3,2020,1.57,#000000

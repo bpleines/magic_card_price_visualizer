@@ -1,71 +1,71 @@
-name,cmc,price,color
-Angel of Sanctions,5,0.47,#ffffff
-Anointed Procession,4,33.72,#ffffff
-Approach of the Second Sun,7,1.36,#ffffff
-Archfiend of Ifnir,5,1.4,#000000
-As Foretold,3,8.78,#341aff
-Aven Mindcensor,3,3.41,#ffffff
-Bontu the Glorified,3,3.3,#000000
-Bounty of the Luxa,4,0.21,#d78f42
-Canyon Slough,0,2.22,#d78f42
-Cascading Cataracts,0,4.75,#8c8d8b
-Champion of Rhonas,4,0.25,#087500
-Channeler Initiate,2,0.29,#087500
-Combat Celebrant,3,8.61,#ff1a1a
-Commit // Memory,10,1.49,#341aff
-Cruel Reality,7,1.02,#000000
-Curator of Mysteries,4,0.24,#341aff
-Cut // Ribbons,4,0.42,#d78f42
-Dispossess,3,0.13,#000000
-Drake Haven,3,0.3,#341aff
-Dread Wanderer,1,1.16,#000000
-Dusk // Dawn,9,0.44,#ffffff
-Failure // Comply,3,0.16,#d78f42
-Fetid Pools,0,4.0,#d78f42
-Gideon of the Trials,3,3.36,#ffffff
-Gideon's Intervention,4,0.25,#ffffff
-Gideon's Resolve,5,0.17,#ffffff
-Glorious End,3,1.24,#ff1a1a
-Glory-Bound Initiate,2,0.2,#ffffff
-Glorybringer,5,1.06,#ff1a1a
-Glyph Keeper,5,0.12,#341aff
-Hapatra- Vizier of Poisons,2,0.87,#d78f42
-Harsh Mentor,2,0.25,#ff1a1a
-Harvest Season,3,1.28,#087500
-Hazoret's Favor,3,0.1,#ff1a1a
-Hazoret the Fervent,4,2.66,#ff1a1a
-Heart-Piercer Manticore,4,0.11,#ff1a1a
-Heaven // Earth,3,0.2,#d78f42
-Honored Hydra,6,0.21,#087500
-Insult // Injury,6,0.71,#ff1a1a
-Irrigated Farmland,0,0.39,#d78f42
-Kefnet the Mindful,3,0.82,#341aff
-Liliana- Death's Majesty,5,4.91,#000000
-Liliana's Influence,6,0.48,#000000
-Liliana's Mastery,5,1.45,#000000
-Mouth // Feed,7,0.24,#087500
-Neheb- the Worthy,3,0.36,#d78f42
-Never // Return,7,0.58,#000000
-New Perspectives,6,0.19,#341aff
-Nissa- Steward of Elements,2,1.57,#d78f42
-Oketra the True,4,6.48,#ffffff
-Oracle's Vault,4,0.27,#8c8d8b
-Plague Belcher,3,1.44,#000000
-Prepare // Fight,6,0.13,#d78f42
-Prowling Serpopard,3,4.16,#087500
-Pull from Tomorrow,2,5.79,#341aff
-Pyramid of the Pantheon,1,0.44,#8c8d8b
-Rags // Riches,11,0.26,#d78f42
-Regal Caracal,5,0.92,#ffffff
-Rhonas the Indomitable,3,14.3,#087500
-Samut- Voice of Dissent,5,5.09,#d78f42
-Sandwurm Convergence,8,2.07,#087500
-Scattered Groves,0,3.25,#d78f42
-Shadow of the Grave,2,0.49,#000000
-Sheltered Thicket,0,2.5,#d78f42
-Soul-Scar Mage,1,6.74,#ff1a1a
-Sweltering Suns,3,0.73,#ff1a1a
-Temmet- Vizier of Naktamun,2,0.18,#d78f42
-Throne of the God-Pharaoh,2,6.86,#8c8d8b
-Vizier of Many Faces,4,0.73,#341aff
-Vizier of the Menagerie,4,5.55,#087500
+name,cmc,release_year,price,color
+Angel of Sanctions,5,2017,0.47,#ffffff
+Anointed Procession,4,2017,33.26,#ffffff
+Approach of the Second Sun,7,2017,1.26,#ffffff
+Archfiend of Ifnir,5,2017,1.42,#000000
+As Foretold,3,2017,8.82,#341aff
+Aven Mindcensor,3,2017,3.19,#ffffff
+Bontu the Glorified,3,2017,3.23,#000000
+Bounty of the Luxa,4,2017,0.21,#d78f42
+Canyon Slough,0,2017,2.21,#d78f42
+Cascading Cataracts,0,2017,4.66,#8c8d8b
+Champion of Rhonas,4,2017,0.25,#087500
+Channeler Initiate,2,2017,0.3,#087500
+Combat Celebrant,3,2017,8.52,#ff1a1a
+Commit // Memory,10,2017,1.5,#341aff
+Cruel Reality,7,2017,1.02,#000000
+Curator of Mysteries,4,2017,0.24,#341aff
+Cut // Ribbons,4,2017,0.41,#d78f42
+Dispossess,3,2017,0.13,#000000
+Drake Haven,3,2017,0.3,#341aff
+Dread Wanderer,1,2017,1.13,#000000
+Dusk // Dawn,9,2017,0.45,#ffffff
+Failure // Comply,3,2017,0.16,#d78f42
+Fetid Pools,0,2017,4.61,#d78f42
+Gideon of the Trials,3,2017,3.56,#ffffff
+Gideon's Intervention,4,2017,0.25,#ffffff
+Gideon's Resolve,5,2017,0.17,#ffffff
+Glorious End,3,2017,1.22,#ff1a1a
+Glory-Bound Initiate,2,2017,0.2,#ffffff
+Glorybringer,5,2017,1.06,#ff1a1a
+Glyph Keeper,5,2017,0.13,#341aff
+Hapatra- Vizier of Poisons,2,2017,0.95,#d78f42
+Harsh Mentor,2,2017,0.25,#ff1a1a
+Harvest Season,3,2017,1.27,#087500
+Hazoret's Favor,3,2017,0.1,#ff1a1a
+Hazoret the Fervent,4,2017,2.68,#ff1a1a
+Heart-Piercer Manticore,4,2017,0.11,#ff1a1a
+Heaven // Earth,3,2017,0.2,#d78f42
+Honored Hydra,6,2017,0.21,#087500
+Insult // Injury,6,2017,0.72,#ff1a1a
+Irrigated Farmland,0,2017,0.39,#d78f42
+Kefnet the Mindful,3,2017,0.83,#341aff
+Liliana- Death's Majesty,5,2017,5.06,#000000
+Liliana's Influence,6,2017,0.49,#000000
+Liliana's Mastery,5,2017,1.48,#000000
+Mouth // Feed,7,2017,0.25,#087500
+Neheb- the Worthy,3,2017,0.36,#d78f42
+Never // Return,7,2017,0.57,#000000
+New Perspectives,6,2017,0.19,#341aff
+Nissa- Steward of Elements,2,2017,1.57,#d78f42
+Oketra the True,4,2017,6.46,#ffffff
+Oracle's Vault,4,2017,0.27,#8c8d8b
+Plague Belcher,3,2017,1.51,#000000
+Prepare // Fight,6,2017,0.13,#d78f42
+Prowling Serpopard,3,2017,4.59,#087500
+Pull from Tomorrow,2,2017,6.4,#341aff
+Pyramid of the Pantheon,1,2017,0.47,#8c8d8b
+Rags // Riches,11,2017,0.26,#d78f42
+Regal Caracal,5,2017,0.93,#ffffff
+Rhonas the Indomitable,3,2017,14.98,#087500
+Samut- Voice of Dissent,5,2017,5.28,#d78f42
+Sandwurm Convergence,8,2017,2.2,#087500
+Scattered Groves,0,2017,3.28,#d78f42
+Shadow of the Grave,2,2017,0.51,#000000
+Sheltered Thicket,0,2017,2.54,#d78f42
+Soul-Scar Mage,1,2017,6.36,#ff1a1a
+Sweltering Suns,3,2017,0.86,#ff1a1a
+Temmet- Vizier of Naktamun,2,2017,0.18,#d78f42
+Throne of the God-Pharaoh,2,2017,6.96,#8c8d8b
+Vizier of Many Faces,4,2017,0.75,#341aff
+Vizier of the Menagerie,4,2017,5.76,#087500

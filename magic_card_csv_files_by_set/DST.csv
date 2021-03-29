@@ -1,56 +1,56 @@
-name,cmc,price,color
-Aether Snap,5,0.95,#000000
-Ageless Entity,5,0.69,#087500
-Arcbound Overseer,8,1.46,#8c8d8b
-Arcbound Ravager,2,12.28,#8c8d8b
-Arcbound Reclaimer,4,1.14,#8c8d8b
-Blinkmoth Nexus,0,2.8,#8c8d8b
-Chromescale Drake,9,0.26,#341aff
-Darksteel Colossus,11,9.63,#8c8d8b
-Darksteel Forge,9,12.08,#8c8d8b
-Darksteel Reactor,4,6.48,#8c8d8b
-Death Cloud,3,17.69,#000000
-Eater of Days,4,1.4,#8c8d8b
-Fangren Firstborn,4,0.92,#087500
-Flamebreak,3,1.33,#ff1a1a
-Furnace Dragon,9,0.44,#ff1a1a
-Gemini Engine,6,0.23,#8c8d8b
-Greater Harvester,5,0.25,#000000
-Heartseeker,4,3.71,#8c8d8b
-Last Word,4,1.1,#341aff
-Leonin Shikari,2,5.17,#ffffff
-Lich's Tomb,4,0.43,#8c8d8b
-Memnarch,7,10.31,#341aff
-Mephitic Ooze,5,0.28,#000000
-Mycosynth Lattice,6,27.12,#8c8d8b
-Myr Matrix,5,3.43,#8c8d8b
-Panoptic Mirror,5,3.17,#8c8d8b
-Pristine Angel,6,1.1,#ffffff
-Pulse of the Dross,3,0.28,#000000
-Pulse of the Fields,3,0.34,#ffffff
-Pulse of the Forge,3,0.51,#ff1a1a
-Pulse of the Grid,3,0.69,#341aff
-Pulse of the Tangle,3,0.28,#087500
-Rebuking Ceremony,5,0.16,#087500
-Reshape,2,2.03,#341aff
-Retract,1,5.34,#341aff
-Roaring Slagwurm,7,0.18,#087500
-Savage Beating,5,10.91,#ff1a1a
-Serum Powder,3,0.62,#8c8d8b
-Shield of Kaldra,4,12.15,#8c8d8b
-Shriveling Rot,4,0.38,#000000
-Shunt,3,0.41,#ff1a1a
-Slobad- Goblin Tinkerer,2,0.79,#ff1a1a
-Soulscour,10,0.47,#ffffff
-Spellbinder,3,1.46,#8c8d8b
-Steelshaper Apprentice,4,0.79,#ffffff
-Sundering Titan,8,1.28,#8c8d8b
-Sword of Fire and Ice,3,43.3,#8c8d8b
-Sword of Light and Shadow,3,22.67,#8c8d8b
-Synod Artificer,3,0.27,#341aff
-Thought Dissector,4,0.26,#8c8d8b
-Trinisphere,3,16.11,#8c8d8b
-Turn the Tables,5,0.32,#ffffff
-Viridian Zealot,2,0.56,#087500
-Wand of the Elements,4,0.17,#8c8d8b
-Well of Lost Dreams,4,7.67,#8c8d8b
+name,cmc,release_year,price,color
+Aether Snap,5,2004,0.93,#000000
+Ageless Entity,5,2004,0.69,#087500
+Arcbound Overseer,8,2004,1.46,#8c8d8b
+Arcbound Ravager,2,2004,12.28,#8c8d8b
+Arcbound Reclaimer,4,2004,1.12,#8c8d8b
+Blinkmoth Nexus,0,2004,2.8,#8c8d8b
+Chromescale Drake,9,2004,0.26,#341aff
+Darksteel Colossus,11,2004,9.63,#8c8d8b
+Darksteel Forge,9,2004,12.11,#8c8d8b
+Darksteel Reactor,4,2004,6.42,#8c8d8b
+Death Cloud,3,2004,18.14,#000000
+Eater of Days,4,2004,1.41,#8c8d8b
+Fangren Firstborn,4,2004,0.91,#087500
+Flamebreak,3,2004,1.33,#ff1a1a
+Furnace Dragon,9,2004,0.44,#ff1a1a
+Gemini Engine,6,2004,0.23,#8c8d8b
+Greater Harvester,5,2004,0.25,#000000
+Heartseeker,4,2004,3.71,#8c8d8b
+Last Word,4,2004,1.1,#341aff
+Leonin Shikari,2,2004,5.17,#ffffff
+Lich's Tomb,4,2004,0.43,#8c8d8b
+Memnarch,7,2004,10.4,#341aff
+Mephitic Ooze,5,2004,0.28,#000000
+Mycosynth Lattice,6,2004,27.14,#8c8d8b
+Myr Matrix,5,2004,3.43,#8c8d8b
+Panoptic Mirror,5,2004,3.16,#8c8d8b
+Pristine Angel,6,2004,1.14,#ffffff
+Pulse of the Dross,3,2004,0.28,#000000
+Pulse of the Fields,3,2004,0.34,#ffffff
+Pulse of the Forge,3,2004,0.51,#ff1a1a
+Pulse of the Grid,3,2004,0.66,#341aff
+Pulse of the Tangle,3,2004,0.28,#087500
+Rebuking Ceremony,5,2004,0.16,#087500
+Reshape,2,2004,2.03,#341aff
+Retract,1,2004,5.48,#341aff
+Roaring Slagwurm,7,2004,0.18,#087500
+Savage Beating,5,2004,10.99,#ff1a1a
+Serum Powder,3,2004,0.62,#8c8d8b
+Shield of Kaldra,4,2004,11.96,#8c8d8b
+Shriveling Rot,4,2004,0.38,#000000
+Shunt,3,2004,0.41,#ff1a1a
+Slobad- Goblin Tinkerer,2,2004,0.79,#ff1a1a
+Soulscour,10,2004,0.46,#ffffff
+Spellbinder,3,2004,1.46,#8c8d8b
+Steelshaper Apprentice,4,2004,0.78,#ffffff
+Sundering Titan,8,2004,1.26,#8c8d8b
+Sword of Fire and Ice,3,2004,43.21,#8c8d8b
+Sword of Light and Shadow,3,2004,22.67,#8c8d8b
+Synod Artificer,3,2004,0.27,#341aff
+Thought Dissector,4,2004,0.26,#8c8d8b
+Trinisphere,3,2004,16.11,#8c8d8b
+Turn the Tables,5,2004,0.32,#ffffff
+Viridian Zealot,2,2004,0.56,#087500
+Wand of the Elements,4,2004,0.17,#8c8d8b
+Well of Lost Dreams,4,2004,7.98,#8c8d8b

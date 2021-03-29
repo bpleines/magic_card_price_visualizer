@@ -1,71 +1,71 @@
-name,cmc,price,color
-Aetherflux Reservoir,4,11.54,#8c8d8b
-Aethersquall Ancient,7,0.19,#341aff
-Aetherstorm Roc,4,0.12,#ffffff
-Aetherworks Marvel,4,1.12,#8c8d8b
-Angel of Invention,5,4.26,#ffffff
-Animation Module,1,0.65,#8c8d8b
-Architect of the Untamed,3,0.15,#087500
-Authority of the Consuls,1,6.72,#ffffff
-Blooming Marsh,0,4.95,#d78f42
-Bomat Courier,1,0.45,#ff1a1a
-Botanical Sanctum,0,3.93,#d78f42
-Bristling Hydra,4,0.19,#087500
-Captured by the Consulate,4,0.1,#ffffff
-Cataclysmic Gearhulk,5,0.48,#ffffff
-Chandra- Torch of Defiance,4,6.75,#ff1a1a
-Combustible Gearhulk,6,4.19,#ff1a1a
-Concealed Courtyard,0,2.91,#d78f42
-Confiscation Coup,5,0.12,#341aff
-Cultivator of Blades,5,0.2,#087500
-Cultivator's Caravan,3,0.46,#8c8d8b
-Deadlock Trap,3,0.15,#8c8d8b
-Demon of Dark Schemes,6,1.48,#000000
-Depala- Pilot Exemplar,3,0.23,#d78f42
-Dovin Baan,4,1.19,#d78f42
-Dubious Challenge,4,0.12,#087500
-Dynavolt Tower,3,0.18,#8c8d8b
-Electrostatic Pummeler,3,0.23,#8c8d8b
-Eliminate the Competition,5,0.18,#000000
-Fateful Showdown,4,0.31,#ff1a1a
-Fleetwheel Cruiser,4,0.23,#8c8d8b
-Fumigate,5,2.37,#ffffff
-Ghirapur Orrery,4,1.02,#8c8d8b
-Gonti- Lord of Luxury,4,0.28,#000000
-Insidious Will,4,0.8,#341aff
-Inspiring Vantage,0,3.6,#d78f42
-Inventors' Fair,0,6.95,#8c8d8b
-Kambal- Consul of Allocation,3,3.95,#d78f42
-Key to the City,2,0.29,#8c8d8b
-Lathnu Hellion,3,0.12,#ff1a1a
-Liberating Combustion,5,0.22,#ff1a1a
-Lost Legacy,3,0.27,#000000
-Madcap Experiment,4,0.25,#ff1a1a
-Marionette Master,6,0.38,#000000
-Master Trinketeer,3,0.21,#ffffff
-Metallurgic Summonings,5,2.87,#341aff
-Metalwork Colossus,11,0.82,#8c8d8b
-Midnight Oil,4,0.17,#000000
-Multiform Wonder,5,0.16,#8c8d8b
-Nissa- Vital Force,5,8.95,#087500
-Noxious Gearhulk,6,6.2,#000000
-Oviya Pashiri- Sage Lifecrafter,1,0.25,#087500
-Padeem- Consul of Innovation,4,2.37,#341aff
-Panharmonicon,4,10.4,#8c8d8b
-Paradoxical Outcome,4,1.03,#341aff
-Pia Nalaar,3,0.17,#ff1a1a
-Rashmi- Eternities Crafter,4,0.9,#d78f42
-Saheeli Rai,3,4.85,#d78f42
-Saheeli's Artistry,6,0.17,#341aff
-Scrapheap Scrounger,2,0.17,#000000
-Skyship Stalker,4,0.27,#ff1a1a
-Skysovereign- Consul Flagship,5,1.09,#8c8d8b
-Smuggler's Copter,2,3.73,#8c8d8b
-Spirebluff Canal,0,10.45,#d78f42
-Syndicate Trafficker,2,0.16,#000000
-Territorial Gorger,4,0.1,#ff1a1a
-Toolcraft Exemplar,1,0.16,#ffffff
-Torrential Gearhulk,6,8.05,#341aff
-Verdant Crescendo,4,0.25,#087500
-Verdurous Gearhulk,5,0.72,#087500
-Wildest Dreams,1,0.42,#087500
+name,cmc,release_year,price,color
+Aetherflux Reservoir,4,2016,11.22,#8c8d8b
+Aethersquall Ancient,7,2016,0.19,#341aff
+Aetherstorm Roc,4,2016,0.12,#ffffff
+Aetherworks Marvel,4,2016,1.11,#8c8d8b
+Angel of Invention,5,2016,4.44,#ffffff
+Animation Module,1,2016,0.64,#8c8d8b
+Architect of the Untamed,3,2016,0.15,#087500
+Authority of the Consuls,1,2016,6.53,#ffffff
+Blooming Marsh,0,2016,4.75,#d78f42
+Bomat Courier,1,2016,0.43,#ff1a1a
+Botanical Sanctum,0,2016,3.79,#d78f42
+Bristling Hydra,4,2016,0.19,#087500
+Captured by the Consulate,4,2016,0.1,#ffffff
+Cataclysmic Gearhulk,5,2016,0.5,#ffffff
+Chandra- Torch of Defiance,4,2016,7.06,#ff1a1a
+Combustible Gearhulk,6,2016,4.25,#ff1a1a
+Concealed Courtyard,0,2016,2.91,#d78f42
+Confiscation Coup,5,2016,0.12,#341aff
+Cultivator of Blades,5,2016,0.19,#087500
+Cultivator's Caravan,3,2016,0.47,#8c8d8b
+Deadlock Trap,3,2016,0.15,#8c8d8b
+Demon of Dark Schemes,6,2016,1.46,#000000
+Depala- Pilot Exemplar,3,2016,0.25,#d78f42
+Dovin Baan,4,2016,1.27,#d78f42
+Dubious Challenge,4,2016,0.12,#087500
+Dynavolt Tower,3,2016,0.18,#8c8d8b
+Electrostatic Pummeler,3,2016,0.23,#8c8d8b
+Eliminate the Competition,5,2016,0.18,#000000
+Fateful Showdown,4,2016,0.31,#ff1a1a
+Fleetwheel Cruiser,4,2016,0.23,#8c8d8b
+Fumigate,5,2016,2.5,#ffffff
+Ghirapur Orrery,4,2016,1.08,#8c8d8b
+Gonti- Lord of Luxury,4,2016,0.29,#000000
+Insidious Will,4,2016,0.87,#341aff
+Inspiring Vantage,0,2016,3.57,#d78f42
+Inventors' Fair,0,2016,8.12,#8c8d8b
+Kambal- Consul of Allocation,3,2016,3.77,#d78f42
+Key to the City,2,2016,0.27,#8c8d8b
+Lathnu Hellion,3,2016,0.12,#ff1a1a
+Liberating Combustion,5,2016,0.22,#ff1a1a
+Lost Legacy,3,2016,0.27,#000000
+Madcap Experiment,4,2016,0.25,#ff1a1a
+Marionette Master,6,2016,0.38,#000000
+Master Trinketeer,3,2016,0.21,#ffffff
+Metallurgic Summonings,5,2016,2.87,#341aff
+Metalwork Colossus,11,2016,0.84,#8c8d8b
+Midnight Oil,4,2016,0.16,#000000
+Multiform Wonder,5,2016,0.16,#8c8d8b
+Nissa- Vital Force,5,2016,8.67,#087500
+Noxious Gearhulk,6,2016,5.96,#000000
+Oviya Pashiri- Sage Lifecrafter,1,2016,0.25,#087500
+Padeem- Consul of Innovation,4,2016,2.33,#341aff
+Panharmonicon,4,2016,11.19,#8c8d8b
+Paradoxical Outcome,4,2016,1.0,#341aff
+Pia Nalaar,3,2016,0.17,#ff1a1a
+Rashmi- Eternities Crafter,4,2016,0.9,#d78f42
+Saheeli Rai,3,2016,4.77,#d78f42
+Saheeli's Artistry,6,2016,0.18,#341aff
+Scrapheap Scrounger,2,2016,0.17,#000000
+Skyship Stalker,4,2016,0.27,#ff1a1a
+Skysovereign- Consul Flagship,5,2016,1.01,#8c8d8b
+Smuggler's Copter,2,2016,4.05,#8c8d8b
+Spirebluff Canal,0,2016,10.12,#d78f42
+Syndicate Trafficker,2,2016,0.15,#000000
+Territorial Gorger,4,2016,0.1,#ff1a1a
+Toolcraft Exemplar,1,2016,0.16,#ffffff
+Torrential Gearhulk,6,2016,8.2,#341aff
+Verdant Crescendo,4,2016,0.25,#087500
+Verdurous Gearhulk,5,2016,0.73,#087500
+Wildest Dreams,1,2016,0.42,#087500

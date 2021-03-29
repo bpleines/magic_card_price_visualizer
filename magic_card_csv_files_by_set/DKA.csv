@@ -1,51 +1,51 @@
-name,cmc,price,color
-Alpha Brawl,8,0.29,#ff1a1a
-Archangel's Light,8,0.75,#ffffff
-Beguiler of Wills,5,2.14,#341aff
-Call to the Kindred,4,1.07,#341aff
-Counterlash,6,0.21,#341aff
-Curse of Bloodletting,5,2.1,#ff1a1a
-Curse of Echoes,5,0.34,#341aff
-Curse of Misfortunes,5,0.78,#000000
-Deranged Outcast,2,0.13,#087500
-Drogskol Reaver,7,3.06,#d78f42
-Dungeon Geists,4,0.14,#341aff
-Elbrus- the Binding Blade // Withengar Unbound,7,4.68,#000000
-Falkenrath Aristocrat,4,0.74,#d78f42
-Feed the Pack,6,0.55,#087500
-Fiend of the Shadows,5,0.19,#000000
-Flayer of the Hatebound,6,0.23,#ff1a1a
-Geralf's Messenger,3,5.62,#000000
-Geralf's Mindcrusher,6,0.3,#341aff
-Ghoultree,8,0.53,#087500
-Grafdigger's Cage,1,1.84,#8c8d8b
-Gravecrawler,1,6.41,#000000
-Grim Backwoods,0,0.25,#d78f42
-Havengul Lich,5,3.04,#d78f42
-Havengul Runebinder,4,0.15,#341aff
-Hellrider,4,0.5,#ff1a1a
-Helvault,3,0.49,#8c8d8b
-Huntmaster of the Fells // Ravager of the Fells,4,5.93,#d78f42
-Increasing Ambition,5,1.18,#000000
-Increasing Confusion,1,1.36,#341aff
-Increasing Devotion,5,0.21,#ffffff
-Increasing Savagery,4,0.73,#087500
-Increasing Vengeance,2,0.62,#ff1a1a
-Jar of Eyeballs,3,0.2,#8c8d8b
-Lost in the Woods,5,0.14,#087500
-Markov Blademaster,3,0.44,#ff1a1a
-Mikaeus- the Unhallowed,6,38.56,#000000
-Mondronen Shaman // Tovolar's Magehunter,4,0.4,#ff1a1a
-Moonveil Dragon,6,2.11,#ff1a1a
-Predator Ooze,3,0.9,#087500
-Ravenous Demon // Archdemon of Greed,5,0.16,#000000
-Requiem Angel,6,0.61,#ffffff
-Séance,4,0.24,#ffffff
-Sorin- Lord of Innistrad,4,6.44,#d78f42
-Sudden Disappearance,6,0.17,#ffffff
-Thalia- Guardian of Thraben,2,7.94,#ffffff
-Thraben Doomsayer,3,0.51,#ffffff
-Vault of the Archangel,0,6.79,#d78f42
-Vorapede,5,0.6,#087500
-Wolfbitten Captive // Krallenhorde Killer,1,0.7,#087500
-Zombie Apocalypse,6,3.18,#000000
+name,cmc,release_year,price,color
+Alpha Brawl,8,2012,0.29,#ff1a1a
+Archangel's Light,8,2012,0.74,#ffffff
+Beguiler of Wills,5,2012,2.23,#341aff
+Call to the Kindred,4,2012,1.11,#341aff
+Counterlash,6,2012,0.21,#341aff
+Curse of Bloodletting,5,2012,1.98,#ff1a1a
+Curse of Echoes,5,2012,0.32,#341aff
+Curse of Misfortunes,5,2012,0.8,#000000
+Deranged Outcast,2,2012,0.13,#087500
+Drogskol Reaver,7,2012,3.08,#d78f42
+Dungeon Geists,4,2012,0.14,#341aff
+Elbrus- the Binding Blade // Withengar Unbound,7,2012,4.73,#000000
+Falkenrath Aristocrat,4,2012,0.73,#d78f42
+Feed the Pack,6,2012,0.55,#087500
+Fiend of the Shadows,5,2012,0.17,#000000
+Flayer of the Hatebound,6,2012,0.23,#ff1a1a
+Geralf's Messenger,3,2012,5.73,#000000
+Geralf's Mindcrusher,6,2012,0.3,#341aff
+Ghoultree,8,2012,0.53,#087500
+Grafdigger's Cage,1,2012,1.96,#8c8d8b
+Gravecrawler,1,2012,6.32,#000000
+Grim Backwoods,0,2012,0.24,#d78f42
+Havengul Lich,5,2012,3.1,#d78f42
+Havengul Runebinder,4,2012,0.15,#341aff
+Hellrider,4,2012,0.5,#ff1a1a
+Helvault,3,2012,0.48,#8c8d8b
+Huntmaster of the Fells // Ravager of the Fells,4,2012,5.99,#d78f42
+Increasing Ambition,5,2012,1.23,#000000
+Increasing Confusion,1,2012,1.39,#341aff
+Increasing Devotion,5,2012,0.2,#ffffff
+Increasing Savagery,4,2012,0.73,#087500
+Increasing Vengeance,2,2012,0.65,#ff1a1a
+Jar of Eyeballs,3,2012,0.19,#8c8d8b
+Lost in the Woods,5,2012,0.13,#087500
+Markov Blademaster,3,2012,0.45,#ff1a1a
+Mikaeus- the Unhallowed,6,2012,38.58,#000000
+Mondronen Shaman // Tovolar's Magehunter,4,2012,0.4,#ff1a1a
+Moonveil Dragon,6,2012,2.11,#ff1a1a
+Predator Ooze,3,2012,0.89,#087500
+Ravenous Demon // Archdemon of Greed,5,2012,0.16,#000000
+Requiem Angel,6,2012,0.61,#ffffff
+Séance,4,2012,0.23,#ffffff
+Sorin- Lord of Innistrad,4,2012,6.37,#d78f42
+Sudden Disappearance,6,2012,0.17,#ffffff
+Thalia- Guardian of Thraben,2,2012,8.24,#ffffff
+Thraben Doomsayer,3,2012,0.51,#ffffff
+Vault of the Archangel,0,2012,6.9,#d78f42
+Vorapede,5,2012,0.6,#087500
+Wolfbitten Captive // Krallenhorde Killer,1,2012,0.7,#087500
+Zombie Apocalypse,6,2012,3.08,#000000

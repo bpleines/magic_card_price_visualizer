@@ -1,46 +1,46 @@
-name,cmc,price,color
-Black Sun's Zenith,2,4.84,#000000
-Blightsteel Colossus,12,33.11,#8c8d8b
-Blue Sun's Zenith,3,3.93,#341aff
-Bonehoard,4,0.33,#8c8d8b
-Consecrated Sphinx,6,34.42,#341aff
-Contested War Zone,0,0.27,#8c8d8b
-Creeping Corrosion,4,0.37,#087500
-Cryptoplasm,3,1.41,#341aff
-Darksteel Plate,3,17.12,#8c8d8b
-Decimator Web,4,0.39,#8c8d8b
-Distant Memories,4,0.19,#341aff
-Galvanoth,5,0.27,#ff1a1a
-Glissa- the Traitor,3,2.21,#d78f42
-Green Sun's Zenith,1,19.96,#087500
-Hellkite Igniter,7,0.24,#ff1a1a
-Hero of Bladehold,4,7.09,#ffffff
-Hero of Oxid Ridge,4,0.78,#ff1a1a
-Inkmoth Nexus,0,21.33,#8c8d8b
-Knowledge Pool,6,0.7,#8c8d8b
-Magnetic Mine,4,0.14,#8c8d8b
-Massacre Wurm,6,3.93,#000000
-Mirran Crusader,3,1.22,#ffffff
-Mirrorworks,5,1.01,#8c8d8b
-Mitotic Manipulation,3,0.2,#341aff
-Myr Turbine,5,2.25,#8c8d8b
-Myr Welder,3,0.36,#8c8d8b
-Phyrexian Crusader,3,9.96,#000000
-Phyrexian Hydra,5,2.09,#087500
-Phyrexian Rebirth,6,0.4,#ffffff
-Phyrexian Revoker,2,1.36,#8c8d8b
-Phyrexian Vatmother,4,0.44,#000000
-Praetor's Counsel,8,3.72,#087500
-Psychosis Crawler,5,0.9,#8c8d8b
-Red Sun's Zenith,1,0.63,#ff1a1a
-Sangromancer,4,1.45,#000000
-Shimmer Myr,3,1.58,#8c8d8b
-Slagstorm,3,0.5,#ff1a1a
-Spine of Ish Sah,7,0.96,#8c8d8b
-Sword of Feast and Famine,3,49.53,#8c8d8b
-Tezzeret- Agent of Bolas,4,7.9,#d78f42
-Thopter Assembly,6,0.55,#8c8d8b
-Thrun- the Last Troll,4,2.56,#087500
-Titan Forge,3,0.55,#8c8d8b
-Victory's Herald,6,0.26,#ffffff
-White Sun's Zenith,3,0.42,#ffffff
+name,cmc,release_year,price,color
+Black Sun's Zenith,2,2011,4.89,#000000
+Blightsteel Colossus,12,2011,33.78,#8c8d8b
+Blue Sun's Zenith,3,2011,3.67,#341aff
+Bonehoard,4,2011,0.32,#8c8d8b
+Consecrated Sphinx,6,2011,36.16,#341aff
+Contested War Zone,0,2011,0.27,#8c8d8b
+Creeping Corrosion,4,2011,0.37,#087500
+Cryptoplasm,3,2011,1.31,#341aff
+Darksteel Plate,3,2011,16.83,#8c8d8b
+Decimator Web,4,2011,0.4,#8c8d8b
+Distant Memories,4,2011,0.19,#341aff
+Galvanoth,5,2011,0.28,#ff1a1a
+Glissa- the Traitor,3,2011,2.25,#d78f42
+Green Sun's Zenith,1,2011,20.76,#087500
+Hellkite Igniter,7,2011,0.24,#ff1a1a
+Hero of Bladehold,4,2011,7.1,#ffffff
+Hero of Oxid Ridge,4,2011,0.77,#ff1a1a
+Inkmoth Nexus,0,2011,21.33,#8c8d8b
+Knowledge Pool,6,2011,0.71,#8c8d8b
+Magnetic Mine,4,2011,0.14,#8c8d8b
+Massacre Wurm,6,2011,3.96,#000000
+Mirran Crusader,3,2011,1.22,#ffffff
+Mirrorworks,5,2011,1.03,#8c8d8b
+Mitotic Manipulation,3,2011,0.2,#341aff
+Myr Turbine,5,2011,2.24,#8c8d8b
+Myr Welder,3,2011,0.35,#8c8d8b
+Phyrexian Crusader,3,2011,9.96,#000000
+Phyrexian Hydra,5,2011,2.47,#087500
+Phyrexian Rebirth,6,2011,0.4,#ffffff
+Phyrexian Revoker,2,2011,1.34,#8c8d8b
+Phyrexian Vatmother,4,2011,0.44,#000000
+Praetor's Counsel,8,2011,3.69,#087500
+Psychosis Crawler,5,2011,0.85,#8c8d8b
+Red Sun's Zenith,1,2011,0.64,#ff1a1a
+Sangromancer,4,2011,1.47,#000000
+Shimmer Myr,3,2011,1.35,#8c8d8b
+Slagstorm,3,2011,0.5,#ff1a1a
+Spine of Ish Sah,7,2011,0.97,#8c8d8b
+Sword of Feast and Famine,3,2011,50.45,#8c8d8b
+Tezzeret- Agent of Bolas,4,2011,7.91,#d78f42
+Thopter Assembly,6,2011,0.55,#8c8d8b
+Thrun- the Last Troll,4,2011,2.59,#087500
+Titan Forge,3,2011,0.56,#8c8d8b
+Victory's Herald,6,2011,0.27,#ffffff
+White Sun's Zenith,3,2011,0.42,#ffffff

@@ -1,45 +1,45 @@
-name,cmc,price,color
-Anurid Brushhopper,3,0.34,#d78f42
-Balthor the Defiled,4,10.48,#000000
-Breaking Point,3,0.5,#ff1a1a
-Burning Wish,2,1.84,#ff1a1a
-Cephalid Constable,3,5.71,#341aff
-Commander Eesha,4,2.23,#ffffff
-Crush of Wurms,9,1.02,#087500
-Cunning Wish,3,6.95,#341aff
-Death Wish,3,0.44,#000000
-Dwarven Bloodboiler,3,18.66,#ff1a1a
-Epic Struggle,4,4.01,#087500
-Erhnam Djinn,4,0.26,#087500
-Fledgling Dragon,4,0.98,#ff1a1a
-Genesis,5,2.33,#087500
-Glory,5,2.03,#ffffff
-Golden Wish,5,0.37,#ffffff
-Guiltfeeder,5,1.39,#000000
-Hunting Grounds,2,11.19,#d78f42
-Jeska- Warrior Adept,4,4.06,#ff1a1a
-Lightning Surge,5,0.26,#ff1a1a
-Living Wish,2,1.96,#087500
-Masked Gorgon,5,0.26,#000000
-Mirari's Wake,5,20.31,#d78f42
-Mist of Stagnation,5,0.32,#341aff
-Morality Shift,7,1.81,#000000
-Nomad Mythmaker,3,2.27,#ffffff
-Phantom Nantuko,3,0.23,#087500
-Phantom Nishoba,7,1.44,#d78f42
-Pulsemage Advocate,3,0.9,#ffffff
-Scalpelexis,5,0.22,#341aff
-Seedtime,2,9.39,#087500
-Selfless Exorcist,5,0.23,#ffffff
-Shaman's Trance,3,0.32,#ff1a1a
-Silver Seraph,8,0.54,#ffffff
-Solitary Confinement,3,11.75,#ffffff
-Spelljack,6,2.57,#341aff
-Sutured Ghoul,7,0.28,#000000
-Sylvan Safekeeper,1,13.77,#087500
-Telekinetic Bonds,5,0.29,#341aff
-Test of Endurance,4,17.32,#ffffff
-Thriss- Nantuko Primus,7,0.35,#087500
-Worldgorger Dragon,6,11.91,#ff1a1a
-Wormfang Behemoth,5,0.24,#341aff
-Wormfang Manta,7,0.26,#341aff
+name,cmc,release_year,price,color
+Anurid Brushhopper,3,2002,0.34,#d78f42
+Balthor the Defiled,4,2002,10.81,#000000
+Breaking Point,3,2002,0.5,#ff1a1a
+Burning Wish,2,2002,1.84,#ff1a1a
+Cephalid Constable,3,2002,5.71,#341aff
+Commander Eesha,4,2002,2.2,#ffffff
+Crush of Wurms,9,2002,1.02,#087500
+Cunning Wish,3,2002,6.95,#341aff
+Death Wish,3,2002,0.44,#000000
+Dwarven Bloodboiler,3,2002,19.22,#ff1a1a
+Epic Struggle,4,2002,4.01,#087500
+Erhnam Djinn,4,2002,0.26,#087500
+Fledgling Dragon,4,2002,0.98,#ff1a1a
+Genesis,5,2002,2.33,#087500
+Glory,5,2002,2.16,#ffffff
+Golden Wish,5,2002,0.37,#ffffff
+Guiltfeeder,5,2002,1.39,#000000
+Hunting Grounds,2,2002,11.49,#d78f42
+Jeska- Warrior Adept,4,2002,4.06,#ff1a1a
+Lightning Surge,5,2002,0.26,#ff1a1a
+Living Wish,2,2002,1.96,#087500
+Masked Gorgon,5,2002,0.26,#000000
+Mirari's Wake,5,2002,20.25,#d78f42
+Mist of Stagnation,5,2002,0.31,#341aff
+Morality Shift,7,2002,1.84,#000000
+Nomad Mythmaker,3,2002,2.27,#ffffff
+Phantom Nantuko,3,2002,0.23,#087500
+Phantom Nishoba,7,2002,1.44,#d78f42
+Pulsemage Advocate,3,2002,0.9,#ffffff
+Scalpelexis,5,2002,0.22,#341aff
+Seedtime,2,2002,9.72,#087500
+Selfless Exorcist,5,2002,0.23,#ffffff
+Shaman's Trance,3,2002,0.32,#ff1a1a
+Silver Seraph,8,2002,0.55,#ffffff
+Solitary Confinement,3,2002,11.75,#ffffff
+Spelljack,6,2002,2.57,#341aff
+Sutured Ghoul,7,2002,0.28,#000000
+Sylvan Safekeeper,1,2002,13.86,#087500
+Telekinetic Bonds,5,2002,0.29,#341aff
+Test of Endurance,4,2002,17.32,#ffffff
+Thriss- Nantuko Primus,7,2002,0.35,#087500
+Worldgorger Dragon,6,2002,11.91,#ff1a1a
+Wormfang Behemoth,5,2002,0.24,#341aff
+Wormfang Manta,7,2002,0.26,#341aff

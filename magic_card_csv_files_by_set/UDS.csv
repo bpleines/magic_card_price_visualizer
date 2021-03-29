@@ -1,45 +1,45 @@
-name,cmc,price,color
-Academy Rector,4,118.96,#ffffff
-Ancient Silverback,6,0.28,#087500
-Apprentice Necromancer,2,1.59,#000000
-Attrition,3,8.69,#000000
-Aura Thief,4,8.2,#341aff
-Blizzard Elemental,7,0.2,#341aff
-Bloodshot Cyclops,6,0.41,#ff1a1a
-Body Snatcher,4,1.59,#000000
-Carnival of Souls,2,17.3,#000000
-Covetous Dragon,5,8.08,#ff1a1a
-Donate,3,19.08,#341aff
-Elvish Piper,4,6.49,#087500
-Emperor Crocodile,4,0.26,#087500
-False Prophet,4,1.1,#ffffff
-Flicker,2,1.05,#ffffff
-Goblin Festival,2,0.57,#ff1a1a
-Goblin Marshal,6,1.08,#ff1a1a
-Impatience,3,0.3,#ff1a1a
-Junk Diver,3,2.15,#8c8d8b
-Master Healer,5,0.24,#ffffff
-Masticore,4,16.95,#8c8d8b
-Metalworker,3,173.94,#8c8d8b
-Opalescence,4,29.4,#ffffff
-Opposition,4,11.59,#341aff
-Pattern of Rebirth,4,3.15,#087500
-Phyrexian Negator,3,13.43,#000000
-Plow Under,5,2.29,#087500
-Powder Keg,2,16.33,#8c8d8b
-Rapid Decay,2,0.29,#000000
-Rayne- Academy Chancellor,3,2.14,#341aff
-Repercussion,3,24.92,#ff1a1a
-Replenish,4,127.13,#ffffff
-Rofellos- Llanowar Emissary,2,59.36,#087500
-Scrying Glass,2,0.34,#8c8d8b
-Storage Matrix,3,3.51,#8c8d8b
-Temporal Adept,3,0.45,#341aff
-Tethered Griffin,1,0.44,#ffffff
-Thorn Elemental,7,0.64,#087500
-Thran Golem,5,0.25,#8c8d8b
-Treachery,5,105.86,#341aff
-Urza's Incubator,3,28.46,#8c8d8b
-Wake of Destruction,6,3.11,#ff1a1a
-Yavimaya Hollow,0,137.5,#087500
-Yawgmoth's Bargain,6,26.58,#000000
+name,cmc,release_year,price,color
+Academy Rector,4,1999,121.65,#ffffff
+Ancient Silverback,6,1999,0.28,#087500
+Apprentice Necromancer,2,1999,1.64,#000000
+Attrition,3,1999,8.78,#000000
+Aura Thief,4,1999,8.25,#341aff
+Blizzard Elemental,7,1999,0.2,#341aff
+Bloodshot Cyclops,6,1999,0.39,#ff1a1a
+Body Snatcher,4,1999,1.66,#000000
+Carnival of Souls,2,1999,17.3,#000000
+Covetous Dragon,5,1999,8.51,#ff1a1a
+Donate,3,1999,19.54,#341aff
+Elvish Piper,4,1999,7.17,#087500
+Emperor Crocodile,4,1999,0.27,#087500
+False Prophet,4,1999,1.1,#ffffff
+Flicker,2,1999,1.05,#ffffff
+Goblin Festival,2,1999,0.56,#ff1a1a
+Goblin Marshal,6,1999,1.1,#ff1a1a
+Impatience,3,1999,0.31,#ff1a1a
+Junk Diver,3,1999,2.19,#8c8d8b
+Master Healer,5,1999,0.26,#ffffff
+Masticore,4,1999,16.95,#8c8d8b
+Metalworker,3,1999,173.94,#8c8d8b
+Opalescence,4,1999,29.4,#ffffff
+Opposition,4,1999,11.59,#341aff
+Pattern of Rebirth,4,1999,3.16,#087500
+Phyrexian Negator,3,1999,13.43,#000000
+Plow Under,5,1999,2.47,#087500
+Powder Keg,2,1999,16.33,#8c8d8b
+Rapid Decay,2,1999,0.31,#000000
+Rayne- Academy Chancellor,3,1999,3.84,#341aff
+Repercussion,3,1999,25.17,#ff1a1a
+Replenish,4,1999,128.86,#ffffff
+Rofellos- Llanowar Emissary,2,1999,60.87,#087500
+Scrying Glass,2,1999,0.34,#8c8d8b
+Storage Matrix,3,1999,3.58,#8c8d8b
+Temporal Adept,3,1999,0.46,#341aff
+Tethered Griffin,1,1999,0.45,#ffffff
+Thorn Elemental,7,1999,0.64,#087500
+Thran Golem,5,1999,0.25,#8c8d8b
+Treachery,5,1999,107.28,#341aff
+Urza's Incubator,3,1999,29.37,#8c8d8b
+Wake of Destruction,6,1999,3.05,#ff1a1a
+Yavimaya Hollow,0,1999,137.5,#087500
+Yawgmoth's Bargain,6,1999,26.58,#000000

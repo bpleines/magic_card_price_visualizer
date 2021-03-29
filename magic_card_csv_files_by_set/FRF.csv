@@ -1,46 +1,46 @@
-name,cmc,price,color
-Alesha- Who Smiles at Death,3,0.26,#d78f42
-Arcbond,3,0.41,#ff1a1a
-Archfiend of Depravity,5,3.05,#000000
-Atarka- World Render,7,0.63,#d78f42
-Brutal Hordechief,4,0.66,#d78f42
-Citadel Siege,4,0.29,#ffffff
-Crucible of the Spirit Dragon,0,0.34,#8c8d8b
-Crux of Fate,5,2.12,#000000
-Daghatar the Adamant,4,0.14,#d78f42
-Dragonscale General,4,0.16,#ffffff
-Dromoka- the Eternal,5,0.37,#d78f42
-Flamerush Rider,5,0.17,#ff1a1a
-Flamewake Phoenix,3,0.48,#ff1a1a
-Frontier Siege,4,0.51,#087500
-Ghastly Conscription,7,0.39,#000000
-Jeskai Infiltrator,3,0.11,#341aff
-Kolaghan- the Storm's Fury,5,0.46,#d78f42
-Mardu Strike Leader,3,0.24,#000000
-Mastery of the Unseen,2,0.2,#ffffff
-Mob Rule,6,1.13,#ff1a1a
-Monastery Mentor,3,14.25,#ffffff
-Monastery Siege,3,0.69,#341aff
-Ojutai- Soul of Winter,7,0.31,#d78f42
-Outpost Siege,4,0.42,#ff1a1a
-Palace Siege,5,1.34,#000000
-Rally the Ancestors,2,0.69,#ffffff
-Sage-Eye Avengers,6,0.13,#341aff
-Sandsteppe Mastodon,7,0.12,#087500
-Scroll of the Masters,2,0.21,#8c8d8b
-Shamanic Revelation,5,1.33,#087500
-Shaman of the Great Hunt,4,0.63,#d78f42
-Shu Yun- the Silent Tempest,3,0.29,#d78f42
-Silumgar- the Drifting Death,6,0.37,#d78f42
-Soulfire Grand Master,2,1.84,#d78f42
-Soulflayer,6,0.24,#000000
-Supplant Form,6,0.25,#341aff
-Tasigur- the Golden Fang,6,0.3,#d78f42
-Temporal Trespass,11,6.24,#341aff
-Temur War Shaman,6,0.21,#087500
-Torrent Elemental,5,0.58,#d78f42
-Ugin- the Spirit Dragon,8,25.91,#8c8d8b
-Warden of the First Tree,1,0.47,#d78f42
-Whisperwood Elemental,5,0.84,#087500
-Wildcall,2,0.11,#087500
-Yasova Dragonclaw,3,0.24,#d78f42
+name,cmc,release_year,price,color
+Alesha- Who Smiles at Death,3,2015,0.26,#d78f42
+Arcbond,3,2015,0.41,#ff1a1a
+Archfiend of Depravity,5,2015,3.3,#000000
+Atarka- World Render,7,2015,0.66,#d78f42
+Brutal Hordechief,4,2015,0.73,#d78f42
+Citadel Siege,4,2015,0.29,#ffffff
+Crucible of the Spirit Dragon,0,2015,0.34,#8c8d8b
+Crux of Fate,5,2015,2.38,#000000
+Daghatar the Adamant,4,2015,0.14,#d78f42
+Dragonscale General,4,2015,0.16,#ffffff
+Dromoka- the Eternal,5,2015,0.37,#d78f42
+Flamerush Rider,5,2015,0.17,#ff1a1a
+Flamewake Phoenix,3,2015,0.48,#ff1a1a
+Frontier Siege,4,2015,0.46,#087500
+Ghastly Conscription,7,2015,0.39,#000000
+Jeskai Infiltrator,3,2015,0.11,#341aff
+Kolaghan- the Storm's Fury,5,2015,0.47,#d78f42
+Mardu Strike Leader,3,2015,0.24,#000000
+Mastery of the Unseen,2,2015,0.18,#ffffff
+Mob Rule,6,2015,1.11,#ff1a1a
+Monastery Mentor,3,2015,14.13,#ffffff
+Monastery Siege,3,2015,0.67,#341aff
+Ojutai- Soul of Winter,7,2015,0.31,#d78f42
+Outpost Siege,4,2015,0.42,#ff1a1a
+Palace Siege,5,2015,1.28,#000000
+Rally the Ancestors,2,2015,0.69,#ffffff
+Sage-Eye Avengers,6,2015,0.13,#341aff
+Sandsteppe Mastodon,7,2015,0.12,#087500
+Scroll of the Masters,2,2015,0.21,#8c8d8b
+Shamanic Revelation,5,2015,1.24,#087500
+Shaman of the Great Hunt,4,2015,0.63,#d78f42
+Shu Yun- the Silent Tempest,3,2015,0.29,#d78f42
+Silumgar- the Drifting Death,6,2015,0.37,#d78f42
+Soulfire Grand Master,2,2015,1.86,#d78f42
+Soulflayer,6,2015,0.24,#000000
+Supplant Form,6,2015,0.25,#341aff
+Tasigur- the Golden Fang,6,2015,0.31,#d78f42
+Temporal Trespass,11,2015,6.23,#341aff
+Temur War Shaman,6,2015,0.21,#087500
+Torrent Elemental,5,2015,0.58,#d78f42
+Ugin- the Spirit Dragon,8,2015,27.04,#8c8d8b
+Warden of the First Tree,1,2015,0.46,#d78f42
+Whisperwood Elemental,5,2015,0.82,#087500
+Wildcall,2,2015,0.11,#087500
+Yasova Dragonclaw,3,2015,0.24,#d78f42
