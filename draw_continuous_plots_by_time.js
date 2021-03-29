@@ -3,7 +3,9 @@ mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 
                  'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
                  'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
                  'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
-                 '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY'];
+                 '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY', 'APC', 'PLS',
+                 'INV', 'PCY', 'NEM', 'MMQ', 'UDS', 'ULG', 'USG', 'EXO', 'STH', 'TMP', 'WTH',
+                 'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN'];
 
 function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
   document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';
@@ -14,15 +16,15 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
   d3.csv(csvFilePath, function(data) {
     // Convert all str csv values to ints
     data.forEach(function(d) {
-      d.cmc = +d.cmc;
+      d.release_year = +d.release_year;
       d.price = +d.price;
     });
-    // Get the max of both cmc and price and pad each dimension by 1
-    var max_cmc = 15;
-    var max_price = 100; 
+    var min_release_year = 1992;
+    var max_release_year = 2022;
+    var max_price = 1000; 
     // Add X axis
     var x = d3.scaleLinear()
-      .domain([0, max_cmc])
+      .domain([min_release_year, max_release_year])
       .range([0, width]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -51,8 +53,8 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
          .attr("class", "axis-title")
          .attr("transform", "translate(" + width + ", 0)")
          .attr("x", -106)
-         .attr("y", -16)
-         .text("Converted Mana Cost");
+         .attr("y", -45)
+         .text("Release Year");
     yAxis.append("text")
          .attr("class", "axis-title")
          .attr("transform", "rotate(-90)")
@@ -66,11 +68,12 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
 
     markers.enter()
            .append("circle")
-	   .attr("cx", function (d) { return x(d.cmc); } )
+	   .attr("cx", function (d) { return x(d.release_year); } )
 	   .attr("cy", function (d) { return y(d.price); } )
            .attr("r", 3.0)
-           .style("opacity", 1)
-           .style("fill", "#000000")
+           .style("opacity", .75)
+           .style("fill", function (d) { return d.color; })
+           //.style("fill", "#000000")
            .style("stroke", "black");
 
     d3.select("#my_dataviz")
@@ -95,7 +98,7 @@ function populateTimeseries() {
     .data(noData)
     .exit()
     .remove();
-  for (i = 0; i < mtg_set_codes.length; i++) {
+  for (i = mtg_set_codes.length; i > 0; i--) {
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }
 }
