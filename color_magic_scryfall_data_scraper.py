@@ -1,3 +1,4 @@
+import pathlib
 import requests
 import os
 
@@ -72,7 +73,7 @@ def get_card_info(color_code):
 
 def generate_card_csv(color_code='W'):
   for set_code in mtg_set_codes:
-    csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_color/' + color_code + '.csv'
+    csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_color/' + color_code + '.csv'
     cards = get_card_info(color_code)
     if os.path.exists(csv_file_path):
       os.remove(csv_file_path)  

@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-This repo contains code used for a data visualization project using D3.
+This repo contains code used for a data visualization project featuring D3.
 
 ## Quick Start
 
