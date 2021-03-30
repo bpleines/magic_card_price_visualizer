@@ -27,9 +27,15 @@ def encode_color(color):
      }
      return color_map[color[0]]
 
-def extract_card_details(card_list):
+def get_card_info(color_code):
+  url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
+  total_cards = requests.get(url).json().get("total_cards")
+  print("total_cards:" + str(total_cards))
+  response = requests.get(url).json().get("data")
+  print("Total Number of elements returned for " + str(color_code) + str(len(response)))
+  
   cards = []
-  for card in card_list:
+  for card in response:
     card_dict = {}
     try:
       # Replace the commas in name to adhere to csv delimeter
@@ -43,47 +49,20 @@ def extract_card_details(card_list):
       continue
   return cards
 
-#def dig_into_pagination(response, total_cards):
-#  if response.get('has_more') == False:
-#    return total_cards
-#  else:
-#    next_page_url = response.get('next_page')
-#    new_response = requests.get(next_page_url).json()
-#    new_cards = extract_card_details(new_response.get("data"))
-#    new_total_cards = total_cards + new_cards
-#    print("Extracted url: " + next_page_url)
-#    dig_into_pagination(new_response, new_total_cards)
-
-
-def get_card_info(color_code):
-  url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
-  response = requests.get(url).json()
-  first_page_cards = extract_card_details(response.get("data"))
-  if response.get('has_more'):
-    new_response = requests.get(response.get('next_page')).json()
-    second_page_cards = extract_card_details(new_response.get("data"))
-  return first_page_cards + second_page_cards
-
 def generate_card_csv(color_code='W'):
   for set_code in mtg_set_codes:
     csv_file_path= '/Users/bpleines/dataVisualization/finalProject/data_vis/magic_card_csv_files_by_color/' + color_code + '.csv'
     cards = get_card_info(color_code)
-    if os.path.exists(csv_file_path):
-      os.remove(csv_file_path)  
-    with open(csv_file_path, 'a') as mycsv:
-      mycsv.write('name,cmc,price,color\n')
-      for card in cards:
-        mycsv.write(str(card["name"]) + "," +
-                    str(card["cmc"]) + "," +
-                    str(card["price"]) + ',' +
-                    str(encode_color(card["colors"])) + '\n' )
+    #if os.path.exists(csv_file_path):
+      #os.remove(csv_file_path)  
+    #with open(csv_file_path, 'a') as mycsv:
+      #mycsv.write('name,cmc,price,color\n')
+      #for card in cards:
+        #mycsv.write(str(card["name"]) + "," +
+                    #str(card["cmc"]) + "," +
+                    #str(card["price"]) + ',' +
+                    #str(encode_color(card["colors"])) + '\n' )
   print("Generated csv data for set: " + color_code)
-
-def git_commit_and_push():
-  os.system('git add *')
-  os.system('git commit -m iterating')
-  os.system('git push')
 
 for color_code in mtg_color_codes:
   generate_card_csv(color_code)
-git_commit_and_push()
