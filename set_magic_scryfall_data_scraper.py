@@ -67,4 +67,4 @@ def git_commit_and_push():
 
 for set_code in mtg_set_codes:
   generate_card_csv(set_code)
-git_commit_and_push()
+#git_commit_and_push()

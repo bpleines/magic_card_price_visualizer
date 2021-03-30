@@ -43,6 +43,9 @@ def extract_card_details(card_list):
       continue
   return cards
 
+# This not a scalable implementation and should be fixed in the future.
+# Ideally the pagination should be evaluated recursively, such that as new cards are added over time
+# the pagation is computed automatically without having to add extra code.
 def get_card_info(color_code):
   url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
   response = requests.get(url).json()
@@ -89,4 +92,4 @@ def git_commit_and_push():
 
 for color_code in mtg_color_codes:
   generate_card_csv(color_code)
-git_commit_and_push()
+#git_commit_and_push()
