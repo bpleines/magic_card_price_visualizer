@@ -62,7 +62,10 @@ def get_card_info(color_code):
           if fifth_response.get('has_more'):
             sixth_response = requests.get(fifth_response.get('next_page')).json()
             sixth_page_cards = extract_card_details(sixth_response.get("data"))
-  return first_page_cards + second_page_cards + third_page_cards + fourth_page_cards + fifth_page_cards
+            if sixth_response.get('has_more'):
+              seventh_response = requests.get(sixth_response.get('next_page')).json()
+              seventh_page_cards = extract_card_details(seventh_response.get("data"))
+  return first_page_cards + second_page_cards + third_page_cards + fourth_page_cards + fifth_page_cards + sixth_page_cards
 
 def generate_card_csv(color_code='W'):
   for set_code in mtg_set_codes:
