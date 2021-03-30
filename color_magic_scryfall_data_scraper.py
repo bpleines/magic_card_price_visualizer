@@ -34,7 +34,8 @@ def get_card_info(color_code):
   for card in response:
     card_dict = {}
     try:
-      card_dict["name"] = card.get("name")
+      # Replace the commas in name to adhere to csv delimeter
+      card_dict["name"] = card.get("name").replace(',', '-')
       card_dict["cmc"] = int(card.get("cmc"))
       card_dict["price"] = float(card.get("prices").get("usd"))
       card_dict["colors"] = card.get("color_identity")
@@ -51,7 +52,7 @@ def generate_card_csv(color_code='W'):
     if os.path.exists(csv_file_path):
       os.remove(csv_file_path)  
     with open(csv_file_path, 'a') as mycsv:
-      mycsv.write('cmc,price,color\n')
+      mycsv.write('name,cmc,price,color\n')
       for card in cards:
         mycsv.write(str(card["name"]) + "," +
                     str(card["cmc"]) + "," +

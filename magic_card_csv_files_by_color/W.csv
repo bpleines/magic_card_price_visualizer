@@ -1,4 +1,4 @@
-cmc,price,color
+name,cmc,price,color
 Abeyance,2,31.66,#ffffff
 Academy Rector,4,121.65,#ffffff
 Acclaimed Contender,3,0.31,#ffffff
@@ -12,25 +12,25 @@ Aegis of the Gods,2,1.59,#ffffff
 Aethergeode Miner,2,0.16,#ffffff
 Aetherstorm Roc,4,0.12,#ffffff
 Ageless Sentinels,4,0.23,#ffffff
-Ajani, Adversary of Tyrants,4,4.95,#ffffff
-Ajani, Caller of the Pride,3,3.5,#ffffff
+Ajani- Adversary of Tyrants,4,4.95,#ffffff
+Ajani- Caller of the Pride,3,3.5,#ffffff
 Ajani Goldmane,4,4.33,#ffffff
 Ajani's Chosen,4,0.39,#ffffff
 Ajani's Influence,4,0.45,#ffffff
 Ajani's Last Stand,4,0.13,#ffffff
 Ajani Steadfast,4,6.95,#ffffff
-Ajani, Strength of the Pride,4,11.71,#ffffff
-Akroma, Angel of Wrath,8,1.14,#ffffff
+Ajani- Strength of the Pride,4,11.71,#ffffff
+Akroma- Angel of Wrath,8,1.14,#ffffff
 Akroma's Vengeance,6,0.2,#ffffff
 Akroma's Will,4,4.73,#ffffff
-Akroma, Vision of Ixidor,7,5.2,#ffffff
+Akroma- Vision of Ixidor,7,5.2,#ffffff
 Alabaster Dragon,6,0.6,#ffffff
 Alabaster Leech,1,0.27,#ffffff
 Alaborn Veteran,3,0.8,#ffffff
 Alliance of Arms,1,3.7,#ffffff
 Alms Collector,4,13.48,#ffffff
 Always Watching,3,0.98,#ffffff
-Anafenza, Kin-Tree Spirit,2,1.28,#ffffff
+Anafenza- Kin-Tree Spirit,2,1.28,#ffffff
 Ancestor Dragon,6,1.04,#ffffff
 Ancestor's Prophet,5,0.6,#ffffff
 Ancestral Tribute,7,0.27,#ffffff
@@ -63,7 +63,7 @@ Approach of the Second Sun,7,1.26,#ffffff
 Arashin Foremost,3,0.33,#ffffff
 Arbiter of Knollridge,7,0.23,#ffffff
 Archangel,7,0.65,#ffffff
-Archangel Avacyn // Avacyn, the Purifier,5,6.54,#d78f42
+Archangel Avacyn // Avacyn- the Purifier,5,6.54,#d78f42
 Archangel of Strife,7,0.63,#ffffff
 Archangel of Thune,5,18.21,#ffffff
 Archangel of Tithes,4,17.16,#ffffff
@@ -82,7 +82,7 @@ Armored Skyhunter,4,0.81,#ffffff
 Arrest,3,0.45,#ffffff
 Ashes of the Abhorrent,2,0.34,#ffffff
 Astral Drift,3,0.09,#ffffff
-Atalya, Samite Master,5,0.74,#ffffff
+Atalya- Samite Master,5,0.74,#ffffff
 Auratog,2,0.53,#ffffff
 Aurification,4,2.6,#ffffff
 Auriok Champion,2,48.52,#ffffff
@@ -92,8 +92,8 @@ Auriok Windwalker,4,0.45,#ffffff
 Auspicious Ancestor,4,6.95,#ffffff
 Austere Command,6,1.61,#ffffff
 Authority of the Consuls,1,6.53,#ffffff
-Avacyn, Angel of Hope,8,34.91,#ffffff
-Avacyn, Guardian Angel,5,0.62,#ffffff
+Avacyn- Angel of Hope,8,34.91,#ffffff
+Avacyn- Guardian Angel,5,0.62,#ffffff
 Avatar of Hope,8,0.39,#ffffff
 Aven Brigadier,6,1.13,#ffffff
 Avenger en-Dal,2,0.25,#ffffff
@@ -106,7 +106,7 @@ Aysen Crusader,4,2.34,#ffffff
 Aysen Highway,6,3.69,#ffffff
 Balance,2,1.97,#ffffff
 Balancing Act,4,0.48,#ffffff
-Balan, Wandering Knight,4,9.33,#ffffff
+Balan- Wandering Knight,4,9.33,#ffffff
 Baneslayer Angel,5,2.98,#ffffff
 Barren Glory,6,0.9,#ffffff
 Basri Ket,3,2.17,#ffffff
@@ -141,11 +141,11 @@ Boreas Charger,3,2.19,#ffffff
 Bounty Agent,2,0.18,#ffffff
 Brave the Elements,1,2.92,#ffffff
 Brightling,3,1.07,#ffffff
-Brigid, Hero of Kinsbaile,4,0.91,#ffffff
-Brimaz, King of Oreskos,3,15.13,#ffffff
+Brigid- Hero of Kinsbaile,4,0.91,#ffffff
+Brimaz- King of Oreskos,3,15.13,#ffffff
 Bringer of the White Dawn,9,1.73,#d78f42
 Brought Back,2,0.92,#ffffff
-Bruna, the Fading Light,7,3.49,#ffffff
+Bruna- the Fading Light,7,3.49,#ffffff
 By Gnome Means,3,0.18,#ffffff
 Bygone Bishop,3,0.44,#ffffff
 Call for Unity,5,0.25,#ffffff

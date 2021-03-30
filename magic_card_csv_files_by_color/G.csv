@@ -1,4 +1,4 @@
-cmc,price,color
+name,cmc,price,color
 Aboroth,6,5.58,#087500
 Abundance,4,0.27,#087500
 Acidic Slime,5,7.53,#087500
@@ -18,20 +18,20 @@ Ancient Silverback,6,0.21,#087500
 An-Havva Constable,3,0.3,#087500
 Animal Magnetism,5,0.24,#087500
 Animist's Awakening,1,0.6,#087500
-Anthousa, Setessan Hero,5,0.11,#087500
+Anthousa- Setessan Hero,5,0.11,#087500
 Ant Queen,5,0.66,#087500
 Apex Altisaur,9,3.09,#087500
 Apex Devastator,10,11.02,#087500
 Arachnogenesis,3,25.11,#087500
 Arachnus Spinner,6,0.23,#087500
-Arashi, the Sky Asunder,5,0.74,#087500
+Arashi- the Sky Asunder,5,0.74,#087500
 Arasta of the Endless Web,4,0.46,#087500
 Arbor Colossus,5,0.19,#087500
 Architect of the Untamed,3,0.15,#087500
 Argothian Enchantress,2,22.89,#087500
 Argothian Wurm,4,7.57,#087500
 Asceticism,5,15.77,#087500
-Ashaya, Soul of the Wild,5,6.76,#087500
+Ashaya- Soul of the Wild,5,6.76,#087500
 As Luck Would Have It,1,0.28,#087500
 Aspect of Wolf,2,0.41,#087500
 Assault Formation,2,0.83,#087500
@@ -41,12 +41,12 @@ Avenger of Zendikar,7,6.19,#087500
 Awakening,4,7.75,#087500
 Awakening of Vitu-Ghazi,5,0.22,#087500
 Awakening Zone,3,2.12,#087500
-Ayula, Queen Among Bears,2,0.26,#087500
+Ayula- Queen Among Bears,2,0.26,#087500
 Ayula's Influence,3,0.22,#087500
-Ayumi, the Last Visitor,5,0.75,#087500
-Azusa, Lost but Seeking,3,7.21,#087500
+Ayumi- the Last Visitor,5,0.75,#087500
+Azusa- Lost but Seeking,3,7.21,#087500
 Bane of Progress,6,5.67,#087500
-Baru, Fist of Krosa,5,1.12,#087500
+Baru- Fist of Krosa,5,1.12,#087500
 Battle Mammoth,5,1.44,#087500
 Beacon of Creation,4,3.69,#087500
 Bearscape,3,3.59,#087500
@@ -85,7 +85,7 @@ Bristling Hydra,4,0.19,#087500
 Brooding Saurian,4,0.2,#087500
 Brood Sliver,5,10.84,#087500
 Brushwagg,3,2.58,#087500
-Budoka Gardener // Dokai, Weaver of Life,2,2.66,#087500
+Budoka Gardener // Dokai- Weaver of Life,2,2.66,#087500
 Bull Hippo,4,0.82,#087500
 Burgeoning,1,22.49,#087500
 Caller of the Claw,3,0.81,#087500
@@ -100,7 +100,7 @@ Cardboard Carapace,6,1.25,#087500
 Carnage Tyrant,6,10.45,#087500
 Carnassid,6,0.33,#087500
 Cavalier of Thorns,5,1.88,#087500
-Cazur, Ruthless Stalker,4,1.26,#087500
+Cazur- Ruthless Stalker,4,1.26,#087500
 Centaur Vinecrasher,4,0.23,#087500
 Chameleon Colossus,4,3.33,#087500
 Champion of Lambholt,3,1.36,#087500
