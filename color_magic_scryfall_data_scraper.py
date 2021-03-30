@@ -43,26 +43,26 @@ def extract_card_details(card_list):
       continue
   return cards
 
-#def dig_into_pagination(response, total_cards):
-#  if response.get('has_more') == False:
-#    return total_cards
-#  else:
-#    next_page_url = response.get('next_page')
-#    new_response = requests.get(next_page_url).json()
-#    new_cards = extract_card_details(new_response.get("data"))
-#    new_total_cards = total_cards + new_cards
-#    print("Extracted url: " + next_page_url)
-#    dig_into_pagination(new_response, new_total_cards)
-
-
 def get_card_info(color_code):
   url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
   response = requests.get(url).json()
   first_page_cards = extract_card_details(response.get("data"))
   if response.get('has_more'):
-    new_response = requests.get(response.get('next_page')).json()
-    second_page_cards = extract_card_details(new_response.get("data"))
-  return first_page_cards + second_page_cards
+    second_response = requests.get(response.get('next_page')).json()
+    second_page_cards = extract_card_details(second_response.get("data"))
+    if second_response.get('has_more'):
+      third_response = requests.get(second_response.get('next_page')).json()
+      third_page_cards = extract_card_details(third_response.get("data"))
+      if third_response.get('has_more'):
+        fourth_response = requests.get(third_response.get('next_page')).json()
+        fourth_page_cards = extract_card_details(fourth_response.get("data"))
+        if fourth_response.get('has_more'):
+          fifth_response = requests.get(fourth_response.get('next_page')).json()
+          fifth_page_cards = extract_card_details(fifth_response.get("data"))
+          if fifth_response.get('has_more'):
+            sixth_response = requests.get(fifth_response.get('next_page')).json()
+            sixth_page_cards = extract_card_details(sixth_response.get("data"))
+  return first_page_cards + second_page_cards + third_page_cards + fourth_page_cards + fifth_page_cards
 
 def generate_card_csv(color_code='W'):
   for set_code in mtg_set_codes:
