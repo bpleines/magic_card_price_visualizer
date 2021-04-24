@@ -1,6 +1,6 @@
-# Data Visualization Project
+# Magic: the Gathering Rare Price Visualizer
 
-This repo contains code used for a data visualization project featuring D3.
+This repo contains code used to visualize the price of magic rares by set, color, and year. Data is gathered from scryfall on a best-effort basis.
 
 ## Quick Start
 
