@@ -46,7 +46,7 @@ def get_card_info(set_code):
       continue
   return cards
 
-def generate_card_csv(set_code='KHM'):
+def generate_card_csv(set_code='STX'):
   csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_set/' + set_code + '.csv'
   cards = get_card_info(set_code)
   if os.path.exists(csv_file_path):
@@ -66,6 +66,7 @@ def git_commit_and_push():
   os.system('git commit -m iterating')
   os.system('git push')
 
-for set_code in mtg_set_codes:
-  generate_card_csv(set_code)
+#for set_code in mtg_set_codes:
+#  generate_card_csv(set_code)
+generate_card_csv('STX')
 #git_commit_and_push()
