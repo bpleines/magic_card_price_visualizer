@@ -2,14 +2,15 @@ import pathlib
 import requests
 import os
 
-mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
+mtg_set_codes = ['BRO', 'DMU', 'SNC', 'NEO', 'VOW', 'MID', 'AFR',
+                 'STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
                  'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
                  'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
                  'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
                  'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
                  '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY', 'APC', 'PLS',
                  'INV', 'PCY', 'NEM', 'MMQ', 'UDS', 'ULG', 'USG', 'EXO', 'STH', 'TMP', 'WTH',
-                 'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN'] 
+                 'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN']
 
 def encode_color(color):
    # Handle colorless case
@@ -28,8 +29,10 @@ def encode_color(color):
      return color_map[color[0]]
 
 def get_card_info(set_code):
-  url = 'https://api.scryfall.com/cards/search?q=set%3A' + set_code + '+%28rarity%3Ar+OR+rarity%3Am%29'
+  url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
   response = requests.get(url).json().get("data")
+  if not response:
+     raise Exception(f"set_code {set_code} didn't return any results. Maybe there is a typo?")
   cards = []
   for card in response:
     card_dict = {}
@@ -50,7 +53,7 @@ def generate_card_csv(set_code='STX'):
   csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_set/' + set_code + '.csv'
   cards = get_card_info(set_code)
   if os.path.exists(csv_file_path):
-    os.remove(csv_file_path)  
+    os.remove(csv_file_path)
   with open(csv_file_path, 'a') as mycsv:
     mycsv.write('name,cmc,release_year,price,color\n')
     for card in cards:
@@ -66,6 +69,7 @@ def git_commit_and_push():
   os.system('git commit -m iterating')
   os.system('git push')
 
+#TODO: this is a sloppy way of making this work
 for set_code in mtg_set_codes:
   generate_card_csv(set_code)
 git_commit_and_push()

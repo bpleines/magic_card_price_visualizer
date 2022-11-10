@@ -41,11 +41,17 @@
     </div>
   </div>
   <div class="dropdown" style="float:right;">
-    <button class="dropbtn">Choose MTG Set 
+    <button class="dropbtn">Choose MTG Set
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <button onclick="renderScatterplot('STX')">Strixhaven</button>
+      <button onclick="renderScatterplot('BRO')">The Brothers' War</button>
+      <button onclick="renderScatterplot('DMU')">Dominaria United</button>
+      <button onclick="renderScatterplot('SNC')">Streets of New Capenna</button>
+      <button onclick="renderScatterplot('NEO')">Kamigawa: Neon Dynasty</button>
+      <button onclick="renderScatterplot('VOW')">Innistrad: Crimson Vow</button>
+      <button onclick="renderScatterplot('MID')">Innistrad: Midnight Hunt</button>
+      <button onclick="renderScatterplot('AFR')">Adventures in the Forgotten Realms</button>
       <button onclick="renderScatterplot('KHM')">Kaldheim</button>
       <button onclick="renderScatterplot('ZNR')">Zendikar Rising</button>
       <button onclick="renderScatterplot('IKO')">Ikoria</button>
@@ -133,7 +139,7 @@
       <button onclick="renderScatterplot('ATQ')">Legions</button>
       <button onclick="renderScatterplot('ARN')">Antiquities</button>
     </div>
-  </div> 
+  </div>
 </div>
 <!-- Create a div where the graph will title will be -->
 <p id="title" >  Magic the Gathering Rares (STX) : Price by Mana Cost and Color</p>
