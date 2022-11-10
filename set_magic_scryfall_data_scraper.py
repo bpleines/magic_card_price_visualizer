@@ -49,7 +49,7 @@ def get_card_info(set_code):
       continue
   return cards
 
-def generate_card_csv(set_code='STX'):
+def generate_card_csv(set_code=mtg_set_codes[0]):
   csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_set/' + set_code + '.csv'
   cards = get_card_info(set_code)
   if os.path.exists(csv_file_path):
@@ -57,19 +57,16 @@ def generate_card_csv(set_code='STX'):
   with open(csv_file_path, 'a') as mycsv:
     mycsv.write('name,cmc,release_year,price,color\n')
     for card in cards:
-      mycsv.write(str(card["name"]) + "," +
-                  str(card["cmc"]) + "," +
-                  str(card["release_year"]) + "," +
-                  str(card["price"]) + ',' +
-                  str(encode_color(card["colors"])) + '\n' )
+      mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{encode_color(card['colors'])}\n")
   print("Generated csv data for set: " + set_code)
 
+# TODO: this is a sloppy way of making this work
+# Instead find an efficent way to load locally
 def git_commit_and_push():
   os.system('git add *')
   os.system('git commit -m iterating')
   os.system('git push')
 
-#TODO: this is a sloppy way of making this work
 for set_code in mtg_set_codes:
   generate_card_csv(set_code)
 git_commit_and_push()
