@@ -12,7 +12,7 @@ var svg = d3.select("#my_dataviz")
               .attr("transform",
                     "translate(" + margin.left + "," + margin.top + ")");
 
-renderScatterplot('STX')
+renderScatterplot('DMU')
 
 function renderScatterplot(attribute_code, attribute_type='set') {
   // Clean out existing plot and plotted points
@@ -28,7 +28,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     .exit()
     .remove();
   document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Mana Cost and Color');
-  
+
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
   //Read the data
@@ -38,10 +38,10 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       d.cmc = +d.cmc;
       d.price = +d.price;
     });
-    // Get the max of both cmc and price and pad each dimension by 1
+    // Get the max of both cmc and price and pad each dimension
     var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
-    var max_price = d3.max(data, function(d) { return d.price; }) + 1;    
-    
+    var max_price = d3.max(data, function(d) { return d.price; }) + 2;
+
     // Add X axis
     var x = d3.scaleLinear()
       .domain([0, max_cmc])
@@ -86,7 +86,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     yAxis.append("text")
          .attr("class", "axis-title")
          .attr("transform", "rotate(-90)")
-         .attr("y", 24) 
+         .attr("y", 24)
          .text("Price (USD)");
 
     // Add dots
@@ -100,7 +100,25 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	   .attr("cy", function (d) { return y(d.price); } )
            .attr("r", 6.0)
            .style("fill", function (d) { return d.color; })
-           .style("stroke", "black");
-
+           .style("stroke", "black")
+           .on('mouseover', function (d, i) {
+                d3.select(this).transition()
+                    .duration('100')
+                    .attr("r", 10);
+                div.transition()
+                    .duration(100)
+                    .style("opacity", 1);
+                div.html("$" + d3.format(".2f")(d.wage))
+                    .style("left", (d3.event.pageX + 10) + "px")
+                    .style("top", (d3.event.pageY - 15) + "px");
+           })
+           .on('mouseout', function (d, i) {
+               d3.select(this).transition()
+                   .duration('200')
+                   .attr("r", 6);
+               div.transition()
+                   .duration('200')
+                   .style("opacity", 0);
+           });
   })
 }
