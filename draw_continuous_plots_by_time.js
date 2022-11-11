@@ -8,8 +8,7 @@ mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 
                  'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN'];
 
 function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';
-  
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';'
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
   //Read the data
@@ -21,7 +20,7 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
     });
     var min_release_year = 1992;
     var max_release_year = 2022;
-    var max_price = 1000; 
+    var max_price = 1000;
     // Add X axis
     var x = d3.scaleLinear()
       .domain([min_release_year, max_release_year])

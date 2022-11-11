@@ -86,8 +86,8 @@ def generate_card_csv(color_code='W'):
     with open(csv_file_path, 'a') as mycsv:
       mycsv.write('name,cmc,release_year,price,color,image\n')
       for card in cards:
-        mycsv.write(f"{name},{cmc},{release_year},{price},{color},{image}\n")
-  print("Generated csv data for set: " + color_code)
+        mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{encode_color(card['colors'])},{card['image_uri']}\n")
+  print(f"Generated csv data for set: {color_code}")
 
 def git_commit_and_push():
   os.system('git add *')
