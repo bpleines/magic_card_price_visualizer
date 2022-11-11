@@ -105,20 +105,18 @@ function renderScatterplot(attribute_code, attribute_type='set') {
                 d3.select(this).transition()
                     .duration('100')
                     .attr("r", 10);
-                div.transition()
-                    .duration(100)
-                    .style("opacity", 1);
-                div.html("$" + d3.format(".2f")(d.wage))
-                    .style("left", (d3.event.pageX + 10) + "px")
-                    .style("top", (d3.event.pageY - 15) + "px");
+                // Add the image to the page when plot point hovered over
+                src = d.image;
+                img = document.createElement("img");
+                img.src = src;
+                document.getElementById("card_picture").appendChild(img);
            })
            .on('mouseout', function (d, i) {
                d3.select(this).transition()
                    .duration('200')
                    .attr("r", 6);
-               div.transition()
-                   .duration('200')
-                   .style("opacity", 0);
+               // remove image from page when hover off
+               document.getElementById("card_picture").removeChild(img);
            });
   })
 }
