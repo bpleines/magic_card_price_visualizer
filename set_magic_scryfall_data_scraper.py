@@ -40,7 +40,7 @@ def generate_card_csv(set_code=mtg_set_codes[0]):
         mycsv.write('name,cmc,release_year,price,color,image\n')
         for card in cards:
             mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{MTGCodes().encode_color(card['colors'])},{card['image_uri']}\n")
-    print("Generated csv data for set: " + set_code)
+    print(f"Generated csv data for set: {set_code}")
 
 # TODO: this is a sloppy way of making this work
 # Instead find an efficent way to load locally

@@ -6,7 +6,7 @@ def find_x_max_prices(filepath, x=5):
     for line in lines:
       prices.append(float(line.split(',')[2]))
     prices.sort(reverse=True)
-    print("The " + str(x) + " highest values for " + filepath + ": " + str(prices[0:5]))
+    Fprint("The {x} highest values for {filepath}: {prices[0:5]})")
 
 find_x_max_prices('magic_card_csv_files_by_color/W.csv')
 find_x_max_prices('magic_card_csv_files_by_color/U.csv')
