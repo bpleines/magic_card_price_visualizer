@@ -39,6 +39,10 @@ def extract_card_details(card_list):
       card_dict["cmc"] = int(card.get("cmc"))
       card_dict["price"] = float(card.get("prices").get("usd"))
       card_dict["colors"] = card.get("color_identity")
+      try:
+          card_dict["image_uri"] = card.get("image_uris").get("normal")
+      except AttributeError as e:
+          card_dict["image_uri"] = None
       cards.append(card_dict)
     except TypeError:
       print("The card " + card.get("name") + " was missing an expected value. Skipping!")
@@ -49,7 +53,7 @@ def extract_card_details(card_list):
 # Ideally the pagination should be evaluated recursively, such that as new cards are added over time
 # the pagation is computed automatically without having to add extra code.
 def get_card_info(color_code):
-  url = 'https://api.scryfall.com/cards/search?q=color%3D' + color_code + '+%28rarity%3Ar+OR+rarity%3Am%29' 
+  url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
   response = requests.get(url).json()
   first_page_cards = extract_card_details(response.get("data"))
   if response.get('has_more'):
@@ -74,17 +78,14 @@ def get_card_info(color_code):
 
 def generate_card_csv(color_code='W'):
   for set_code in mtg_set_codes:
-    csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_color/' + color_code + '.csv'
+    csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_color/{color_code}.csv"
     cards = get_card_info(color_code)
     if os.path.exists(csv_file_path):
-      os.remove(csv_file_path)  
+      os.remove(csv_file_path)
     with open(csv_file_path, 'a') as mycsv:
-      mycsv.write('name,cmc,price,color\n')
+      mycsv.write('name,cmc,price,color,image\n')
       for card in cards:
-        mycsv.write(str(card["name"]) + "," +
-                    str(card["cmc"]) + "," +
-                    str(card["price"]) + ',' +
-                    str(encode_color(card["colors"])) + '\n' )
+        mycsv.write('name,cmc,release_year,price,color,image\n')
   print("Generated csv data for set: " + color_code)
 
 def git_commit_and_push():
@@ -94,4 +95,4 @@ def git_commit_and_push():
 
 for color_code in mtg_color_codes:
   generate_card_csv(color_code)
-#git_commit_and_push()
+git_commit_and_push()
