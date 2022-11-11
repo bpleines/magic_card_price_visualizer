@@ -85,7 +85,7 @@ def git_commit_and_push():
     os.system('git push')
 
 for color_code in MTGCodes().get_color_codes():
-  generate_card_csv(color_code)
+    generate_card_csv(color_code)
 git_commit_and_push()
 
 #for color_code in MTGCodes().get_color_codes():

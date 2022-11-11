@@ -1,17 +1,18 @@
-mtg_set_codes = ['STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
-                 'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
-                 'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
-                 'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
-                 'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
-                 '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY', 'APC', 'PLS',
-                 'INV', 'PCY', 'NEM', 'MMQ', 'UDS', 'ULG', 'USG', 'EXO', 'STH', 'TMP', 'WTH',
-                 'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN'];
+mtg_set_codes = ['BRO', 'DMU', 'SNC', 'NEO', 'VOW', 'MID', 'AFR',
+                'STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
+                'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
+                'KTK', 'JOU', 'BNG', 'THS', 'DGM', 'GTC', 'RTR', 'AVR', 'DKA', 'ISD', 'NPH',
+                'MBS', 'SOM', 'ROE', 'WWK', 'ZEN', 'ARB', 'CON', 'ALA', 'EVE', 'SHM', 'MOR',
+                'LRW', 'FUT', 'PLC', 'TSP', 'CSP', 'DIS', 'GPT', 'RAV', 'SOK', 'BOK', 'CHK',
+                '5DN', 'DST', 'MRD', 'SCG', 'LGN', 'ONS', 'JUD', 'TOR', 'ODY', 'APC', 'PLS',
+                'INV', 'PCY', 'NEM', 'MMQ', 'UDS', 'ULG', 'USG', 'EXO', 'STH', 'TMP', 'WTH',
+                'VIS', 'MIR', 'ALL', 'HML', 'ICE', 'FEM', 'DRK', 'LEG', 'ATQ', 'ARN']
 
 function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';'
-  var attribute = (attribute_type === 'set') ? 'set' : 'color'
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares: Price by Time';
+  var attribute = (attribute_type === 'set') ? 'set' : 'color';
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
-  //Read the data
+  // Read the data
   d3.csv(csvFilePath, function(data) {
     // Convert all str csv values to ints
     data.forEach(function(d) {
@@ -72,14 +73,30 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
            .attr("r", 3.0)
            .style("opacity", .75)
            .style("fill", function (d) { return d.color; })
-           //.style("fill", "#000000")
-           .style("stroke", "black");
+           .style("stroke", "black")
+           .on('mouseover', function (d, i) {
+                d3.select(this).transition()
+                    .duration('100')
+                    .attr("r", 15.0);
+                // Add the image to the page when plot point hovered over
+                src = d.image;
+                img = document.createElement("img");
+                img.src = src;
+                document.getElementById("card_picture").appendChild(img);
+           })
+           .on('mouseout', function (d, i) {
+               d3.select(this).transition()
+                   .duration('200')
+                   .attr("r", 6.0);
+               // remove image from page when hover off
+               document.getElementById("card_picture").removeChild(img);
+           });
 
     d3.select("#my_dataviz")
       .selectAll("g")
       .data(data)
       .transition()
-      .duration(1000)
+      .duration(10000)
       .attr("fill", "#000000");
   })
 }
@@ -97,6 +114,7 @@ function populateTimeseries() {
     .data(noData)
     .exit()
     .remove();
+  // plot in reverse order
   for (i = mtg_set_codes.length; i > 0; i--) {
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }

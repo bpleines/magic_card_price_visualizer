@@ -21,10 +21,11 @@ def get_card_info(set_code):
             card_dict["release_year"] = int(card.get("released_at").split('-')[0])
             card_dict["price"] = float(card.get("prices").get("usd"))
             card_dict["colors"] = card.get("color_identity")
+            # If the card is missing image_uris, give a harcoded photo matching its color
             try:
                 card_dict["image_uri"] = card.get("image_uris").get("normal")
             except AttributeError as e:
-                card_dict["image_uri"] = None
+                card_dict["image_uri"] = MTGCodes().encode_default_image_for_color(card_dict["colors"])
             cards.append(card_dict)
         except TypeError:
             print(f"The card {card.get('name')} was missing an expected value. Skipping!")
