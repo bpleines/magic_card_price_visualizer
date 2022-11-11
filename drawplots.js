@@ -37,6 +37,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     data.forEach(function(d) {
       d.cmc = +d.cmc;
       d.price = +d.price;
+      d.image = +d.image;
     });
     // Get the max of both cmc and price and pad each dimension
     var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
@@ -105,20 +106,16 @@ function renderScatterplot(attribute_code, attribute_type='set') {
                 d3.select(this).transition()
                     .duration('100')
                     .attr("r", 10);
-                div.transition()
-                    .duration(100)
-                    .style("opacity", 1);
-                div.html("$" + d3.format(".2f")(d.wage))
-                    .style("left", (d3.event.pageX + 10) + "px")
-                    .style("top", (d3.event.pageY - 15) + "px");
+                // need to figure out how to pass this down
+                src = 'https://cards.scryfall.io/large/front/7/1/710d2a3c-63a7-4e33-9ae3-21fb6b3d8326.jpg?1663049656',
+                img = document.createElement('img');
+                img.src = src;
+                document.body.appendChild(img);
            })
            .on('mouseout', function (d, i) {
                d3.select(this).transition()
                    .duration('200')
                    .attr("r", 6);
-               div.transition()
-                   .duration('200')
-                   .style("opacity", 0);
            });
   })
 }
