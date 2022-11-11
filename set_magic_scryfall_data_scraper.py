@@ -43,21 +43,25 @@ def get_card_info(set_code):
       card_dict["release_year"] = int(card.get("released_at").split('-')[0])
       card_dict["price"] = float(card.get("prices").get("usd"))
       card_dict["colors"] = card.get("color_identity")
+      try:
+          card_dict["image_uri"] = card.get("image_uris").get("large")
+      except AttributeError as e:
+          card_dict["image_uri"] = None
       cards.append(card_dict)
     except TypeError:
-      print("The card " + card.get("name") + " was missing an expected value. Skipping!")
+      print(f"The card {card.get('name')} was missing an expected value. Skipping!")
       continue
   return cards
 
 def generate_card_csv(set_code=mtg_set_codes[0]):
-  csv_file_path = str(pathlib.Path(__file__).parent.absolute()) + '/magic_card_csv_files_by_set/' + set_code + '.csv'
+  csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_set/{set_code}.csv"
   cards = get_card_info(set_code)
   if os.path.exists(csv_file_path):
     os.remove(csv_file_path)
   with open(csv_file_path, 'a') as mycsv:
-    mycsv.write('name,cmc,release_year,price,color\n')
+    mycsv.write('name,cmc,release_year,price,color,image\n')
     for card in cards:
-      mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{encode_color(card['colors'])}\n")
+      mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{encode_color(card['colors'])},{card['image_uri']}\n")
   print("Generated csv data for set: " + set_code)
 
 # TODO: this is a sloppy way of making this work

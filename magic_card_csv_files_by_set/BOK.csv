@@ -1,56 +1,56 @@
-name,cmc,release_year,price,color
-Baku Altar,2,2005,0.38,#8c8d8b
-Blazing Shoal,2,2005,2.51,#ff1a1a
-Chisei- Heart of Oceans,4,2005,0.73,#341aff
-Clash of Realities,4,2005,0.31,#ff1a1a
-Day of Destiny,4,2005,5.1,#ffffff
-Disrupting Shoal,2,2005,1.17,#341aff
-Enshrined Memories,1,2005,0.9,#087500
-Final Judgment,6,2005,2.15,#ffffff
-Fumiko the Lowblood,4,2005,1.59,#ff1a1a
-Genju of the Realm,5,2005,4.95,#d78f42
-Goryo's Vengeance,2,2005,4.83,#000000
-Heartless Hidetsugu,5,2005,3.32,#ff1a1a
-Hero's Demise,2,2005,1.22,#000000
-Higure- the Still Wind,5,2005,13.17,#341aff
-Hokori- Dust Drinker,4,2005,4.28,#ffffff
-Ink-Eyes- Servant of Oni,6,2005,28.16,#000000
-In the Web of War,5,2005,2.46,#ff1a1a
-Isao- Enlightened Bushi,3,2005,4.23,#087500
-Ishi-Ishi- Akki Crackshot,2,2005,0.29,#ff1a1a
-Iwamori of the Open Fist,4,2005,0.38,#087500
-Kentaro- the Smiling Cat,2,2005,5.39,#ffffff
-Kira- Great Glass-Spinner,3,2005,8.11,#341aff
-Kodama of the Center Tree,5,2005,0.39,#087500
-Kyoki- Sanity's Eclipse,6,2005,0.94,#000000
-Lifegift,3,2005,8.36,#087500
-Mannichi- the Fevered Dream,3,2005,0.33,#ff1a1a
-Mirror Gallery,5,2005,9.85,#8c8d8b
-Neko-Te,3,2005,4.68,#8c8d8b
-Nourishing Shoal,2,2005,0.66,#087500
-Opal-Eye- Konda's Yojimbo,3,2005,6.43,#ffffff
-Orb of Dreams,3,2005,4.21,#8c8d8b
-Ornate Kanzashi,5,2005,0.45,#8c8d8b
-Oyobi- Who Split the Heavens,7,2005,0.62,#ffffff
-Patron of the Akki,6,2005,0.35,#ff1a1a
-Patron of the Kitsune,6,2005,3.63,#ffffff
-Patron of the Moon,7,2005,3.65,#341aff
-Patron of the Nezumi,7,2005,0.31,#000000
-Patron of the Orochi,8,2005,7.65,#087500
-Reduce to Dreams,5,2005,0.35,#341aff
-Sakiko- Mother of Summer,6,2005,5.96,#087500
-Shining Shoal,2,2005,0.93,#ffffff
-Shirei- Shizo's Caretaker,5,2005,1.71,#000000
-Shizuko- Caller of Autumn,3,2005,3.25,#087500
-Sickening Shoal,2,2005,2.31,#000000
-Slumbering Tora,3,2005,0.18,#8c8d8b
-Sway of the Stars,10,2005,1.3,#341aff
-Tendo Ice Bridge,0,2005,3.45,#8c8d8b
-That Which Was Taken,5,2005,5.74,#8c8d8b
-Threads of Disloyalty,3,2005,0.27,#341aff
-Tomorrow- Azami's Familiar,6,2005,0.74,#341aff
-Toshiro Umezawa,3,2005,8.92,#000000
-Twist Allegiance,7,2005,0.3,#ff1a1a
-Umezawa's Jitte,2,2005,18.61,#8c8d8b
-Yomiji- Who Bars the Way,7,2005,2.06,#ffffff
-Yukora- the Prisoner,4,2005,0.44,#000000
+name,cmc,release_year,price,color,image
+Baku Altar,2,2005,0.38,#8c8d8b,https://cards.scryfall.io/large/front/8/1/81e1dbb8-3df8-4e7e-b74b-baab7d6f97c1.jpg?1562878138
+Blazing Shoal,2,2005,2.51,#ff1a1a,https://cards.scryfall.io/large/front/8/b/8b915daa-d239-4460-bd6b-e1327fdf7f51.jpg?1562878306
+Chisei- Heart of Oceans,4,2005,0.73,#341aff,https://cards.scryfall.io/large/front/6/c/6c359b1a-d441-4763-96c7-e5c010eae53f.jpg?1562877651
+Clash of Realities,4,2005,0.31,#ff1a1a,https://cards.scryfall.io/large/front/0/6/064dcfb2-6088-49c9-89b2-88d63c9add53.jpg?1562875301
+Day of Destiny,4,2005,5.1,#ffffff,https://cards.scryfall.io/large/front/9/9/99f49ff1-54f6-4825-987b-c50a152f7275.jpg?1562878597
+Disrupting Shoal,2,2005,1.17,#341aff,https://cards.scryfall.io/large/front/1/5/15589745-4c0a-4edf-ad45-3b7fa45e70c5.jpg?1562875608
+Enshrined Memories,1,2005,0.9,#087500,https://cards.scryfall.io/large/front/a/e/aeefab6e-582a-42bb-bb27-d6aadd1d35c5.jpg?1562879114
+Final Judgment,6,2005,2.15,#ffffff,https://cards.scryfall.io/large/front/2/5/2503e136-031f-498a-b042-4077baebe8f8.jpg?1562876056
+Fumiko the Lowblood,4,2005,1.59,#ff1a1a,https://cards.scryfall.io/large/front/4/8/482678b8-bce6-4847-9f43-1761d61645d8.jpg?1562876798
+Genju of the Realm,5,2005,4.95,#d78f42,https://cards.scryfall.io/large/front/e/9/e9eb7b9b-5189-4d20-8dec-e9d3df63e26e.jpg?1562880496
+Goryo's Vengeance,2,2005,4.83,#000000,https://cards.scryfall.io/large/front/3/0/3027e6c5-eed3-44e7-bb12-67569721af99.jpg?1562876292
+Heartless Hidetsugu,5,2005,3.32,#ff1a1a,https://cards.scryfall.io/large/front/4/a/4a3ab177-d9ab-46bf-bd92-20a9ecf2d0ad.jpg?1562876877
+Hero's Demise,2,2005,1.22,#000000,https://cards.scryfall.io/large/front/d/2/d22dd514-814f-4a62-926d-fef311896c02.jpg?1562879959
+Higure- the Still Wind,5,2005,13.17,#341aff,https://cards.scryfall.io/large/front/7/4/743f3cf5-f8aa-49d4-947d-76b91799547a.jpg?1562877832
+Hokori- Dust Drinker,4,2005,4.28,#ffffff,https://cards.scryfall.io/large/front/5/a/5a03f5d5-d5c3-4a7d-8d44-e60b498b4ed5.jpg?1562877197
+Ink-Eyes- Servant of Oni,6,2005,28.16,#000000,https://cards.scryfall.io/large/front/3/8/386d391d-a3f8-49a4-802a-409944b2acf3.jpg?1562876468
+In the Web of War,5,2005,2.46,#ff1a1a,https://cards.scryfall.io/large/front/f/1/f12b7124-d9d0-480c-b622-777a74d4f679.jpg?1593860610
+Isao- Enlightened Bushi,3,2005,4.23,#087500,https://cards.scryfall.io/large/front/9/0/90334b59-73d8-4459-af59-d7a0539e2cc5.jpg?1562878385
+Ishi-Ishi- Akki Crackshot,2,2005,0.29,#ff1a1a,https://cards.scryfall.io/large/front/8/e/8e94fec2-dc56-4961-ba80-b9c904a345ab.jpg?1562878352
+Iwamori of the Open Fist,4,2005,0.38,#087500,https://cards.scryfall.io/large/front/0/8/08c51fcf-ab5c-46fa-aa4b-14cd01c7a577.jpg?1562875363
+Kentaro- the Smiling Cat,2,2005,5.39,#ffffff,https://cards.scryfall.io/large/front/d/d/ddcea3b3-5852-4ae1-a952-7b392564cb9d.jpg?1562880249
+Kira- Great Glass-Spinner,3,2005,8.11,#341aff,https://cards.scryfall.io/large/front/f/c/fc73a66f-4745-40c2-9c90-96396f6e7bce.jpg?1562880885
+Kodama of the Center Tree,5,2005,0.39,#087500,https://cards.scryfall.io/large/front/6/b/6b9264c5-1ecd-48cc-a12d-d4bd8050cfae.jpg?1562877634
+Kyoki- Sanity's Eclipse,6,2005,0.94,#000000,https://cards.scryfall.io/large/front/d/c/dc0969e6-f667-4e29-a038-8569022cce32.jpg?1562880188
+Lifegift,3,2005,8.36,#087500,https://cards.scryfall.io/large/front/2/7/27eaba1c-3137-4419-bf90-eb287a7c736e.jpg?1562876107
+Mannichi- the Fevered Dream,3,2005,0.33,#ff1a1a,https://cards.scryfall.io/large/front/b/4/b403bdbb-13ab-43dd-a994-d45b994f6e0e.jpg?1593860740
+Mirror Gallery,5,2005,9.85,#8c8d8b,https://cards.scryfall.io/large/front/0/0/00beba34-54cc-4a30-8424-71a1215647a6.jpg?1562875125
+Neko-Te,3,2005,4.68,#8c8d8b,https://cards.scryfall.io/large/front/1/3/13884a26-1e30-40d7-ae38-494154a5cf85.jpg?1562875557
+Nourishing Shoal,2,2005,0.66,#087500,https://cards.scryfall.io/large/front/4/a/4a6af212-2a94-4ddf-acdc-d70fafa1c5ee.jpg?1562876878
+Opal-Eye- Konda's Yojimbo,3,2005,6.43,#ffffff,https://cards.scryfall.io/large/front/e/0/e08d5618-4fe0-4ae5-af16-696467aae02d.jpg?1562880329
+Orb of Dreams,3,2005,4.21,#8c8d8b,https://cards.scryfall.io/large/front/5/f/5fbe52a3-f85e-4b3a-a345-413b64d69c49.jpg?1562877355
+Ornate Kanzashi,5,2005,0.45,#8c8d8b,https://cards.scryfall.io/large/front/b/a/baeb4c10-59cb-4bc1-b824-6ec8edd6f45e.jpg?1562879391
+Oyobi- Who Split the Heavens,7,2005,0.62,#ffffff,https://cards.scryfall.io/large/front/3/1/313bd276-2f69-447e-a2b1-240cf839614a.jpg?1562876313
+Patron of the Akki,6,2005,0.35,#ff1a1a,https://cards.scryfall.io/large/front/1/8/18325283-ace8-414b-bf48-2ed36b5a9c24.jpg?1562875682
+Patron of the Kitsune,6,2005,3.63,#ffffff,https://cards.scryfall.io/large/front/1/0/102ee72e-5fb8-4059-9dfa-98004e222c27.jpg?1562875491
+Patron of the Moon,7,2005,3.65,#341aff,https://cards.scryfall.io/large/front/5/e/5e5fcd6f-1653-44bf-a796-4c9ff9adf390.jpg?1562877337
+Patron of the Nezumi,7,2005,0.31,#000000,https://cards.scryfall.io/large/front/6/2/622e5d64-11ec-4eb5-8160-b2fb8a333812.jpg?1562877433
+Patron of the Orochi,8,2005,7.65,#087500,https://cards.scryfall.io/large/front/6/d/6d6787c4-170a-45b6-8792-af3ea32ef538.jpg?1562877671
+Reduce to Dreams,5,2005,0.35,#341aff,https://cards.scryfall.io/large/front/1/0/10962b1b-4039-4d8a-88e0-fc67537920a9.jpg?1562875508
+Sakiko- Mother of Summer,6,2005,5.96,#087500,https://cards.scryfall.io/large/front/7/7/774ec405-5127-4475-8c74-b8858bd84379.jpg?1562877904
+Shining Shoal,2,2005,0.93,#ffffff,https://cards.scryfall.io/large/front/7/8/78ca16f8-336a-444b-9f78-e97a3f20a3bc.jpg?1562877977
+Shirei- Shizo's Caretaker,5,2005,1.71,#000000,https://cards.scryfall.io/large/front/7/d/7db7ced3-08b8-4599-9f44-3c6c8f905c9b.jpg?1562878081
+Shizuko- Caller of Autumn,3,2005,3.25,#087500,https://cards.scryfall.io/large/front/d/a/dab9407d-9389-4ec9-963c-80de095a6812.jpg?1562880141
+Sickening Shoal,2,2005,2.31,#000000,https://cards.scryfall.io/large/front/d/9/d92f4129-19fc-4ee9-9e3d-77fcf1563e4b.jpg?1562880104
+Slumbering Tora,3,2005,0.18,#8c8d8b,https://cards.scryfall.io/large/front/e/3/e32ac983-a909-4342-882e-f3b7e2e064d8.jpg?1562880377
+Sway of the Stars,10,2005,1.3,#341aff,https://cards.scryfall.io/large/front/5/e/5eb58d9e-d181-4167-8b80-64b238183bdb.jpg?1562877344
+Tendo Ice Bridge,0,2005,3.45,#8c8d8b,https://cards.scryfall.io/large/front/d/2/d246f521-b9a0-4b4f-b38c-0e4eb4066212.jpg?1562879966
+That Which Was Taken,5,2005,5.74,#8c8d8b,https://cards.scryfall.io/large/front/d/8/d80c84ad-171f-42c3-94b4-a9fe25b877e7.jpg?1562880091
+Threads of Disloyalty,3,2005,0.27,#341aff,https://cards.scryfall.io/large/front/9/9/999440a5-9659-4218-8594-1950f1155975.jpg?1593860777
+Tomorrow- Azami's Familiar,6,2005,0.74,#341aff,https://cards.scryfall.io/large/front/0/9/095813f9-d559-40bd-a50f-7c1f6e494e60.jpg?1562875380
+Toshiro Umezawa,3,2005,8.92,#000000,https://cards.scryfall.io/large/front/0/e/0e767e07-febd-4025-bf03-d4d816bc1d3d.jpg?1562875477
+Twist Allegiance,7,2005,0.3,#ff1a1a,https://cards.scryfall.io/large/front/2/4/24b6607c-0c34-4ffc-b1b7-154417492766.jpg?1562876044
+Umezawa's Jitte,2,2005,18.61,#8c8d8b,https://cards.scryfall.io/large/front/3/b/3b6e5956-f795-451b-bb24-56462d1ced27.jpg?1562876528
+Yomiji- Who Bars the Way,7,2005,2.06,#ffffff,https://cards.scryfall.io/large/front/f/6/f611af49-3c59-4365-a398-93f7e05ff0d0.jpg?1562880727
+Yukora- the Prisoner,4,2005,0.44,#000000,https://cards.scryfall.io/large/front/5/4/54aeca31-1175-4d2d-adc3-e3682d7e9e07.jpg?1562877071

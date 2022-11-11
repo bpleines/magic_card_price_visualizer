@@ -1,45 +1,45 @@
-name,cmc,release_year,price,color
-Anavolver,4,2001,0.22,#d78f42
-Battlefield Forge,0,2001,14.65,#d78f42
-Bloodfire Colossus,8,2001,0.28,#ff1a1a
-Caves of Koilos,0,2001,6.49,#d78f42
-Cetavolver,2,2001,0.22,#d78f42
-Cromat,5,2001,5.48,#d78f42
-Death Grasp,2,2001,0.32,#d78f42
-Degavolver,2,2001,0.25,#d78f42
-Desolation Angel,5,2001,1.19,#d78f42
-Desolation Giant,4,2001,0.25,#d78f42
-False Dawn,2,2001,0.25,#ffffff
-Fervent Charge,4,2001,8.96,#d78f42
-Fungal Shambler,7,2001,0.27,#d78f42
-Gerrard Capashen,5,2001,0.28,#ffffff
-Goblin Trenches,3,2001,0.31,#d78f42
-Guided Passage,3,2001,1.03,#d78f42
-Ice Cave,5,2001,0.43,#341aff
-Kavu Mauler,6,2001,0.24,#087500
-Last Stand,5,2001,0.31,#d78f42
-Legacy Weapon,7,2001,4.54,#d78f42
-Lightning Angel,4,2001,0.83,#d78f42
-Llanowar Wastes,0,2001,15.16,#d78f42
-Mask of Intolerance,2,2001,0.19,#8c8d8b
-Mystic Snake,4,2001,1.9,#d78f42
-Necravolver,3,2001,0.28,#d78f42
-Overgrown Estate,3,2001,0.26,#d78f42
-Penumbra Wurm,7,2001,0.55,#087500
-Pernicious Deed,3,2001,11.0,#d78f42
-Phyrexian Arena,3,2001,12.51,#000000
-Planar Despair,5,2001,0.22,#000000
-Powerstone Minefield,4,2001,0.57,#d78f42
-Prophetic Bolt,5,2001,0.23,#d78f42
-Rakavolver,3,2001,0.27,#d78f42
-Shivan Reef,0,2001,8.76,#d78f42
-Spectral Lynx,2,2001,0.49,#d78f42
-Spiritmonger,5,2001,2.6,#d78f42
-Suffocating Blast,4,2001,0.25,#d78f42
-Symbiotic Deployment,3,2001,0.44,#087500
-Unnatural Selection,2,2001,4.63,#341aff
-Vindicate,3,2001,7.32,#d78f42
-Whirlpool Warrior,3,2001,2.96,#d78f42
-Wild Research,3,2001,1.33,#d78f42
-Yavimaya Coast,0,2001,15.58,#d78f42
-Yavimaya's Embrace,8,2001,0.27,#d78f42
+name,cmc,release_year,price,color,image
+Anavolver,4,2001,0.22,#d78f42,https://cards.scryfall.io/large/front/5/e/5e685a8c-fba6-495f-ac0f-1ff5456b22d0.jpg?1562917211
+Battlefield Forge,0,2001,14.65,#d78f42,https://cards.scryfall.io/large/front/a/9/a9c25e71-0140-48fe-8b9e-33b4b50c5c12.jpg?1562935122
+Bloodfire Colossus,8,2001,0.28,#ff1a1a,https://cards.scryfall.io/large/front/5/1/518145f3-9919-4ed6-9e2e-772ee349ea57.jpg?1562914106
+Caves of Koilos,0,2001,6.49,#d78f42,https://cards.scryfall.io/large/front/1/4/144dd08e-451e-4438-b572-7a138e1a15f3.jpg?1562899887
+Cetavolver,2,2001,0.22,#d78f42,https://cards.scryfall.io/large/front/6/9/69063cc2-4f6e-4cce-bb09-ccd57b69b993.jpg?1562919732
+Cromat,5,2001,5.48,#d78f42,https://cards.scryfall.io/large/front/7/d/7d9e0a23-d2a8-40a6-9076-ed6fb539141b.jpg?1562924606
+Death Grasp,2,2001,0.32,#d78f42,https://cards.scryfall.io/large/front/0/e/0e893dd4-8c37-496e-bc39-cd83d42b4cc4.jpg?1562898339
+Degavolver,2,2001,0.25,#d78f42,https://cards.scryfall.io/large/front/3/6/36a52c3a-2f58-4b4d-b3c6-f9a08e25c7de.jpg?1562907786
+Desolation Angel,5,2001,1.19,#d78f42,https://cards.scryfall.io/large/front/4/4/445127d4-8afb-47cf-b2a1-564540b1fdae.jpg?1562910998
+Desolation Giant,4,2001,0.25,#d78f42,https://cards.scryfall.io/large/front/2/e/2e7291da-1d14-4763-8691-c67136ab67c7.jpg?1562905905
+False Dawn,2,2001,0.25,#ffffff,https://cards.scryfall.io/large/front/1/6/1695e0ba-005a-4652-aea7-e1d1f9ff5d66.jpg?1562900442
+Fervent Charge,4,2001,8.96,#d78f42,https://cards.scryfall.io/large/front/d/6/d610a9d5-c650-45ad-a9b0-b55113701e05.jpg?1562946049
+Fungal Shambler,7,2001,0.27,#d78f42,https://cards.scryfall.io/large/front/1/b/1b65f96b-019b-40a9-9b4d-acd4abf4a0f9.jpg?1562901457
+Gerrard Capashen,5,2001,0.28,#ffffff,https://cards.scryfall.io/large/front/c/c/ccca800f-e850-4bec-95d0-70280b51b7a7.jpg?1562943342
+Goblin Trenches,3,2001,0.31,#d78f42,https://cards.scryfall.io/large/front/2/1/2100844c-6a41-40f5-b7f8-9b426d5a6945.jpg?1562902755
+Guided Passage,3,2001,1.03,#d78f42,https://cards.scryfall.io/large/front/0/b/0b2e8e58-aee1-4882-943a-17a6af2f8410.jpg?1562897520
+Ice Cave,5,2001,0.43,#341aff,https://cards.scryfall.io/large/front/f/c/fc2877c2-4426-4c07-92a2-8ba5107d5e7e.jpg?1562954766
+Kavu Mauler,6,2001,0.24,#087500,https://cards.scryfall.io/large/front/7/9/79adc3af-5fa3-4cb6-9bbc-52ede0c69263.jpg?1562923697
+Last Stand,5,2001,0.31,#d78f42,https://cards.scryfall.io/large/front/7/d/7dc3d054-6266-4ce0-89ed-f8b170794f2e.jpg?1562924633
+Legacy Weapon,7,2001,4.54,#d78f42,https://cards.scryfall.io/large/front/3/8/385d8691-b9bd-4b4d-86db-7a7cc6181104.jpg?1562908254
+Lightning Angel,4,2001,0.83,#d78f42,https://cards.scryfall.io/large/front/6/5/6518d0c5-58ee-4089-bf19-5030d4319681.jpg?1562918846
+Llanowar Wastes,0,2001,15.16,#d78f42,https://cards.scryfall.io/large/front/6/1/610b7cd5-5532-45a9-acfe-24a818034d1c.jpg?1562917833
+Mask of Intolerance,2,2001,0.19,#8c8d8b,https://cards.scryfall.io/large/front/f/6/f623ae51-5f15-4153-b2ed-d03b57b7db54.jpg?1562953345
+Mystic Snake,4,2001,1.9,#d78f42,https://cards.scryfall.io/large/front/f/0/f098a28c-5f9b-4a2c-b109-c342365eb948.jpg?1562952131
+Necravolver,3,2001,0.28,#d78f42,https://cards.scryfall.io/large/front/2/3/232c32d9-9b0c-458d-b1b3-e4219bd34c82.jpg?1562903306
+Overgrown Estate,3,2001,0.26,#d78f42,https://cards.scryfall.io/large/front/c/1/c1c48c58-3532-4022-9eec-1a870385cbf3.jpg?1562940749
+Penumbra Wurm,7,2001,0.55,#087500,https://cards.scryfall.io/large/front/a/e/ae3dffe7-ecaf-4cf0-a43e-8e2746282992.jpg?1562936163
+Pernicious Deed,3,2001,11.0,#d78f42,https://cards.scryfall.io/large/front/a/e/ae4cbb33-4947-49f0-b612-a92141fbfaa6.jpg?1562936195
+Phyrexian Arena,3,2001,12.51,#000000,https://cards.scryfall.io/large/front/8/4/84e19975-e3e1-453b-b902-a1b1fc1d8504.jpg?1562926298
+Planar Despair,5,2001,0.22,#000000,https://cards.scryfall.io/large/front/3/a/3a92d454-3f23-45bf-921f-25b0da4ce138.jpg?1562908776
+Powerstone Minefield,4,2001,0.57,#d78f42,https://cards.scryfall.io/large/front/b/1/b17807b9-8feb-48ac-813a-829577f5b9e8.jpg?1562936913
+Prophetic Bolt,5,2001,0.23,#d78f42,https://cards.scryfall.io/large/front/7/9/79f74291-c452-4a60-bf5f-73efad6583d4.jpg?1562923762
+Rakavolver,3,2001,0.27,#d78f42,https://cards.scryfall.io/large/front/4/3/43787e24-0b7d-4005-8db4-68544476bd34.jpg?1562910838
+Shivan Reef,0,2001,8.76,#d78f42,https://cards.scryfall.io/large/front/c/3/c3403143-2b4e-4408-b138-c856bbc1e9a5.jpg?1562941109
+Spectral Lynx,2,2001,0.49,#d78f42,https://cards.scryfall.io/large/front/1/3/13099abe-721e-42b4-9666-9e6b5f1d75c9.jpg?1562899518
+Spiritmonger,5,2001,2.6,#d78f42,https://cards.scryfall.io/large/front/b/9/b96d6e67-f690-4f19-bb25-a7c2d2aaf42f.jpg?1562938690
+Suffocating Blast,4,2001,0.25,#d78f42,https://cards.scryfall.io/large/front/c/2/c2a70297-2a7b-4a0c-ace5-cd61bfe6dafd.jpg?1562940975
+Symbiotic Deployment,3,2001,0.44,#087500,https://cards.scryfall.io/large/front/a/6/a6e2b7e9-d52b-478e-b118-e890a81fd471.jpg?1562934526
+Unnatural Selection,2,2001,4.63,#341aff,https://cards.scryfall.io/large/front/c/5/c575e2cb-3990-4c73-b81c-e16311ec6bbb.jpg?1562941637
+Vindicate,3,2001,7.32,#d78f42,https://cards.scryfall.io/large/front/2/a/2a1bfefd-dae8-49e9-9d56-cc852e3dc93b.jpg?1562904968
+Whirlpool Warrior,3,2001,2.96,#d78f42,https://cards.scryfall.io/large/front/0/1/01f891ca-4e6a-4710-b1cf-5dabb5e1ad93.jpg?1562895490
+Wild Research,3,2001,1.33,#d78f42,https://cards.scryfall.io/large/front/8/f/8f00e6f1-e854-40b0-855d-7e0d7d233850.jpg?1562928707
+Yavimaya Coast,0,2001,15.58,#d78f42,https://cards.scryfall.io/large/front/1/7/177ee102-d981-4fc3-9f09-9dd07755f22c.jpg?1562900672
+Yavimaya's Embrace,8,2001,0.27,#d78f42,https://cards.scryfall.io/large/front/3/6/36b41ff1-240a-447b-bb47-1b9be53ab3e6.jpg?1562907799
