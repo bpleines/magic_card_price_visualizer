@@ -37,6 +37,7 @@ def extract_card_details(card_list):
       # Replace the commas in name to adhere to csv delimeter
       card_dict["name"] = card.get("name").replace(',', '-')
       card_dict["cmc"] = int(card.get("cmc"))
+      card_dict["release_year"] = int(card.get("release_year"))
       card_dict["price"] = float(card.get("prices").get("usd"))
       card_dict["colors"] = card.get("color_identity")
       try:
@@ -83,9 +84,9 @@ def generate_card_csv(color_code='W'):
     if os.path.exists(csv_file_path):
       os.remove(csv_file_path)
     with open(csv_file_path, 'a') as mycsv:
-      mycsv.write('name,cmc,price,color,image\n')
+      mycsv.write('name,cmc,release_year,price,color,image\n')
       for card in cards:
-        mycsv.write('name,cmc,release_year,price,color,image\n')
+        mycsv.write('{name},{cmc},{release_year},{price},{color},{image}\n')
   print("Generated csv data for set: " + color_code)
 
 def git_commit_and_push():
