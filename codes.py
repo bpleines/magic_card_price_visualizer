@@ -1,16 +1,33 @@
 #!/usr/bin/env python
 """
-Basic script to create an empty python package containing one module
+Simple class to manage codes used by scripts uniformly
 """
 
 class MTGCodes:
-    """Class to store set codes"""
+    """Class to store set and color codes"""
     def __init__(self):
         self.color_codes = self.get_color_codes()
         self.source_or_target = self.get_set_codes()
 
+    def encode_color(self, color):
+        # Handle colorless case
+        if len(color) == 0:
+            return '#8c8d8b'
+        # Handle multicolored case
+        elif len(color) >= 2:
+            return '#d78f42'
+        else:
+            color_map = {
+                "R": "#ff1a1a",
+                "W": "#ffffff",
+                "U": "#341aff",
+                "B": "#000000",
+                "G": "#087500"
+            }
+            return color_map[color[0]]
+
     def get_color_codes(self):
-        pass
+        return ['W', 'U', 'B', 'R', 'G']
 
     def get_set_codes(self):
         return ['BRO', 'DMU', 'SNC', 'NEO', 'VOW', 'MID', 'AFR',

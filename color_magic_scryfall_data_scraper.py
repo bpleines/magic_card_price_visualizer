@@ -4,25 +4,6 @@ import os
 
 from codes import MTGCodes
 
-mtg_set_codes = MTGCodes().get_set_codes()
-mtg_color_codes = ['W', 'U', 'B', 'R', 'G']
-
-def encode_color(color):
-   # Handle colorless case
-   if len(color) == 0:
-     return '#8c8d8b'
-   elif len(color) >= 2:
-     return '#d78f42'
-   else:
-     color_map = {
-       "R": "#ff1a1a",
-       "W": "#ffffff",
-       "U": "#341aff",
-       "B": "#000000",
-       "G": "#087500"
-     }
-     return color_map[color[0]]
-
 def extract_card_details(card_list):
   cards = []
   for card in card_list:
@@ -50,29 +31,16 @@ def extract_card_details(card_list):
 def get_card_info(color_code):
   url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
   response = requests.get(url).json()
-  first_page_cards = extract_card_details(response.get("data"))
-  if response.get('has_more'):
-    second_response = requests.get(response.get('next_page')).json()
-    second_page_cards = extract_card_details(second_response.get("data"))
-    if second_response.get('has_more'):
-      third_response = requests.get(second_response.get('next_page')).json()
-      third_page_cards = extract_card_details(third_response.get("data"))
-      if third_response.get('has_more'):
-        fourth_response = requests.get(third_response.get('next_page')).json()
-        fourth_page_cards = extract_card_details(fourth_response.get("data"))
-        if fourth_response.get('has_more'):
-          fifth_response = requests.get(fourth_response.get('next_page')).json()
-          fifth_page_cards = extract_card_details(fifth_response.get("data"))
-          if fifth_response.get('has_more'):
-            sixth_response = requests.get(fifth_response.get('next_page')).json()
-            sixth_page_cards = extract_card_details(sixth_response.get("data"))
-            if sixth_response.get('has_more'):
-              seventh_response = requests.get(sixth_response.get('next_page')).json()
-              seventh_page_cards = extract_card_details(seventh_response.get("data"))
-  return first_page_cards + second_page_cards + third_page_cards + fourth_page_cards + fifth_page_cards + sixth_page_cards
+  cards = []
+  cards.append(extract_card_details(response.get("data")))
+  while response.get('has_more'):
+    response = requests.get(response.get('next_page')).json()
+    next_page_cards = extract_card_details(response.get("data"))
+    cards.append(next_page_cards)
+  return cards
 
 def generate_card_csv(color_code='W'):
-  for set_code in mtg_set_codes:
+  for color_code in MTGCodes().get_color_codes():
     csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_color/{color_code}.csv"
     cards = get_card_info(color_code)
     if os.path.exists(csv_file_path):
@@ -80,7 +48,7 @@ def generate_card_csv(color_code='W'):
     with open(csv_file_path, 'a') as mycsv:
       mycsv.write('name,cmc,release_year,price,color,image\n')
       for card in cards:
-        mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{encode_color(card['colors'])},{card['image_uri']}\n")
+        mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{MTGCodes().encode_color(card['colors'])},{card['image_uri']}\n")
   print(f"Generated csv data for set: {color_code}")
 
 def git_commit_and_push():
@@ -88,6 +56,6 @@ def git_commit_and_push():
   os.system('git commit -m iterating')
   os.system('git push')
 
-for color_code in mtg_color_codes:
+for color_code in MTGCodes().get_color_codes():
   generate_card_csv(color_code)
 git_commit_and_push()
