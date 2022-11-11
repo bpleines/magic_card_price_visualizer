@@ -104,7 +104,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
            .on('mouseover', function (d, i) {
                 d3.select(this).transition()
                     .duration('100')
-                    .attr("r", 10);
+                    .attr("r", 15);
                 // Add the image to the page when plot point hovered over
                 src = d.image;
                 img = document.createElement("img");
