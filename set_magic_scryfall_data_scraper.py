@@ -44,7 +44,7 @@ def get_card_info(set_code):
       card_dict["price"] = float(card.get("prices").get("usd"))
       card_dict["colors"] = card.get("color_identity")
       try:
-          card_dict["image_uri"] = card.get("image_uris").get("medium")
+          card_dict["image_uri"] = card.get("image_uris").get("normal")
       except AttributeError as e:
           card_dict["image_uri"] = None
       cards.append(card_dict)
