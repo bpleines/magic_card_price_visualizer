@@ -46,7 +46,7 @@ def extract_card_details(card_list):
           card_dict["image_uri"] = None
       cards.append(card_dict)
     except TypeError:
-      print("The card " + card.get("name") + " was missing an expected value. Skipping!")
+      print(f"The card {card.get('name')} was missing an expected value. Skipping!")
       continue
   return cards
 
@@ -86,7 +86,7 @@ def generate_card_csv(color_code='W'):
     with open(csv_file_path, 'a') as mycsv:
       mycsv.write('name,cmc,release_year,price,color,image\n')
       for card in cards:
-        mycsv.write('{name},{cmc},{release_year},{price},{color},{image}\n')
+        mycsv.write(f"{name},{cmc},{release_year},{price},{color},{image}\n")
   print("Generated csv data for set: " + color_code)
 
 def git_commit_and_push():

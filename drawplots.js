@@ -40,7 +40,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     });
     // Get the max of both cmc and price and pad each dimension
     var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
-    var max_price = d3.max(data, function(d) { return d.price; }) + 2;
+    var max_price = d3.max(data, function(d) { return d.price; }) + 5;
 
     // Add X axis
     var x = d3.scaleLinear()
