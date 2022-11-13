@@ -87,7 +87,7 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
            .on('mouseout', function (d, i) {
                d3.select(this).transition()
                    .duration('200')
-                   .attr("r", 6.0);
+                   .attr("r", 3.0);
                // remove image from page when hover off
                document.getElementById("card_picture").removeChild(img);
            });

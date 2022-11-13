@@ -74,7 +74,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       .selectAll("g")
       .data(data)
       .transition()
-      .duration(1000)
+      .duration(10000)
       .attr("fill", "#000000");;
 
     xAxis.append("text")
