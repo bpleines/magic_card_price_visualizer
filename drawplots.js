@@ -18,11 +18,6 @@ function renderScatterplot(attribute_code, attribute_type='set') {
   // Clean out existing plot and plotted points
   var noData = [''];
   d3.select("#my_dataviz")
-    .selectAll("circle")
-    .data(noData)
-    .exit()
-    .remove();
-  d3.select("#my_dataviz")
     .selectAll("g")
     .data(noData)
     .exit()
@@ -39,8 +34,8 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       d.price = +d.price;
     });
     // Get the max of both cmc and price and pad each dimension
-    var max_cmc = d3.max(data, function(d) { return d.cmc; }) + 1;
-    var max_price = d3.max(data, function(d) { return d.price; }) + 5;
+    var max_cmc = d3.max(data, function(d) { return d.cmc + 1; });
+    var max_price = d3.max(data, function(d) { return d.price * 1.10; });
 
     // Add X axis
     var x = d3.scaleLinear()
@@ -74,7 +69,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       .selectAll("g")
       .data(data)
       .transition()
-      .duration(10000)
+      .duration(1000000)
       .attr("fill", "#000000");;
 
     xAxis.append("text")
