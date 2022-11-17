@@ -55,12 +55,14 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     // Labels
     var xAxisCall = d3.axisBottom(x)
     var xAxis = svg.append("g")
+                 .attr("id", "x-axis")
                  .attr("class", "x-axis")
                  .attr("transform", "translate(" + 0 + "," + height + ")")
                  .call(xAxisCall);
 
     var yAxisCall = d3.axisLeft(y);
     var yAxis = svg.append("g")
+                 .attr("id", "y-axis")
                  .attr("class", "y-axis")
                  .call(yAxisCall);
 
@@ -69,7 +71,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       .selectAll("g")
       .data(data)
       .transition()
-      .duration(1000000)
+      .duration(500)
       .attr("fill", "#000000");;
 
     xAxis.append("text")
@@ -100,7 +102,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
                 d3.select(this).transition()
                     .duration('100')
                     .attr("r", 15);
-                // Add the image to the page when plot point hovered over
+                // Add the image to the page when plot point is hovered over
                 src = d.image;
                 img = document.createElement("img");
                 img.src = src;
