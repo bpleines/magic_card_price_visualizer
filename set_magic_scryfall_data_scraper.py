@@ -10,7 +10,9 @@ def get_card_info(set_code):
     url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
     response = requests.get(url).json().get("data")
     if not response:
-        raise Exception(f"set_code {set_code} didn't return any results. Maybe there is a typo?")
+        #raise Exception(f"set_code {set_code} didn't return any results. Maybe there is a typo?")
+        print(f"set_code {set_code} didn't return any results. Maybe there is a typo?")
+        return []
     cards = []
     for card in response:
         card_dict = {}
