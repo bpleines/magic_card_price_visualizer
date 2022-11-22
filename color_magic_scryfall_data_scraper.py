@@ -53,7 +53,6 @@ def extract_card_details(card_list):
 
 def get_card_info(color_code):
     cards = []
-
     url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
     response = requests.get(url).json()
     data = response.get("data")
@@ -79,14 +78,5 @@ def generate_card_csv(color_code='W'):
                 mycsv.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{MTGCodes().encode_color(card['colors'])},{card['image_uri']}\n")
         print(f"Generated csv data for set: {color_code}")
 
-def git_commit_and_push():
-    os.system('git add *')
-    os.system('git commit -m iterating')
-    os.system('git push')
-
 for color_code in MTGCodes().get_color_codes():
-    generate_card_csv(color_code)
-git_commit_and_push()
-
-#for color_code in MTGCodes().get_color_codes():
-    #pandas_implementation(color_code)
+    pandas_implementation(color_code)
