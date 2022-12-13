@@ -24,7 +24,7 @@ def pandas_implementation(color_code='R'):
             'cmc': [card["cmc"] for card in cards],
             'release_year': [card["release_year"] for card in cards],
             'price': [card["price"] for card in cards],
-            'colors': [card["colors"] for card in cards],
+            'color': [card["color"] for card in cards],
             'image_uri': [card["image_uri"] for card in cards],
             'type_line': [card["type_line"] for card in cards],
             'artist': [card["artist"] for card in cards]
@@ -42,7 +42,7 @@ def extract_card_details(card_list):
           card_dict["cmc"] = int(card.get("cmc"))
           card_dict["release_year"] = int(card.get("released_at").split('-')[0])
           card_dict["price"] = float(card.get("prices").get("usd"))
-          card_dict["colors"] = MTGCodes().encode_color(card.get("color_identity"))
+          card_dict["color"] = MTGCodes().encode_color(card.get("color_identity"))
           card_dict["type_line"] = card.get("type_line")
           card_dict["artist"] = card.get("artist")
           try:
