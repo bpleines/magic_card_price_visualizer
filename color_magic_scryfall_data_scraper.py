@@ -60,7 +60,7 @@ def generate_card_csv(color_code='W'):
     cards = pandas_implementation(color_code)
     if os.path.exists(csv_file_path):
         os.remove(csv_file_path)
-    cards.to_csv(csv_file_path)
+    cards.to_csv(csv_file_path, index=False)
     print(f"Generated csv data for set: {color_code}")
 
 for color_code in MTGCodes().get_color_codes():
