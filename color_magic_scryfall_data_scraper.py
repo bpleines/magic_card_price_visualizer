@@ -48,7 +48,7 @@ def extract_card_details(card_list):
           try:
               card_dict["image"] = card.get("image_uris").get("normal")
           except AttributeError as e:
-              card_dict["image"] = None
+              card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
           cards.append(card_dict)
       except TypeError:
           print(f"The card {card.get('name')} was missing an expected value. Skipping!")

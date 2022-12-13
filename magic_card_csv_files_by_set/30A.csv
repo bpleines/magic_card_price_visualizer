@@ -1,3 +1,20 @@
-name,cmc,release_year,price,color,image
-Braingeyser,2,2022,99.0,#341aff,https://cards.scryfall.io/normal/front/9/b/9b2b7122-4326-4459-8291-1e13a6999061.jpg?1664924716
-Goblin King,3,2022,99.0,#ff1a1a,https://cards.scryfall.io/normal/front/a/4/a41183c8-1598-4e1c-932f-156fde599097.jpg?1664925599
+name,cmc,release_year,price,color,image,type_line,artist
+Badlands,0,2022,289.98,#d78f42,https://cards.scryfall.io/normal/front/c/5/c5335e87-57e3-4da6-aba0-619628120f47.jpg?1664926711,Land — Swamp Mountain,Rob Alexander
+Blessing,2,2022,9.0,#ffffff,https://cards.scryfall.io/normal/front/e/5/e5e1bb26-2d76-42c5-8fda-59cadd150d57.jpg?1664924404,Enchantment — Aura,Julie Baroh
+Braingeyser,2,2022,99.0,#341aff,https://cards.scryfall.io/normal/front/9/b/9b2b7122-4326-4459-8291-1e13a6999061.jpg?1664924716,Sorcery,Mark Tedin
+Chaoslace,1,2022,19.99,#ff1a1a,https://cards.scryfall.io/normal/front/2/7/277f8400-c257-4794-9384-4bf5b01da7e3.jpg?1664925473,Instant,Dameon Willich
+Demonic Hordes,6,2022,5.0,#000000,https://cards.scryfall.io/normal/front/a/f/afd544ac-3d2f-48c0-8d17-9bb66af6603a.jpg?1664925176,Creature — Demon,Jesper Myrfors
+Disrupting Scepter,3,2022,19.0,#8c8d8b,https://cards.scryfall.io/normal/front/e/c/ec0fddc2-8c43-42f3-b690-11c7a4cc77d5.jpg?1664926401,Artifact,Dan Frazier
+Goblin King,3,2022,99.0,#ff1a1a,https://cards.scryfall.io/normal/front/a/4/a41183c8-1598-4e1c-932f-156fde599097.jpg?1664925599,Creature — Goblin,Jesper Myrfors
+Illusionary Mask,2,2022,250.0,#8c8d8b,https://cards.scryfall.io/normal/front/a/7/a7991a94-036e-440b-aff2-8c4f49dae034.jpg?1664926473,Artifact,Amy Weber
+Lich,4,2022,300.0,#000000,https://cards.scryfall.io/normal/front/c/a/ca099308-db32-4aa0-a511-ae9da5712ebb.jpg?1664925258,Enchantment,Daniel Gelon
+Living Artifact,1,2022,8.0,#087500,https://cards.scryfall.io/normal/front/7/8/78289538-726f-4b29-afa7-50d418d42837.jpg?1664926087,Enchantment — Aura,Anson Maddocks
+Lord of Atlantis,2,2022,120.0,#341aff,https://cards.scryfall.io/normal/front/8/f/8f005191-0e0e-4ba3-acde-9c279ca589f6.jpg?1664924814,Creature — Merfolk,Melissa A. Benson
+Magical Hack,1,2022,19.9,#341aff,https://cards.scryfall.io/normal/front/0/d/0d2f40ff-f9d2-41ac-bc9f-51711c90d8be.jpg?1664924829,Instant,Julie Baroh
+Personal Incarnation,6,2022,70.0,#ffffff,https://cards.scryfall.io/normal/front/3/e/3e6d10d7-66ac-427e-b91f-af6198e5ae48.jpg?1664924581,Creature — Avatar Incarnation,Kev Brockschmidt
+Savannah Lions,1,2022,39.97,#ffffff,https://cards.scryfall.io/normal/front/d/1/d136d1fc-c413-4deb-952c-b10aa1c72abe.jpg?1664924630,Creature — Cat,Daniel Gelon
+Shivan Dragon,6,2022,150.0,#ff1a1a,https://cards.scryfall.io/normal/front/9/a/9a5ddd65-b731-4805-827c-a25350531d74.jpg?1664925779,Creature — Dragon,Melissa A. Benson
+Stasis,2,2022,150.0,#341aff,https://cards.scryfall.io/normal/front/7/4/7436c28f-d45c-46b0-801d-ff72bf9c3865.jpg?1664924993,Enchantment,Fay Jones
+Vesuvan Doppelganger,5,2022,200.0,#341aff,https://cards.scryfall.io/normal/front/b/6/b626c1c8-8ccb-4072-9fa9-8f7e82cb4193.jpg?1664925042,Creature — Shapeshifter,Quinton Hoover
+Web,1,2022,7.0,#087500,https://cards.scryfall.io/normal/front/5/0/50d61242-dc24-4083-a078-81e932721fd8.jpg?1664926267,Enchantment — Aura,Rob Alexander
+Wrath of God,4,2022,39.0,#ffffff,https://cards.scryfall.io/normal/front/1/4/14de01ae-a52e-4530-9fe3-9888a8480fc8.jpg?1664924682,Sorcery,Quinton Hoover

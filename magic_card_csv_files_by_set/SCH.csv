@@ -1,4 +1,4 @@
-name,cmc,release_year,price,color,image
-Flame Slash,1,2022,0.29,#ff1a1a,https://cards.scryfall.io/normal/front/b/c/bcfe4a26-3ea8-404e-92bd-b453eee6c862.jpg?1660439948
-Gilded Goose,1,2022,3.0,#087500,https://cards.scryfall.io/normal/front/2/2/226b1cc4-44be-4d8d-963a-93c84b09c7f0.jpg?1658430090
-Spell Pierce,1,2022,1.29,#341aff,https://cards.scryfall.io/normal/front/f/c/fc802c6b-5269-4f02-8b61-342931fea828.jpg?1658430060
+name,cmc,release_year,price,color,image,type_line,artist
+Flame Slash,1,2022,0.31,#ff1a1a,https://cards.scryfall.io/normal/front/b/c/bcfe4a26-3ea8-404e-92bd-b453eee6c862.jpg?1660439948,Sorcery,Antonio José Manzanedo
+Gilded Goose,1,2022,3.54,#087500,https://cards.scryfall.io/normal/front/2/2/226b1cc4-44be-4d8d-963a-93c84b09c7f0.jpg?1658430090,Creature — Bird,Chris Seaman
+Spell Pierce,1,2022,0.93,#341aff,https://cards.scryfall.io/normal/front/f/c/fc802c6b-5269-4f02-8b61-342931fea828.jpg?1658430060,Instant,Andrew Mar

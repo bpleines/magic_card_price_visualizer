@@ -1,6 +1,6 @@
-name,cmc,release_year,price,color,image
-Llanowar Elves,1,2022,27.79,#087500,https://cards.scryfall.io/normal/front/c/6/c6d51122-ccf4-4fc4-8498-44ffdd43520f.jpg?1661086795
-Lord of Atlantis,2,2022,25.15,#341aff,https://cards.scryfall.io/normal/front/a/d/ade70980-2360-4a48-82c4-b69c25dbe54b.jpg?1661076699
-Sengir Vampire,5,2022,7.28,#000000,https://cards.scryfall.io/normal/front/7/0/70a4f403-8614-4375-9c91-f63a8bed54fd.jpg?1661086748
-Serra Angel,5,2022,53.15,#ffffff,https://cards.scryfall.io/normal/front/6/8/68903a1e-e80c-4672-9d94-71a353ea083c.jpg?1661070855
-Shivan Dragon,6,2022,18.24,#ff1a1a,https://cards.scryfall.io/normal/front/f/8/f8de8199-2977-47ed-a2f6-2a1617a409c8.jpg?1661086870
+name,cmc,release_year,price,color,image,type_line,artist
+Llanowar Elves,1,2022,27.16,#087500,https://cards.scryfall.io/normal/front/c/6/c6d51122-ccf4-4fc4-8498-44ffdd43520f.jpg?1661086795,Creature — Elf Druid,Areku Nishiki
+Lord of Atlantis,2,2022,25.13,#341aff,https://cards.scryfall.io/normal/front/a/d/ade70980-2360-4a48-82c4-b69c25dbe54b.jpg?1661076699,Creature — Merfolk,Rorubei
+Sengir Vampire,5,2022,6.74,#000000,https://cards.scryfall.io/normal/front/7/0/70a4f403-8614-4375-9c91-f63a8bed54fd.jpg?1661086748,Creature — Vampire,Ai Nanahira
+Serra Angel,5,2022,52.06,#ffffff,https://cards.scryfall.io/normal/front/6/8/68903a1e-e80c-4672-9d94-71a353ea083c.jpg?1661070855,Creature — Angel,Hisashi Momose
+Shivan Dragon,6,2022,14.74,#ff1a1a,https://cards.scryfall.io/normal/front/f/8/f8de8199-2977-47ed-a2f6-2a1617a409c8.jpg?1661086870,Creature — Dragon,Satoru Senda

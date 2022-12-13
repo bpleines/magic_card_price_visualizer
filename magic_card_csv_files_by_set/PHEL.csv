@@ -1,5 +1,5 @@
-name,cmc,release_year,price,color,image
-Avacyn- Angel of Hope,8,2012,39.92,#ffffff,https://cards.scryfall.io/normal/front/4/4/446f001c-2164-4c3e-8017-5f4ea33e5d08.jpg?1561757018
-Gisela- Blade of Goldnight,7,2012,6.88,#d78f42,https://cards.scryfall.io/normal/front/9/5/95a576a5-e873-4f27-93df-d363fc5945d0.jpg?1561757607
-Griselbrand,8,2012,4.15,#000000,https://cards.scryfall.io/normal/front/0/d/0d3c824c-c20c-4708-897f-3796ec4245f9.jpg?1634366724
-Sigarda- Host of Herons,5,2012,10.89,#d78f42,https://cards.scryfall.io/normal/front/5/d/5d7b3923-7740-433e-bfbb-1898923eafe8.jpg?1561757244
+name,cmc,release_year,price,color,image,type_line,artist
+Avacyn- Angel of Hope,8,2012,39.92,#ffffff,https://cards.scryfall.io/normal/front/4/4/446f001c-2164-4c3e-8017-5f4ea33e5d08.jpg?1561757018,Legendary Creature — Angel,Jason Chan
+Gisela- Blade of Goldnight,7,2012,7.05,#d78f42,https://cards.scryfall.io/normal/front/9/5/95a576a5-e873-4f27-93df-d363fc5945d0.jpg?1561757607,Legendary Creature — Angel,Jason Chan
+Griselbrand,8,2012,4.49,#000000,https://cards.scryfall.io/normal/front/0/d/0d3c824c-c20c-4708-897f-3796ec4245f9.jpg?1634366724,Legendary Creature — Demon,Igor Kieryluk
+Sigarda- Host of Herons,5,2012,6.85,#d78f42,https://cards.scryfall.io/normal/front/5/d/5d7b3923-7740-433e-bfbb-1898923eafe8.jpg?1561757244,Legendary Creature — Angel,Chris Rahn

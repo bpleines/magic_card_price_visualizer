@@ -1,11 +1,11 @@
-name,cmc,release_year,price,color,image
-Abundance,4,2016,0.83,#087500,https://cards.scryfall.io/normal/front/9/a/9ab8ad39-840e-474b-beb8-96a7c2a8d0fa.jpg?1562230134
-Cloudthresher,6,2016,0.26,#087500,https://cards.scryfall.io/normal/front/f/3/f315762b-b386-41ec-8282-4bc4e7cddef1.jpg?1562230175
-Desecration Demon,4,2016,0.59,#000000,https://cards.scryfall.io/normal/front/d/0/d0d6fabf-ffef-4272-8285-c671f6d777f0.jpg?1562230162
-Despoiler of Souls,2,2016,0.11,#000000,https://cards.scryfall.io/normal/front/9/f/9f1fb659-70fe-4d8a-ba2c-07ab0d75c218.jpg?1562230137
-Indulgent Tormentor,5,2016,0.53,#000000,https://cards.scryfall.io/normal/front/a/0/a0bb89e2-0d28-4483-b5a7-fddf83d5eac3.jpg?1562230139
-Mosswort Bridge,0,2016,0.42,#087500,https://cards.scryfall.io/normal/front/f/6/f61cf774-f821-4393-9c68-bdab2e2a88d3.jpg?1562230613
-Oran-Rief Hydra,6,2016,0.33,#087500,https://cards.scryfall.io/normal/front/3/e/3e95bd19-5647-414d-bd04-5c11979e369e.jpg?1562229664
-Pestilence Demon,8,2016,0.45,#000000,https://cards.scryfall.io/normal/front/0/5/058eb32f-2ae2-4276-ae1a-242bbb150418.jpg?1562229264
-Priest of the Blood Rite,5,2016,0.21,#000000,https://cards.scryfall.io/normal/front/1/a/1a0df50f-59b8-46b6-8bac-6e3f93b9c979.jpg?1562229653
-Thicket Elemental,5,2016,0.2,#087500,https://cards.scryfall.io/normal/front/c/5/c5a462ca-0632-410d-9999-a096b71fc3ea.jpg?1562230157
+name,cmc,release_year,price,color,image,type_line,artist
+Abundance,4,2016,0.84,#087500,https://cards.scryfall.io/normal/front/9/a/9ab8ad39-840e-474b-beb8-96a7c2a8d0fa.jpg?1562230134,Enchantment,Rebecca Guay
+Cloudthresher,6,2016,0.23,#087500,https://cards.scryfall.io/normal/front/f/3/f315762b-b386-41ec-8282-4bc4e7cddef1.jpg?1562230175,Creature — Elemental,Christopher Moeller
+Desecration Demon,4,2016,0.57,#000000,https://cards.scryfall.io/normal/front/d/0/d0d6fabf-ffef-4272-8285-c671f6d777f0.jpg?1562230162,Creature — Demon,Jason Chan
+Despoiler of Souls,2,2016,0.11,#000000,https://cards.scryfall.io/normal/front/9/f/9f1fb659-70fe-4d8a-ba2c-07ab0d75c218.jpg?1562230137,Creature — Horror,Greg Staples
+Indulgent Tormentor,5,2016,0.54,#000000,https://cards.scryfall.io/normal/front/a/0/a0bb89e2-0d28-4483-b5a7-fddf83d5eac3.jpg?1562230139,Creature — Demon,Wesley Burt
+Mosswort Bridge,0,2016,0.41,#087500,https://cards.scryfall.io/normal/front/f/6/f61cf774-f821-4393-9c68-bdab2e2a88d3.jpg?1562230613,Land,Jeremy Jarvis
+Oran-Rief Hydra,6,2016,0.29,#087500,https://cards.scryfall.io/normal/front/3/e/3e95bd19-5647-414d-bd04-5c11979e369e.jpg?1562229664,Creature — Hydra,Chris Rahn
+Pestilence Demon,8,2016,0.44,#000000,https://cards.scryfall.io/normal/front/0/5/058eb32f-2ae2-4276-ae1a-242bbb150418.jpg?1562229264,Creature — Demon,Justin Sweet
+Priest of the Blood Rite,5,2016,0.21,#000000,https://cards.scryfall.io/normal/front/1/a/1a0df50f-59b8-46b6-8bac-6e3f93b9c979.jpg?1562229653,Creature — Human Cleric,David Palumbo
+Thicket Elemental,5,2016,0.22,#087500,https://cards.scryfall.io/normal/front/c/5/c5a462ca-0632-410d-9999-a096b71fc3ea.jpg?1562230157,Creature — Elemental,Ron Spencer

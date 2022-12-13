@@ -1,10 +1,10 @@
-name,cmc,release_year,price,color,image
-Authority of the Consuls,1,2020,11.05,#ffffff,https://cards.scryfall.io/normal/front/c/2/c2f0977e-98ed-4394-bde0-142591022136.jpg?1593609920
-Combustible Gearhulk,6,2016,3.6,#ff1a1a,https://cards.scryfall.io/normal/front/0/9/0972a8fe-f0ec-46c9-a4d2-a36d1d81f592.jpg?1579730657
-Fumigate,5,2016,3.41,#ffffff,https://cards.scryfall.io/normal/front/0/8/085e4b57-495b-41bc-a49d-fa5f00553555.jpg?1590112958
-Ghirapur Orrery,4,2020,2.65,#8c8d8b,https://cards.scryfall.io/normal/front/7/4/74ef0715-104a-44d1-9528-e2f77df4dc6e.jpg?1593609930
-Gonti- Lord of Luxury,4,2020,0.63,#000000,https://cards.scryfall.io/normal/front/7/c/7c9909cf-4d59-4bac-beff-d20d1cc4a818.jpg?1593609941
-Nissa- Vital Force,5,2020,4.86,#087500,https://cards.scryfall.io/normal/front/b/4/b4e19632-cf78-4131-86c9-ce136dab9f6b.jpg?1600997780
-Noxious Gearhulk,6,2016,4.76,#000000,https://cards.scryfall.io/normal/front/c/1/c1f56192-f9a4-4fb9-937f-7dfc6a83f361.jpg?1579730663
-Padeem- Consul of Innovation,4,2020,6.88,#341aff,https://cards.scryfall.io/normal/front/7/e/7e4b5fc2-7825-4f7f-8534-5fc85170e4c0.jpg?1593609951
-Rashmi- Eternities Crafter,4,2020,1.95,#d78f42,https://cards.scryfall.io/normal/front/a/7/a726e20d-87f5-42d0-9ea7-27c2aac2a49b.jpg?1593610260
+name,cmc,release_year,price,color,image,type_line,artist
+Authority of the Consuls,1,2020,11.07,#ffffff,https://cards.scryfall.io/normal/front/c/2/c2f0977e-98ed-4394-bde0-142591022136.jpg?1593609920,Enchantment,Lake Hurwitz
+Combustible Gearhulk,6,2016,3.6,#ff1a1a,https://cards.scryfall.io/normal/front/0/9/0972a8fe-f0ec-46c9-a4d2-a36d1d81f592.jpg?1579730657,Artifact Creature — Construct,Daarken
+Fumigate,5,2016,3.12,#ffffff,https://cards.scryfall.io/normal/front/0/8/085e4b57-495b-41bc-a49d-fa5f00553555.jpg?1590112958,Sorcery,Svetlin Velinov
+Ghirapur Orrery,4,2020,2.65,#8c8d8b,https://cards.scryfall.io/normal/front/7/4/74ef0715-104a-44d1-9528-e2f77df4dc6e.jpg?1593609930,Artifact,Kirsten Zirngibl
+Gonti- Lord of Luxury,4,2020,0.68,#000000,https://cards.scryfall.io/normal/front/7/c/7c9909cf-4d59-4bac-beff-d20d1cc4a818.jpg?1593609941,Legendary Creature — Aetherborn Rogue,Daarken
+Nissa- Vital Force,5,2020,4.77,#087500,https://cards.scryfall.io/normal/front/b/4/b4e19632-cf78-4131-86c9-ce136dab9f6b.jpg?1600997780,Legendary Planeswalker — Nissa,Clint Cearley
+Noxious Gearhulk,6,2016,4.66,#000000,https://cards.scryfall.io/normal/front/c/1/c1f56192-f9a4-4fb9-937f-7dfc6a83f361.jpg?1579730663,Artifact Creature — Construct,Lius Lasahido
+Padeem- Consul of Innovation,4,2020,5.43,#341aff,https://cards.scryfall.io/normal/front/7/e/7e4b5fc2-7825-4f7f-8534-5fc85170e4c0.jpg?1593609951,Legendary Creature — Vedalken Artificer,Matt Stewart
+Rashmi- Eternities Crafter,4,2020,1.98,#d78f42,https://cards.scryfall.io/normal/front/a/7/a726e20d-87f5-42d0-9ea7-27c2aac2a49b.jpg?1593610260,Legendary Creature — Elf Druid,Magali Villeneuve
