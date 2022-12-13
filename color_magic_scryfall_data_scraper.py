@@ -25,7 +25,7 @@ def pandas_implementation(color_code='R'):
             'release_year': [card["release_year"] for card in cards],
             'price': [card["price"] for card in cards],
             'color': [card["color"] for card in cards],
-            'image_uri': [card["image_uri"] for card in cards],
+            'image': [card["image"] for card in cards],
             'type_line': [card["type_line"] for card in cards],
             'artist': [card["artist"] for card in cards]
         }
@@ -46,9 +46,9 @@ def extract_card_details(card_list):
           card_dict["type_line"] = card.get("type_line")
           card_dict["artist"] = card.get("artist")
           try:
-              card_dict["image_uri"] = card.get("image_uris").get("normal")
+              card_dict["image"] = card.get("image_uris").get("normal")
           except AttributeError as e:
-              card_dict["image_uri"] = None
+              card_dict["image"] = None
           cards.append(card_dict)
       except TypeError:
           print(f"The card {card.get('name')} was missing an expected value. Skipping!")

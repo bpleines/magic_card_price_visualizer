@@ -25,7 +25,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
   document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Mana Cost and Color');
 
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
-  var csvFilePath = "https://raw.githubusercontent.com/bpleines/data_vis/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
+  var csvFilePath = "https://raw.githubusercontent.com/bpleines/magic_card_price_visualizer/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
   //Read the data
   d3.csv(csvFilePath, function(data) {
     // Convert all str csv values to ints

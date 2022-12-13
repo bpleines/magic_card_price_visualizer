@@ -29,11 +29,11 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <button onclick="renderScatterplot('W', 'color')">White</button>
-      <button onclick="renderScatterplot('U', 'color')">Blue</button>
-      <button onclick="renderScatterplot('B', 'color')">Black</button>
-      <button onclick="renderScatterplot('R', 'color')">Red</button>
-      <button onclick="renderScatterplot('G', 'color')">Green</button>
+      <button onclick="renderScatterplot('W', attribute_type='color')">White</button>
+      <button onclick="renderScatterplot('U', attribute_type='color')">Blue</button>
+      <button onclick="renderScatterplot('B', attribute_type='color')">Black</button>
+      <button onclick="renderScatterplot('R', attribute_type='color')">Red</button>
+      <button onclick="renderScatterplot('G', attribute_type='color')">Green</button>
     </div>
   </div>
   <div class="dropdown" style="float:right;">
@@ -146,4 +146,3 @@
 <div id="card_picture" style="float: right; width: 40%"></div>
 
 <script src="drawplots.js"></script>
-<script src="draw_continuous_plots_by_time.js"></script>
