@@ -1,6 +1,6 @@
-name,cmc,release_year,price,color,image
-Clever Impersonator,4,2014,3.75,#341aff,https://cards.scryfall.io/normal/front/3/8/3889b4d6-2541-484d-88dd-d67800545327.jpg?1581107945
-Dig Through Time,8,2020,1.08,#341aff,https://cards.scryfall.io/normal/front/b/6/b62554b0-595e-4ad0-a4e3-e281624ed9c8.jpg?1600997844
-Hardened Scales,1,2014,11.31,#087500,https://cards.scryfall.io/normal/front/0/e/0e432884-3b38-42ae-80bf-d4d2fec4316d.jpg?1591311191
-Temur Ascendancy,3,2020,4.02,#d78f42,https://cards.scryfall.io/normal/front/8/0/80ac4542-1852-46d7-9f9d-eea8158297fa.jpg?1593609116
-Villainous Wealth,3,2014,5.17,#d78f42,https://cards.scryfall.io/normal/front/e/5/e5f43eec-d158-4060-9235-9b8128a48dca.jpg?1590113069
+name,cmc,release_year,price,color,image,type_line,artist
+Clever Impersonator,4,2014,3.84,#341aff,https://cards.scryfall.io/normal/front/3/8/3889b4d6-2541-484d-88dd-d67800545327.jpg?1581107945,Creature — Shapeshifter,Slawomir Maniak
+Dig Through Time,8,2020,1.12,#341aff,https://cards.scryfall.io/normal/front/b/6/b62554b0-595e-4ad0-a4e3-e281624ed9c8.jpg?1600997844,Instant,Ryan Yee
+Hardened Scales,1,2014,5.55,#087500,https://cards.scryfall.io/normal/front/0/e/0e432884-3b38-42ae-80bf-d4d2fec4316d.jpg?1591311191,Enchantment,Mark Winters
+Temur Ascendancy,3,2020,4.75,#d78f42,https://cards.scryfall.io/normal/front/8/0/80ac4542-1852-46d7-9f9d-eea8158297fa.jpg?1593609116,Enchantment,Jaime Jones
+Villainous Wealth,3,2014,5.14,#d78f42,https://cards.scryfall.io/normal/front/e/5/e5f43eec-d158-4060-9235-9b8128a48dca.jpg?1590113069,Sorcery,Erica Yang

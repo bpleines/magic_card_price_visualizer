@@ -1,1 +1,34 @@
-name,cmc,release_year,price,color,image
+name,cmc,release_year,price,color,image,type_line,artist
+Absorb,3,2023,1.99,#d78f42,https://cards.scryfall.io/normal/front/2/1/21892cbc-1af2-4ea1-8907-cec514b53004.jpg?1670455171,Instant,Andrew Goldhawk
+Arboria,4,2023,9.99,#087500,https://cards.scryfall.io/normal/front/b/1/b18f4de2-adfe-4784-bd57-9e2ad9088825.jpg?1660849303,World Enchantment,Uriah Voth
+Birds of Paradise,1,2023,11.99,#087500,https://cards.scryfall.io/normal/front/4/9/496849a5-4b24-4eae-8bfb-d46f645d85ea.jpg?1664930445,Creature — Bird,Mark Poole
+Chainer- Dementia Master,5,2023,5.99,#000000,https://cards.scryfall.io/normal/front/c/2/c294695b-a096-441a-9034-91ca74763903.jpg?1670454446,Legendary Creature — Human Minion,Mark Zug
+Crawlspace,3,2023,9.99,#8c8d8b,https://cards.scryfall.io/normal/front/5/b/5b8e092a-610d-4cea-bb92-65e01954b5c4.jpg?1670455379,Artifact,Zoltan Boros
+Divine Sacrament,3,2023,0.99,#ffffff,https://cards.scryfall.io/normal/front/a/7/a77d4044-f2bd-470a-8468-a319e0a21d8d.jpg?1670453998,Enchantment,Ekaterina Burmak
+Exploration,1,2023,14.99,#087500,https://cards.scryfall.io/normal/front/5/b/5b372045-a4a0-44c8-96ec-1e201d61ed26.jpg?1670454986,Enchantment,Lindsey Look
+Gamble,1,2023,9.99,#ff1a1a,https://cards.scryfall.io/normal/front/8/e/8e37fae5-ddd0-4e16-8581-71579f89d9c5.jpg?1670454745,Sorcery,Andrew Goldhawk
+Helm of Awakening,2,2023,3.99,#8c8d8b,https://cards.scryfall.io/normal/front/e/9/e9e4ff9c-6244-43e1-b569-32a270c4e014.jpg?1670455424,Artifact,Adam Rex
+Hunting Grounds,2,2023,7.99,#d78f42,https://cards.scryfall.io/normal/front/6/e/6e544772-5ab8-47dd-8a6e-686d385a6ee7.jpg?1670455208,Enchantment,Eli Minaya
+Jester's Cap,4,2023,2.99,#8c8d8b,https://cards.scryfall.io/normal/front/b/3/b364e7e7-83e5-474b-9768-8b70a77e5ffa.jpg?1664930561,Artifact,Jesper Ejsing
+Last Chance,2,2023,9.99,#ff1a1a,https://cards.scryfall.io/normal/front/c/0/c0efb595-d407-4389-a99d-d97c4d6bdcd0.jpg?1670454785,Sorcery,Joshua Raphael
+Legacy Weapon,7,2023,1.99,#d78f42,https://cards.scryfall.io/normal/front/a/f/afd35d5c-7f28-4842-85e8-692d6c391c3a.jpg?1670455451,Legendary Artifact,Ryan Pancoast
+Lotus Blossom,2,2023,1.99,#8c8d8b,https://cards.scryfall.io/normal/front/c/5/c5b92fd6-e3a7-4d50-b94f-1508a830b799.jpg?1670455458,Artifact,Randy Gallegos
+Maze of Ith,0,2023,9.99,#8c8d8b,https://cards.scryfall.io/normal/front/5/8/5889fde1-730d-43d0-aaa4-499784a80530.jpg?1670455590,Land,Yeong-Hao Han
+Mindslicer,4,2023,1.99,#000000,https://cards.scryfall.io/normal/front/a/f/afc86134-8af6-4355-b1ad-96917c99ff3c.jpg?1670454541,Creature — Horror,Kev Walker
+Mystical Tutor,1,2023,14.99,#341aff,https://cards.scryfall.io/normal/front/3/6/36fa9a0b-b0c9-43ea-ba11-99d7982f974e.jpg?1670454344,Instant,Lindsey Look
+Mystic Remora,1,2023,6.99,#341aff,https://cards.scryfall.io/normal/front/4/0/40140991-cffa-4b52-9a25-37e9a8aa9ddd.jpg?1670454337,Enchantment,Jesper Ejsing
+No Mercy,4,2023,19.99,#000000,https://cards.scryfall.io/normal/front/6/3/63c5e1dd-2fe6-4734-8406-7bcdf17aa60c.jpg?1670454568,Enchantment,Mark Tedin
+Nut Collector,6,2023,5.99,#087500,https://cards.scryfall.io/normal/front/3/2/32980fc5-32ef-4f6d-8972-7a9e122c02e2.jpg?1670455069,Creature — Human Druid,Jesper Ejsing
+Phantom Nishoba,7,2023,0.75,#d78f42,https://cards.scryfall.io/normal/front/2/2/2281a21b-fc68-46ad-b340-eb13ca0165ec.jpg?1670455222,Creature — Cat Beast Spirit,Arnie Swekel
+Saproling Symbiosis,4,2023,3.99,#087500,https://cards.scryfall.io/normal/front/6/4/64ae774a-c1de-4c9e-a2ec-86d71cb2d1db.jpg?1670455096,Sorcery,Ciruelo
+Sevinne's Reclamation,3,2023,3.99,#ffffff,https://cards.scryfall.io/normal/front/3/b/3b272b9a-9348-4eaa-8978-2fe549182c84.jpg?1670454144,Sorcery,Zoltan Boros
+Sneak Attack,4,2023,11.99,#ff1a1a,https://cards.scryfall.io/normal/front/a/4/a45b4ca9-4355-4690-84c3-a7d44c367dbf.jpg?1670486318,Enchantment,Jerry Tiritilli
+Stroke of Genius,3,2023,1.99,#341aff,https://cards.scryfall.io/normal/front/2/a/2a5b8542-f8b9-4b98-89ee-ce577b862bce.jpg?1670454389,Instant,Rovina Cai
+Sulfur Falls,0,2023,2.99,#d78f42,https://cards.scryfall.io/normal/front/6/d/6d3e12e4-6122-41d8-8ffb-a883d02d3278.jpg?1670455645,Land,Cliff Childs
+Sulfuric Vortex,3,2023,0.75,#ff1a1a,https://cards.scryfall.io/normal/front/3/2/3253a624-50cc-4a8a-9b0c-9902aa53775f.jpg?1670454895,Enchantment,Greg Staples
+Sylvan Library,2,2023,34.99,#087500,https://cards.scryfall.io/normal/front/6/a/6ada256f-2e55-4c1f-b4d3-d7b10b498956.jpg?1670455123,Enchantment,Yeong-Hao Han
+Time Stretch,10,2023,14.99,#341aff,https://cards.scryfall.io/normal/front/9/d/9dc791fd-d49c-4c66-b8fb-6b54ce842e90.jpg?1664930691,Sorcery,Dominik Mayer
+Urza's Incubator,3,2023,25.99,#8c8d8b,https://cards.scryfall.io/normal/front/d/8/d8122161-1608-4af4-9aca-7f22c2f746aa.jpg?1670455519,Artifact,Grzegorz Rutkowski
+Windborn Muse,4,2023,0.75,#ffffff,https://cards.scryfall.io/normal/front/7/b/7b72ba3c-12f5-47d0-adaa-f470ad3a416c.jpg?1670454196,Creature — Spirit,Adam Rex
+Wrath of God,4,2023,3.99,#ffffff,https://cards.scryfall.io/normal/front/c/3/c3700519-b74c-4445-b42e-03690b8d4463.jpg?1670454202,Sorcery,Kev Walker
+Yawgmoth- Thran Physician,4,2023,27.99,#000000,https://cards.scryfall.io/normal/front/b/5/b5a79f5d-d0df-4799-ac3a-84305e3af0c9.jpg?1670454671,Legendary Creature — Human Cleric,Mark Winters

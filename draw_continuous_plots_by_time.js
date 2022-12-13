@@ -21,7 +21,7 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set') {
     });
     var min_release_year = 1992;
     var max_release_year = 2022;
-    var max_price = 1000;
+    var max_price = 2600;
     // Add X axis
     var x = d3.scaleLinear()
       .domain([min_release_year, max_release_year])
