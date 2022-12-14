@@ -53,9 +53,9 @@ def pandas_implementation(set_code):
 def generate_card_csv(set_code=mtg_set_codes[0]):
     csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_set/{set_code}.csv"
     cards = pandas_implementation(set_code)
+    if os.path.exists(csv_file_path):
+        os.remove(csv_file_path)
     if cards is not None:
-        if os.path.exists(csv_file_path):
-            os.remove(csv_file_path)
         cards.to_csv(csv_file_path, index=False)
         print(f"Generated csv data for set: {set_code}")
 
