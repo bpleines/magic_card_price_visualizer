@@ -17,7 +17,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler, OrdinalEncoder
 
 class CardAnalyzer:
-    """Class to store cards dataframe used for analysis"""
+    """Class to store cards dataframe and analysis methods"""
     def __init__(self):
         self.df = self.ingest_set_data()
 
@@ -26,16 +26,26 @@ class CardAnalyzer:
         self.df.dropna(how='any', inplace=True)
         self.check_structure()
 
-    def check_structure(self):
-        print(self.df.shape)
-        print(self.df.isnull().sum())
-        print(self.df[self.df['artist'].isnull()])
-        print(self.df.dtypes)
+    def check_hasbro_claim(self):
+        before_hasbro = self.df[self.df['release_year'] < 2000]
+        after_hasbro = self.df[self.df['release_year'] > 1999]
+        print("=====================BEFORE HASBRO=====================")
+        print(before_hasbro.shape)
+        print(before_hasbro.describe())
+        print("=====================AFTER HASBRO=====================")
+        print(after_hasbro.shape)
+        print(after_hasbro.describe())
 
     def check_numeric_value_bounds(self):
         for column in ['cmc', 'release_year', 'price']:
             print(f"{column} MIN {self.df[column].min()}")
             print(f"{column} MAX {self.df[column].max()}")
+
+    def check_structure(self):
+        print(self.df.shape)
+        print(self.df.isnull().sum())
+        print(self.df[self.df['artist'].isnull()])
+        print(self.df.dtypes)
 
     def fix_types(self):
         self.df['cmc'] = self.df['cmc'].astype(int)
@@ -44,8 +54,8 @@ class CardAnalyzer:
         self.check_structure()
         self.check_numeric_value_bounds()
         # Gleemax has a cmc of 1000000 which really throws off upper bound
-        # Next higher cmc is 16
-        self.df = self.df[self.df['cmc'] < 17]
+        # Next higher cmc as of writing is 16
+        self.df = self.df[self.df['cmc'] < 20]
         self.check_structure()
         self.check_numeric_value_bounds()
 
@@ -104,3 +114,9 @@ class CardAnalyzer:
     def pairplot(self):
         sns.pairplot(self.df)
         plt.show()
+
+    def set_after_hasbro(self):
+        self.df = self.df[self.df['release_year'] > 1999]
+
+    def set_before_hasbro(self):
+        self.df = self.df[self.df['release_year'] < 2000]
