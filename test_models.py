@@ -93,6 +93,12 @@ def after_hasbro_card_data():
         scaler=MinMaxScaler()
     )
 
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("ALL CARD DATA")
 all_card_data()
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("CARDS BEFORE HASBRO")
 before_hasbro_card_data()
+print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print("CARDS AFTER HASBRO")
 after_hasbro_card_data()
