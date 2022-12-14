@@ -9,6 +9,7 @@ import seaborn as sns
 from sklearn.compose import ColumnTransformer
 from sklearn.compose import make_column_selector as col_selector
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
@@ -26,9 +27,9 @@ class CardAnalyzer:
         self.check_structure()
 
     def check_structure(self):
+        print(self.df.shape)
         print(self.df.isnull().sum())
         print(self.df[self.df['artist'].isnull()])
-        print(self.df.shape)
         print(self.df.dtypes)
 
     def check_numeric_value_bounds(self):
@@ -42,7 +43,8 @@ class CardAnalyzer:
         self.df['price'] = self.df['price'].astype(float)
         self.check_structure()
         self.check_numeric_value_bounds()
-        # Gleemax has a cmc of 1000000 which really throws off usefulness
+        # Gleemax has a cmc of 1000000 which really throws off upper bound
+        # Next higher cmc is 16
         self.df = self.df[self.df['cmc'] < 17]
         self.check_structure()
         self.check_numeric_value_bounds()
@@ -57,9 +59,12 @@ class CardAnalyzer:
                       # by default drop name and image columns for analysis at they are unique to a card
                       drop_columns=['name', 'image'],
                       scaler=StandardScaler(),
+                      # https://stackoverflow.com/questions/54836051/pipeline-ordinalencoder-valueerror-found-unknown-categories
                       encoder=OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1),
                       model=LinearRegression()
         ):
+        print("=====================================================================================================")
+        print(scaler)
         df_copy = self.df.copy(deep=True).drop(drop_columns, axis=1)
         dfy = df_copy['price']
         dfx = df_copy.drop(['price'], axis=1)
@@ -94,12 +99,8 @@ class CardAnalyzer:
         print(f"relative difference is: {np.abs(mse_train-mse_test)/mse_train}")
         print(f"r-squared test {r2_score(ytest, y_hat)}")
         print(f"r-squared train {r2_score(ytrain, y_predict)}")
+        print("=====================================================================================================")
 
     def pairplot(self):
         sns.pairplot(self.df)
         plt.show()
-
-analyzer = CardAnalyzer()
-analyzer.address_missing_data()
-analyzer.fix_types()
-analyzer.pairplot()

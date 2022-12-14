@@ -5,6 +5,8 @@ from card_analyzer import CardAnalyzer
 analyzer = CardAnalyzer()
 analyzer.address_missing_data()
 analyzer.fix_types()
+#This halts program execution, so don't include by default
+#analyzer.pairplot()
 # Standard Scaler
 analyzer.make_pipeline()
 analyzer.make_pipeline(drop_columns=['name', 'image', 'type_line', 'artist'])
