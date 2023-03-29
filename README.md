@@ -8,7 +8,7 @@ Data is scraped using python and translated into csv files to be consumed by D3 
 
 ### Hosted with Github Pages
 
-Please visit https://bpleines.github.io/magic_card_price_visualizer/
+https://bpleines.github.io/magic_card_price_visualizer/
 
 ### Generate data by set code
 
