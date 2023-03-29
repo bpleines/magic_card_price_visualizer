@@ -6,17 +6,17 @@ Data is scraped using python and translated into csv files to be consumed by D3 
 
 ## Quick Start
 
-```sh
-open index.html
-```
+### Hosted with Github Pages
 
-## Generate data by set code
+https://bpleines.github.io/magic_card_price_visualizer/
+
+### Generate data by set code
 
 ```sh
 python set_magic_scryfall_data_scraper.py
 ```
 
-## Generate data by color
+### Generate data by color
 
 ```sh
 python color_magic_scryfall_data_scraper.py
