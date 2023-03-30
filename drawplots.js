@@ -79,7 +79,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	   .attr("transform", "translate(" + width + ", 0)")
 	   .attr("x", -106)
 	   .attr("y", -16)
-	   .text("Converted Mana Cost");
+	   .text("Mana Value");
       yAxis.append("text")
 	   .attr("class", "axis-title")
 	   .attr("transform", "rotate(-90)")
@@ -98,17 +98,19 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	     .attr("r", 6.0)
 	     .style("fill", function (d) { return d.color; })
 	     .style("stroke", "black")
-	     .on('mouseover', function (d, i) {
+	     .on('mouseover', function (event, d) {
 		  d3.select(this).transition()
 		      .duration('100')
 		      .attr("r", 15);
 		  // Add the image to the page when plot point is hovered over
-		  src = d.image;
+		  console.log("d.image: ".concat(d.image));
+                  console.log("d.color: ".concat(d.color));
+                  src = d.image;
 		  img = document.createElement("img");
 		  img.src = src;
 		  document.getElementById("card_picture").appendChild(img);
 	     })
-	     .on('mouseout', function (d, i) {
+	     .on('mouseout', function (event, d) {
 		 d3.select(this).transition()
 		     .duration('200')
                    .attr("r", 6);
