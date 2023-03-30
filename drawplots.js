@@ -27,93 +27,93 @@ function renderScatterplot(attribute_code, attribute_type='set') {
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/magic_card_price_visualizer/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
   //Read the data
-  d3.csv(csvFilePath, function(data) {
-    // Convert all str csv values to ints
-    data.forEach(function(d) {
+  d3.csv(csvFilePath, function(d) {
+      // Convert all str csv values to ints
       d.cmc = +d.cmc;
       d.price = +d.price;
-    });
-    // Get the max of both cmc and price and pad each dimension
-    var max_cmc = d3.max(data, function(d) { return d.cmc + 1; });
-    var max_price = d3.max(data, function(d) { return d.price * 1.10; });
+      return d;
+    }).then(function(data) {
+      // Get the max of both cmc and price and pad each dimension
+      var max_cmc = d3.max(data, function(d) { return d.cmc + 1; });
+      var max_price = d3.max(data, function(d) { return d.price * 1.10; });
 
-    // Add X axis
-    var x = d3.scaleLinear()
-      .domain([0, max_cmc])
-      .range([ 0, width ]);
-    svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
+      // Add X axis
+      var x = d3.scaleLinear()
+	.domain([0, max_cmc])
+	.range([ 0, width ]);
+      svg.append("g")
+	.attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
 
-    // Add Y axis
-    var y = d3.scaleLinear()
-      .domain([0, max_price])
-      .range([ height, 0]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
+      // Add Y axis
+      var y = d3.scaleLinear()
+	.domain([0, max_price])
+	.range([ height, 0]);
+      svg.append("g")
+	.call(d3.axisLeft(y));
 
-    // Labels
-    var xAxisCall = d3.axisBottom(x)
-    var xAxis = svg.append("g")
-                 .attr("id", "x-axis")
-                 .attr("class", "x-axis")
-                 .attr("transform", "translate(" + 0 + "," + height + ")")
-                 .call(xAxisCall);
+      // Labels
+      var xAxisCall = d3.axisBottom(x)
+      var xAxis = svg.append("g")
+		   .attr("id", "x-axis")
+		   .attr("class", "x-axis")
+		   .attr("transform", "translate(" + 0 + "," + height + ")")
+		   .call(xAxisCall);
 
-    var yAxisCall = d3.axisLeft(y);
-    var yAxis = svg.append("g")
-                 .attr("id", "y-axis")
-                 .attr("class", "y-axis")
-                 .call(yAxisCall);
+      var yAxisCall = d3.axisLeft(y);
+      var yAxis = svg.append("g")
+		   .attr("id", "y-axis")
+		   .attr("class", "y-axis")
+		   .call(yAxisCall);
 
-    // Add Labels
-    d3.select("#my_dataviz")
-      .selectAll("g")
-      .data(data)
-      .transition()
-      .duration(500)
-      .attr("fill", "#000000");;
+      // Add Labels
+      d3.select("#my_dataviz")
+	.selectAll("g")
+	.data(data)
+	.transition()
+	.duration(500)
+	.attr("fill", "#000000");;
 
-    xAxis.append("text")
-         .attr("class", "axis-title")
-         .attr("transform", "translate(" + width + ", 0)")
-         .attr("x", -106)
-         .attr("y", -16)
-         .text("Converted Mana Cost");
-    yAxis.append("text")
-         .attr("class", "axis-title")
-         .attr("transform", "rotate(-90)")
-         .attr("y", 24)
-         .text("Price (USD)");
+      xAxis.append("text")
+	   .attr("class", "axis-title")
+	   .attr("transform", "translate(" + width + ", 0)")
+	   .attr("x", -106)
+	   .attr("y", -16)
+	   .text("Converted Mana Cost");
+      yAxis.append("text")
+	   .attr("class", "axis-title")
+	   .attr("transform", "rotate(-90)")
+	   .attr("y", 24)
+           .text("Price (USD)");
 
-    // Add dots
-    var markers = svg.append('g')
-                     .selectAll("dot")
-                     .data(data);
+      // Add dots
+      var markers = svg.append('g')
+		       .selectAll("dot")
+		       .data(data);
 
-    markers.enter()
-           .append("circle")
-	   .attr("cx", function (d) { return x(d.cmc); } )
-	   .attr("cy", function (d) { return y(d.price); } )
-           .attr("r", 6.0)
-           .style("fill", function (d) { return d.color; })
-           .style("stroke", "black")
-           .on('mouseover', function (d, i) {
-                d3.select(this).transition()
-                    .duration('100')
-                    .attr("r", 15);
-                // Add the image to the page when plot point is hovered over
-                src = d.image;
-                img = document.createElement("img");
-                img.src = src;
-                document.getElementById("card_picture").appendChild(img);
-           })
-           .on('mouseout', function (d, i) {
-               d3.select(this).transition()
-                   .duration('200')
+      markers.enter()
+	     .append("circle")
+	     .attr("cx", function (d) { return x(d.cmc); } )
+	     .attr("cy", function (d) { return y(d.price); } )
+	     .attr("r", 6.0)
+	     .style("fill", function (d) { return d.color; })
+	     .style("stroke", "black")
+	     .on('mouseover', function (d, i) {
+		  d3.select(this).transition()
+		      .duration('100')
+		      .attr("r", 15);
+		  // Add the image to the page when plot point is hovered over
+		  src = d.image;
+		  img = document.createElement("img");
+		  img.src = src;
+		  document.getElementById("card_picture").appendChild(img);
+	     })
+	     .on('mouseout', function (d, i) {
+		 d3.select(this).transition()
+		     .duration('200')
                    .attr("r", 6);
-               // remove image from page when hover off
-               document.getElementById("card_picture").removeChild(img);
-           });
+                 // remove image from page when hover off
+                 document.getElementById("card_picture").removeChild(img);
+             });
   })
 }
