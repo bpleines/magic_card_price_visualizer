@@ -1,21 +1,29 @@
 import pathlib
-import requests
 import os
+import requests
 
 import pandas as pd
 
 from codes import MTGCodes
 
+REQUESTS_TIMEOUT = 10
+
 def pandas_implementation(color_code='R'):
     cards = []
 
     url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
-    response = requests.get(url).json()
+    response = requests.get(
+        url,
+        timeout=REQUESTS_TIMEOUT
+    ).json()
     data = response.get('data')
     for card in extract_card_details(data):
         cards.append(card)
     while response.get('has_more'):
-        response = requests.get(response.get('next_page')).json()
+        response = requests.get(
+            response.get('next_page'),
+            timeout=REQUESTS_TIMEOUT
+        ).json()
         for card in extract_card_details(response.get('data')):
             cards.append(card)
     cards_data_frame = pd.DataFrame(
