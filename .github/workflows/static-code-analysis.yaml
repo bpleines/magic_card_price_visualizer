@@ -1,0 +1,9 @@
+---
+on:
+  pull_request:
+jobs:
+  pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Action for pylint
+        uses: cclauss/GitHub-Action-for-pylint@0.7.0
