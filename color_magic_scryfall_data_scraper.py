@@ -56,6 +56,7 @@ def extract_card_details(card_list):
             try:
                 card_dict["image"] = card.get("image_uris").get("normal")
             except AttributeError as e:
+                print(e)
                 card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
             cards.append(card_dict)
         except TypeError:
@@ -71,5 +72,5 @@ def generate_card_csv(color_code='W'):
     cards.to_csv(csv_file_path, index=False)
     print(f"Generated csv data for set: {color_code}")
 
-for color_code in MTGCodes().get_color_codes():
-    generate_card_csv(color_code)
+for mtg_color_code in MTGCodes().get_color_codes():
+    generate_card_csv(mtg_color_code)

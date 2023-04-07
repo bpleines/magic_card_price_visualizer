@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 import requests
 
-"""
-Simple class to manage codes used by scripts uniformly
-"""
-
 class MTGCodes:
     """Class to store set and color codes"""
     def __init__(self):
@@ -47,7 +43,7 @@ class MTGCodes:
         return ['W', 'U', 'B', 'R', 'G']
 
     def get_set_codes(self):
-        url = f"https://api.scryfall.com/sets"
+        url = "https://api.scryfall.com/sets"
         response = requests.get(
             url,
             timeout=10

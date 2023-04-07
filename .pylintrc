@@ -6,7 +6,9 @@
 
 # Files or directories to be skipped. They should be base names, not
 # paths.
-ignore=CVS
+ignore=
+    CVS
+    test_hasbro.py
 
 # Add files or directories matching the regex patterns to the ignore-list. The
 # regex matches against paths and can be in Posix or Windows format.
@@ -105,6 +107,7 @@ disable=
     missing-docstring,
     protected-access,
     too-few-public-methods,
+    too-many-try-statements,
     # handled by black
     format,
     # We anticipate #3512 where it will become optional

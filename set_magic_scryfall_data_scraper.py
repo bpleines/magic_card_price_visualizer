@@ -8,7 +8,7 @@ from codes import MTGCodes
 
 mtg_set_codes = MTGCodes().get_set_codes()
 
-def pandas_implementation(set_code):
+def pandas_implementation(set_code : str):
     cards = []
 
     url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
@@ -34,6 +34,7 @@ def pandas_implementation(set_code):
             try:
                 card_dict["image"] = card.get("image_uris").get("normal")
             except AttributeError as e:
+                print(e)
                 card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
             cards.append(card_dict)
         except TypeError:
@@ -62,5 +63,5 @@ def generate_card_csv(set_code=mtg_set_codes[0]):
         cards.to_csv(csv_file_path, index=False)
         print(f"Generated csv data for set: {set_code}")
 
-for set_code in mtg_set_codes:
-    generate_card_csv(set_code)
+for mtg_set_code in mtg_set_codes:
+    generate_card_csv(mtg_set_code)
