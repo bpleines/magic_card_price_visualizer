@@ -3,4 +3,4 @@ pandas
 pylint
 pytest
 seaborn
-sklearn
+scikit-learn
