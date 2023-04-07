@@ -1,5 +1,3 @@
-from sklearn.preprocessing import MinMaxScaler
-
 from card_analyzer import CardAnalyzer
 
 analyzer = CardAnalyzer()
