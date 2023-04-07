@@ -1,5 +1,6 @@
 numpy
 pandas
 pylint
+pytest
 seaborn
 sklearn
