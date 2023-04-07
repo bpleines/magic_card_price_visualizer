@@ -33,27 +33,27 @@ def pandas_implementation(color_code='R'):
     return cards_data_frame
 
 def extract_card_details(card_list):
-  cards = []
-  for card in card_list:
-      card_dict = {}
-      try:
-          # Replace the commas in name to adhere to csv delimeter
-          card_dict["name"] = card.get("name").replace(',', '-')
-          card_dict["cmc"] = int(card.get("cmc"))
-          card_dict["release_year"] = int(card.get("released_at").split('-')[0])
-          card_dict["price"] = float(card.get("prices").get("usd"))
-          card_dict["color"] = MTGCodes().encode_color(card.get("color_identity"))
-          card_dict["type_line"] = card.get("type_line")
-          card_dict["artist"] = card.get("artist")
-          try:
-              card_dict["image"] = card.get("image_uris").get("normal")
-          except AttributeError as e:
-              card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
-          cards.append(card_dict)
-      except TypeError:
-          print(f"The card {card.get('name')} was missing an expected value. Skipping!")
-          continue
-  return cards
+    cards = []
+    for card in card_list:
+        card_dict = {}
+        try:
+            # Replace the commas in name to adhere to csv delimeter
+            card_dict["name"] = card.get("name").replace(',', '-')
+            card_dict["cmc"] = int(card.get("cmc"))
+            card_dict["release_year"] = int(card.get("released_at").split('-')[0])
+            card_dict["price"] = float(card.get("prices").get("usd"))
+            card_dict["color"] = MTGCodes().encode_color(card.get("color_identity"))
+            card_dict["type_line"] = card.get("type_line")
+            card_dict["artist"] = card.get("artist")
+            try:
+                card_dict["image"] = card.get("image_uris").get("normal")
+            except AttributeError as e:
+                card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
+            cards.append(card_dict)
+        except TypeError:
+            print(f"The card {card.get('name')} was missing an expected value. Skipping!")
+            continue
+    return cards
 
 def generate_card_csv(color_code='W'):
     csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_color/{color_code}.csv"
