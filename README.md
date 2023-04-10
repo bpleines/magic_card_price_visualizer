@@ -11,7 +11,7 @@ https://bpleines.github.io/magic_card_price_visualizer/
 ### Generate data by set code
 
 ```sh
-python generate_data.py 
+python generate_data.py
 ```
 
 ### Generate data by color
