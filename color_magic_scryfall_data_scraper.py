@@ -1,21 +1,29 @@
 import pathlib
-import requests
 import os
+import requests
 
 import pandas as pd
 
 from codes import MTGCodes
 
+REQUESTS_TIMEOUT = 10
+
 def pandas_implementation(color_code='R'):
     cards = []
 
     url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
-    response = requests.get(url).json()
+    response = requests.get(
+        url,
+        timeout=REQUESTS_TIMEOUT
+    ).json()
     data = response.get('data')
     for card in extract_card_details(data):
         cards.append(card)
     while response.get('has_more'):
-        response = requests.get(response.get('next_page')).json()
+        response = requests.get(
+            response.get('next_page'),
+            timeout=REQUESTS_TIMEOUT
+        ).json()
         for card in extract_card_details(response.get('data')):
             cards.append(card)
     cards_data_frame = pd.DataFrame(
@@ -33,27 +41,28 @@ def pandas_implementation(color_code='R'):
     return cards_data_frame
 
 def extract_card_details(card_list):
-  cards = []
-  for card in card_list:
-      card_dict = {}
-      try:
-          # Replace the commas in name to adhere to csv delimeter
-          card_dict["name"] = card.get("name").replace(',', '-')
-          card_dict["cmc"] = int(card.get("cmc"))
-          card_dict["release_year"] = int(card.get("released_at").split('-')[0])
-          card_dict["price"] = float(card.get("prices").get("usd"))
-          card_dict["color"] = MTGCodes().encode_color(card.get("color_identity"))
-          card_dict["type_line"] = card.get("type_line")
-          card_dict["artist"] = card.get("artist")
-          try:
-              card_dict["image"] = card.get("image_uris").get("normal")
-          except AttributeError as e:
-              card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
-          cards.append(card_dict)
-      except TypeError:
-          print(f"The card {card.get('name')} was missing an expected value. Skipping!")
-          continue
-  return cards
+    cards = []
+    for card in card_list:
+        card_dict = {}
+        try:
+            # Replace the commas in name to adhere to csv delimeter
+            card_dict["name"] = card.get("name").replace(',', '-')
+            card_dict["cmc"] = int(card.get("cmc"))
+            card_dict["release_year"] = int(card.get("released_at").split('-')[0])
+            card_dict["price"] = float(card.get("prices").get("usd"))
+            card_dict["color"] = MTGCodes().encode_color(card.get("color_identity"))
+            card_dict["type_line"] = card.get("type_line")
+            card_dict["artist"] = card.get("artist")
+            try:
+                card_dict["image"] = card.get("image_uris").get("normal")
+            except AttributeError as e:
+                print(e)
+                card_dict["image"] = MTGCodes().encode_default_image_for_color(card_dict["color"])
+            cards.append(card_dict)
+        except TypeError:
+            print(f"The card {card.get('name')} was missing an expected value. Skipping!")
+            continue
+    return cards
 
 def generate_card_csv(color_code='W'):
     csv_file_path = f"{pathlib.Path(__file__).parent.absolute()}/magic_card_csv_files_by_color/{color_code}.csv"
@@ -63,5 +72,5 @@ def generate_card_csv(color_code='W'):
     cards.to_csv(csv_file_path, index=False)
     print(f"Generated csv data for set: {color_code}")
 
-for color_code in MTGCodes().get_color_codes():
-    generate_card_csv(color_code)
+for mtg_color_code in MTGCodes().get_color_codes():
+    generate_card_csv(mtg_color_code)
