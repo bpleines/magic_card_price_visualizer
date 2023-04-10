@@ -51,7 +51,7 @@ class ScryfallScraper:
             os.remove(csv_file_path)
             return
         if cards is not None:
-            with open(csv_file_path, 'a') as local_csv_file:
+            with open(csv_file_path, 'a', encoding="utf-8") as local_csv_file:
                 local_csv_file.write('name,cmc,release_year,price,color,image,type_line,artist\n')
                 for card in cards:
                     local_csv_file.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{card['color']},{card['image']},{card['type_line']},{card['artist']}\n")
