@@ -8,8 +8,7 @@
 # paths.
 ignore=
     CVS
-    card_analyzer
-    test_hasbro
+    archive
 
 # Add files or directories matching the regex patterns to the ignore-list. The
 # regex matches against paths and can be in Posix or Windows format.

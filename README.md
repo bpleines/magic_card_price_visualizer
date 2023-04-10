@@ -4,16 +4,14 @@ This repo contains code used to visualize the price of magic rares by set, color
 
 Data is scraped using python and translated into csv files to be consumed by D3 Javascript
 
-## Quick Start
-
-### Hosted with Github Pages
+## Hosted with Github Pages
 
 https://bpleines.github.io/magic_card_price_visualizer/
 
 ### Generate data by set code
 
 ```sh
-python set_magic_scryfall_data_scraper.py
+python generate_data.py 
 ```
 
 ### Generate data by color

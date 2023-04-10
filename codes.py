@@ -4,8 +4,7 @@ import requests
 class MTGCodes:
     """Class to store set and color codes"""
     def __init__(self):
-        self.color_codes = self.get_color_codes()
-        self.source_or_target = self.get_set_codes()
+        self.requests_timeout_seconds = 600
 
     def encode_color(self, color):
         # Handle colorless case
@@ -46,6 +45,6 @@ class MTGCodes:
         url = "https://api.scryfall.com/sets"
         response = requests.get(
             url,
-            timeout=10
+            timeout=self.requests_timeout_seconds
         ).json().get("data")
         return [set_record["code"].upper() for set_record in response]

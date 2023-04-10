@@ -1,6 +1,3 @@
-numpy
-pandas
 pylint
 pytest
-seaborn
-scikit-learn
+requests
