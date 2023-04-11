@@ -1,8 +1,8 @@
 import logging
 import pathlib
 import os
-import requests
 import time
+import requests
 
 from codes import MTGCodes
 
