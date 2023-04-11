@@ -1,34 +1,33 @@
 name,cmc,release_year,price,color,image,type_line,artist
-Absorb,3,2019,2.26,#d78f42,https://cards.scryfall.io/normal/front/5/1/513997c3-a754-4160-9b22-67cfe2953851.jpg?1570827663,Instant,Izzy
-Bedeck // Bedazzle,8,2019,0.37,#d78f42,https://cards.scryfall.io/normal/front/4/4/4411a717-fda0-45f1-a8ba-618884de5ce2.jpg?1566527298,Instant // Instant,Randy Vargas
-Bedevil,3,2019,2.17,#d78f42,https://cards.scryfall.io/normal/front/0/6/06a34cfb-b0b3-4a51-af7a-601631d6c93b.jpg?1570827694,Instant,Seb McKinnon
-Benthic Biomancer,1,2019,0.91,#341aff,https://cards.scryfall.io/normal/front/f/a/fa24f634-1042-4f7b-939b-8ca480b07f2c.jpg?1566583073,Creature — Merfolk Wizard Mutant,Daarken
-Biogenic Ooze,5,2019,4.15,#087500,https://cards.scryfall.io/normal/front/d/6/d61d4a0d-60ad-4434-ba2b-9aa574bd038a.jpg?1581073244,Creature — Ooze,Lake Hurwitz
-Blood Crypt,0,2019,20.25,#d78f42,https://cards.scryfall.io/normal/front/3/d/3d7c66e7-2b43-443f-998c-80613735a87f.jpg?1570827679,Land — Swamp Mountain,Adam Paquette
-Breeding Pool,0,2019,22.51,#d78f42,https://cards.scryfall.io/normal/front/e/4/e4ab950c-9516-4b5d-bd54-a17958968320.jpg?1570827709,Land — Forest Island,Ravenna Tran
+Absorb,3,2019,2.23,#d78f42,https://cards.scryfall.io/normal/front/5/1/513997c3-a754-4160-9b22-67cfe2953851.jpg?1570827663,Instant,Izzy
+Bedevil,3,2019,2.28,#d78f42,https://cards.scryfall.io/normal/front/0/6/06a34cfb-b0b3-4a51-af7a-601631d6c93b.jpg?1570827694,Instant,Seb McKinnon
+Benthic Biomancer,1,2019,0.95,#341aff,https://cards.scryfall.io/normal/front/f/a/fa24f634-1042-4f7b-939b-8ca480b07f2c.jpg?1566583073,Creature — Merfolk Wizard Mutant,Daarken
+Biogenic Ooze,5,2019,4.13,#087500,https://cards.scryfall.io/normal/front/d/6/d61d4a0d-60ad-4434-ba2b-9aa574bd038a.jpg?1581073244,Creature — Ooze,Lake Hurwitz
+Blood Crypt,0,2019,18.74,#d78f42,https://cards.scryfall.io/normal/front/3/d/3d7c66e7-2b43-443f-998c-80613735a87f.jpg?1570827679,Land — Swamp Mountain,Adam Paquette
+Breeding Pool,0,2019,21.93,#d78f42,https://cards.scryfall.io/normal/front/e/4/e4ab950c-9516-4b5d-bd54-a17958968320.jpg?1570827709,Land — Forest Island,Ravenna Tran
 Cindervines,2,2019,1.3,#d78f42,https://cards.scryfall.io/normal/front/b/d/bd85846e-bef3-4763-8003-a6bd9714b9dd.jpg?1570827704,Enchantment,Mark Behm
-Deputy of Detention,3,2019,0.64,#d78f42,https://cards.scryfall.io/normal/front/0/6/060c2b3c-2671-4ec9-8367-e0d4ca553616.jpg?1570827687,Creature — Vedalken Wizard,G-host Lee
-Electrodominance,2,2019,2.69,#ff1a1a,https://cards.scryfall.io/normal/front/5/e/5ebf3faa-6f31-4f73-abf9-68633af6bf9e.jpg?1570827671,Instant,Dmitry Burmak
-Godless Shrine,0,2019,14.6,#d78f42,https://cards.scryfall.io/normal/front/1/5/15d4eec2-8587-4ec6-aea5-21804a998375.jpg?1570827729,Land — Plains Swamp,Ravenna Tran
-Growth-Chamber Guardian,2,2019,0.35,#087500,https://cards.scryfall.io/normal/front/2/1/213c938d-85dc-494e-96ab-5df2c247a84c.jpg?1570827658,Creature — Elf Crab Warrior,Bram Sels
-Gruul Spellbreaker,3,2019,0.45,#d78f42,https://cards.scryfall.io/normal/front/e/f/efb66fa0-b47c-49e1-8ee0-982f646545ec.jpg?1570827667,Creature — Ogre Warrior,Zoltan Boros
-Guardian Project,4,2019,10.23,#087500,https://cards.scryfall.io/normal/front/a/3/a375e3d3-22f5-416b-ad32-83b6028f7024.jpg?1581073260,Enchantment,Chris Rallis
-Gutterbones,1,2019,1.11,#000000,https://cards.scryfall.io/normal/front/f/6/f6cd598a-f42d-4402-a7f7-c81ad0a87b07.jpg?1566583076,Creature — Skeleton Warrior,Grzegorz Rutkowski
-Hallowed Fountain,0,2019,14.07,#d78f42,https://cards.scryfall.io/normal/front/b/e/be1b2869-b0ba-490f-b207-f6cfe4dfe317.jpg?1570827749,Land — Plains Island,Jedd Chevrier
-Hero of Precinct One,2,2019,0.46,#ffffff,https://cards.scryfall.io/normal/front/1/0/1007842c-27b9-4e0e-a12d-e05d96e9db15.jpg?1570827698,Creature — Human Warrior,Bram Sels
-Hydroid Krasis,2,2019,4.94,#d78f42,https://cards.scryfall.io/normal/front/c/c/cc8309ea-93e0-447c-9d99-e451d087f25a.jpg?1570827690,Creature — Jellyfish Hydra Beast,Jason Felix
-Incubation Druid,2,2019,0.55,#087500,https://cards.scryfall.io/normal/front/c/f/cf10896d-77c4-41b8-9b8a-da65a3b1f32c.jpg?1566583071,Creature — Elf Druid,Daniel Ljunggren
-Judith- the Scourge Diva,3,2019,0.72,#d78f42,https://cards.scryfall.io/normal/front/9/d/9d4873b7-7209-4efb-86f1-9c6276b7257e.jpg?1570827654,Legendary Creature — Human Shaman,Wesley Burt
-Kaya- Orzhov Usurper,3,2019,3.27,#d78f42,https://cards.scryfall.io/normal/front/4/3/43e703f8-d7f2-4f63-831a-18cd119e1f54.jpg?1570827753,Legendary Planeswalker — Kaya,Yongjae Choi
-Kaya's Wrath,4,2019,1.06,#d78f42,https://cards.scryfall.io/normal/front/6/4/6473767e-867d-49de-9bfc-7bbdda5511b6.jpg?1570827675,Sorcery,Victor Adame Minguez
-Mass Manipulation,4,2019,1.44,#341aff,https://cards.scryfall.io/normal/front/b/5/b5115083-0365-4a87-86be-c6d771a116e7.jpg?1581073275,Sorcery,Anthony Palumbo
-Plaza of Harmony,0,2019,1.73,#8c8d8b,https://cards.scryfall.io/normal/front/8/1/81571924-c892-4dcf-9696-cb4858857e15.jpg?1570827650,Land,Jedd Chevrier
-Priest of Forgotten Gods,2,2019,4.17,#000000,https://cards.scryfall.io/normal/front/2/6/26dfe564-3d2d-4d95-aff1-61371bbe4ab2.jpg?1570827743,Creature — Human Cleric,Zack Stella
-Seraph of the Scales,4,2019,2.12,#d78f42,https://cards.scryfall.io/normal/front/2/5/25938792-397a-4e9b-bf89-cc04d82cdea1.jpg?1570827732,Creature — Angel,Magali Villeneuve
-Skarrgan Hellkite,5,2019,1.24,#ff1a1a,https://cards.scryfall.io/normal/front/6/9/69b82c39-3e9c-426b-9742-a7b3295dc195.jpg?1566583067,Creature — Dragon,Svetlin Velinov
-Smothering Tithe,4,2019,23.17,#ffffff,https://cards.scryfall.io/normal/front/9/f/9fcea5a1-6f62-450a-9351-b7e280c5ae60.jpg?1570827683,Enchantment,Mark Behm
-Spawn of Mayhem,4,2019,1.97,#000000,https://cards.scryfall.io/normal/front/b/d/bd86104c-6fad-4e1e-a157-eb0c36314e3e.jpg?1590113401,Creature — Demon,Victor Adame Minguez
-Stomping Ground,0,2019,11.3,#d78f42,https://cards.scryfall.io/normal/front/9/2/92f1bb76-3999-494e-974a-66600fba54e1.jpg?1570827738,Land — Mountain Forest,James Paick
-Teysa Karlov,4,2019,6.56,#d78f42,https://cards.scryfall.io/normal/front/2/4/247de9ae-802f-4f3d-a33e-7bc9af24b8c8.jpg?1570827714,Legendary Creature — Human Advisor,Magali Villeneuve
-Tithe Taker,2,2019,0.82,#ffffff,https://cards.scryfall.io/normal/front/8/4/848d4dae-1e51-446f-bad0-cdf852970486.jpg?1570827724,Creature — Human Soldier,Aaron Miller
-Unbreakable Formation,3,2020,1.43,#ffffff,https://cards.scryfall.io/normal/front/7/7/77846b54-169c-4e27-a478-5a4bd2685b67.jpg?1600998276,Instant,Matt Stewart
+Deputy of Detention,3,2019,0.73,#d78f42,https://cards.scryfall.io/normal/front/0/6/060c2b3c-2671-4ec9-8367-e0d4ca553616.jpg?1570827687,Creature — Vedalken Wizard,G-host Lee
+Electrodominance,2,2019,2.56,#ff1a1a,https://cards.scryfall.io/normal/front/5/e/5ebf3faa-6f31-4f73-abf9-68633af6bf9e.jpg?1570827671,Instant,Dmitry Burmak
+Godless Shrine,0,2019,11.78,#d78f42,https://cards.scryfall.io/normal/front/1/5/15d4eec2-8587-4ec6-aea5-21804a998375.jpg?1570827729,Land — Plains Swamp,Ravenna Tran
+Growth-Chamber Guardian,2,2019,0.24,#087500,https://cards.scryfall.io/normal/front/2/1/213c938d-85dc-494e-96ab-5df2c247a84c.jpg?1570827658,Creature — Elf Crab Warrior,Bram Sels
+Gruul Spellbreaker,3,2019,0.36,#d78f42,https://cards.scryfall.io/normal/front/e/f/efb66fa0-b47c-49e1-8ee0-982f646545ec.jpg?1570827667,Creature — Ogre Warrior,Zoltan Boros
+Guardian Project,4,2019,13.17,#087500,https://cards.scryfall.io/normal/front/a/3/a375e3d3-22f5-416b-ad32-83b6028f7024.jpg?1581073260,Enchantment,Chris Rallis
+Gutterbones,1,2019,0.97,#000000,https://cards.scryfall.io/normal/front/f/6/f6cd598a-f42d-4402-a7f7-c81ad0a87b07.jpg?1566583076,Creature — Skeleton Warrior,Grzegorz Rutkowski
+Hallowed Fountain,0,2019,12.77,#d78f42,https://cards.scryfall.io/normal/front/b/e/be1b2869-b0ba-490f-b207-f6cfe4dfe317.jpg?1570827749,Land — Plains Island,Jedd Chevrier
+Hero of Precinct One,2,2019,0.44,#ffffff,https://cards.scryfall.io/normal/front/1/0/1007842c-27b9-4e0e-a12d-e05d96e9db15.jpg?1570827698,Creature — Human Warrior,Bram Sels
+Hydroid Krasis,2,2019,4.54,#d78f42,https://cards.scryfall.io/normal/front/c/c/cc8309ea-93e0-447c-9d99-e451d087f25a.jpg?1570827690,Creature — Jellyfish Hydra Beast,Jason Felix
+Incubation Druid,2,2019,0.65,#087500,https://cards.scryfall.io/normal/front/c/f/cf10896d-77c4-41b8-9b8a-da65a3b1f32c.jpg?1566583071,Creature — Elf Druid,Daniel Ljunggren
+Judith- the Scourge Diva,3,2019,0.55,#d78f42,https://cards.scryfall.io/normal/front/9/d/9d4873b7-7209-4efb-86f1-9c6276b7257e.jpg?1570827654,Legendary Creature — Human Shaman,Wesley Burt
+Kaya- Orzhov Usurper,3,2019,2.92,#d78f42,https://cards.scryfall.io/normal/front/4/3/43e703f8-d7f2-4f63-831a-18cd119e1f54.jpg?1570827753,Legendary Planeswalker — Kaya,Yongjae Choi
+Kaya's Wrath,4,2019,0.89,#d78f42,https://cards.scryfall.io/normal/front/6/4/6473767e-867d-49de-9bfc-7bbdda5511b6.jpg?1570827675,Sorcery,Victor Adame Minguez
+Mass Manipulation,4,2019,1.43,#341aff,https://cards.scryfall.io/normal/front/b/5/b5115083-0365-4a87-86be-c6d771a116e7.jpg?1581073275,Sorcery,Anthony Palumbo
+Plaza of Harmony,0,2019,2.12,#8c8d8b,https://cards.scryfall.io/normal/front/8/1/81571924-c892-4dcf-9696-cb4858857e15.jpg?1570827650,Land,Jedd Chevrier
+Priest of Forgotten Gods,2,2019,4.05,#000000,https://cards.scryfall.io/normal/front/2/6/26dfe564-3d2d-4d95-aff1-61371bbe4ab2.jpg?1570827743,Creature — Human Cleric,Zack Stella
+Seraph of the Scales,4,2019,2.04,#d78f42,https://cards.scryfall.io/normal/front/2/5/25938792-397a-4e9b-bf89-cc04d82cdea1.jpg?1570827732,Creature — Angel,Magali Villeneuve
+Skarrgan Hellkite,5,2019,1.23,#ff1a1a,https://cards.scryfall.io/normal/front/6/9/69b82c39-3e9c-426b-9742-a7b3295dc195.jpg?1566583067,Creature — Dragon,Svetlin Velinov
+Smothering Tithe,4,2019,24.44,#ffffff,https://cards.scryfall.io/normal/front/9/f/9fcea5a1-6f62-450a-9351-b7e280c5ae60.jpg?1570827683,Enchantment,Mark Behm
+Spawn of Mayhem,4,2019,2.26,#000000,https://cards.scryfall.io/normal/front/b/d/bd86104c-6fad-4e1e-a157-eb0c36314e3e.jpg?1590113401,Creature — Demon,Victor Adame Minguez
+Stomping Ground,0,2019,11.32,#d78f42,https://cards.scryfall.io/normal/front/9/2/92f1bb76-3999-494e-974a-66600fba54e1.jpg?1570827738,Land — Mountain Forest,James Paick
+Teysa Karlov,4,2019,8.78,#d78f42,https://cards.scryfall.io/normal/front/2/4/247de9ae-802f-4f3d-a33e-7bc9af24b8c8.jpg?1570827714,Legendary Creature — Human Advisor,Magali Villeneuve
+Tithe Taker,2,2019,0.83,#ffffff,https://cards.scryfall.io/normal/front/8/4/848d4dae-1e51-446f-bad0-cdf852970486.jpg?1570827724,Creature — Human Soldier,Aaron Miller
+Unbreakable Formation,3,2020,0.81,#ffffff,https://cards.scryfall.io/normal/front/7/7/77846b54-169c-4e27-a478-5a4bd2685b67.jpg?1600998276,Instant,Matt Stewart
