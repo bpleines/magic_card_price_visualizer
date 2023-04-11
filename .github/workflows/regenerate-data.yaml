@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: ./.github/actions/install-pip-requirements
       - name: Regenerate csv data
         run: python generate_data.py
       - name: Add Commit Push
