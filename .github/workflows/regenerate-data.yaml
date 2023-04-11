@@ -12,8 +12,5 @@ jobs:
       - uses: ./.github/actions/install-pip-requirements
       - name: Regenerate csv data
         run: python generate_data.py
-      - name: Add Commit Push
-        run: |
-          git add magic_card_csv_files_by_*
-          git commit -m 'chore(gitops): update data'
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
