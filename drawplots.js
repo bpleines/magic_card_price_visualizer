@@ -12,7 +12,7 @@ var svg = d3.select("#my_dataviz")
               .attr("transform",
                     "translate(" + margin.left + "," + margin.top + ")");
 
-renderScatterplot('DMU')
+renderScatterplot('ONE')
 
 function renderScatterplot(attribute_code, attribute_type='set') {
   // Clean out existing plot and plotted points
