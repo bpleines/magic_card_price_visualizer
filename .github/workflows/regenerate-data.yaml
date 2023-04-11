@@ -1,0 +1,18 @@
+---
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  push:
+    branches: add_scheduled_job
+jobs:
+  regenerate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Regenerate csv data
+        run: python generate_data.py
+      - name: Add Commit Push
+        run: |
+          git add magic_card_csv_files_by_*
+          git commit -m 'chore(gitops): update data'
+          git push
