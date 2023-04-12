@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: fantasy;
+  font-size: 20;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -7,10 +8,9 @@ body {
 p {
   margin: 12px;
   font-size: 30px;
+  font-family: fantasy;
 }
 
 .axis-title {
-  font-size: 20px;
+  font-size: 25px;
 }
-
-.

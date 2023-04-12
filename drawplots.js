@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
+var margin = {top: 10, right: 30, bottom: 60, left: 80},
     width = 1030 - margin.left - margin.right,
     height = 700 - margin.top - margin.bottom;
 
@@ -22,11 +22,11 @@ function renderScatterplot(attribute_code, attribute_type='set') {
     .data(noData)
     .exit()
     .remove();
-  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Mana Cost and Color');
+  document.getElementById("title").innerHTML = 'Magic the Gathering Rares ('.concat(attribute_code).concat(') : Price by Mana Value and Color');
 
   var attribute = (attribute_type === 'set') ? 'set' : 'color'
   var csvFilePath = "https://raw.githubusercontent.com/bpleines/magic_card_price_visualizer/main/magic_card_csv_files_by_".concat(attribute).concat("/").concat(attribute_code).concat(".csv");
-  //Read the data
+  // Read the data
   d3.csv(csvFilePath, function(d) {
       // Convert all str csv values to ints
       d.cmc = +d.cmc;
@@ -37,54 +37,53 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       var max_cmc = d3.max(data, function(d) { return d.cmc + 1; });
       var max_price = d3.max(data, function(d) { return d.price * 1.10; });
 
-      // Add X axis
+      // Create x axis scale
       var x = d3.scaleLinear()
 	.domain([0, max_cmc])
-	.range([ 0, width ]);
-      svg.append("g")
-	.attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+	.range([0, width]);
 
-      // Add Y axis
+      // Create y axis scale
       var y = d3.scaleLinear()
 	.domain([0, max_price])
-	.range([ height, 0]);
-      svg.append("g")
-	.call(d3.axisLeft(y));
+	.range([height, 0]);
 
-      // Labels
-      var xAxisCall = d3.axisBottom(x)
+      // Create x and y axes
+      var xAxisCall = d3.axisBottom(x);
       var xAxis = svg.append("g")
 		   .attr("id", "x-axis")
 		   .attr("class", "x-axis")
 		   .attr("transform", "translate(" + 0 + "," + height + ")")
-		   .call(xAxisCall);
+		   .call(xAxisCall)
+                   .selectAll("text")
+                     .style("font-size", 20);
 
       var yAxisCall = d3.axisLeft(y);
       var yAxis = svg.append("g")
 		   .attr("id", "y-axis")
 		   .attr("class", "y-axis")
-		   .call(yAxisCall);
+		   .call(yAxisCall)
+                   .selectAll("text")
+                     .style("font-size", 20);
 
-      // Add Labels
       d3.select("#my_dataviz")
 	.selectAll("g")
 	.data(data)
 	.transition()
 	.duration(500)
-	.attr("fill", "#000000");;
+	.attr("fill", "#000000");
 
-      xAxis.append("text")
-	   .attr("class", "axis-title")
-	   .attr("transform", "translate(" + width + ", 0)")
-	   .attr("x", -106)
-	   .attr("y", -16)
-	   .text("Mana Value");
-      yAxis.append("text")
-	   .attr("class", "axis-title")
-	   .attr("transform", "rotate(-90)")
-	   .attr("y", 24)
-           .text("Price (USD)");
+      // Add labels
+      svg.append("text")
+         .attr("text-anchor", "end")
+         .attr("x", Math.floor(width / 1.8))
+         .attr("y", height + margin.top + 30)
+         .text("Mana Value");
+      svg.append("text")
+         .attr("text-anchor", "end")
+         .attr("transform", "rotate(-90)")
+         .attr("y", -margin.left + 30)
+         .attr("x", Math.floor(-height / 2.4))
+         .text("Price (USD)")
 
       // Add dots
       var markers = svg.append('g')
