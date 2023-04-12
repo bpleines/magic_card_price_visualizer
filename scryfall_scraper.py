@@ -72,13 +72,18 @@ class ScryfallScraper:
             logging.info(f"Generating csv data for {mtg_color_code}")
             self.generate_local_csv(mtg_color_code)
 
-    def query_card_color_data(self, color_code : str):
-        url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
+    def query_card_data(self, url : str):
         response = requests.get(
             url,
             timeout=self.requests_timeout_seconds
         ).json()
-        card_data = [response.get("data")]
+        # Returning a single element list for set data is unnecessary
+        # Doing it this way unifies design for extract_card_data
+        return [response.get("data")]
+
+    def query_card_color_data(self, color_code : str):
+        url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
+        card_data = self.query_card_data(url)
         page_count = 1
         while response.get('has_more'):
             response = requests.get(
@@ -96,13 +101,7 @@ class ScryfallScraper:
 
     def query_card_set_data(self, set_code : str):
         url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
-        response = requests.get(
-            url,
-            timeout=self.requests_timeout_seconds
-        ).json()
-        # Making card_data a single element list is unnecessary but matches paginated color design
-        # This allows extract_card_data to be identical for each
-        card_data = [response.get("data")]
+        card_data = self.query_card_data(url)
         if not card_data or not card_data[0]:
             logging.warning(f"set_code {set_code} didn't return results")
             return None
