@@ -43,7 +43,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	.range([0, width]);
       svg.append("g")
 	.attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(xscale));
+        .call(d3.axisBottom(xscale));
 
       // Add Y axis
       var yscale = d3.scaleLinear()
@@ -53,7 +53,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	.call(d3.axisLeft(yscale));
 
       // Labels
-      var xAxisCall = d3.axisBottom(xscale)
+      var xAxisCall = d3.axisBottom(xscale);
       var xAxis = svg.append("g")
 		   .attr("id", "x-axis")
 		   .attr("class", "x-axis")
@@ -72,7 +72,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 	.data(data)
 	.transition()
 	.duration(500)
-	.attr("fill", "#000000");;
+	.attr("fill", "#000000");
 
       xAxis.append("text")
 	   .attr("class", "axis-title")
