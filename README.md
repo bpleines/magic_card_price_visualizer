@@ -1,8 +1,10 @@
 # Magic: the Gathering Rare Price Visualizer
 
-This repo contains code used to visualize the price of magic rares by set, color, and year. Data is gathered from scryfall on a best-effort basis.
+This repo contains code used to visualize the price of magic rares by set, color, and year.
 
-Data is scraped using python and translated into csv files to be consumed by [D3.js](https://github.com/d3/d3)
+Data is gathered from [Scryfall](https://scryfall.com/) using python on a best-effort basis.
+
+[D3.js](https://github.com/d3/d3) consumes the generated CSV files and creates the plots.
 
 ## Hosted with Github Pages
 
