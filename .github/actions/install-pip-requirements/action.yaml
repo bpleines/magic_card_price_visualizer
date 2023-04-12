@@ -8,5 +8,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: pip install -r {{ inputs.requirements_file }} --user 
+    - run: pip install -r ${{ inputs.requirements_file }} --user 
       shell: bash
