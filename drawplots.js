@@ -38,29 +38,29 @@ function renderScatterplot(attribute_code, attribute_type='set') {
       var max_price = d3.max(data, function(d) { return d.price * 1.10; });
 
       // Add X axis
-      var x = d3.scaleLinear()
+      var xscale = d3.scaleLinear()
 	.domain([0, max_cmc])
-	.range([ 0, width ]);
+	.range([0, width]);
       svg.append("g")
 	.attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(xscale));
 
       // Add Y axis
-      var y = d3.scaleLinear()
+      var yscale = d3.scaleLinear()
 	.domain([0, max_price])
-	.range([ height, 0]);
+	.range([height, 0]);
       svg.append("g")
-	.call(d3.axisLeft(y));
+	.call(d3.axisLeft(yscale));
 
       // Labels
-      var xAxisCall = d3.axisBottom(x)
+      var xAxisCall = d3.axisBottom(xscale)
       var xAxis = svg.append("g")
 		   .attr("id", "x-axis")
 		   .attr("class", "x-axis")
 		   .attr("transform", "translate(" + 0 + "," + height + ")")
 		   .call(xAxisCall);
 
-      var yAxisCall = d3.axisLeft(y);
+      var yAxisCall = d3.axisLeft(yscale);
       var yAxis = svg.append("g")
 		   .attr("id", "y-axis")
 		   .attr("class", "y-axis")
@@ -93,8 +93,8 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 
       markers.enter()
 	     .append("circle")
-	     .attr("cx", function (d) { return x(d.cmc); } )
-	     .attr("cy", function (d) { return y(d.price); } )
+	     .attr("cx", function (d) { return xscale(d.cmc); } )
+	     .attr("cy", function (d) { return yscale(d.price); } )
 	     .attr("r", 6.0)
 	     .style("fill", function (d) { return d.color; })
 	     .style("stroke", "black")
