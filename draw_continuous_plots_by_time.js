@@ -73,19 +73,17 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set', max_p
              .style("opacity", .75)
              .style("fill", function (d) { return d.color; })
              .style("stroke", "black")
-             .on('mouseover', function (d, i) {
+             .on('mouseover', function (event, d) {
                   d3.select(this).transition()
                       .duration('100')
                       .attr("r", 15.0);
-                  // Add the image to the page when plot point hovered over
-                  console.log("d.image: ".concat(d.image));
-                  console.log("d.color: ".concat(d.color));
+                  // Add the image to the page when plot point is hovered over
                   src = d.image;
                   img = document.createElement("img");
                   img.src = src;
                   document.getElementById("card_picture").appendChild(img);
              })
-             .on('mouseout', function (d, i) {
+             .on('mouseout', function (event, d) {
                  d3.select(this).transition()
                      .duration('200')
                      .attr("r", 3.0);
@@ -109,7 +107,8 @@ function populateTimeseries() {
     .exit()
     .remove();
   // plot in reverse order
-  for (i = mtg_set_codes.length; i > 0; i--) {
+  for (i = mtg_set_codes.length - 1; i >= 0; i--) {
+    console.log(mtg_set_codes[i])
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }
 }
