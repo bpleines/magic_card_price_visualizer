@@ -107,6 +107,7 @@ function populateTimeseries() {
     .exit()
     .remove();
   // plot in reverse order
+  let i;
   for (i = mtg_set_codes.length - 1; i >= 0; i--) {
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }
