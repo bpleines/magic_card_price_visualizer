@@ -90,6 +90,8 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 		       .selectAll("dot")
 		       .data(data);
 
+      let img;
+      let src;
       markers.enter()
 	     .append("circle")
 	     .attr("cx", function (d) { return x(d.cmc); } )

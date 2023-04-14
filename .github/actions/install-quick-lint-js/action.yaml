@@ -1,0 +1,13 @@
+---
+name: install-quick-lint-js
+description: 'Install quick-lint-js'
+runs:
+  using: "composite"
+  steps:
+    - run: |
+        curl https://c.quick-lint-js.com/quick-lint-js-release.key | sudo apt-key add -
+        printf '\n# From: https://quick-lint-js.com/install/cli/debian/\ndeb [arch=amd64] https://c.quick-lint-js.com/debian experimental main\n' | \
+          sudo tee /etc/apt/sources.list.d/quick-lint-js.list
+        sudo apt-get update
+        sudo apt-get install quick-lint-js 
+      shell: bash

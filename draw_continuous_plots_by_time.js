@@ -1,3 +1,18 @@
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 30, bottom: 60, left: 80},
+    width = 1030 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+            .append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+let mtg_set_codes;
 mtg_set_codes = ['BRO', 'DMU', 'SNC', 'NEO', 'VOW', 'MID', 'AFR',
                 'STX', 'KHM', 'ZNR', 'IKO', 'THB', 'ELD', 'WAR', 'RNA', 'GRN', 'DOM', 'RIX',
                 'XLN', 'HOU', 'AKH', 'AER', 'KLD', 'EMN', 'SOI', 'OGW', 'BFZ', 'DTK', 'FRF',
@@ -65,6 +80,8 @@ function renderTimeseriesScatterplot(attribute_code, attribute_type='set', max_p
                        .selectAll("dot")
                        .data(data);
 
+      let img;
+      let src;
       markers.enter()
              .append("circle")
 	     .attr("cx", function (d) { return x(d.release_year); } )
@@ -107,6 +124,7 @@ function populateTimeseries() {
     .exit()
     .remove();
   // plot in reverse order
+  let i;
   for (i = mtg_set_codes.length - 1; i >= 0; i--) {
     renderTimeseriesScatterplot(mtg_set_codes[i]);
   }
