@@ -102,6 +102,8 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 		      .duration('100')
 		      .attr("r", 15);
 		  // Add the image to the page when plot point is hovered over
+                  let img;
+                  let src;
                   src = d.image;
 		  img = document.createElement("img");
 		  img.src = src;
