@@ -9,3 +9,9 @@ jobs:
       - uses: ./.github/actions/install-pip-requirements
       - run: pylint *.py
       - run: pytest test_*.py
+  javascript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/install-quick-lint-js
+      - run: quick-lint-js *.js
