@@ -91,7 +91,7 @@ function renderScatterplot(attribute_code, attribute_type='set') {
 		       .data(data);
 
       let img;
-      let src;
+      let src
       markers.enter()
 	     .append("circle")
 	     .attr("cx", function (d) { return x(d.cmc); } )
