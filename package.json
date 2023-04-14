@@ -1,0 +1,11 @@
+{
+  "name": "magic_card_price_visualizer",
+  "version": "1.0.0",
+  "description": "package file for eslint",
+  "main": "drawplots.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
