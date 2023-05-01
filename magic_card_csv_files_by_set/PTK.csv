@@ -1,6 +1,6 @@
 name,cmc,release_year,price,color,image,type_line,artist
 Ambition's Cost,4,1999,42.47,#000000,https://cards.scryfall.io/normal/front/0/e/0e0b1613-e879-4c28-b27e-f3997b9ebccd.jpg?1562255832,Sorcery,Junko Taguchi
-Balance of Power,5,1999,60.0,#341aff,https://cards.scryfall.io/normal/front/a/e/ae27edb4-424b-4a2f-a588-d3b60c8d78e5.jpg?1562257521,Sorcery,Quan Xuejun
+Balance of Power,5,1999,59.97,#341aff,https://cards.scryfall.io/normal/front/a/e/ae27edb4-424b-4a2f-a588-d3b60c8d78e5.jpg?1562257521,Sorcery,Quan Xuejun
 Borrowing the East Wind,2,1999,170.0,#087500,https://cards.scryfall.io/normal/front/9/6/96ba9014-d750-4924-aa6f-8b9f421807f9.jpg?1562257056,Sorcery,Gao Yan
 Burning of Xinye,6,1999,56.0,#ff1a1a,https://cards.scryfall.io/normal/front/3/3/33a1fe45-52d2-4c50-bedc-eee156ab69c8.jpg?1562256064,Sorcery,Yang Hong
 Cao Cao- Lord of Wei,5,1999,52.36,#000000,https://cards.scryfall.io/normal/front/d/7/d7e5a530-c954-4696-85ce-6afaf7de1808.jpg?1562257983,Legendary Creature — Human Soldier,Gao Jianzhang
@@ -14,13 +14,15 @@ Guan Yu's 1-000-Li March,6,1999,99.99,#ffffff,https://cards.scryfall.io/normal/f
 Guan Yu- Sainted Warrior,5,1999,114.97,#ffffff,https://cards.scryfall.io/normal/front/1/5/1575fadf-cd5c-4b4f-8965-c006e571334b.jpg?1562255842,Legendary Creature — Human Soldier Warrior,Qiao Dafu
 Huang Zhong- Shu General,4,1999,200.0,#ffffff,https://cards.scryfall.io/normal/front/c/0/c079037c-f4cf-423f-ad15-ee57136d6148.jpg?1562257528,Legendary Creature — Human Soldier,Quan Xuejun
 Hua Tuo- Honored Physician,3,1999,123.99,#087500,https://cards.scryfall.io/normal/front/b/e/bee9c02e-f569-43b5-929a-ec04f661f644.jpg?1562257525,Legendary Creature — Human,Gao Jianzhang
+Imperial Seal,1,1999,639.99,#000000,https://cards.scryfall.io/normal/front/8/2/822e30db-40c5-4099-868b-185ad9b7c7dc.jpg?1562257032,Sorcery,Li Tie
+Kongming's Contraptions,4,1999,50.0,#ffffff,https://cards.scryfall.io/normal/front/6/7/6729eb0b-5655-4191-af14-4f7e4a8dded7.jpg?1562256565,Creature — Human Soldier,Jiaming
 Kongming- "Sleeping Dragon",4,1999,50.37,#ffffff,https://cards.scryfall.io/normal/front/f/4/f4ae0a05-1870-4f4a-b8a2-bfb5381acacb.jpg?1562258004,Legendary Creature — Human Advisor,Gao Yan
 Lady Sun,3,1999,218.99,#341aff,https://cards.scryfall.io/normal/front/0/f/0f45e837-7b98-46ef-b21b-e3508ce999e5.jpg?1562255833,Legendary Creature — Human Advisor,Miao Aili
 Lady Zhurong- Warrior Queen,5,1999,206.02,#087500,https://cards.scryfall.io/normal/front/0/0/009661e7-c704-43a1-82e3-7da0b609844e.jpg?1562255446,Legendary Creature — Human Soldier Warrior,Miao Aili
 Liu Bei- Lord of Shu,5,1999,51.26,#ffffff,https://cards.scryfall.io/normal/front/b/8/b804c879-fe23-4d7f-9e7d-1da41b5c0973.jpg?1562257522,Legendary Creature — Human Soldier,Qiao Dafu
 Lu Bu- Master-at-Arms,6,1999,161.88,#ff1a1a,https://cards.scryfall.io/normal/front/0/7/07d60c27-8625-48eb-a3f0-1e26d6930ae7.jpg?1562255826,Legendary Creature — Human Soldier Warrior,Gao Jianzhang
 Lu Meng- Wu General,5,1999,104.5,#341aff,https://cards.scryfall.io/normal/front/7/7/77a8b376-eda5-4bf9-9093-9518c09e50e8.jpg?1562257022,Legendary Creature — Human Soldier,Gao Yan
-Lu Su- Wu Advisor,5,1999,80.0,#341aff,https://cards.scryfall.io/normal/front/9/d/9d361823-31ce-42c4-997d-3d3b52c0599a.jpg?1562257496,Legendary Creature — Human Advisor,Zhao Tan
+Lu Su- Wu Advisor,5,1999,75.0,#341aff,https://cards.scryfall.io/normal/front/9/d/9d361823-31ce-42c4-997d-3d3b52c0599a.jpg?1562257496,Legendary Creature — Human Advisor,Zhao Tan
 Lu Xun- Scholar General,4,1999,27.87,#341aff,https://cards.scryfall.io/normal/front/0/8/0882d4c8-32f1-4d86-b5c5-75a16697004c.jpg?1562255827,Legendary Creature — Human Soldier,Xu Xiaoming
 Ma Chao- Western Warrior,5,1999,175.0,#ff1a1a,https://cards.scryfall.io/normal/front/3/9/39b8cf7f-8c40-40e9-8118-e8626c3c6433.jpg?1562256068,Legendary Creature — Human Soldier Warrior,Koji
 Marshaling the Troops,2,1999,84.93,#087500,https://cards.scryfall.io/normal/front/5/6/56e4df87-7908-4274-a07f-81d42be89f18.jpg?1562256539,Sorcery,Liu Shangying
@@ -35,7 +37,7 @@ Sima Yi- Wei Field Marshal,6,1999,45.23,#000000,https://cards.scryfall.io/normal
 Slashing Tiger,4,1999,138.0,#087500,https://cards.scryfall.io/normal/front/4/f/4fbedd66-457a-4e1c-a9f3-fa37dec81c7a.jpg?1562256093,Creature — Cat,Yang Jun Kwon
 Stone Catapult,5,1999,56.71,#000000,https://cards.scryfall.io/normal/front/6/0/60303bfe-9158-4e25-a905-6522883ab671.jpg?1562256553,Creature — Human Soldier,Shang Huitong
 Sun Ce- Young Conquerer,5,1999,99.0,#341aff,https://cards.scryfall.io/normal/front/1/6/16114a68-58d1-4aad-9b3a-890e9c84b253.jpg?1562255844,Legendary Creature — Human Soldier,Yang Guangmai
-Sun Quan- Lord of Wu,6,1999,137.15,#341aff,https://cards.scryfall.io/normal/front/6/d/6def4492-3f67-4cdb-8a25-c3ddebd125c7.jpg?1562256575,Legendary Creature — Human Soldier,Xu Xiaoming
+Sun Quan- Lord of Wu,6,1999,134.13,#341aff,https://cards.scryfall.io/normal/front/6/d/6def4492-3f67-4cdb-8a25-c3ddebd125c7.jpg?1562256575,Legendary Creature — Human Soldier,Xu Xiaoming
 Taoist Mystic,3,1999,79.9,#087500,https://cards.scryfall.io/normal/front/0/2/023ae64a-7888-4ad2-b879-0649d8e341ac.jpg?1562255815,Creature — Human Mystic,Qu Xin
 Taunting Challenge,3,1999,51.49,#087500,https://cards.scryfall.io/normal/front/4/6/4620867c-a3a6-4c81-b923-24007367132e.jpg?1562256078,Sorcery,Gao Yan
 Warrior's Oath,2,1999,277.5,#ff1a1a,https://cards.scryfall.io/normal/front/d/5/d582861a-ca6e-4b74-adf0-3eb588ea5ed2.jpg?1562257982,Sorcery,Mitsuaki Sagiri
@@ -48,7 +50,7 @@ Zhang Fei- Fierce Warrior,6,1999,239.96,#ffffff,https://cards.scryfall.io/normal
 Zhang He- Wei General,5,1999,184.8,#000000,https://cards.scryfall.io/normal/front/7/3/736e4bf1-fee9-47cc-9bbc-093f21c77297.jpg?1562257017,Legendary Creature — Human Soldier,Jack Wei
 Zhang Liao- Hero of Hefei,6,1999,136.78,#000000,https://cards.scryfall.io/normal/front/8/f/8f42a953-3073-4e74-9bb8-c8c5a45d1dfa.jpg?1562257047,Legendary Creature — Human Soldier,Li Youliang
 Zhao Zilong- Tiger General,5,1999,189.99,#ffffff,https://cards.scryfall.io/normal/front/2/d/2d16cf1d-a7c3-4038-a648-299c1bedae99.jpg?1562256056,Legendary Creature — Human Soldier Warrior,Quan Xuejun
-Zhou Yu- Chief Commander,7,1999,89.99,#341aff,https://cards.scryfall.io/normal/front/6/e/6e2cf83b-417d-41ca-8e65-86aa65180c40.jpg?1562256577,Legendary Creature — Human Soldier,Xu Xiaoming
-Zhuge Jin- Wu Strategist,3,1999,90.3,#341aff,https://cards.scryfall.io/normal/front/6/0/60790b07-53da-41fa-b9e0-e7ce22fdcb11.jpg?1562256554,Legendary Creature — Human Advisor,Song Shikai
+Zhou Yu- Chief Commander,7,1999,85.49,#341aff,https://cards.scryfall.io/normal/front/6/e/6e2cf83b-417d-41ca-8e65-86aa65180c40.jpg?1562256577,Legendary Creature — Human Soldier,Xu Xiaoming
+Zhuge Jin- Wu Strategist,3,1999,75.49,#341aff,https://cards.scryfall.io/normal/front/6/0/60790b07-53da-41fa-b9e0-e7ce22fdcb11.jpg?1562256554,Legendary Creature — Human Advisor,Song Shikai
 Zodiac Dragon,9,1999,215.0,#ff1a1a,https://cards.scryfall.io/normal/front/4/6/46652ae3-6572-4296-939b-0789923180d5.jpg?1562256080,Creature — Dragon,Qi Baocheng
 Zuo Ci- the Mocking Sage,3,1999,146.95,#087500,https://cards.scryfall.io/normal/front/e/3/e3425241-efdc-4261-a2bb-58fbf4a9fe8c.jpg?1562257992,Legendary Creature — Human Advisor,Wang Yuqun
