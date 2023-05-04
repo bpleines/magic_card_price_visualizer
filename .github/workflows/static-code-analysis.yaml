@@ -9,6 +9,7 @@ jobs:
       - uses: ./.github/actions/install-pip-requirements
       - run: pylint *.py
       - run: pytest test_*.py
+      - uses: psf/black@stable
   javascript:
     runs-on: ubuntu-latest
     steps:
