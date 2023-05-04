@@ -9,10 +9,10 @@ class MTGCodes:
     def encode_color(self, color):
         # Handle colorless case
         if len(color) == 0:
-            return '#8c8d8b'
+            return "#8c8d8b"
         # Handle multicolored case
         if len(color) >= 2:
-            return '#d78f42'
+            return "#d78f42"
         color_map = {
             "R": "#ff1a1a",
             "W": "#ffffff",
@@ -25,10 +25,10 @@ class MTGCodes:
     def encode_default_image_for_color(self, color):
         # Handle colorless case
         if len(color) == 0:
-            return 'https://cards.scryfall.io/normal/front/6/9/69b215fe-0d97-4ca1-9490-174220fd454b.jpg?1562916234'
+            return "https://cards.scryfall.io/normal/front/6/9/69b215fe-0d97-4ca1-9490-174220fd454b.jpg?1562916234"
         # Handle multicolored case
         if len(color) >= 2:
-            return 'https://cards.scryfall.io/normal/front/f/4/f410ae1c-02de-423e-a478-e1dea243ef1e.jpg?1619395458'
+            return "https://cards.scryfall.io/normal/front/f/4/f410ae1c-02de-423e-a478-e1dea243ef1e.jpg?1619395458"
         color_map = {
             "R": "https://cards.scryfall.io/normal/front/5/3/53fb7b99-9e47-46a6-9c8a-88e28b5197f1.jpg?1641306121",
             "W": "https://cards.scryfall.io/normal/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1641306232",
@@ -39,7 +39,7 @@ class MTGCodes:
         return color_map[color[0]]
 
     def get_color_codes(self):
-        return ['W', 'U', 'B', 'R', 'G']
+        return ["W", "U", "B", "R", "G"]
 
     def get_set_codes(self):
         url = "https://api.scryfall.com/sets"

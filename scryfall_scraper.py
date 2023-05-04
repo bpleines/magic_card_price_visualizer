@@ -25,9 +25,9 @@ class ScryfallScraper:
                 card_attributes = {}
                 try:
                     # Replace the commas in name to adhere to csv delimeter
-                    card_attributes["name"] = card.get("name").replace(',', '-')
+                    card_attributes["name"] = card.get("name").replace(",", "-")
                     card_attributes["cmc"] = int(card.get("cmc"))
-                    card_attributes["release_year"] = int(card.get("released_at").split('-')[0])
+                    card_attributes["release_year"] = int(card.get("released_at").split("-")[0])
                     card_attributes["price"] = float(card.get("prices").get("usd"))
                     card_attributes["color"] = MTGCodes().encode_color(card.get("color_identity"))
                     card_attributes["type_line"] = card.get("type_line")
@@ -56,8 +56,8 @@ class ScryfallScraper:
         if os.path.exists(csv_file_path):
             os.remove(csv_file_path)
         if cards is not None:
-            with open(csv_file_path, 'a', encoding="utf-8") as local_csv_file:
-                local_csv_file.write('name,cmc,release_year,price,color,image,type_line,artist\n')
+            with open(csv_file_path, "a", encoding="utf-8") as local_csv_file:
+                local_csv_file.write("name,cmc,release_year,price,color,image,type_line,artist\n")
                 for card in cards:
                     # TODO: break out into multiple lines
                     local_csv_file.write(f"{card['name']},{card['cmc']},{card['release_year']},{card['price']},{card['color']},{card['image']},{card['type_line']},{card['artist']}\n")
@@ -80,9 +80,9 @@ class ScryfallScraper:
         ).json()
         card_data = [response.get("data")]
         page_count = 1
-        while response.get('has_more'):
+        while response.get("has_more"):
             response = requests.get(
-                response.get('next_page'),
+                response.get("next_page"),
                 timeout=self.requests_timeout_seconds
             ).json()
             card_data.append(response.get("data"))
