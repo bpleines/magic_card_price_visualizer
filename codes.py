@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import requests
 
+
 class MTGCodes:
     """Class to store set and color codes"""
+
     def __init__(self):
         self.requests_timeout_seconds = 600
 
@@ -18,7 +20,7 @@ class MTGCodes:
             "W": "#ffffff",
             "U": "#341aff",
             "B": "#000000",
-            "G": "#087500"
+            "G": "#087500",
         }
         return color_map[color[0]]
 
@@ -34,7 +36,7 @@ class MTGCodes:
             "W": "https://cards.scryfall.io/normal/front/a/9/a9891b7b-fc52-470c-9f74-292ae665f378.jpg?1641306232",
             "U": "https://cards.scryfall.io/normal/front/a/c/acf7b664-3e75-4018-81f6-2a14ab59f258.jpg?1641306192",
             "B": "https://cards.scryfall.io/normal/front/0/2/02cb5cfd-018e-4c5e-bef1-166262aa5f1d.jpg?1641306156",
-            "G": "https://cards.scryfall.io/normal/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1641306082"
+            "G": "https://cards.scryfall.io/normal/front/3/2/32af9f41-89e2-4e7a-9fec-fffe79cae077.jpg?1641306082",
         }
         return color_map[color[0]]
 
@@ -43,8 +45,7 @@ class MTGCodes:
 
     def get_set_codes(self):
         url = "https://api.scryfall.com/sets"
-        response = requests.get(
-            url,
-            timeout=self.requests_timeout_seconds
-        ).json().get("data")
+        response = (
+            requests.get(url, timeout=self.requests_timeout_seconds).json().get("data")
+        )
         return [set_record["code"].upper() for set_record in response]
