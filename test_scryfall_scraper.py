@@ -10,7 +10,7 @@ class TestScryfallScraper(unittest.TestCase):
         card_data = self.scraper.query_card_set_data("CHK")
         cards = self.scraper.extract_card_data(card_data)
         single_card = cards[0]
-        # This below tests on name confirm delimiter replacement for writing as csv file
+        # The below tests on name confirm safe comma delimiter replacement for csv
         self.assertFalse(
             single_card["name"] == "Akki Lavarunner // Tok-Tok, Volcano Born"
         )
