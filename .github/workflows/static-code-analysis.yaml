@@ -3,6 +3,7 @@ on:
   pull_request:
 jobs:
   python:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -11,6 +12,7 @@ jobs:
       - run: pytest test_*.py
       - uses: psf/black@stable
   javascript:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
