@@ -1,11 +1,49 @@
 name,cmc,release_year,price,color,image,type_line,artist
-Aragorn and Arwen- Wed,6,2023,15.92,#d78f42,https://cards.scryfall.io/normal/front/d/7/d7d4c97a-9319-4534-9a49-da000f41a02d.jpg?1678908124,Legendary Creature — Human Elf Noble,Magali Villeneuve
-Call of the Ring,2,2023,8.45,#000000,https://cards.scryfall.io/normal/front/a/9/a92a2c5a-e450-494a-b23b-7ac0a6c50535.jpg?1683517572,Enchantment,Anato Finnstark
-Frodo- Sauron's Bane,1,2023,22.22,#d78f42,https://cards.scryfall.io/normal/front/7/d/7d86dc2e-6f0c-4714-9d30-5d099d3b895c.jpg?1678818393,Legendary Creature — Halfling Citizen,Dmitry Burmak
-Gandalf the Grey,5,2023,11.88,#d78f42,https://cards.scryfall.io/normal/front/e/2/e2b975e6-e709-481f-bfbc-41a832508283.jpg?1681224987,Legendary Creature — Avatar Wizard,Aaron Miller
-Mount Doom,0,2023,10.8,#d78f42,https://cards.scryfall.io/normal/front/b/5/b5bc71a1-2344-4bc6-aa60-658cec19d0d6.jpg?1678818681,Legendary Land,Jonas De Ro
-Sauron- the Lidless Eye,5,2023,12.15,#d78f42,https://cards.scryfall.io/normal/front/d/8/d82a4c78-d2fc-425a-8d0e-2e64509a08f1.jpg?1678908144,Legendary Creature — Avatar Horror,Yigit Koroglu
-Sauron- the Necromancer,5,2023,5.95,#000000,https://cards.scryfall.io/normal/front/3/7/377d65d8-21c8-4292-97db-610e0173ba59.jpg?1683517577,Legendary Creature — Avatar Horror,Yongjae Choi
-The One Ring,4,2023,61.41,#8c8d8b,https://cards.scryfall.io/normal/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1678812709,Legendary Artifact,Veli Nyström
-The Shire,0,2023,9.42,#087500,https://cards.scryfall.io/normal/front/d/5/d5178a1b-588b-4414-a370-ac6eed51187a.jpg?1678822640,Legendary Land,Jonas De Ro
-Tom Bombadil,5,2023,25.83,#d78f42,https://cards.scryfall.io/normal/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1681225002,Legendary Creature — God Bard,Dmitry Burmak
+Aragorn and Arwen- Wed,6,2023,14.17,#d78f42,https://cards.scryfall.io/normal/front/d/7/d7d4c97a-9319-4534-9a49-da000f41a02d.jpg?1678908124,Legendary Creature — Human Elf Noble,Magali Villeneuve
+Aragorn- the Uniter,4,2023,29.56,#d78f42,https://cards.scryfall.io/normal/front/e/9/e98d5321-ec09-456c-a9ea-c8ca2cfc6205.jpg?1685650779,Legendary Creature — Human Noble,Javier Charro
+Barad-dûr,0,2023,6.75,#000000,https://cards.scryfall.io/normal/front/e/b/eb5038af-06b0-401e-8dea-a1a8483788ae.jpg?1685492920,Legendary Land,Sean Vo
+Boromir- Warden of the Tower,3,2023,9.57,#ffffff,https://cards.scryfall.io/normal/front/f/6/f6bc3720-2892-4dda-8f30-079a1ac8e1e2.jpg?1685492864,Legendary Creature — Human Soldier,Yigit Koroglu
+Call of the Ring,2,2023,6.58,#000000,https://cards.scryfall.io/normal/front/a/9/a92a2c5a-e450-494a-b23b-7ac0a6c50535.jpg?1683517572,Enchantment,Anato Finnstark
+Delighted Halfling,1,2023,14.02,#087500,https://cards.scryfall.io/normal/front/7/1/71384418-173a-4f77-adab-56e52fa23692.jpg?1685356425,Creature — Halfling Citizen,Inka Schulz
+Display of Power,3,2023,7.03,#ff1a1a,https://cards.scryfall.io/normal/front/2/9/295b8595-5b4e-4fc8-8249-486d36e15f67.jpg?1685637092,Instant,Shahab Alizadeh
+Doors of Durin,5,2023,8.27,#d78f42,https://cards.scryfall.io/normal/front/8/e/8ebd8813-4aaf-48bf-9243-3ec4099b8372.jpg?1685501714,Legendary Artifact,Marc Simonetti
+Éomer- Marshal of Rohan,4,2023,4.37,#ff1a1a,https://cards.scryfall.io/normal/front/0/b/0bd31ce9-9551-4efe-8bd2-b97d8efbf75e.jpg?1685477943,Legendary Creature — Human Knight,Jesper Ejsing
+Éowyn- Fearless Knight,4,2023,5.85,#d78f42,https://cards.scryfall.io/normal/front/a/d/adffb389-c9a3-41c4-b078-292a2bcf870d.jpg?1685493038,Legendary Creature — Human Knight,Magali Villeneuve
+Fall of Gil-galad,2,2023,0.68,#087500,https://cards.scryfall.io/normal/front/f/b/fbaab2c0-ea18-4b2f-b75b-506cbbea97e1.jpg?1685579128,Enchantment — Saga,Craig Elliott
+Forge Anew,3,2023,12.84,#ffffff,https://cards.scryfall.io/normal/front/5/6/56274b88-6e3f-4538-bb0c-eb5e52a58ef3.jpg?1685543706,Enchantment,Craig J Spearing
+Frodo- Determined Hero,2,2023,15.67,#ffffff,https://cards.scryfall.io/normal/front/2/2/226694d7-ba9b-4e79-b45a-634769815e74.jpg?1685476212,Legendary Creature — Halfling Warrior,Magali Villeneuve
+Frodo- Sauron's Bane,1,2023,15.17,#d78f42,https://cards.scryfall.io/normal/front/7/d/7d86dc2e-6f0c-4714-9d30-5d099d3b895c.jpg?1685465607,Legendary Creature — Halfling Citizen,Dmitry Burmak
+Gandalf the Grey,5,2023,7.19,#d78f42,https://cards.scryfall.io/normal/front/e/2/e2b975e6-e709-481f-bfbc-41a832508283.jpg?1681224987,Legendary Creature — Avatar Wizard,Aaron Miller
+Gandalf the White,5,2023,38.46,#ffffff,https://cards.scryfall.io/normal/front/e/3/e384c20b-d0c1-4781-9d11-e89e5a6bf3fc.jpg?1685492879,Legendary Creature — Avatar Wizard,Magali Villeneuve
+Gandalf- White Rider,4,2023,12.08,#ffffff,https://cards.scryfall.io/normal/front/1/8/187807bc-0058-49a1-9a67-01019c5440c2.jpg?1685638900,Legendary Creature — Avatar Wizard,Ekaterina Burmak
+Gimli- Mournful Avenger,3,2023,6.53,#d78f42,https://cards.scryfall.io/normal/front/d/f/df4be38c-3f93-4ff4-bff4-94753b96f2f3.jpg?1685467473,Legendary Creature — Dwarf Warrior,Bartlomiej Gawel
+Hew the Entwood,5,2023,3.14,#ff1a1a,https://cards.scryfall.io/normal/front/8/1/81940498-a5bf-4bcd-b06d-8816887b2a2b.jpg?1685468626,Sorcery,Manuel Castañón
+Horn of Gondor,3,2023,5.97,#8c8d8b,https://cards.scryfall.io/normal/front/b/1/b14eaeec-d7ce-462a-90d3-2ae5ff605fdb.jpg?1685636627,Legendary Artifact,Yigit Koroglu
+Last March of the Ents,8,2023,17.14,#087500,https://cards.scryfall.io/normal/front/7/f/7f1b99e0-ffb7-4f98-8ee5-4357bb79dd2e.jpg?1685466382,Sorcery,John Tedrick
+Legolas- Master Archer,3,2023,6.03,#087500,https://cards.scryfall.io/normal/front/a/9/a9405577-c1dc-48e0-b2aa-6237c569d02e.jpg?1685467343,Legendary Creature — Elf Archer,Campbell White
+Lobelia Sackville-Baggins,3,2023,7.25,#000000,https://cards.scryfall.io/normal/front/8/7/87500b92-3d68-42f3-afa9-f8206b2ebcbb.jpg?1685355875,Legendary Creature — Halfling Citizen,Hristo D. Chukov
+Lotho- Corrupt Shirriff,2,2023,7.76,#d78f42,https://cards.scryfall.io/normal/front/c/e/ce01ff8f-a037-484f-9148-c847ffaabc5a.jpg?1685791370,Legendary Creature — Halfling Rogue,Ilker Yildiz
+Merry- Esquire of Rohan,2,2023,2.62,#d78f42,https://cards.scryfall.io/normal/front/b/7/b7c5fe73-1684-4edc-9f9b-976b2246d5ea.jpg?1685493057,Legendary Creature — Halfling Knight,Tomas Duchek
+Minas Tirith,0,2023,18.64,#ffffff,https://cards.scryfall.io/normal/front/b/3/b38b6760-616f-4b11-8ce7-ac1223c7fd53.jpg?1685492693,Legendary Land,
+Mines of Moria,0,2023,9.24,#ff1a1a,https://cards.scryfall.io/normal/front/0/b/0be723d6-4ada-4c3f-b87b-8ab83a4bbb8f.jpg?1685649317,Legendary Land,Arthur Yuan
+Moria Marauder,2,2023,17.1,#ff1a1a,https://cards.scryfall.io/normal/front/f/3/f33d5394-2248-4654-bec5-33b144752586.jpg?1685636675,Creature — Goblin Warrior,Andrea Piparo
+Mount Doom,0,2023,5.1,#d78f42,https://cards.scryfall.io/normal/front/b/5/b5bc71a1-2344-4bc6-aa60-658cec19d0d6.jpg?1678818681,Legendary Land,Jonas De Ro
+One Ring to Rule Them All,4,2023,7.54,#000000,https://cards.scryfall.io/normal/front/b/b/bb2dc2e0-f393-4442-818b-d3b860bfffd0.jpg?1685473483,Enchantment — Saga,L J Koh
+Orcish Bowmasters,2,2023,23.94,#000000,https://cards.scryfall.io/normal/front/7/c/7c024bae-5631-4e20-ac69-df392ac9e109.jpg?1685467551,Creature — Orc Archer,Maxim Kostin
+Pippin- Guard of the Citadel,2,2023,8.97,#d78f42,https://cards.scryfall.io/normal/front/0/8/08b7a4d8-1183-430e-8ea4-016844f33200.jpg?1685466542,Legendary Creature — Halfling Soldier,Bartlomiej Gawel
+Press the Enemy,4,2023,2.99,#341aff,https://cards.scryfall.io/normal/front/d/f/dfa5380a-480c-4c61-ac52-5debc49c5df9.jpg?1685708694,Instant,Valera Lutfullina
+Samwise Gamgee,2,2023,9.12,#d78f42,https://cards.scryfall.io/normal/front/a/1/a1b6f13e-63d0-46bf-aa57-23c2dbdf62dd.jpg?1685476386,Legendary Creature — Halfling Peasant,Ekaterina Burmak
+Saruman of Many Colors,6,2023,29.82,#d78f42,https://cards.scryfall.io/normal/front/8/c/8cfcc7ec-87a2-4712-8d82-217bd8600891.jpg?1685468487,Legendary Creature — Avatar Wizard,Alexander Mokhov
+Sauron- the Dark Lord,6,2023,29.07,#d78f42,https://cards.scryfall.io/normal/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1685467091,Legendary Creature — Avatar Horror,Kieran Yanner
+Sauron- the Lidless Eye,5,2023,9.25,#d78f42,https://cards.scryfall.io/normal/front/d/8/d82a4c78-d2fc-425a-8d0e-2e64509a08f1.jpg?1678908144,Legendary Creature — Avatar Horror,Yigit Koroglu
+Sauron- the Necromancer,5,2023,4.87,#000000,https://cards.scryfall.io/normal/front/3/7/377d65d8-21c8-4292-97db-610e0173ba59.jpg?1683517577,Legendary Creature — Avatar Horror,Yongjae Choi
+Shadow of the Enemy,6,2023,13.9,#000000,https://cards.scryfall.io/normal/front/e/4/e47cab70-55cb-481c-b4cd-32a41251f210.jpg?1685469645,Sorcery,Shahab Alizadeh
+Storm of Saruman,6,2023,19.74,#341aff,https://cards.scryfall.io/normal/front/5/2/52884e67-c742-4799-9afd-55bc70b2cf40.jpg?1685468540,Enchantment,Lorenzo Lanfranconi
+The Balrog- Flame of Udûn,5,2023,1.9,#d78f42,https://cards.scryfall.io/normal/front/4/2/42c33afe-24fe-4aff-b30a-f4370815dfd6.jpg?1685475822,Legendary Creature — Avatar Demon,John Tedrick
+The One Ring,4,2023,64.16,#8c8d8b,https://cards.scryfall.io/normal/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1678812709,Legendary Artifact,Veli Nyström
+There and Back Again,5,2023,15.65,#ff1a1a,https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1685636494,Enchantment — Saga,Jarel Threat
+The Shire,0,2023,7.67,#087500,https://cards.scryfall.io/normal/front/d/5/d5178a1b-588b-4414-a370-ac6eed51187a.jpg?1678822640,Legendary Land,Jonas De Ro
+Tom Bombadil,5,2023,22.49,#d78f42,https://cards.scryfall.io/normal/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1681225002,Legendary Creature — God Bard,Dmitry Burmak
+War of the Last Alliance,4,2023,3.99,#ffffff,https://cards.scryfall.io/normal/front/6/0/60ddf2cd-5b33-4c8a-a610-8e6a15404dde.jpg?1685695295,Enchantment — Saga,Alexander Forssberg
+Witch-king- Bringer of Ruin,6,2023,7.29,#000000,https://cards.scryfall.io/normal/front/5/c/5c0305f6-a0c6-4197-9aa6-789fa855cb17.jpg?1685476681,Legendary Creature — Wraith Noble,Denman Rooke
+Witch-king of Angmar,5,2023,22.18,#000000,https://cards.scryfall.io/normal/front/a/5/a55e6508-0b59-4573-bc4e-67b27279cfed.jpg?1685467586,Legendary Creature — Wraith Noble,Anato Finnstark
