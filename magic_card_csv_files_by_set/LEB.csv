@@ -1,11 +1,11 @@
 name,cmc,release_year,price,color,image,type_line,artist
 Animate Wall,1,1993,56.0,#ffffff,https://cards.scryfall.io/normal/front/5/c/5c5b4738-20bb-465d-b67e-c6146dce9d0b.jpg?1559591879,Enchantment — Aura,Dan Frazier
-Ankh of Mishra,2,1993,428.69,#8c8d8b,https://cards.scryfall.io/normal/front/a/0/a0367e54-eb07-475a-b06b-f869a046a86c.jpg?1559591874,Artifact,Amy Weber
 Armageddon,4,1993,600.0,#ffffff,https://cards.scryfall.io/normal/front/0/2/02c4edfa-7822-40bc-88d1-d051b3a64df1.jpg?1559591653,Sorcery,Jesper Myrfors
+Braingeyser,2,1993,600.0,#341aff,https://cards.scryfall.io/normal/front/a/5/a5dd8dbb-9538-4786-b20c-0ea2f446f323.jpg?1559591641,Sorcery,Mark Tedin
 Clockwork Beast,6,1993,180.5,#8c8d8b,https://cards.scryfall.io/normal/front/6/c/6c6efe95-ae57-4ff1-8f8a-0d6f3bd36d9c.jpg?1559591845,Artifact Creature — Beast,Drew Tucker
 Copy Artifact,2,1993,244.0,#341aff,https://cards.scryfall.io/normal/front/e/2/e24fe07d-1328-4165-b7a0-622b60cec481.jpg?1559591837,Enchantment,Amy Weber
 Cyclopean Tomb,4,1993,373.73,#8c8d8b,https://cards.scryfall.io/normal/front/0/0/00775f44-fbe6-41ee-9977-d13d1fb5b6fb.jpg?1559591832,Artifact,Anson Maddocks
-Deathlace,1,1993,46.2,#000000,https://cards.scryfall.io/normal/front/e/1/e16fc59a-17da-462a-86ea-31f8a9ac18a1.jpg?1559591826,Instant,Sandra Everingham
+Deathlace,1,1993,49.04,#000000,https://cards.scryfall.io/normal/front/e/1/e16fc59a-17da-462a-86ea-31f8a9ac18a1.jpg?1559591826,Instant,Sandra Everingham
 Demonic Attorney,3,1993,89.99,#000000,https://cards.scryfall.io/normal/front/6/0/60f37eac-e8fa-48d3-b936-74461ea1853c.jpg?1559591577,Sorcery,Daniel Gelon
 Demonic Hordes,6,1993,199.99,#000000,https://cards.scryfall.io/normal/front/d/c/dc20c19b-7216-4f23-a3bb-70d4dcd3865e.jpg?1559591825,Creature — Demon,Jesper Myrfors
 Dingus Egg,4,1993,130.97,#8c8d8b,https://cards.scryfall.io/normal/front/f/e/fe8ecaee-0de3-45ee-8428-09dc400d63d8.jpg?1559591640,Artifact,Dan Frazier
@@ -13,7 +13,7 @@ Disrupting Scepter,3,1993,190.0,#8c8d8b,https://cards.scryfall.io/normal/front/a
 Drain Power,2,1993,57.0,#341aff,https://cards.scryfall.io/normal/front/9/6/9672caeb-5cf8-4b40-a371-005c911a67d9.jpg?1559591511,Sorcery,Douglas Shuler
 Elvish Archers,2,1993,499.0,#087500,https://cards.scryfall.io/normal/front/c/3/c3240d5e-b3d4-4368-b09b-c309bc935152.jpg?1559591814,Creature — Elf Archer,Anson Maddocks
 Goblin King,3,1993,499.99,#ff1a1a,https://cards.scryfall.io/normal/front/6/5/65705a8d-6bb1-4289-b8b0-8546ccc478dc.jpg?1559591921,Creature — Goblin,Jesper Myrfors
-Granite Gargoyle,3,1993,199.99,#ff1a1a,https://cards.scryfall.io/normal/front/a/f/affb57f4-273a-425c-a1b3-d0a5407f43d5.jpg?1587915314,Creature — Gargoyle,Christopher Rush
+Granite Gargoyle,3,1993,225.0,#ff1a1a,https://cards.scryfall.io/normal/front/a/f/affb57f4-273a-425c-a1b3-d0a5407f43d5.jpg?1587915314,Creature — Gargoyle,Christopher Rush
 Jade Monolith,4,1993,0.44,#8c8d8b,https://cards.scryfall.io/normal/front/e/e/eeea32ba-dfe4-4a9b-b403-43c2abc80b78.jpg?1559591768,Artifact,Anson Maddocks
 Kormus Bell,4,1993,194.92,#8c8d8b,https://cards.scryfall.io/normal/front/0/c/0cd2a4f9-8f80-4ee3-8068-73e686d6eeb9.jpg?1559591584,Artifact,Christopher Rush
 Lich,4,1993,144.5,#000000,https://cards.scryfall.io/normal/front/e/5/e5a9c089-0aad-4c14-9bfc-c0b39c976777.jpg?1559591649,Enchantment,Daniel Gelon
@@ -23,8 +23,9 @@ Living Lands,4,1993,107.96,#087500,https://cards.scryfall.io/normal/front/f/1/f1
 Lord of Atlantis,2,1993,441.54,#341aff,https://cards.scryfall.io/normal/front/2/7/27d7ac1f-2243-4c70-95a4-2b7343c8d92d.jpg?1559591759,Creature — Merfolk,Melissa A. Benson
 Lord of the Pit,7,1993,305.52,#000000,https://cards.scryfall.io/normal/front/2/4/24626988-81df-44c9-9a8e-ecb9f82c383b.jpg?1559591757,Creature — Demon,Mark Tedin
 Magical Hack,1,1993,96.87,#341aff,https://cards.scryfall.io/normal/front/0/a/0aa81390-4e0b-484b-a5be-a9449cd41860.jpg?1559591883,Instant,Julie Baroh
-Mahamoti Djinn,6,1993,254.99,#341aff,https://cards.scryfall.io/normal/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1559591611,Creature — Djinn,Dan Frazier
+Mahamoti Djinn,6,1993,650.92,#341aff,https://cards.scryfall.io/normal/front/0/8/083f76c8-3e6d-4de5-b408-2f2394faed5c.jpg?1559591611,Creature — Djinn,Dan Frazier
 Manabarbs,4,1993,154.1,#ff1a1a,https://cards.scryfall.io/normal/front/7/c/7c01cae0-4d61-4bf7-a145-82d9bb11d816.jpg?1559591506,Enchantment,Christopher Rush
+Mana Vault,1,1993,1599.99,#8c8d8b,https://cards.scryfall.io/normal/front/a/1/a11f55e8-7f86-4ca9-b737-9a920d9cf282.jpg?1559591911,Artifact,Mark Tedin
 Meekstone,1,1993,424.99,#8c8d8b,https://cards.scryfall.io/normal/front/7/4/74b22007-9def-4c0f-921c-555483cc3deb.jpg?1559591910,Artifact,Quinton Hoover
 Mind Twist,1,1993,1699.99,#000000,https://cards.scryfall.io/normal/front/0/c/0cb6cbbe-c3e9-4d14-a6b8-fb74e6a02b33.jpg?1559591663,Sorcery,Julie Baroh
 Nether Shadow,2,1993,305.08,#000000,https://cards.scryfall.io/normal/front/3/8/38396ae3-a48f-44c7-96bf-ea41b5aaeebc.jpg?1559591746,Creature — Spirit,Christopher Rush
@@ -33,12 +34,14 @@ Plateau,0,1993,2199.99,#d78f42,https://cards.scryfall.io/normal/front/f/a/fad0bb
 Purelace,1,1993,32.32,#ffffff,https://cards.scryfall.io/normal/front/a/f/af11986e-42bd-4f54-8624-7b34b1783a40.jpg?1559591904,Instant,Sandra Everingham
 Raging River,2,1993,311.99,#ff1a1a,https://cards.scryfall.io/normal/front/c/1/c14746bb-aa00-4be2-9740-d87f976296d2.jpg?1559591532,Enchantment,Sandra Everingham
 Reverse Damage,3,1993,106.99,#ffffff,https://cards.scryfall.io/normal/front/4/6/46cf22e4-cc5c-4723-a9cb-ae7ce7a55a1a.jpg?1559591533,Instant,Dameon Willich
+Rock Hydra,2,1993,230.57,#ff1a1a,https://cards.scryfall.io/normal/front/c/1/c17a982d-466d-4fec-b85a-a44161e5dad5.jpg?1559591536,Creature — Hydra,Jeff A. Menges
 Savannah Lions,1,1993,499.99,#ffffff,https://cards.scryfall.io/normal/front/6/7/67d1945d-d228-4dc3-a593-859408b2016b.jpg?1559591503,Creature — Cat,Daniel Gelon
 Sleight of Mind,1,1993,100.0,#341aff,https://cards.scryfall.io/normal/front/f/b/fb4da609-6c08-4a18-b7d9-fb2f9b11bab2.jpg?1559591541,Instant,Mark Poole
 Two-Headed Giant of Foriys,5,1993,349.99,#ff1a1a,https://cards.scryfall.io/normal/front/3/0/30fcbb16-f8e7-4f6e-a806-541ef54aa025.jpg?1559591491,Creature — Giant,Anson Maddocks
 Underground Sea,0,1993,5999.97,#d78f42,https://cards.scryfall.io/normal/front/5/e/5e91ce41-053e-4203-8860-49cbf854cc18.jpg?1559591493,Land — Island Swamp,Rob Alexander
 Veteran Bodyguard,5,1993,87.99,#ffffff,https://cards.scryfall.io/normal/front/d/8/d8d888b7-26e2-465d-b5ee-bb2f2af5c621.jpg?1559591695,Creature — Human,Douglas Shuler
-Volcanic Eruption,3,1993,145.0,#341aff,https://cards.scryfall.io/normal/front/c/a/ca669988-e009-4b3e-af20-ee5885554d34.jpg?1559591565,Sorcery,Douglas Shuler
-Warp Artifact,2,1993,99.99,#000000,https://cards.scryfall.io/normal/front/4/a/4a289787-2d30-4e0b-ac97-3767818d0387.jpg?1559591685,Enchantment — Aura,Amy Weber
+Volcanic Eruption,3,1993,120.5,#341aff,https://cards.scryfall.io/normal/front/c/a/ca669988-e009-4b3e-af20-ee5885554d34.jpg?1559591565,Sorcery,Douglas Shuler
+Warp Artifact,2,1993,97.96,#000000,https://cards.scryfall.io/normal/front/4/a/4a289787-2d30-4e0b-ac97-3767818d0387.jpg?1559591685,Enchantment — Aura,Amy Weber
 Will-o'-the-Wisp,1,1993,599.99,#000000,https://cards.scryfall.io/normal/front/4/b/4b60630c-f97c-43be-8410-53a68613b735.jpg?1587914922,Creature — Spirit,Jesper Myrfors
 Winter Orb,2,1993,499.99,#8c8d8b,https://cards.scryfall.io/normal/front/8/4/847de6a4-a268-492e-a4d2-5b12237bc130.jpg?1559591888,Artifact,Mark Tedin
+Word of Command,2,1993,430.0,#000000,https://cards.scryfall.io/normal/front/7/d/7d37b529-8a41-4177-abef-614f363e69d1.jpg?1559591683,Instant,Jesper Myrfors
