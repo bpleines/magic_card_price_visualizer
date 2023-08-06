@@ -1,21 +1,21 @@
 name,cmc,release_year,price,color,image,type_line,artist
-Abundant Harvest,1,2021,0.19,#087500,https://cards.scryfall.io/normal/front/1/6/16782095-0b7f-4489-8a97-b74f8efef352.jpg?1662752631,Sorcery,Barbara Rosiak
+Abundant Harvest,1,2021,0.18,#087500,https://cards.scryfall.io/normal/front/1/6/16782095-0b7f-4489-8a97-b74f8efef352.jpg?1662752631,Sorcery,Barbara Rosiak
 Approach of the Second Sun,7,2021,2.84,#ffffff,https://cards.scryfall.io/normal/front/e/0/e0d18742-d661-4223-8880-9ed995379b2e.jpg?1630544626,Sorcery,Minttu Hynninen
 Blue Sun's Zenith,3,2021,3.69,#341aff,https://cards.scryfall.io/normal/front/3/c/3cad77b5-94eb-4715-9fc1-75c45c28e83a.jpg?1623592164,Instant,Dominik Mayer
 Brainstorm,1,2021,3.02,#341aff,https://cards.scryfall.io/normal/front/1/1/11d27509-07c2-4445-a1d5-e56523fb8566.jpg?1623592140,Instant,Justin Hernandez & Alexis Hernandez
 Channel,2,2021,0.28,#087500,https://cards.scryfall.io/normal/front/0/e/0e07a16f-d836-40f9-85e3-a78582a97109.jpg?1623961562,Sorcery,Kristina Collantes
 Chaos Warp,3,2021,3.71,#ff1a1a,https://cards.scryfall.io/normal/front/6/d/6d0a3996-5a03-481b-9bda-15c6f6e5f9c4.jpg?1623890270,Instant,Anato Finnstark
 Compulsive Research,3,2021,0.18,#341aff,https://cards.scryfall.io/normal/front/0/f/0f578fbf-c3c7-4407-9fda-3c13b165798c.jpg?1623592096,Sorcery,Kristina Collantes
-Counterspell,2,2021,3.23,#341aff,https://cards.scryfall.io/normal/front/f/f/ffdf9d2a-c163-43df-9a2f-20b8749c86ae.jpg?1631491044,Instant,Olena Richards
+Counterspell,2,2021,3.04,#341aff,https://cards.scryfall.io/normal/front/f/f/ffdf9d2a-c163-43df-9a2f-20b8749c86ae.jpg?1631491044,Instant,Olena Richards
 Crux of Fate,5,2021,3.0,#000000,https://cards.scryfall.io/normal/front/f/3/f3ccea48-ee90-4da8-832d-8c30c98bf1dd.jpg?1623779891,Sorcery,Jason Felix
 Dark Ritual,1,2021,4.54,#000000,https://cards.scryfall.io/normal/front/6/f/6fc57076-cac4-4f5e-956b-e3d77bd258b2.jpg?1623779929,Instant,Robbie Trevino
 Day of Judgment,4,2021,1.92,#ffffff,https://cards.scryfall.io/normal/front/5/b/5bf85d00-52cc-4594-b4fd-5ec424210524.jpg?1623592427,Sorcery,Anato Finnstark
-Demonic Tutor,2,2021,38.52,#000000,https://cards.scryfall.io/normal/front/3/0/3009ba46-c9f8-46dc-8ffc-2aa4cef7b17c.jpg?1623779988,Sorcery,Anato Finnstark
+Demonic Tutor,2,2021,38.74,#000000,https://cards.scryfall.io/normal/front/3/0/3009ba46-c9f8-46dc-8ffc-2aa4cef7b17c.jpg?1623779988,Sorcery,Anato Finnstark
 Despark,2,2021,0.57,#d78f42,https://cards.scryfall.io/normal/front/c/2/c2743ca3-8b4a-429a-9f9b-090d632b6601.jpg?1624065650,Instant,Mark Tedin
 Doom Blade,2,2021,0.22,#000000,https://cards.scryfall.io/normal/front/7/e/7e6c0fe2-a82b-42cb-8629-b9f00b7f08e9.jpg?1623780045,Instant,Matthew G. Lewis
 Electrolyze,3,2021,0.13,#d78f42,https://cards.scryfall.io/normal/front/0/8/08a4d142-b98b-4027-94cb-314f67fb1d4a.jpg?1624065675,Instant,Dominik Mayer
 Ephemerate,1,2021,2.86,#ffffff,https://cards.scryfall.io/normal/front/7/b/7be5092f-cd24-4aea-824e-67b9767019b2.jpg?1623592356,Instant,Rovina Cai
-Faithless Looting,1,2021,1.18,#ff1a1a,https://cards.scryfall.io/normal/front/b/4/b429172f-2182-49dd-b6f6-e5e09493628d.jpg?1623890140,Sorcery,Carly Mazur
+Faithless Looting,1,2021,1.39,#ff1a1a,https://cards.scryfall.io/normal/front/b/4/b429172f-2182-49dd-b6f6-e5e09493628d.jpg?1623890140,Sorcery,Carly Mazur
 Gift of Estates,2,2021,0.94,#ffffff,https://cards.scryfall.io/normal/front/0/7/07bc15bf-1923-45d7-988f-9a4adf3982ee.jpg?1623592313,Sorcery,Justin Hernandez & Alexis Hernandez
 Gods Willing,1,2021,0.24,#ffffff,https://cards.scryfall.io/normal/front/5/7/57e547cd-eba4-4a75-9c4e-8eeb6e00ddc4.jpg?1623592334,Instant,Dominik Mayer
 Grapeshot,2,2021,0.46,#ff1a1a,https://cards.scryfall.io/normal/front/b/9/b99b45df-9602-4037-a695-09decb5f21d7.jpg?1623890288,Sorcery,Minttu Hynninen
@@ -36,7 +36,7 @@ Putrefy,3,2021,0.55,#d78f42,https://cards.scryfall.io/normal/front/3/8/3882ebea-
 Regrowth,2,2021,0.61,#087500,https://cards.scryfall.io/normal/front/a/f/af727601-5251-48b6-b5e3-b68ca0608bc9.jpg?1624065572,Sorcery,Minttu Hynninen
 Sign in Blood,2,2021,2.35,#000000,https://cards.scryfall.io/normal/front/0/e/0ef84fcc-7685-41e5-bcd0-25b974ce570f.jpg?1623780322,Sorcery,Minttu Hynninen
 Stone Rain,3,2021,0.11,#ff1a1a,https://cards.scryfall.io/normal/front/f/6/f60687e5-9384-4453-833e-2c76f25bfac5.jpg?1623945725,Sorcery,Justin Hernandez & Alexis Hernandez
-Swords to Plowshares,1,2021,1.88,#ffffff,https://cards.scryfall.io/normal/front/c/c/cc9ece2f-7eda-4fc5-a562-3e16e71560e9.jpg?1623592209,Instant,Mark Tedin
+Swords to Plowshares,1,2021,2.51,#ffffff,https://cards.scryfall.io/normal/front/c/c/cc9ece2f-7eda-4fc5-a562-3e16e71560e9.jpg?1623592209,Instant,Mark Tedin
 Tainted Pact,2,2021,9.66,#000000,https://cards.scryfall.io/normal/front/4/c/4c92756f-1dc2-49be-bb38-0f8cf10079fa.jpg?1623780343,Instant,Benjamin Ee
 Teferi's Protection,3,2021,25.01,#ffffff,https://cards.scryfall.io/normal/front/2/8/28e21c8c-5ad1-4830-8621-f0fd6500ca79.jpg?1623592186,Instant,Minttu Hynninen
 Tendrils of Agony,4,2021,0.24,#000000,https://cards.scryfall.io/normal/front/6/5/659d0ca7-90c9-473a-8b46-4fe40351b57d.jpg?1623780370,Sorcery,Rovina Cai

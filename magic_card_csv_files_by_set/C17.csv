@@ -1,13 +1,13 @@
 name,cmc,release_year,price,color,image,type_line,artist
 Abundance,4,2017,0.62,#087500,https://cards.scryfall.io/normal/front/7/f/7f3fff7e-f34d-4a99-a805-bd66c4e9f0cb.jpg?1562614406,Enchantment,Rebecca Guay
-Alms Collector,4,2017,4.76,#ffffff,https://cards.scryfall.io/normal/front/9/f/9fe88f96-fd3a-44e5-aa05-3bc63581e33d.jpg?1562618485,Creature — Cat Cleric,Bram Sels
+Alms Collector,4,2017,4.72,#ffffff,https://cards.scryfall.io/normal/front/9/f/9fe88f96-fd3a-44e5-aa05-3bc63581e33d.jpg?1562618485,Creature — Cat Cleric,Bram Sels
 Anowon- the Ruin Sage,5,2017,0.48,#000000,https://cards.scryfall.io/normal/front/e/3/e3631ede-7703-4e84-aec0-b4880fdb3685.jpg?1562626865,Legendary Creature — Vampire Shaman,Dan Scott
 Apprentice Necromancer,2,2017,1.33,#000000,https://cards.scryfall.io/normal/front/d/4/d4a7670c-173e-40c4-9896-f4f08dc970fb.jpg?1562624807,Creature — Zombie Wizard,Randy Vargas
 Arcanis the Omnipotent,6,2017,0.65,#341aff,https://cards.scryfall.io/normal/front/e/7/e7a7941b-68bf-48b1-a5ed-2013068b486c.jpg?1562627407,Legendary Creature — Wizard,Justin Sweet
 Argentum Armor,6,2017,0.64,#8c8d8b,https://cards.scryfall.io/normal/front/d/2/d2d72bc2-92c4-4525-b89f-25aa236fade8.jpg?1562624713,Artifact — Equipment,Matt Cavotta
 Atarka- World Render,7,2017,0.62,#d78f42,https://cards.scryfall.io/normal/front/e/7/e748dfb3-7250-450a-8895-741908b6016b.jpg?1562627392,Legendary Creature — Dragon,Karl Kopinski
 Azami- Lady of Scrolls,5,2017,0.82,#341aff,https://cards.scryfall.io/normal/front/0/a/0ad06ad7-0545-4c6f-9b10-4a27fa2e827c.jpg?1562599546,Legendary Creature — Human Wizard,Ittoku
-Balan- Wandering Knight,4,2017,6.17,#ffffff,https://cards.scryfall.io/normal/front/5/d/5d0b279c-9a6d-4a56-878e-0ebf3f609f65.jpg?1562609840,Legendary Creature — Cat Knight,Svetlin Velinov
+Balan- Wandering Knight,4,2017,5.87,#ffffff,https://cards.scryfall.io/normal/front/5/d/5d0b279c-9a6d-4a56-878e-0ebf3f609f65.jpg?1562609840,Legendary Creature — Cat Knight,Svetlin Velinov
 Black Market,5,2017,2.58,#000000,https://cards.scryfall.io/normal/front/7/7/779f87b6-b99c-4eb1-a43e-af275b9ef3b1.jpg?1562613081,Enchantment,Jeff Easley
 Blade of the Bloodchief,1,2017,2.99,#8c8d8b,https://cards.scryfall.io/normal/front/0/c/0c80fbef-ad13-4ff1-92ae-f8363ed5c6ab.jpg?1562599625,Artifact — Equipment,Jung Park
 Bladewing the Risen,7,2017,1.2,#d78f42,https://cards.scryfall.io/normal/front/2/b/2b7c8404-cff9-4973-9716-60249dde389c.jpg?1562603231,Legendary Creature — Zombie Dragon,Kev Walker
@@ -35,8 +35,8 @@ Crux of Fate,5,2017,2.43,#000000,https://cards.scryfall.io/normal/front/1/1/1172
 Damnable Pact,2,2017,0.22,#000000,https://cards.scryfall.io/normal/front/0/8/0817c5fa-acd9-4fed-ab8b-06750a8817b0.jpg?1562599113,Sorcery,Zack Stella
 Dark Impostor,3,2017,0.24,#000000,https://cards.scryfall.io/normal/front/7/8/78e79bbf-9b18-44d2-ae57-1559cdb38bc5.jpg?1562613487,Creature — Vampire Assassin,Johannes Voss
 Deathbringer Regent,7,2017,0.25,#000000,https://cards.scryfall.io/normal/front/6/3/63616933-bd19-4f74-abe0-52665a333dc4.jpg?1562610392,Creature — Dragon,Adam Paquette
-Decree of Pain,8,2017,1.12,#000000,https://cards.scryfall.io/normal/front/5/b/5bf22183-e12c-4358-b34c-52cfc098226f.jpg?1562609454,Sorcery,Mathias Kollros
-Disrupt Decorum,4,2017,0.98,#ff1a1a,https://cards.scryfall.io/normal/front/3/9/397de47f-02e8-4ccd-8de0-a37971cab3b0.jpg?1562605280,Sorcery,Sidharth Chaturvedi
+Decree of Pain,8,2017,1.08,#000000,https://cards.scryfall.io/normal/front/5/b/5bf22183-e12c-4358-b34c-52cfc098226f.jpg?1562609454,Sorcery,Mathias Kollros
+Disrupt Decorum,4,2017,0.96,#ff1a1a,https://cards.scryfall.io/normal/front/3/9/397de47f-02e8-4ccd-8de0-a37971cab3b0.jpg?1562605280,Sorcery,Sidharth Chaturvedi
 Divine Reckoning,4,2017,0.5,#ffffff,https://cards.scryfall.io/normal/front/8/a/8ac97124-eac7-49f9-b221-301a59d2c360.jpg?1562615891,Sorcery,Greg Staples
 Door of Destinies,4,2017,9.51,#8c8d8b,https://cards.scryfall.io/normal/front/7/5/75fd3fea-158a-4575-84a8-879ee9404242.jpg?1562612984,Artifact,Larry MacDougall
 Dragon Tempest,2,2017,4.13,#ff1a1a,https://cards.scryfall.io/normal/front/a/c/ac9a03b8-7ba2-476b-864f-c248df900379.jpg?1562619798,Enchantment,Willian Murai
@@ -44,7 +44,7 @@ Drana- Kalastria Bloodchief,5,2017,0.35,#000000,https://cards.scryfall.io/normal
 Dromoka- the Eternal,5,2017,0.35,#d78f42,https://cards.scryfall.io/normal/front/b/8/b8db6ab8-cd12-431a-bf18-28464cf03509.jpg?1562621631,Legendary Creature — Dragon,Eric Deschamps
 Earthquake,1,2017,1.15,#ff1a1a,https://cards.scryfall.io/normal/front/6/4/64a35c3a-c1cb-44b4-ae74-3482ef9d6d4b.jpg?1562610773,Sorcery,Adrian Smith
 Etherium-Horn Sorcerer,6,2017,0.19,#d78f42,https://cards.scryfall.io/normal/front/7/3/732d0770-fc8a-4319-8219-8d68b1a39af0.jpg?1562612504,Artifact Creature — Minotaur Wizard,Franz Vohwinkel
-Exotic Orchard,0,2017,0.27,#8c8d8b,https://cards.scryfall.io/normal/front/2/3/236e40f8-ea7b-4c3f-b23e-81aed45b5375.jpg?1562602264,Land,Steven Belledin
+Exotic Orchard,0,2017,0.31,#8c8d8b,https://cards.scryfall.io/normal/front/2/3/236e40f8-ea7b-4c3f-b23e-81aed45b5375.jpg?1562602264,Land,Steven Belledin
 Fell the Mighty,5,2017,0.35,#ffffff,https://cards.scryfall.io/normal/front/0/7/0741e122-e538-4e0b-bdf4-c21b47d27b5c.jpg?1562599039,Sorcery,Raymond Swanland
 Fist of Suns,3,2017,2.89,#d78f42,https://cards.scryfall.io/normal/front/2/a/2a499b65-8a7e-4fbc-a09b-826b8454d857.jpg?1562603201,Artifact,Arnie Swekel
 Fleecemane Lion,2,2017,0.31,#d78f42,https://cards.scryfall.io/normal/front/e/5/e5c834ad-14d4-4c2f-88d3-a6a892299c4c.jpg?1562626967,Creature — Cat,Slawomir Maniak
@@ -53,7 +53,7 @@ Fractured Identity,5,2017,4.91,#d78f42,https://cards.scryfall.io/normal/front/b/
 Frontier Siege,4,2017,0.43,#087500,https://cards.scryfall.io/normal/front/5/e/5e7ee5ff-eabc-4947-b5fe-2647c7e2eb82.jpg?1562609900,Enchantment,James Ryman
 Galecaster Colossus,7,2017,2.33,#341aff,https://cards.scryfall.io/normal/front/9/e/9e57f6be-44d0-4823-a130-b79dbd025994.jpg?1562618073,Creature — Giant Wizard,Darek Zabrocki
 Grappling Hook,4,2017,0.71,#8c8d8b,https://cards.scryfall.io/normal/front/a/c/acfbfddd-1535-477d-8bf4-5afd2648ac81.jpg?1562620144,Artifact — Equipment,Philip Straub
-Hammer of Nazahn,4,2017,19.56,#8c8d8b,https://cards.scryfall.io/normal/front/f/a/fa055f1f-be94-4682-8e4f-f022c95e6d58.jpg?1562629785,Legendary Artifact — Equipment,Victor Adame Minguez
+Hammer of Nazahn,4,2017,17.58,#8c8d8b,https://cards.scryfall.io/normal/front/f/a/fa055f1f-be94-4682-8e4f-f022c95e6d58.jpg?1562629785,Legendary Artifact — Equipment,Victor Adame Minguez
 Harbinger of the Tides,2,2017,0.33,#341aff,https://cards.scryfall.io/normal/front/e/3/e3b983ce-1161-42f1-88de-36c45a4598ab.jpg?1562626884,Creature — Merfolk Wizard,Svetlin Velinov
 Havengul Lich,5,2017,1.51,#d78f42,https://cards.scryfall.io/normal/front/e/c/ecbeb845-a7b7-4020-b28a-61f83e78dcc2.jpg?1562627953,Creature — Zombie Wizard,James Ryman
 Haven of the Spirit Dragon,0,2017,1.68,#8c8d8b,https://cards.scryfall.io/normal/front/d/4/d4ba8429-6712-45a3-8cb7-7afd65aa9406.jpg?1562624811,Land,Raymond Swanland
@@ -65,12 +65,12 @@ Izzet Chemister,3,2017,0.13,#ff1a1a,https://cards.scryfall.io/normal/front/d/d/d
 Jareth- Leonine Titan,6,2017,0.37,#ffffff,https://cards.scryfall.io/normal/front/a/2/a2d609fd-d401-4731-886d-e6ff8abf75f5.jpg?1562618963,Legendary Creature — Cat Giant,Daren Bader
 Jazal Goldmane,4,2017,0.66,#ffffff,https://cards.scryfall.io/normal/front/2/2/22641d54-f16c-417d-b6e0-a77e8f56e31c.jpg?1562602219,Legendary Creature — Cat Warrior,Aaron Miller
 Jedit Ojanen of Efrava,6,2017,0.75,#087500,https://cards.scryfall.io/normal/front/a/b/aba23c7b-27c0-440b-b9b2-f1cd3892ba7b.jpg?1562619778,Legendary Creature — Cat Warrior,Carl Critchlow
-Kemba- Kha Regent,3,2017,0.27,#ffffff,https://cards.scryfall.io/normal/front/4/8/4876ec2f-6c54-41df-8a7b-9c33d952ff12.jpg?1562607203,Legendary Creature — Cat Cleric,Todd Lockwood
+Kemba- Kha Regent,3,2017,0.26,#ffffff,https://cards.scryfall.io/normal/front/4/8/4876ec2f-6c54-41df-8a7b-9c33d952ff12.jpg?1562607203,Legendary Creature — Cat Cleric,Todd Lockwood
 Kheru Mind-Eater,3,2017,0.94,#000000,https://cards.scryfall.io/normal/front/e/6/e6246cf3-76bd-476b-9cd9-789b6ad48887.jpg?1562626991,Creature — Vampire,Igor Kieryluk
 Kindred Boon,4,2017,2.83,#ffffff,https://cards.scryfall.io/normal/front/3/b/3b09c3dc-94ed-4d9d-8c5f-51169200de45.jpg?1562605325,Enchantment,McLean Kendree
 Kindred Charge,6,2017,4.66,#ff1a1a,https://cards.scryfall.io/normal/front/3/e/3e7dc7f0-ba05-4a13-b8e0-7f536fbf0f34.jpg?1562605798,Sorcery,Dan Scott
 Kindred Discovery,5,2017,10.5,#341aff,https://cards.scryfall.io/normal/front/e/d/ed07b7be-bd3d-4dbc-bc92-b5478d3604c6.jpg?1562628299,Enchantment,Lake Hurwitz
-Kindred Dominance,7,2017,29.13,#000000,https://cards.scryfall.io/normal/front/9/7/9794115a-5509-4d9a-b119-d2b61942e87b.jpg?1562617149,Sorcery,Bram Sels
+Kindred Dominance,7,2017,28.69,#000000,https://cards.scryfall.io/normal/front/9/7/9794115a-5509-4d9a-b119-d2b61942e87b.jpg?1562617149,Sorcery,Bram Sels
 Kindred Summons,7,2017,6.53,#087500,https://cards.scryfall.io/normal/front/2/1/2138a618-8ee7-4965-b597-d3e6339a3a6f.jpg?1562602162,Instant,Ryan Pancoast
 Kolaghan- the Storm's Fury,5,2017,0.64,#d78f42,https://cards.scryfall.io/normal/front/8/5/85b6ec91-0ecc-431c-bf85-220c615e0a80.jpg?1562615351,Legendary Creature — Dragon,Jaime Jones
 Leonin Arbiter,2,2017,0.54,#ffffff,https://cards.scryfall.io/normal/front/8/5/85431851-36c6-4515-8000-d0b9a268b4c9.jpg?1562614989,Creature — Cat Cleric,Shelly Wan
@@ -87,7 +87,7 @@ Monastery Siege,3,2017,0.93,#341aff,https://cards.scryfall.io/normal/front/3/2/3
 Mosswort Bridge,0,2017,0.39,#087500,https://cards.scryfall.io/normal/front/f/1/f1bc3755-054d-4037-aea2-7376c0b865c8.jpg?1562628783,Land,Jeremy Jarvis
 Mystifying Maze,0,2017,0.88,#8c8d8b,https://cards.scryfall.io/normal/front/f/a/faeeb2f8-0aa1-4f3e-848d-f4233996055b.jpg?1562629830,Land,Robh Ruppel
 Necromantic Selection,7,2017,0.54,#000000,https://cards.scryfall.io/normal/front/8/4/8497160f-08b0-40f8-a185-d6de8c24a9f7.jpg?1562614958,Sorcery,Dave Kendall
-Nevinyrral's Disk,4,2017,0.52,#8c8d8b,https://cards.scryfall.io/normal/front/9/c/9c79e497-656e-40f5-8a32-2ec5541915ad.jpg?1562617642,Artifact,Steve Argyle
+Nevinyrral's Disk,4,2017,0.53,#8c8d8b,https://cards.scryfall.io/normal/front/9/c/9c79e497-656e-40f5-8a32-2ec5541915ad.jpg?1562617642,Artifact,Steve Argyle
 New Blood,4,2017,8.75,#000000,https://cards.scryfall.io/normal/front/f/6/f6b44503-7978-4c9e-a8a1-fd38c76d3545.jpg?1562629320,Sorcery,Howard Lyon
 Nin- the Pain Artist,2,2017,0.33,#d78f42,https://cards.scryfall.io/normal/front/0/0/005ad65e-cf0b-48e9-a314-2ebba5a1400c.jpg?1562598065,Legendary Creature — Vedalken Wizard,Brad Rigney
 Niv-Mizzet- Dracogenius,6,2017,0.92,#d78f42,https://cards.scryfall.io/normal/front/1/b/1b1c4bed-9b6b-42f9-939d-ece0f959a0a3.jpg?1562601531,Legendary Creature — Dragon Wizard,Todd Lockwood
@@ -124,13 +124,13 @@ Spelltwine,6,2017,0.27,#341aff,https://cards.scryfall.io/normal/front/a/b/ab3332
 Spirit of the Hearth,6,2017,0.24,#ffffff,https://cards.scryfall.io/normal/front/9/3/93fb7e08-ff15-49b9-bed8-0faadfa8338f.jpg?1562617051,Creature — Cat Spirit,Jason Chan
 Staff of Nin,6,2017,2.0,#8c8d8b,https://cards.scryfall.io/normal/front/f/b/fbf0923e-8b40-4777-be42-d5b908676ea9.jpg?1562629877,Artifact,Dan Scott
 Stalking Leonin,3,2017,0.22,#ffffff,https://cards.scryfall.io/normal/front/f/b/fb103c2d-d766-473e-a2d2-3eb75a3ad052.jpg?1562629838,Creature — Cat Archer,Zoltan Boros
-Steel Hellkite,6,2017,0.42,#8c8d8b,https://cards.scryfall.io/normal/front/8/1/818df697-88f8-4359-9b0d-754363110514.jpg?1562614512,Artifact Creature — Dragon,James Paick
+Steel Hellkite,6,2017,0.41,#8c8d8b,https://cards.scryfall.io/normal/front/8/1/818df697-88f8-4359-9b0d-754363110514.jpg?1562614512,Artifact Creature — Dragon,James Paick
 Stirring Wildwood,0,2017,0.51,#d78f42,https://cards.scryfall.io/normal/front/9/9/999b3016-2893-4d94-bcac-dfeac5290d93.jpg?1562617532,Land,Eric Deschamps
 Sunscorch Regent,5,2017,0.71,#ffffff,https://cards.scryfall.io/normal/front/2/7/27c4da08-3f62-4945-9cf0-44749002fa6c.jpg?1562603126,Creature — Dragon,Matt Stewart
-Sword of the Animist,2,2017,9.04,#8c8d8b,https://cards.scryfall.io/normal/front/6/b/6b3a3944-c3e6-4710-a509-7f970cd692a2.jpg?1562611742,Legendary Artifact — Equipment,Daniel Ljunggren
+Sword of the Animist,2,2017,8.87,#8c8d8b,https://cards.scryfall.io/normal/front/6/b/6b3a3944-c3e6-4710-a509-7f970cd692a2.jpg?1562611742,Legendary Artifact — Equipment,Daniel Ljunggren
 Sword of Vengeance,3,2017,0.52,#8c8d8b,https://cards.scryfall.io/normal/front/4/e/4e094012-27d8-4d71-94c5-d8b20609621c.jpg?1562608160,Artifact — Equipment,Dan Scott
 Taigam- Ojutai Master,4,2017,4.08,#d78f42,https://cards.scryfall.io/normal/front/b/4/b47e2781-544f-442c-98d0-43b9d91bab03.jpg?1562621099,Legendary Creature — Human Monk,Simon Dominic
-Taigam- Sidisi's Hand,5,2017,0.3,#d78f42,https://cards.scryfall.io/normal/front/5/b/5bb846f1-9857-418d-abc9-03dfd3c10d32.jpg?1562609444,Legendary Creature — Human Wizard,Simon Dominic
+Taigam- Sidisi's Hand,5,2017,0.31,#d78f42,https://cards.scryfall.io/normal/front/5/b/5bb846f1-9857-418d-abc9-03dfd3c10d32.jpg?1562609444,Legendary Creature — Human Wizard,Simon Dominic
 Teferi's Protection,3,2017,20.59,#ffffff,https://cards.scryfall.io/normal/front/7/7/77f130c7-0138-4a1a-9f67-62d2c302dc48.jpg?1579814165,Instant,Chase Stone
 Teneb- the Harvester,6,2017,0.42,#d78f42,https://cards.scryfall.io/normal/front/b/4/b4b4cb9d-eb4b-47c6-969c-5868490207fb.jpg?1562621109,Legendary Creature — Dragon,Zoltan Boros & Gabor Szikszai
 Territorial Hellkite,4,2017,0.53,#ff1a1a,https://cards.scryfall.io/normal/front/3/c/3c44e5c2-fddb-47cb-825f-c57b49f181ba.jpg?1562605356,Creature — Dragon,Jonas De Ro
@@ -140,7 +140,7 @@ Underworld Connections,3,2017,0.29,#000000,https://cards.scryfall.io/normal/fron
 Utvara Hellkite,8,2017,9.12,#ff1a1a,https://cards.scryfall.io/normal/front/3/3/33f6914d-808f-4502-a87a-70912d7ae6e8.jpg?1562604627,Creature — Dragon,Mark Zug
 Vein Drinker,6,2017,0.23,#d78f42,https://cards.scryfall.io/normal/front/2/5/25ad3372-51cb-4b82-a23c-81938b7c01b6.jpg?1562602686,Creature — Vampire,Lars Grant-West
 Vela the Night-Clad,6,2017,0.58,#d78f42,https://cards.scryfall.io/normal/front/6/1/610737cd-d1ef-49c0-8010-988320ed64d5.jpg?1562610304,Legendary Creature — Human Wizard,Allen Williams
-Vindictive Lich,4,2017,2.48,#000000,https://cards.scryfall.io/normal/front/3/2/3227d983-e0c5-4dbd-aaff-fb9265199a82.jpg?1562604184,Creature — Zombie Wizard,Toma Feizo Gas
+Vindictive Lich,4,2017,2.52,#000000,https://cards.scryfall.io/normal/front/3/2/3227d983-e0c5-4dbd-aaff-fb9265199a82.jpg?1562604184,Creature — Zombie Wizard,Toma Feizo Gas
 Wasitora- Nekoru Queen,5,2017,0.3,#d78f42,https://cards.scryfall.io/normal/front/f/b/fb17f2bf-bd38-40da-a226-65f4c905d9e1.jpg?1562629842,Legendary Creature — Cat Dragon,Cynthia Sheppard
 Well of Lost Dreams,4,2017,0.62,#8c8d8b,https://cards.scryfall.io/normal/front/2/6/26bbf680-cfdc-4d8f-93fc-5ffa15042191.jpg?1562602728,Artifact,Jeff Miracola
 White Sun's Zenith,3,2017,0.32,#ffffff,https://cards.scryfall.io/normal/front/c/e/cebb57f0-8401-4429-b2b4-bed37ff9ce6d.jpg?1562624220,Instant,Mike Bierek
