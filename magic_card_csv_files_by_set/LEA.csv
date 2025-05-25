@@ -1,13 +1,20 @@
 name,cmc,release_year,price,color,image,type_line,artist
-Copy Artifact,2,1993,1825.0,#341aff,https://cards.scryfall.io/normal/front/f/d/fd5ed955-1193-4e6a-a3e2-f54c1f9bf063.jpg?1559591569,Enchantment,Amy Weber
-Dingus Egg,4,1993,0.1,#8c8d8b,https://cards.scryfall.io/normal/front/6/5/65eb6cda-e512-40a8-9c1f-335b713409ff.jpg?1559591600,Artifact,Dan Frazier
-Farmstead,3,1993,150.0,#ffffff,https://cards.scryfall.io/normal/front/3/4/3455b006-9ea5-4aef-8ad2-d0701eb0cacf.jpg?1559591597,Enchantment — Aura,Mark Poole
-Fork,2,1993,200.0,#ff1a1a,https://cards.scryfall.io/normal/front/e/6/e6b43916-fe2d-417a-a550-d7c795023297.jpg?1559591585,Instant,Amy Weber
-Lord of the Pit,7,1993,999.99,#000000,https://cards.scryfall.io/normal/front/2/9/2926777a-4f6e-4965-ba83-22cf7df02602.jpg?1559591307,Creature — Demon,Mark Tedin
-Nevinyrral's Disk,4,1993,1049.0,#8c8d8b,https://cards.scryfall.io/normal/front/1/2/12926dc8-8e6f-4a47-a12b-4d674189615a.jpg?1559591487,Artifact,Mark Tedin
-Pirate Ship,5,1993,380.0,#341aff,https://cards.scryfall.io/normal/front/d/0/d0a7cb23-d229-43c5-addd-dcf423984b0c.jpg?1559591349,Creature — Human Pirate,Tom Wänerstrand
-Timber Wolves,1,1993,399.99,#087500,https://cards.scryfall.io/normal/front/b/c/bc2570a4-eef9-430d-b6c2-cd51d29b9d01.jpg?1559591447,Creature — Wolf,Melissa A. Benson
-Timetwister,3,1993,0.15,#341aff,https://cards.scryfall.io/normal/front/9/a/9a49dc44-616e-4bdd-8220-0bb71eccc512.jpg?1559591443,Sorcery,Mark Tedin
-Two-Headed Giant of Foriys,5,1993,259.46,#ff1a1a,https://cards.scryfall.io/normal/front/3/1/31c687dc-ee0c-4e54-a2b3-5d8e633b3245.jpg?1559591539,Creature — Giant,Anson Maddocks
-Vesuvan Doppelganger,5,1993,49.49,#341aff,https://cards.scryfall.io/normal/front/7/6/768f3a05-bd06-4a23-b9f2-94f6e618fd9f.jpg?1559591338,Creature — Shapeshifter,Quinton Hoover
-Zombie Master,3,1993,392.5,#000000,https://cards.scryfall.io/normal/front/3/d/3d4255a0-d445-4c00-b936-bbf07851e1c8.jpg?1559591430,Creature — Zombie,Jeff A. Menges
+Armageddon,4,1993,1157.46,#ffffff,https://cards.scryfall.io/normal/front/5/b/5b6ddce7-b9c5-431d-a0b0-46d4aa93cbcb.jpg?1559591324,Sorcery,Jesper Myrfors
+Copy Artifact,2,1993,2000.0,#341aff,https://cards.scryfall.io/normal/front/f/d/fd5ed955-1193-4e6a-a3e2-f54c1f9bf063.jpg?1559591569,Enchantment,Amy Weber
+Fungusaur,4,1993,289.69,#087500,https://cards.scryfall.io/normal/front/5/a/5ad89f0d-b09b-40a0-84d6-3ee60dec7e23.jpg?1559591468,Creature — Fungus Dinosaur,Daniel Gelon
+Gaea's Liege,6,1993,299.26,#087500,https://cards.scryfall.io/normal/front/e/2/e2b15221-c8b0-4861-9f8b-8a65834ad499.jpg?1559591575,Creature — Avatar,Dameon Willich
+Goblin King,3,1993,1499.99,#ff1a1a,https://cards.scryfall.io/normal/front/5/8/5873672d-37ea-4c0f-97f3-12b74fde112d.jpg?1559591689,Creature — Goblin,Jesper Myrfors
+Jayemdae Tome,4,1993,600.0,#8c8d8b,https://cards.scryfall.io/normal/front/c/a/cac8c421-5b92-481d-b2de-560c0231ab58.jpg?1559591654,Artifact,Mark Tedin
+Living Artifact,1,1993,220.8,#087500,https://cards.scryfall.io/normal/front/c/9/c9e753a2-a7d0-4d37-ae65-b5a1b5039a6e.jpg?1559591422,Enchantment — Aura,Anson Maddocks
+Magical Hack,1,1993,600.0,#341aff,https://cards.scryfall.io/normal/front/2/b/2bd4202c-0477-45aa-82fd-83c85d6d4bef.jpg?1559591642,Instant,Julie Baroh
+Manabarbs,4,1993,449.99,#ff1a1a,https://cards.scryfall.io/normal/front/6/1/6121f72f-680f-4bb4-ae4d-37ee4ebed4d8.jpg?1559591535,Enchantment,Christopher Rush
+Nightmare,6,1993,796.06,#000000,https://cards.scryfall.io/normal/front/b/8/b8cdd6a7-f772-4ccb-914f-63f52ed54d6b.jpg?1559591333,Creature — Nightmare Horse,Melissa A. Benson
+Raging River,2,1993,1450.0,#ff1a1a,https://cards.scryfall.io/normal/front/6/1/61e4f56d-1f4f-49f2-8534-0d09196a3327.jpg?1559591409,Enchantment,Sandra Everingham
+Sedge Troll,3,1993,399.99,#d78f42,https://cards.scryfall.io/normal/front/b/1/b13bf496-f3c0-4c13-8282-e7abfab6a198.jpg?1696547163,Creature — Troll,Dan Frazier
+Stasis,2,1993,1145.89,#341aff,https://cards.scryfall.io/normal/front/b/6/b6cef408-5b4b-49f6-9531-be544815b93f.jpg?1559591484,Enchantment,Fay Jones
+Sunglasses of Urza,3,1993,320.62,#8c8d8b,https://cards.scryfall.io/normal/front/c/0/c0d433a4-76c0-4f27-836d-4c0c13a511fb.jpg?1559591448,Artifact,Dan Frazier
+The Hive,5,1993,100.5,#8c8d8b,https://cards.scryfall.io/normal/front/5/4/544a7138-eae8-4ff9-9e17-680bfa717183.jpg?1559591637,Artifact,Sandra Everingham
+Thoughtlace,1,1993,140.0,#341aff,https://cards.scryfall.io/normal/front/2/3/23749375-1416-47a4-9251-52f41fe2fae9.jpg?1559591638,Instant,Mark Poole
+Verduran Enchantress,3,1993,850.0,#087500,https://cards.scryfall.io/normal/front/9/f/9f87178b-1221-4d7a-a7a5-20d7f01b8089.jpg?1559591314,Creature — Human Druid,Kev Brockschmidt
+Warp Artifact,2,1993,205.0,#000000,https://cards.scryfall.io/normal/front/9/e/9e5e07a2-fbdf-4c4c-996a-fce40bab5de5.jpg?1559591435,Enchantment — Aura,Amy Weber
+Zombie Master,3,1993,209.3,#000000,https://cards.scryfall.io/normal/front/3/d/3d4255a0-d445-4c00-b936-bbf07851e1c8.jpg?1559591430,Creature — Zombie,Jeff A. Menges
