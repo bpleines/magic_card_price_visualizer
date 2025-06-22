@@ -1,5 +1,4 @@
 name,cmc,release_year,price,color,image,type_line,artist
-Animate Wall,1,1993,10.22,#ffffff,https://cards.scryfall.io/normal/front/e/5/e5bcf08f-6cf0-432d-a77a-b98e59008a29.jpg?1559591912,Enchantment — Aura,Dan Frazier
 Ankh of Mishra,2,1993,20.0,#8c8d8b,https://cards.scryfall.io/normal/front/1/b/1bc25f70-c64f-475e-8529-1631bdd3d7dc.jpg?1559591806,Artifact,Amy Weber
 Armageddon,4,1993,22.34,#ffffff,https://cards.scryfall.io/normal/front/7/b/7b9b83e0-0a89-4003-9b0f-fd83e48c2ae9.jpg?1559591676,Sorcery,Jesper Myrfors
 Balance,2,1993,20.0,#ffffff,https://cards.scryfall.io/normal/front/b/8/b8db74fa-56a7-4ae3-ba5f-3156b2829f78.jpg?1559591550,Sorcery,Mark Poole
@@ -16,7 +15,6 @@ Deathlace,1,1993,3.24,#000000,https://cards.scryfall.io/normal/front/e/3/e3adf23
 Demonic Attorney,3,1993,17.86,#000000,https://cards.scryfall.io/normal/front/0/6/060d3514-84de-49a5-a921-d6a88e3c3fa7.jpg?1559591922,Sorcery,Daniel Gelon
 Demonic Hordes,6,1993,11.03,#000000,https://cards.scryfall.io/normal/front/0/4/046980da-f32c-4102-8da9-df96e9e6d0bc.jpg?1559591866,Creature — Demon,Jesper Myrfors
 Dingus Egg,4,1993,3.91,#8c8d8b,https://cards.scryfall.io/normal/front/0/4/049909a4-6b56-423d-baf6-209d06dfa1db.jpg?1559591921,Artifact,Dan Frazier
-Disrupting Scepter,3,1993,16.99,#8c8d8b,https://cards.scryfall.io/normal/front/5/b/5b61d695-5594-4885-abe1-8a7a548f8f12.jpg?1559591673,Artifact,Dan Frazier
 Drain Power,2,1993,1.07,#341aff,https://cards.scryfall.io/normal/front/e/5/e5e5c722-f247-4101-912d-74f3afec1ca8.jpg?1559591908,Sorcery,Douglas Shuler
 Earthquake,1,1993,13.92,#ff1a1a,https://cards.scryfall.io/normal/front/1/b/1b5a1955-c186-4cce-ade0-3179682323b6.jpg?1559591892,Sorcery,Dan Frazier
 Elvish Archers,2,1993,7.55,#087500,https://cards.scryfall.io/normal/front/3/2/326f0ba3-1013-4956-b793-43b5af5693f3.jpg?1559591702,Creature — Elf Archer,Anson Maddocks
@@ -48,7 +46,7 @@ Mox Jet,0,1993,699.99,#000000,https://cards.scryfall.io/normal/front/1/d/1d806fe
 Mox Pearl,0,1993,699.99,#ffffff,https://cards.scryfall.io/normal/front/6/1/618a52ac-9f2a-4bce-93ad-c76717b4fc59.jpg?1559591498,Artifact,Dan Frazier
 Mox Ruby,0,1993,650.0,#ff1a1a,https://cards.scryfall.io/normal/front/e/f/ef30dc5e-7bc3-447b-a8c3-98362c597d97.jpg?1559591499,Artifact,Dan Frazier
 Nevinyrral's Disk,4,1993,30.69,#8c8d8b,https://cards.scryfall.io/normal/front/2/9/29f3a58b-4c1f-4c23-918b-11a13e34927c.jpg?1559591615,Artifact,Mark Tedin
-Personal Incarnation,6,1993,6.68,#ffffff,https://cards.scryfall.io/normal/front/0/1/0126db58-cd4c-476c-8c7a-b60f94bf2250.jpg?1559591928,Creature — Avatar Incarnation,Kev Brockschmidt
+Northern Paladin,4,1993,2.42,#ffffff,https://cards.scryfall.io/normal/front/7/8/78e5d861-460b-4143-8232-a0ade5a2511c.jpg?1559591744,Creature — Human Knight,Douglas Shuler
 Pirate Ship,5,1993,7.41,#341aff,https://cards.scryfall.io/normal/front/d/3/d36351c7-1383-448a-b9f8-c4f8d924d449.jpg?1559591774,Creature — Human Pirate,Tom Wänerstrand
 Purelace,1,1993,2.81,#ffffff,https://cards.scryfall.io/normal/front/6/0/60ed70e9-4cff-41e4-9353-c7695a18f07d.jpg?1559591863,Instant,Sandra Everingham
 Righteousness,1,1993,0.87,#ffffff,https://cards.scryfall.io/normal/front/5/2/52f8c2b2-5e63-46fe-a840-3b82d7a0cb1f.jpg?1559591593,Instant,Douglas Shuler
@@ -66,7 +64,7 @@ Time Walk,2,1993,699.99,#341aff,https://cards.scryfall.io/normal/front/8/c/8cede
 Tropical Island,0,1993,251.06,#d78f42,https://cards.scryfall.io/normal/front/7/2/729daf0e-b822-41bd-a908-ca8ec34032f0.jpg?1559591588,Land — Forest Island,Jesper Myrfors
 Tundra,0,1993,234.21,#d78f42,https://cards.scryfall.io/normal/front/f/8/f830b134-42bf-4ec8-950c-4e19a6dcc742.jpg?1559591859,Land — Plains Island,Jesper Myrfors
 Underground Sea,0,1993,375.99,#d78f42,https://cards.scryfall.io/normal/front/9/f/9f99ac99-77c0-4dd2-b7bf-e5d8fa152816.jpg?1559591717,Land — Island Swamp,Rob Alexander
-Verduran Enchantress,3,1993,19.61,#087500,https://cards.scryfall.io/normal/front/8/3/83e26f8d-1e3f-4c80-977e-27e0bcacf4cc.jpg?1559591651,Creature — Human Druid,Kev Brockschmidt
+Verduran Enchantress,3,1993,19.99,#087500,https://cards.scryfall.io/normal/front/8/3/83e26f8d-1e3f-4c80-977e-27e0bcacf4cc.jpg?1559591651,Creature — Human Druid,Kev Brockschmidt
 Vesuvan Doppelganger,5,1993,19.99,#341aff,https://cards.scryfall.io/normal/front/e/b/eb36cb3e-6eca-4ea7-ab86-ffc6a76f48ff.jpg?1559591815,Creature — Shapeshifter,Quinton Hoover
 Veteran Bodyguard,5,1993,5.0,#ffffff,https://cards.scryfall.io/normal/front/b/d/bded2d91-7f94-4fd1-8102-8e8511fcff22.jpg?1559591715,Creature — Human,Douglas Shuler
 Volcanic Eruption,3,1993,5.93,#341aff,https://cards.scryfall.io/normal/front/d/b/db6f8955-308e-4678-af16-036a061f1b4f.jpg?1559591769,Sorcery,Douglas Shuler
