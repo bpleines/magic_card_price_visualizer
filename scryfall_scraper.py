@@ -12,8 +12,9 @@ class ScryfallScraper:
         self.mtg_color_codes = MTGCodes().get_color_codes()
         self.mtg_set_codes = MTGCodes().get_set_codes()
         self.requests_timeout_seconds = 60
+        self.requests_user_agent = {'User-agent': 'application/json;q=0.9,*/*;q=0.8.'}
 
-    def api_rate_limiter(self, delay_in_milliseconds=100):
+    def api_rate_limiter(self, delay_in_milliseconds=1000):
         # Scryfall kindly requests that API users add 50-100ms delay between calls https://scryfall.com/docs/api
         time.sleep(delay_in_milliseconds / 1000)
 
@@ -93,7 +94,7 @@ class ScryfallScraper:
 
     def query_card_color_data(self, color_code: str):
         url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
-        response = requests.get(url, timeout=self.requests_timeout_seconds).json()
+        response = requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
         card_data = [response.get("data")]
         page_count = 1
         while response.get("has_more"):
@@ -111,7 +112,7 @@ class ScryfallScraper:
 
     def query_card_set_data(self, set_code: str):
         url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
-        response = requests.get(url, timeout=self.requests_timeout_seconds).json()
+        response = requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
         # Making card_data a single element list is unnecessary but matches paginated color design
         # This allows extract_card_data to be identical for each
         card_data = [response.get("data")]
