@@ -49,4 +49,4 @@ class MTGCodes:
         response = (
             requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
         )
-        return [set_record["code"] for set_record in response["data"]]
+        return [set_record["code"].upper() for set_record in response["data"]]
