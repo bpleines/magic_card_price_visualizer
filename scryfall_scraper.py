@@ -14,7 +14,7 @@ class ScryfallScraper:
         self.requests_timeout_seconds = 60
         self.requests_user_agent = {'User-agent': 'application/json;q=0.9,*/*;q=0.8.'}
 
-    def api_rate_limiter(self, delay_in_milliseconds=1000):
+    def api_rate_limiter(self, delay_in_milliseconds=2000):
         # Scryfall kindly requests that API users add 50-100ms delay between calls https://scryfall.com/docs/api
         time.sleep(delay_in_milliseconds / 1000)
 
