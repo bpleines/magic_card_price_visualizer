@@ -7,6 +7,7 @@ class MTGCodes:
 
     def __init__(self):
         self.requests_timeout_seconds = 600
+        self.requests_user_agent = {'User-agent': 'application/json;q=0.9,*/*;q=0.8.'}
 
     def encode_color(self, color):
         # Handle colorless case
@@ -46,6 +47,6 @@ class MTGCodes:
     def get_set_codes(self):
         url = "https://api.scryfall.com/sets"
         response = (
-            requests.get(url, timeout=self.requests_timeout_seconds).json().get("data")
+            requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
         )
-        return [set_record["code"].upper() for set_record in response]
+        return [set_record["code"] for set_record in response["data"]]
