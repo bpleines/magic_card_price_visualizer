@@ -12,10 +12,11 @@ class ScryfallScraper:
         self.mtg_color_codes = MTGCodes().get_color_codes()
         self.mtg_set_codes = MTGCodes().get_set_codes()
         self.requests_timeout_seconds = 60
-        self.requests_user_agent = {'User-agent': 'application/json;q=0.9,*/*;q=0.8.'}
+        self.requests_user_agent = {"User-agent": "application/json;q=0.9,*/*;q=0.8."}
 
+    # Scryfall kindly requests that API users add 50-100ms delay between calls https://scryfall.com/docs/api
+    # Over time rate limiting has gotten more aggressive, so add a significant delay to avoid early terminations
     def api_rate_limiter(self, delay_in_milliseconds=2000):
-        # Scryfall kindly requests that API users add 50-100ms delay between calls https://scryfall.com/docs/api
         time.sleep(delay_in_milliseconds / 1000)
 
     def extract_card_data(self, card_data_json_list):
@@ -94,12 +95,16 @@ class ScryfallScraper:
 
     def query_card_color_data(self, color_code: str):
         url = f"https://api.scryfall.com/cards/search?q=color%3D{color_code}%28rarity%3Ar+OR+rarity%3Am%29"
-        response = requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
+        response = requests.get(
+            url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds
+        ).json()
         card_data = [response.get("data")]
         page_count = 1
         while response.get("has_more"):
             response = requests.get(
-                response.get("next_page"), timeout=self.requests_timeout_seconds
+                response.get("next_page"),
+                headers=self.requests_user_agent,
+                timeout=self.requests_timeout_seconds,
             ).json()
             card_data.append(response.get("data"))
             logging.info(f"Appended page {page_count} for color {color_code}")
@@ -112,7 +117,9 @@ class ScryfallScraper:
 
     def query_card_set_data(self, set_code: str):
         url = f"https://api.scryfall.com/cards/search?q=set%3A{set_code}+%28rarity%3Ar+OR+rarity%3Am%29"
-        response = requests.get(url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds).json()
+        response = requests.get(
+            url, headers=self.requests_user_agent, timeout=self.requests_timeout_seconds
+        ).json()
         # Making card_data a single element list is unnecessary but matches paginated color design
         # This allows extract_card_data to be identical for each
         card_data = [response.get("data")]
